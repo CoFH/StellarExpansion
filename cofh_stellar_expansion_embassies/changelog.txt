@@ -1,0 +1,38 @@
+CoFH - Stellar Expansion - Embassies
+Author: King Lemming
+
+2016-07-28:
+Added readme.txt file. Some internal refactors.
+
+--------------------------------------------------------------------------------
+
+2016-07-17:
+Fixed a couple of typos which produced errors in the log yet strangely enough did not affect the mod in any way.
+
+--------------------------------------------------------------------------------
+
+2016-07-05:
+Here we go. Embassies have returned for 1.2! This is obviously a major gameplay change, so this is NOT part of Stellar Expansion. It does play alongside it just fine though.
+
+One minor difference - empires do not automatically know how to establish embassies. You'll have to establish communication with another empire first and then the techs will become available for research.
+
+New Mechanic*:
+	Diplomatic Action - Establish Embassy:
+		Establish an embassy with an empire, granting you +1 Opinion per month, up to 100.
+		This opinion will decay over time if the embassy is withdrawn.
+		Requires Diplomatic Missions technology.
+
+*Sort of. It's literally what it was in 1.1.
+
+New Technologies:
+	Diplomatic Missions:
+		Enables Establish Embassy.
+		+1 Max Embassies
+
+	Diplomatic Coordination:
+		+1 Max Embassies
+
+	Diplomatic Corps:
+		+1 Max Embassies
+
+--------------------------------------------------------------------------------

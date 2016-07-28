@@ -1,0 +1,78 @@
+# CoFH - Stellar Expansion - FTL Improvement Technology
+# Author: King Lemming
+
+@repeatableTechBaseCost = 1500
+@repeatableTechLevelCost = 480
+
+@repeatableTechWeight = 25
+@repeatableTechFactor = 0.5
+
+################################################################################
+# FTL Improvement
+################################################################################
+
+# Hypernavigation Optimization
+tech_repeatable_hyper_drive_improved = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { particles }
+	levels = 5
+	prerequisites = { "tech_hyper_drive_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		ship_windup_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+# Warp Field Optimization
+tech_repeatable_warp_drive_improved = {
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { field_manipulation }
+	levels = 5
+	prerequisites = { "tech_warp_drive_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		ship_ftl_warp_range_mult = 0.20
+		ship_interstellar_speed_mult = 0.20
+		ship_winddown_mult = -0.10
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

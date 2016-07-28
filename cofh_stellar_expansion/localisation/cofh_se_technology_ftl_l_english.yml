@@ -1,0 +1,9 @@
+﻿l_english:
+
+# Technology - FTL Improvement
+
+ tech_repeatable_hyper_drive_improved:0 "Hypernavigation Optimization"
+ tech_repeatable_hyper_drive_improved_desc:0 "Refinements in hyperlane entry point detection techniques allow for our ships to more quickly enter hyperspace.\n\n"
+
+ tech_repeatable_warp_drive_improved:0 "Warp Field Optimization"
+ tech_repeatable_warp_drive_improved_desc:0 "Advancements in warp field theory allow for a reduction in the subspace friction that a ship experiences, allowing for much more efficient travel.\n\n"

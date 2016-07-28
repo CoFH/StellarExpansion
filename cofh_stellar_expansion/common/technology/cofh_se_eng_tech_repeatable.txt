@@ -1,0 +1,152 @@
+# CoFH - Stellar Expansion - Engineering Technology (Repeatable)
+# Author: King Lemming
+
+@repeatableTechBaseCost = 1500
+@repeatableTechLevelCost = 480
+
+@repeatableTechWeight = 25
+@repeatableTechFactor = 0.5
+
+################################################################################
+# Starships
+################################################################################
+
+# Adaptive Fleet Construction
+tech_repeatable_reduced_ship_cost = {
+	icon = "tech_repeatable_reduced_ship_cost"
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { voidcraft }
+	levels = 5
+	prerequisites = { "tech_engineering_lab_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		spaceport_ship_build_cost_mult = -0.05
+		country_ship_upgrade_cost_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+# Adaptive Offworld Construction
+tech_repeatable_reduced_station_cost = {
+	icon = "tech_repeatable_reduced_station_cost"
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { voidcraft }
+	levels = 5
+	prerequisites = { "tech_space_defense_station_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		spaceport_module_cost_mult = -0.05
+		shipsize_orbital_station_build_cost_mult = -0.05
+		shipsize_outpost_station_build_cost_mult = -0.05
+		shipsize_mining_station_build_cost_mult = -0.05
+		shipsize_terraform_station_build_cost_mult = -0.05
+		shipclass_military_station_build_cost_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+# Shipyard Assembly Coordination
+tech_repeatable_ship_build_speed = {
+	icon = "tech_repeatable_ship_build_speed"
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { voidcraft }
+	levels = 10
+	prerequisites = { "tech_engineering_lab_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		spaceport_ship_build_speed_mult = 0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+# Applied Fleet Logistics
+tech_repeatable_ship_repair_upkeep = {
+	icon = "tech_repeatable_ship_repair_upkeep"
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { materials }
+	levels = 5
+	prerequisites = { "tech_engineering_lab_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		ship_reparation_speed_mult = 0.05
+		ship_reparation_cost_mult = -0.05
+		ship_upkeep_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

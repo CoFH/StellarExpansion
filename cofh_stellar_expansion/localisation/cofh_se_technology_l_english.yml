@@ -1,0 +1,48 @@
+﻿l_english:
+
+# Technology - Non-Repeatable
+
+# Engineering
+
+ tech_robotics_protocol_droids:0 "Protocol Droids"
+ tech_robotics_protocol_droids_desc:0 "Fluent in over six million forms of communication, and possessing limitless tolerance for bureaucracy.\n\n"
+
+# Physics
+
+ tech_survey_deep_scan:0 "Deep Scanning Algorithms"
+ tech_survey_deep_scan_desc:0 "The application of statistical information theory to survey data reveals patterns and insights which might otherwise be overlooked.\n\n"
+
+# Society
+
+ tech_cofh_se_xeno_food:0 "Xeno Nutriment Factory"
+ tech_cofh_se_xeno_food_desc:0 "Having studied various alien lifeforms and developed a clear understanding of the potential risks inherent in containing them, it may be more prudent to use them as food.\n\n"
+
+ tech_ethos_central_intelligence:0 "Central Intelligence"
+ tech_ethos_central_intelligence_desc:0 "$building_ministry_intelligence_desc$\n\n"
+
+ tech_ethos_eternal_vigilance:0 "Eternal Vigilance"
+ tech_ethos_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$\n\n"
+
+ tech_ethos_final_frontier:0 "The Final Frontier"
+ tech_ethos_final_frontier_desc:0 "$building_frontier_institute_desc$\n\n"
+
+ tech_ethos_galactic_concordance:0 "Galactic Concordance"
+ tech_ethos_galactic_concordance_desc:0 "$building_concord_assembly_desc$\n\n"
+
+ tech_ethos_cosmic_reflection:0 "Cosmic Reflection"
+ tech_ethos_cosmic_reflection_desc:0 "$building_monument_creation_desc$\n\n"
+
+ tech_diplomacy_galactic_prominence:0 "Galactic Prominence"
+ tech_diplomacy_galactic_prominence_desc:0 "The largest of our worlds have a complex sociopolitical dynamic all their own, and they too are relevant on the galactic stage.\n\n"
+
+ tech_diplomacy_psi_diplomatic_corps:0 "Psi Diplomatic Corps"
+ tech_diplomacy_psi_diplomatic_corps_desc:0 "Diplomacy is the complex art of negotiation, posturing, and projection. It is a far simpler affair when one can read minds.\n\n"
+
+ tech_diplomacy_xeno_confidence:0 "Xeno Confidence"
+ tech_diplomacy_xeno_confidence_desc:0 "Conveying our intentions in a straightforward manner - whatever they may be - helps to create deeper relationships with our galactic neighbors.\n\n"
+
+ tech_diplomacy_xeno_negotiation:0 "Xeno Negotiation"
+ tech_diplomacy_xeno_negotiation_desc:0 "While the specifics vary from species to species, one thing is certain - everyone wants to believe they are getting a good deal.\n\n"
+
+ tech_military_battlefield_leadership:0 "Battlefield Leadership"
+ tech_military_battlefield_leadership_desc:0 "Our field commanders have no need of empathy, but they should know how to rally their soldiers.\n\n"

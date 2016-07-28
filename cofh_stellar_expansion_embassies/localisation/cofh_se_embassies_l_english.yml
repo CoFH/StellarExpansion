@@ -1,0 +1,13 @@
+﻿l_english:
+
+ tech_diplomacy_diplomatic_missions:0 "Diplomatic Missions"
+ tech_diplomacy_diplomatic_missions_desc:0 "Interstellar relations can be tense, but diplomatic representatives can help smooth things over with our neighbors.\n\n"
+
+ tech_diplomacy_diplomatic_coordination:0 "Diplomatic Coordination"
+ tech_diplomacy_diplomatic_coordination_desc:0 "The effort involved in maintaining embassies on other worlds cannot be understated.\n\n"
+
+ tech_diplomacy_diplomatic_corps:0 "Diplomatic Corps"
+ tech_diplomacy_diplomatic_corps_desc:0 "Many well-trained soldiers are needed to win wars. Many well-trained diplomats are needed to prevent them.\n\n"
+
+ TECH_UNLOCK_DIPLOMATIC_ACTION_ESTABLISH_EMBASSY_TITLE:0 "§HUnlocks Diplomacy:§! Establish Embassy"
+ TECH_UNLOCK_DIPLOMATIC_ACTION_ESTABLISH_EMBASSY_DESC:0 "§HEstablish Embassy§!\nAllows us to establish an Embassy with another Empire, gradually promoting better relations."

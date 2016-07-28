@@ -1,0 +1,161 @@
+# CoFH - Stellar Expansion - Strategic Resource Buildings
+# Author: King Lemming
+
+# Neutronium Manufactory
+building_neutronium_factory = {
+	icon = "building_neutronium_factory"
+	base_buildtime = 360
+	empire_unique = yes
+
+	cost = {
+		minerals = 350
+	}
+
+	required_resources = {
+		sr_neutronium = 1
+		energy = 2
+	}
+
+	country_modifier = {
+		tile_resource_energy_mult = 0.10
+		category_materials_research_speed_mult = 0.25
+	}
+
+	planet_modifier = {
+		tile_resource_energy_mult = 0.10
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Satramene Infusion Plant
+building_satramene_plant = {
+	icon = "building_satramene_plant"
+	base_buildtime = 360
+	empire_unique = yes
+
+	cost = {
+		minerals = 350
+	}
+
+	required_resources = {
+		sr_satramene = 1
+		energy = 2
+	}
+
+	country_modifier = {
+		pop_xenophobia = -0.05
+		country_trade_attractiveness = 0.10
+		country_trust_growth = 0.10
+	}
+
+	planet_modifier = {
+		pop_xenophobia = -0.05
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Zro Diffusion Station
+building_zro_diffuser = {
+	icon = "building_zro_diffuser"
+	base_buildtime = 360
+	empire_unique = yes
+
+	cost = {
+		minerals = 350
+	}
+
+	required_resources = {
+		sr_zro = 1
+		energy = 2
+	}
+
+	country_modifier = {
+		planet_fortification_strength = 0.25
+		planet_sensor_range_mult = 0.5
+		category_psionics_research_speed_mult = 0.25
+	}
+
+	planet_modifier = {
+		planet_fortification_strength = 0.25
+		planet_sensor_range_mult = 0.5
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}

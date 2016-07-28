@@ -1,0 +1,112 @@
+# CoFH - Stellar Expansion - Engineering Technology
+# Author: King Lemming
+
+@tier1cost1 = 240
+@tier1cost2 = 360
+@tier1cost3 = 480
+@tier1cost4 = 600
+
+@tier2cost1 = 900
+@tier2cost2 = 1200
+@tier2cost3 = 1500
+@tier2cost4 = 1800
+
+@tier3cost1 = 2320
+@tier3cost2 = 2840
+@tier3cost3 = 3360
+@tier3cost4 = 3880
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+################################################################################
+# Robotics
+################################################################################
+
+# Protocol Droids
+tech_robotics_protocol_droids = {
+	icon = "tech_robotics_protocol_droids"
+	area = engineering
+	cost = @tier3cost1
+	tier = 3
+	category = { industry }
+	prerequisites = { "tech_droid_workers" "tech_sentient_ai" }
+	weight = @tier3weight1
+	is_rare = yes
+
+	modifier = {
+		influence_gain_add = 1
+		country_trade_attractiveness = 0.10
+		country_trust_growth = 0.10
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.2
+			has_ethic = "ethic_spiritualist"
+		}
+		modifier = {
+			factor = 0.1
+			has_ethic = "ethic_fanatic_spiritualist"
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+				has_level > 2
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+		modifier = {
+			factor = 1.20
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+				has_level > 2
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+				has_level > 2
+			}
+		}
+	}
+}

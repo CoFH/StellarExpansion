@@ -1,0 +1,146 @@
+# CoFH - Stellar Expansion - Society Technology (Repeatable)
+# Author: King Lemming
+
+@repeatableTechBaseCost = 1500
+@repeatableTechLevelCost = 480
+
+@repeatableTechWeight = 25
+@repeatableTechFactor = 0.5
+
+################################################################################
+# Military
+################################################################################
+
+# Adaptive Training Regimen
+tech_repeatable_army_build_speed = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { military_theory }
+	levels = 10
+	prerequisites = { "tech_combat_training" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		planet_army_build_speed_mult = 0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+# Procurement Optimization
+tech_repeatable_reduced_army_cost = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { military_theory }
+	levels = 5
+	prerequisites = { "tech_centralized_command" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		planet_army_build_cost_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+# Applied Military Logistics
+tech_repeatable_reduced_army_upkeep = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { military_theory }
+	levels = 5
+	prerequisites = { "tech_centralized_command" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		army_upkeep_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+################################################################################
+# Terraforming
+################################################################################
+
+# Intensive Ecological Engineering
+tech_repeatable_terraforming_improved = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { new_worlds }
+	levels = 5
+	prerequisites = { "tech_terrestrial_sculpting" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		terraforming_cost_mult = -0.05
+		planet_clear_blocker_cost_mult = -0.05
+		planet_clear_blocker_time_mult = -0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

@@ -1,0 +1,33 @@
+﻿l_english:
+
+# Technology - Repeatable
+
+# Engineering
+
+ tech_repeatable_reduced_ship_cost:0 "Adaptive Fleet Construction"
+ tech_repeatable_reduced_ship_cost_desc:0 "Flexible assembly techniques allow for ship construction with minimal retooling and material waste.\n\n"
+
+ tech_repeatable_reduced_station_cost:0 "Adaptive Offworld Construction"
+ tech_repeatable_reduced_station_cost_desc:0 "The use of local materials and modular assembly allows for more efficient offworld construction.\n\n"
+
+ tech_repeatable_ship_build_speed:0 "Shipyard Assembly Coordination"
+ tech_repeatable_ship_build_speed_desc:0 "The application of modular assembly techniques and streamlined processes allow us to enhance the throughput of our shipyards.\n\n"
+
+ tech_repeatable_ship_repair_upkeep:0 "Applied Fleet Logistics"
+ tech_repeatable_ship_repair_upkeep_desc:0 "Advances in material science and transport allow for our fleets to be more easily maintained.\n\n"
+
+# Physics
+
+# Society
+
+ tech_repeatable_army_build_speed:0 "Adaptive Training Regimen"
+ tech_repeatable_army_build_speed_desc:0 "In training, boredom is the enemy. Forcing soldiers to constantly adapt is the key to making them train faster.\n\n"
+
+ tech_repeatable_reduced_army_cost:0 "Procurement Optimization"
+ tech_repeatable_reduced_army_cost_desc:0 "Removing waste from the procurement process allows us to more efficiently lay waste to our enemies.\n\n"
+
+ tech_repeatable_reduced_army_upkeep:0 "Applied Military Logistics"
+ tech_repeatable_reduced_army_upkeep_desc:0 "Tactics wins battles, strategy wins wars, but logistics builds empires.\n\n"
+
+ tech_repeatable_terraforming_improved:0 "Intensive Ecological Engineering"
+ tech_repeatable_terraforming_improved_desc:0 "Study of local ecological interactions combined with terraforming technologies allows us to transform worlds rapidly and efficiently.\n\n"
