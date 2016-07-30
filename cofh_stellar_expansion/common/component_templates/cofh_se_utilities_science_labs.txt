@@ -1,0 +1,102 @@
+# CoFH - Stellar Expansion - Science Labs
+# Author: King Lemming
+
+utility_component_template = {
+	key = "COFH_SE_SCIENCE_LAB_1"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_science_lab_1"
+	icon_frame = 1
+	power = 0
+	cost = 5
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+
+	prerequisites = { "tech_administrative_ai" }
+	component_set = "science_labs"
+
+	ship_modifier = {
+		science_ship_survey_speed = 0.10
+		ship_anomaly_research_speed_mult = 0.10
+		ship_anomaly_generation_chance_mult = 0.05
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SCIENCE_LAB_2"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_science_lab_2"
+	icon_frame = 1
+	power = 0
+	cost = 10
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+
+	prerequisites = { "tech_administrative_ai" "tech_sensors_2" }
+	component_set = "science_labs"
+
+	ship_modifier = {
+		science_ship_survey_speed = 0.20
+		ship_anomaly_research_speed_mult = 0.20
+		ship_anomaly_generation_chance_mult = 0.10
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SCIENCE_LAB_3"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_science_lab_3"
+	icon_frame = 1
+	power = 0
+	cost = 15
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+
+	prerequisites = { "tech_self_aware_logic" "tech_sensors_3" }
+	component_set = "science_labs"
+
+	ship_modifier = {
+		science_ship_survey_speed = 0.30
+		ship_anomaly_research_speed_mult = 0.30
+		ship_anomaly_generation_chance_mult = 0.15
+	}
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SCIENCE_LAB_4"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_science_lab_4"
+	icon_frame = 1
+	power = 0
+	cost = 20
+	science_lab_speed = 1
+	science_lab_level = 1
+	class_restriction = { shipclass_science_ship }
+
+	prerequisites = { "tech_sentient_ai" "tech_sensors_4" }
+	component_set = "science_labs"
+
+	ship_modifier = {
+		science_ship_survey_speed = 0.40
+		ship_anomaly_research_speed_mult = 0.40
+		ship_anomaly_generation_chance_mult = 0.20
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}

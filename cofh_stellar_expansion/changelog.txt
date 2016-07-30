@@ -1,6 +1,65 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-07-30:
+Alright, so this update adds ship components! Because that's always fun. :)
+
+However, many of these components are limited by FTL type. In doing this, I'm treating Jump Drive as essentially Wormhole's "unique" tech. The Psi-Jump drive is problematic, but without changing vanilla, not much can be done. For the sake of parity, I have added two new levels of Wormhole Modulators.
+
+The general balance point and justification is this:
+Hyperspace = Improved sensor technology from hypernavigation requirements.
+Warp = Fastest sublight ships, from mastery of warp field manipulation.
+Wormhole = More durable vessels to survive wormhole travel.
+
+New Ship Parts:
+	Science Labs:
+		+10/20/30/40% Survey Speed
+		+10/20/30/40% Anomaly Research Speed
+		+5/10/15/20% Anomaly Discovery Chance
+
+	Hyper-Linked Sensors:
+		Sensors
+		Range: 60
+		+10 Ship Accuracy
+		**Only available to Hyperspace civilizations.
+
+	Micro-Warp Thrusters:
+		Thrusters
+		+50% Ship Combat Speed
+		+50% Ship Speed
+		+25 Ship Evasion
+		**Only available to Warp civilizations.
+
+	Linked Wormhole Modulator:
+		FTL Drive
+		+5% Ship Hull Points
+		-25% Emergency FTL Damage
+		**Only available to Wormhole civilizations.
+
+	Stabilized Wormhole Modulator:
+		FTL Drive
+		+10% Ship Hull Points
+		-50% Emergency FTL Damage
+		**Only available to Wormhole civilizations.
+
+New Auras:
+	Hyper-Sensor Locus:
+		+5 Ship Accuracy
+		+10% Ship Weapon Range
+		**Only available to Hyperspace civilizations.
+
+	Micro-Warp Field:
+		+25% Ship Combat Speed
+		+25% Ship Speed
+		+5 Ship Evasion
+		**Only available to Warp civilizations.
+
+	Hull Integrity Matrix:
+		+10% Ship Hull Points
+		**Only available to Wormhole civilizations.
+
+--------------------------------------------------------------------------------
+
 2016-07-28:
 Added Russian localization.
 Diplomatic Hub now also provides +100 Maximum Influence.
@@ -26,7 +85,7 @@ Seemed a bit unfair that Xenophobes couldn't make use of alien pets in any way.
 Also, Energy should be storable too. There might be upcoming features that require lots of it.
 
 New Technologies:
-	Xeno Nutriment Factory
+	Xeno Nutriment Factory:
 		Biology
 		Unlocks Building: Xeno Nutriment Factory
 		**Not available for Xenophile or Fanatic Xenophile Ethos
@@ -47,25 +106,25 @@ Two new buildings - Empire-Uniques for Xenophiles and Pacifists.
 This gives them a bit of flavor and restores some of their pre-1.2 gameplay and should help them with their respective playstyles. Also synergizes well with other ethos.
 
 New Technologies:
-	The Final Frontier
+	The Final Frontier:
 		Rare, Statecraft
 		Unlocks Building: Frontier Science Institute
 		**Requires Xenophile or Fanatic Xenophile Ethos
 
-	Galactic Concordance
+	Galactic Concordance:
 		Rare, Statecraft
 		Unlocks Building: Concord Assembly
 		**Requires Pacifist or Fanatic Pacifist Ethos
 
 New Buildings:
-	Frontier Science Institute
+	Frontier Science Institute:
 		Empire-Unique
 		+2 Physics Produced
 		+8 Social Produced
 		+2 Engineering Produced
 		+10% Society Research Speed on Empire
 
-	Concord Assembly
+	Concord Assembly:
 		Empire-Unique
 		-20% Growth Time on Empire
 
@@ -76,7 +135,7 @@ New building to make use of Terraforming resources without actually terraforming
 Also a couple of bugfixes.
 
 New Buildings:
-	Climate Moderation Reactor
+	Climate Moderation Reactor:
 		Planet-Unique
 		+20% Habitability on Planet
 
@@ -96,22 +155,22 @@ These buildings open up some gameplay types for ethos combos. Xenophile + Milita
 The reason for the terraforming changes is because I want to leave more non-habitable planets open for Strategic Resource purposes. Also, the way the game generates those planets, they are WAY outside the habitable zone. Barren and Cold Barren worlds typically are not. Terraforming uninhabitable worlds can be a tremendous power boost to certain ethos, so I had to rein it in slightly to keep things reasonable. Lastly, Gaia worlds do have a lot of power with Xenophile builds, so taking another 5 years to create should keep them from being too out of control.
 
 New Technologies:
-	Central Intelligence
+	Central Intelligence:
 		Rare, Statecraft
 		Unlocks Building: Ministry of Intelligence
 		**Requires Militarist or Fanatic Militarist Ethos
 
-	Eternal Vigilance
+	Eternal Vigilance:
 		Rare, Statecraft
 		Unlocks Building: Bureau of Vigilance
 		**Requires Xenophobe or Fanatic Xenophobe Ethos
 
 New Buildings:
-	Ministry of Intelligence
+	Ministry of Intelligence:
 		Empire-Unique
 		+50% Rivalry Influence Gain
 
-	Bureau of Vigilance
+	Bureau of Vigilance:
 		Empire-Unique
 		+2 Maximum Rivalries
 
@@ -131,17 +190,17 @@ This is the first round of a bit of rebalancing for the various ethos.
 Spiritualism in particular got hit pretty hard with the happiness loss in 1.2.
 
 New Technologies:
-	Cosmic Reflection
+	Cosmic Reflection:
 		Rare, Statecraft
 		Unlocks Building: Monument to Creation
 		**Requires Spiritualist or Fanatic Spiritualist Ethos
 
 New Buildings:
-	Monument to Creation
+	Monument to Creation:
 		Empire-Unique
 		+10% Happiness on Empire
 
-	Robot Maintenance Facility
+	Robot Maintenance Facility:
 		Planet-Unique
 		+10% Robot Resource Output on Planet
 
@@ -163,7 +222,7 @@ Changed Buildings:
 		+10% Trust Gain
 
 Changed Technologies:
-	Psi Diplomatic Corps
+	Psi Diplomatic Corps:
 		Rare, Psionic
 		+2 Influence
 		+20% Trade Attractiveness (-10%)
@@ -181,7 +240,7 @@ Why rename it though? Internally the code has been modularized to split off feat
 As far as this patch, let's try and address Influence a bit - it's a problem.
 
 New Buildings:
-	Diplomatic Hub
+	Diplomatic Hub:
 		+1 Influence
 		+15% Ethics Divergence (Yes, this is intentional!)
 		Requires Planetary Capital
@@ -194,7 +253,7 @@ New Technologies:
 		Unlocks Building: Diplomatic Hub
 
 Changed Technologies:
-	Intensive Ecological Engineering
+	Intensive Ecological Engineering:
 		New Worlds
 		-5% Terraforming Cost (-5%)
 		-5% Tile Blocker Cost (-5%)
@@ -207,7 +266,7 @@ Changed Technologies:
 More stuff!
 
 New Buildings:
-	Neutronium Manufactory
+	Neutronium Manufactory:
 		Empire-Unique
 		+10% Energy Credits on Planet and Empire
 		+25% Research Speed (Materials)
@@ -259,7 +318,7 @@ New Buildings:
 New Technologies:
 
 Engineering:
-	Adaptive Fleet Construction
+	Adaptive Fleet Construction:
 		Voidcraft
 		-5% Ship Build Cost
 		-5% Ship Upgrade Cost
@@ -293,17 +352,19 @@ Physics:
 		+10% Anomaly Discovery Chance
 		-10% Anomaly Failure Chance
 
-	Hypernavigation Optimization (FTL: Hyperlane ONLY):
+	Hypernavigation Optimization:
 		Particles
 		-0.05% FTL Windup Time
 		Repeatable (5x)
+		**Only available to Hyperspace civilizations.
 
-	Warp Field Optimization (FTL: Warp ONLY):
+	Warp Field Optimization:
 		Field Manipulation
 		+20% Warp Range
 		+20% Warp Speed
 		-10% Warp Cooldown
 		Repeatable (5x)
+		**Only available to Warp civilizations.
 
 Society (Diplomacy):
 	Psi Diplomatic Corps:

@@ -70,7 +70,7 @@ Robot Maintenance Facility:
 
 	Prerequisites:
 		Tech - Robotic Workers
-		**A.I. cannot be outlawed.
+		**AI cannot be outlawed.
 
 Xeno Nutriment Factory:
 	Planet-Unique
@@ -322,7 +322,7 @@ Protocol Droids:
 
 	Prerequisites:
 		Tech - Droid Workers
-		Tech - Sentient A.I.
+		Tech - Sentient AI
 
 	Effects:
 		+1 Influence
@@ -345,7 +345,7 @@ Deep Scanning Algorithms:
 	Computation
 
 	Prerequisites:
-		Tech - Administrative A.I.
+		Tech - Administrative AI
 
 	Effects:
 		+25% Anomaly Generation Chance on Survey
@@ -355,7 +355,7 @@ Hypernavigation Optimization:
 	Repeatable (5x)
 
 	Prerequisites:
-		Tech - Hyperlane Breach Points
+		Tech - Hyperlane Breach Points [3]
 
 	Effects:
 		-5% Jump Charge Time
@@ -365,7 +365,7 @@ Warp Field Optimization:
 	Repeatable (5x)
 
 	Prerequisites:
-		Tech - Warp Field Stabilizers
+		Tech - Warp Field Stabilizers [4]
 
 	Effects:
 		+20% Warp Range
@@ -527,9 +527,181 @@ Xeno Nutriment Factory:
 		Unlocks - Building: Xeno Nutriment Factory
 
 ################################################################################
+# Ship Components
+################################################################################
+
+Auras [2]
+--------------------------------------------------------------------------------
+Hyper-Sensor Locus:
+	Defensive Aura - Uncategorized
+
+	Prerequisites:
+		Tech - Hyperspace Slipstreams [3]
+
+	Effects:
+		+5 Ship Accuracy
+		+10% Ship Weapon Range
+
+Micro-Warp Field:
+	Defensive Aura - Uncategorized
+
+	Prerequisites:
+		Tech - Warp Drive Ramscoops [4]
+
+	Effects:
+		+25% Ship Combat Speed
+		+25% Ship Speed
+		+5 Ship Evasion
+
+Hull Integrity Matrix:
+	Defensive Aura - Uncategorized
+
+	Prerequisites:
+		Tech - Wormhole Containment Fields [5]
+
+	Effects:
+		+10% Ship Hull Points
+
+FTL Drives
+--------------------------------------------------------------------------------
+Linked Wormhole Modulator
+	FTL - Wormhole
+
+	Prerequisites:
+		Tech - Wormhole Calibration Matrix [5]
+
+	Requires:
+		5 Power
+		10 Minerals
+
+	Effects:
+		+5% Ship Hull Points
+		-25% Emergency FTL Damage
+
+Stabilized Wormhole Modulator
+	FTL - Wormhole
+
+	Prerequisites:
+		Tech - Wormhole Containment Fields [5]
+
+	Requires:
+		10 Power
+		20 Minerals
+
+	Effects:
+		+10% Ship Hull Points
+		-50% Emergency FTL Damage
+
+Science Labs
+--------------------------------------------------------------------------------
+Enhanced Science Lab:
+	Science Lab
+
+	Prerequisites:
+		Tech - Administrative AI
+
+	Requires:
+		5 Minerals
+
+	Effects:
+		+10% Survey Speed
+		+10% Anomaly Research Speed
+		+5% Anomaly Generation Chance on Survey
+
+Augmented Science Lab:
+	Science Lab
+
+	Prerequisites:
+		Tech - Administrative AI
+		Tech - Gravitic Sensors
+
+	Requires:
+		10 Minerals
+
+	Effects:
+		+20% Survey Speed
+		+20% Anomaly Research Speed
+		+10% Anomaly Generation Chance on Survey
+
+Advanced Science Lab:
+	Science Lab
+
+	Prerequisites:
+		Tech - Self-Aware Logic
+		Tech - Subspace Sensors
+
+	Requires:
+		15 Minerals
+
+	Effects:
+		+30% Survey Speed
+		+30% Anomaly Research Speed
+		+15% Anomaly Generation Chance on Survey
+
+Intelligent Science Lab:
+	Science Lab
+
+	Prerequisites:
+		Tech - Sentient AI
+		Tech - Tachyon Sensors
+
+	Requires:
+		20 Minerals
+
+	Effects:
+		+40% Survey Speed
+		+40% Anomaly Research Speed
+		+20% Anomaly Generation Chance on Survey
+
+Sensors
+--------------------------------------------------------------------------------
+Hyper-Linked Sensors
+	Sensors
+
+	Prerequisites:
+		Tech - Hyperspace Slipstreams [3]
+		Tech - Tachyon Sensors
+
+	Requires:
+		5 Power
+		20 Minerals
+
+	Effects:
+		Sensor Range: 60
+		+10 Ship Accuracy
+
+Thrusters
+--------------------------------------------------------------------------------
+Micro-Warp Thrusters
+	Thrusters
+
+	Prerequisites:
+		Tech - Warp Drive Ramscoops [4]
+		Tech - Impulse Thrusters
+
+	Requires:
+		10 Power
+		30 Minerals
+
+	Effects:
+		+50% Ship Combat Speed
+		+50% Ship Speed
+		+25 Ship Evasion
+
+################################################################################
 # Notes
 ################################################################################
 
 [1]	This is intentional and not a bug. When you mark a world as prominent,
 	the local ethos may begin to become more relevant and disparate in the
 	context of your empire.
+
+[2] In all cases, Station Auras are 2x as strong as the Ship-mounted versions.
+	As with vanilla, Ship-mounted auras require 200 Power and 250 Minerals, and
+	Station Auras have no Power or Mineral cost.
+
+[3] Functionally limited to Hyperspace FTL Empires.
+
+[4] Functionally limited to Warp FTL Empires.
+
+[5] Functionally limited to Wormhole FTL Empires.

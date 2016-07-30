@@ -1,4 +1,4 @@
-# CoFH - Stellar Expansion - Terraforming Technology
+# CoFH - Stellar Expansion - Terraforming Technology (No Gaia)
 # Author: King Lemming
 
 @tier1cost1 = 240
@@ -103,48 +103,6 @@ tech_terraforming_habitable = {
 	}
 
 	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-}
-
-# Gaia World Terraforming
-tech_terraforming_gaia = {
-	area = society
-	cost = @tier3cost3
-	tier = 3
-	category = { new_worlds }
-	prerequisites = { "tech_terraforming_purification" "tech_terraforming_habitable" }
-	weight = @tier3weight3
-	is_rare = yes
-
-	prereqfor_desc = {
-		diplo_action = {
-			title = "TECH_COFH_SE_UNLOCK_TERRAFORMING_GAIA_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_TERRAFORMING_GAIA_DESC"
-		}
-	}
-
-	weight_modifier = {
-		factor = 0.5
-		modifier = {
-			factor = 0.33
-			NOT = {
-				research_leader = {
-					area = society
-					has_trait = "leader_trait_expertise_new_worlds"
-				}
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = 5 # very rare tech
 		modifier = {
 			factor = 1.25
 			research_leader = {

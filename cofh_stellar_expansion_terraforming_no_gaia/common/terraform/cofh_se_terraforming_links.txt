@@ -1,4 +1,4 @@
-# CoFH - Stellar Expansion - Terraforming
+# CoFH - Stellar Expansion - Terraforming (No Gaia)
 # Author: King Lemming
 
 @energy_purification = 2500
@@ -6,9 +6,6 @@
 
 @energy_habitable = 3000
 @time_habitable = 7200
-
-@energy_gaia = 3000
-@time_gaia = 7200
 
 ################################################################################
 # Purification Terraforming Links
@@ -185,142 +182,5 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_terraforming_habitable"
-	}
-}
-
-################################################################################
-# Gaia Terraforming Links
-################################################################################
-
-terraform_link = {
-	from = "pc_arctic"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
-	}
-}
-
-terraform_link = {
-	from = "pc_arid"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
-	}
-}
-
-terraform_link = {
-	from = "pc_continental"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
-	}
-}
-
-terraform_link = {
-	from = "pc_desert"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
-	}
-}
-
-terraform_link = {
-	from = "pc_ocean"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
-	}
-}
-
-terraform_link = {
-	from = "pc_tropical"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
-	}
-}
-
-terraform_link = {
-	from = "pc_tundra"
-	to = "pc_gaia"
-
-	duration = @time_gaia
-	energy = @energy_gaia
-
-	resources = {
-		sr_terraform_gases = 2
-		sr_terraform_liquids = 2
-		sr_engos = 1
-		sr_pitharan = 1
-	}
-
-	condition = {
-		has_technology = "tech_terraforming_gaia"
 	}
 }

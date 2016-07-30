@@ -1,6 +1,6 @@
 ﻿l_russian:
 
-# Technology - Terraforming
+# Technology - Terraforming (No Gaia)
 
  tech_terraforming_purification:0 "Атмосферная очистка"
  tech_terraforming_purification_desc:0 "Продвинутая фильтрация и системы очистки допускают удаление почти всех ядовитых и радиоактивных отходов в пределах атмосферы планеты.\n\n"

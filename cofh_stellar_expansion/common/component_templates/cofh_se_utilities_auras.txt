@@ -1,0 +1,544 @@
+# CoFH - Stellar Expansion - Auras
+# Author: King Lemming
+
+@shipAuraRange = 80
+@stationSmallAuraRange = 70
+@stationMediumAuraRange = 90
+@stationLargeAuraRange = 110
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_HYPERSPACE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_hyperspace"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_hyperspace"
+		radius = @shipAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_hyperspace_aura
+			priority = 1
+		}
+
+		modifier = {
+			ship_accuracy_add = 5
+			ship_weapon_range_mult = 0.1
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_hyper_drive_3"}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_SMALL_AURA_HYPERSPACE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_hyperspace"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_small_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_hyperspace"
+		radius = @stationSmallAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_hyperspace_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_accuracy_add = 10
+			ship_weapon_range_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_hyper_drive_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_MEDIUM_AURA_HYPERSPACE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_hyperspace"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_medium_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_hyperspace"
+		radius = @stationMediumAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_hyperspace_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_accuracy_add = 10
+			ship_weapon_range_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_hyper_drive_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_LARGE_AURA_HYPERSPACE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_hyperspace"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_large_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_hyperspace"
+		radius = @stationLargeAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_hyperspace_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_accuracy_add = 10
+			ship_weapon_range_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_hyper_drive_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_WARP"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_warp"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_warp"
+		radius = @shipAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_warp_aura
+			priority = 1
+		}
+
+		modifier = {
+			ship_combat_speed_mult = 0.25
+			ship_speed_mult = 0.25
+			ship_evasion_add = 5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_warp_drive_3"}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_SMALL_AURA_WARP"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_warp"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_small_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_warp"
+		radius = @stationSmallAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_warp_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_combat_speed_mult = 0.5
+			ship_speed_mult = 0.5
+			ship_evasion_add = 10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_warp_drive_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_MEDIUM_AURA_WARP"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_warp"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_medium_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_warp"
+		radius = @stationMediumAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_warp_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_combat_speed_mult = 0.5
+			ship_speed_mult = 0.5
+			ship_evasion_add = 10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_warp_drive_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_LARGE_AURA_WARP"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_warp"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_large_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_warp"
+		radius = @stationLargeAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_warp_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_combat_speed_mult = 0.5
+			ship_speed_mult = 0.5
+			ship_evasion_add = 10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_warp_drive_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_WORMHOLE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_wormhole"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "ship_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_wormhole"
+		radius = @shipAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_wormhole_aura
+			priority = 1
+		}
+
+		modifier = {
+			ship_hitpoints_mult = 0.1
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_wormhole_generation_3"}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_SMALL_AURA_WORMHOLE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_wormhole"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_small_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_wormhole"
+		radius = @stationSmallAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_wormhole_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_hitpoints_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_wormhole_generation_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_MEDIUM_AURA_WORMHOLE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_wormhole"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_medium_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_wormhole"
+		radius = @stationMediumAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_wormhole_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_hitpoints_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_wormhole_generation_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_STATION_LARGE_AURA_WORMHOLE"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_wormhole"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "station_large_aura_components"
+	class_restriction = { shipclass_military_station }
+
+	friendly_aura = {
+		name = "cofh_se_aura_ship_wormhole"
+		radius = @stationLargeAuraRange
+		apply_on = fleets
+
+		stack_info = {
+			id = friendly_wormhole_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_hitpoints_mult = 0.2
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			ship_effect = {
+				entity = "ship_aura_positive_entity"
+				dynamic_scale = no
+			}
+		}
+	}
+
+	prerequisites = {"tech_wormhole_generation_3"}
+
+	ai_weight = {
+		weight = 110
+	}
+}

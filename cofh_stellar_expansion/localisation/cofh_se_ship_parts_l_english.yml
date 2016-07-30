@@ -1,0 +1,74 @@
+﻿l_english:
+
+# Vanilla
+
+ aura_category_offensive:0 "Offensive Aura"
+ aura_category_defensive:0 "Defensive Aura"
+ aura_type_support:0 "Support"
+ aura_type_debuff:0 "Inhibitor"
+
+ ship_mounted:0 "Ship-mounted"
+ military_station_small:0 "Defense Platform"
+ military_station_medium:0 "Defense Station"
+ military_station_large:0 "Fortress"
+
+ WORMHOLE_DRIVE_DESC:0 "Ships equipped with Wormhole Modulators attune the portals created by Wormhole Generators to allow for passage between systems."
+
+# Sub-Descriptions
+
+ AURA_HYPERSPACE:0 "Hyper-Sensor Locus"
+ AURA_WARP:0 "Micro-Warp Field"
+ AURA_WORMHOLE:0 "Hull Integrity Matrix"
+
+ OBSERVATORY_HYPERSPACE:0 "Hyper-Linked Sensors"
+ OBSERVATORY_HYPERSPACE_DESC:0 "Advanced sensors which utilize a tachyon dispersion field in combination with Hyperspace fluctuations to detect ship movements."
+
+ WORMHOLE_DRIVE_ADV_DESC:0 "This advanced modulator also uses the attunement resonance to project a structural integrity field throughout the vessel."
+
+# Ship Parts
+
+ cofh_se_aura_ship_hyperspace:0 "$aura_category_defensive$"
+ cofh_se_aura_ship_warp:0 "$aura_category_defensive$"
+ cofh_se_aura_ship_wormhole:0 "$aura_category_defensive$"
+
+ COFH_SE_SHIP_AURA_HYPERSPACE:0 "$ship_mounted$ $AURA_HYPERSPACE$"
+ COFH_SE_STATION_SMALL_AURA_HYPERSPACE:0 "$AURA_HYPERSPACE$ - $military_station_small$"
+ COFH_SE_STATION_MEDIUM_AURA_HYPERSPACE:0 "$AURA_HYPERSPACE$ - $military_station_medium$"
+ COFH_SE_STATION_LARGE_AURA_HYPERSPACE:0 "$AURA_HYPERSPACE$ - $military_station_large$"
+
+ COFH_SE_SHIP_AURA_WARP:0 "$ship_mounted$ $AURA_WARP$"
+ COFH_SE_STATION_SMALL_AURA_WARP:0 "$AURA_WARP$ - $military_station_small$"
+ COFH_SE_STATION_MEDIUM_AURA_WARP:0 "$AURA_WARP$ - $military_station_medium$"
+ COFH_SE_STATION_LARGE_AURA_WARP:0 "$AURA_WARP$ - $military_station_large$"
+
+ COFH_SE_SHIP_AURA_WORMHOLE:0 "$ship_mounted$ $AURA_WORMHOLE$"
+ COFH_SE_STATION_SMALL_AURA_WORMHOLE:0 "$AURA_WORMHOLE$ - $military_station_small$"
+ COFH_SE_STATION_MEDIUM_AURA_WORMHOLE:0 "$AURA_WORMHOLE$ - $military_station_medium$"
+ COFH_SE_STATION_LARGE_AURA_WORMHOLE:0 "$AURA_WORMHOLE$ - $military_station_large$"
+
+ COFH_SE_SCIENCE_LAB_1:0 "Enhanced Science Lab"
+ COFH_SE_SCIENCE_LAB_1_DESC:0 "Enhanced Science Labs utilize an organizational AI to improve the vessel's research capabilities."
+
+ COFH_SE_SCIENCE_LAB_2:0 "Augmented Science Lab"
+ COFH_SE_SCIENCE_LAB_2_DESC:0 "Augmented Science Labs integrate an organizational AI with Gravitic sensors to further improve the vessel's research capabilities."
+
+ COFH_SE_SCIENCE_LAB_3:0 "Advanced Science Lab"
+ COFH_SE_SCIENCE_LAB_3_DESC:0 "Advanced Science Labs integrate sophisticated AI with Subspace sensors to greatly improve the vessel's research capabilities."
+
+ COFH_SE_SCIENCE_LAB_4:0 "Intelligent Science Lab"
+ COFH_SE_SCIENCE_LAB_4_DESC:0 "Intelligent Science Labs integrate sentient AI with Tachyon sensors to significantly improve the vessel's research capabilities."
+
+ COFH_SE_SHIP_SENSOR_HYPERSPACE:0 "Ship-mounted $OBSERVATORY_HYPERSPACE$"
+ COFH_SE_SHIP_SENSOR_HYPERSPACE_DESC:0 "$OBSERVATORY_HYPERSPACE_DESC$"
+
+ COFH_SE_STATION_SENSOR_HYPERSPACE:0 "Station-mounted $OBSERVATORY_HYPERSPACE$"
+ COFH_SE_STATION_SENSOR_HYPERSPACE_DESC:0 "$OBSERVATORY_HYPERSPACE_DESC$"
+
+ COFH_SE_SHIP_THRUSTER_WARP:0 "Micro-Warp Thrusters"
+ COFH_SE_SHIP_THRUSTER_WARP_DESC:0 "Advanced thrusters which utilize warp field projection to substantially increase maneuverability and sublight speed."
+
+ COFH_SE_WORMHOLE_DRIVE_2:0 "Linked Wormhole Modulator"
+ COFH_SE_WORMHOLE_DRIVE_2_DESC:0 "$WORMHOLE_DRIVE_DESC$\n\n$WORMHOLE_DRIVE_ADV_DESC$"
+
+ COFH_SE_WORMHOLE_DRIVE_3:0 "Stabilized Wormhole Modulator"
+ COFH_SE_WORMHOLE_DRIVE_3_DESC:0 "$WORMHOLE_DRIVE_DESC$\n\n$WORMHOLE_DRIVE_ADV_DESC$"
