@@ -1,0 +1,514 @@
+# CoFH - Stellar Expansion
+# Buildings
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@b0time = 120
+@b0cost = 30
+@b0effect = 1
+@b0upkeep = 1
+
+@b1time = 210
+@b1cost = 60
+@b1effect = 2
+@b1upkeep = 1
+
+@b2time = 180
+@b2cost = 90
+@b2effect = 3
+@b2upkeep = 1.5
+
+@b3time = 180
+@b3cost = 120
+@b3effect = 4
+@b3upkeep = 2
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+################################################################################
+# General
+################################################################################
+
+# Diplomatic Hub
+building_cofh_se_diplomatic_hub = {
+	icon = "building_cofh_se_diplomatic_hub"
+	base_buildtime = 720
+	planet_unique = yes
+
+	cost = {
+		minerals = 400
+		influence = 25
+	}
+
+	required_resources = {
+		energy = 3
+	}
+
+	produced_resources = {
+		influence = 1
+	}
+
+	country_modifier = {
+		max_influence = 100
+	}
+
+	planet_modifier = {
+		pop_ethic_shift = 0.15
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_prominence"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+		custom_tooltip = {
+			text = "requires_pops_15"
+			planet = {
+				count_pops = {
+					count > 14
+					limit = {
+						is_colony_pop = yes
+					}
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Robot Maintenance Facility
+building_cofh_se_robot_maintenance = {
+	icon = "building_cofh_se_robot_maintenance"
+	base_buildtime = 720
+	planet_unique = yes
+
+	cost = {
+		minerals = 350
+	}
+
+	planet_modifier = {
+		pop_robot_production_output = 0.10
+	}
+
+	prerequisites = {
+		"tech_robotic_workers"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requirement_robot_maintenance"
+			planet = {
+				owner = {
+					NOT = { has_policy_flag = ai_outlawed }
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			weight = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
+	}
+}
+
+################################################################################
+# Energy
+################################################################################
+
+# Capacitor Bank I
+building_cofh_se_energy_silo_1 = {
+	icon = "building_cofh_se_energy_silo"
+	base_buildtime = @b1time
+
+	cost = {
+		minerals = @b1cost
+	}
+
+	country_modifier = {
+		max_energy = 500
+	}
+
+	adjacency_bonus = {
+		resource_energy_add = 1
+	}
+
+	upgrades = {
+		building_cofh_se_energy_silo_2
+	}
+}
+
+# Capacitor Bank II
+building_cofh_se_energy_silo_2 = {
+	icon = "building_cofh_se_energy_silo"
+	base_buildtime = @b2time
+	is_listed = no
+
+	cost = {
+		minerals = @b2cost
+	}
+
+	country_modifier = {
+		max_energy = 750
+	}
+
+	prerequisites = {
+		"tech_power_hub_1"
+	}
+
+	adjacency_bonus = {
+		resource_energy_add = 1
+	}
+
+	upgrades = {
+		building_cofh_se_energy_silo_3
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+}
+
+# Capacitor Bank III
+building_cofh_se_energy_silo_3 = {
+	icon = "building_cofh_se_energy_silo"
+	base_buildtime = @b3time
+	is_listed = no
+
+	cost = {
+		minerals = @b3cost
+	}
+
+	country_modifier = {
+		max_energy = 1000
+	}
+
+	prerequisites = {
+		"tech_power_hub_2"
+	}
+
+	adjacency_bonus = {
+		resource_energy_add = 1
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+}
+
+################################################################################
+# Ethos
+################################################################################
+
+# Concord Assembly
+building_cofh_se_concord_assembly = {
+	icon = "building_cofh_se_concord_assembly"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 450
+		influence = 30
+	}
+
+	country_modifier = {
+		pop_growth_req_mult = -0.20
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_concordance"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Frontier Institute
+building_cofh_se_frontier_institute = {
+	icon = "building_cofh_se_frontier_institute"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 550
+		influence = 45
+	}
+
+	required_resources = {
+		energy = 8
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 8
+	}
+
+	country_modifier = {
+		country_society_tech_research_speed = 0.10
+	}
+
+	prerequisites = {
+		"tech_cofh_se_final_frontier"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Ministry of Intelligence
+building_cofh_se_ministry_intelligence = {
+	icon = "building_cofh_se_ministry_intelligence"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 400
+		influence = 40
+	}
+
+	required_resources = {
+		energy = 5
+	}
+
+	country_modifier = {
+		max_rivalries = 2
+	}
+
+	prerequisites = {
+		"tech_cofh_se_central_intelligence"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_3"
+			planet = {
+				has_building = "building_capital_3"
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Bureau of Vigilance
+building_cofh_se_ministry_vigilance = {
+	icon = "building_cofh_se_ministry_vigilance"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 450
+		influence = 35
+	}
+
+	required_resources = {
+		energy = 6
+	}
+
+	country_modifier = {
+		rivalry_influence_gain = 0.50
+	}
+
+	prerequisites = {
+		"tech_cofh_se_eternal_vigilance"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_3"
+			planet = {
+				has_building = "building_capital_3"
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+# Monument to Creation
+building_cofh_se_monument_creation = {
+	icon = "building_cofh_se_monument_creation"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 400
+		influence = 35
+	}
+
+	country_modifier = {
+		pop_happiness = 0.10
+	}
+
+	prerequisites = {
+		"tech_cofh_se_cosmic_reflection"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_allow = {
+		has_any_resource = no
+	}
+
+	ai_weight = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}

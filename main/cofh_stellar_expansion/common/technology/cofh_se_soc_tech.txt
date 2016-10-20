@@ -1,0 +1,716 @@
+# CoFH - Stellar Expansion
+# Society Technologies
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+################################################################################
+# Buildings
+################################################################################
+
+# Central Intelligence
+tech_cofh_se_central_intelligence = {
+	icon = "tech_cofh_se_central_intelligence"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_galactic_administration" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Cosmic Reflection
+tech_cofh_se_cosmic_reflection = {
+	icon = "tech_cofh_se_cosmic_reflection"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_colonial_centralization" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_spiritualist
+					has_ethic = ethic_fanatic_spiritualist
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Eternal Vigilance
+tech_cofh_se_eternal_vigilance = {
+	icon = "tech_cofh_se_eternal_vigilance"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_galactic_administration" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# The Final Frontier
+tech_cofh_se_final_frontier = {
+	icon = "tech_cofh_se_final_frontier"
+	area = society
+	tier = 2
+	cost = @tier2cost1
+	category = { statecraft }
+	prerequisites = { "tech_biolab_1" "tech_colonial_centralization" }
+	weight = @tier2weight1
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_xenophile
+					has_ethic = ethic_fanatic_xenophile
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Galactic Concordance
+tech_cofh_se_galactic_concordance = {
+	icon = "tech_cofh_se_galactic_concordance"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_colonial_centralization" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+################################################################################
+# Diplomacy
+################################################################################
+
+# Galactic Prominence
+tech_cofh_se_galactic_prominence = {
+	icon = "tech_cofh_se_galactic_prominence"
+	area = society
+	cost = @tier2cost4
+	tier = 2
+	category = { statecraft }
+	prerequisites = { tech_galactic_administration }
+	weight = @tier2weight4
+
+	modifier = {
+		influence_gain_add = 1
+	}
+
+	weight_modifier = {
+		factor = 4
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+#Psi Diplomatic Corps
+tech_cofh_se_psi_diplomatic_corps = {
+	icon = "tech_cofh_se_psi_diplomatic_corps"
+	area = society
+	cost = @tier3cost2
+	tier = 3
+	category = { psionics }
+	prerequisites = { "tech_psionic_theory" }
+	weight = @tier3weight2
+	is_rare = yes
+
+	modifier = {
+		influence_gain_add = 2
+		country_trade_attractiveness = 0.20
+		country_trust_growth = 0.20
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.50
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_psionics"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.1
+			research_leader = {
+				area = society
+				has_level > 2
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = society
+				has_level > 3
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = society
+				has_level > 4
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+		modifier = {
+			factor = 2
+			has_ethic = "ethic_spiritualist"
+		}
+		modifier = {
+			factor = 3
+			has_ethic = "ethic_fanatic_spiritualist"
+		}
+		modifier = {
+			factor = 4
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 5 # very rare tech
+		modifier = {
+			factor = 1.5
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+}
+
+# Xeno Confidence
+tech_cofh_se_xeno_confidence = {
+	icon = "tech_cofh_se_xeno_confidence"
+	area = society
+	cost = @tier2cost3
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_xeno_diplomacy" }
+	weight = @tier3weight1
+
+	modifier = {
+		country_trust_growth = 0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.50
+			OR = {
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 4
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0
+			num_communications < 1
+		}
+		modifier = {
+			factor = 3
+			num_communications > 3
+		}
+	}
+
+	weight_groups = {
+		diplomacy
+	}
+
+	mod_weight_if_group_picked = {
+		diplomacy = 0.25
+	}
+
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 10
+			has_ai_personality = federation_builders
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_xenophile
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_fanatic_xenophile
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Xeno Negotiation
+tech_cofh_se_xeno_negotiation = {
+	icon = "tech_cofh_se_xeno_negotiation"
+	area = society
+	cost = @tier2cost3
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_xeno_diplomacy" }
+	weight = @tier3weight1
+
+	modifier = {
+		country_trade_attractiveness = 0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.50
+			OR = {
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 4
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0
+			num_communications < 1
+		}
+		modifier = {
+			factor = 3
+			num_communications > 3
+		}
+	}
+
+	weight_groups = {
+		diplomacy
+	}
+
+	mod_weight_if_group_picked = {
+		diplomacy = 0.25
+	}
+
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 10
+			has_ai_personality = federation_builders
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_xenophile
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_fanatic_xenophile
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+################################################################################
+# Military
+################################################################################
+
+# Battlefield Leadership
+tech_cofh_se_battlefield_leadership = {
+	icon = "tech_cofh_se_battlefield_leadership"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { military_theory }
+	prerequisites = { "tech_centralized_command" }
+	weight = @tier2weight2
+
+	modifier = {
+		army_morale = 0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}

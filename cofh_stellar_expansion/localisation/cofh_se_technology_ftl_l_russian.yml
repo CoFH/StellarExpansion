@@ -1,9 +1,0 @@
-﻿l_russian:
-
-# Technology - FTL Improvement
-
- tech_repeatable_hyper_drive_improved:0 "Оптимизация гипернавигации"
- tech_repeatable_hyper_drive_improved_desc:0 "Улучшеная методика вычисления точки входа в гиперкоридор позволяет нашим судам быстрее покидать звездную систему.\n\n"
-
- tech_repeatable_warp_drive_improved:0 "Оптимизация варп-поля"
- tech_repeatable_warp_drive_improved_desc:0 "Продвижения в теории варп-поля позволяют уменьшить трение о микрочастици, с которыми судно сталкивается в межзвездном пространстве, увеличивая тем самым скорость путешествия.\n\n"

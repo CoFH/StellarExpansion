@@ -1,9 +1,0 @@
-﻿l_english:
-
-# Technology - Terraforming (Extreme)
-
- tech_cofh_se_terraforming_extreme:0 "Extreme World Terraformation"
- tech_cofh_se_terraforming_extreme_desc:0 "Given enough time, resources, and suspension of disbelief, even absurdly hostile worlds can be molded into something remarkably habitable.\n\n"
-
- TECH_COFH_SE_UNLOCK_TERRAFORMING_EXTREME_TITLE:0 "§HUnlocks Feature:§! Extreme World Terraformation"
- TECH_COFH_SE_UNLOCK_TERRAFORMING_EXTREME_DESC:0 "§HExtreme World Terraformation§!\nAllows us to Terraform Molten and Frozen worlds into specific habitable ones.\n\nRequires additional resources and time compared to typical terraforming."
