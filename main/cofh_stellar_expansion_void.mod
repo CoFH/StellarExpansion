@@ -9,4 +9,5 @@ tags={
 	"Spaceships"
 }
 picture="thumb.png"
+remote_file_id="787237693"
 supported_version="1.3.*"
