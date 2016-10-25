@@ -1,0 +1,251 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Section Templates - Destroyer
+# Author: King Lemming
+
+################################################################################
+# HEAVY
+################################################################################
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_HVY_BOW_M1S2"
+	ship_size = cofh_se_destroyer_hvy
+	fits_on_slot = bow
+	entity = "destroyer_bow_M1S2_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 4
+
+	cost = 120
+}
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_HVY_BOW_S3"
+	ship_size = cofh_se_destroyer_hvy
+	fits_on_slot = bow
+	entity = "destroyer_bow_S3_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 1
+	medium_utility_slots = 4
+
+	cost = 120
+}
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_HVY_STERN_M1"
+	ship_size = cofh_se_destroyer_hvy
+	fits_on_slot = stern
+	entity = "destroyer_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+
+	cost = 120
+}
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_HVY_STERN_S2"
+	ship_size = cofh_se_destroyer_hvy
+	fits_on_slot = stern
+	entity = "destroyer_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+
+	cost = 120
+}
+
+################################################################################
+# SUPPORT
+################################################################################
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_SUP_BOW_M1S2"
+	ship_size = cofh_se_destroyer_sup
+	fits_on_slot = bow
+	entity = "destroyer_bow_M1S2_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	prerequisites = { tech_pd_tracking_1 tech_pd_tracking_2 tech_pd_tracking_3 }
+
+	ai_weight = {
+		factor = 100
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 4
+
+	cost = 180
+}
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_SUP_BOW_S3"
+	ship_size = cofh_se_destroyer_sup
+	fits_on_slot = bow
+	entity = "destroyer_bow_S3_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 1
+	medium_utility_slots = 4
+
+	cost = 180
+}
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_SUP_STERN_M1"
+	ship_size = cofh_se_destroyer_sup
+	fits_on_slot = stern
+	entity = "destroyer_stern_M1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+
+	cost = 180
+}
+
+ship_section_template = {
+	key = "COFH_SE_DESTROYER_SUP_STERN_S2"
+	ship_size = cofh_se_destroyer_sup
+	fits_on_slot = stern
+	entity = "destroyer_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_pd_tracking_1 tech_pd_tracking_2 tech_pd_tracking_3 }
+
+	ai_weight = {
+		factor = 100
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	medium_utility_slots = 4
+	aux_utility_slots = 1
+
+	cost = 180
+}

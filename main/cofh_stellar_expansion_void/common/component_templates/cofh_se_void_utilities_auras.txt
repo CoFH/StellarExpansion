@@ -1,0 +1,376 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Ship Components - Roles
+# Author: King Lemming
+
+@shipSmallAuraRange = 20
+@shipMediumAuraRange = 40
+@shipLargeAuraRange = 60
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_SMALL_EMPTY"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "cofh_se_ship_small_aura_components"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_MEDIUM_EMPTY"
+	size = medium
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "cofh_se_ship_medium_aura_components"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_LARGE_EMPTY"
+	size = large
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "cofh_se_ship_large_aura_components"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+################################################################################
+# CORVETTE - Hull Repair
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_SMALL_AURA_HULL_REPAIR"
+	size = small
+	icon = "GFX_ship_part_aura_nanobot"
+	icon_frame = 1
+	power = -25
+	cost = 100
+
+	component_set = "cofh_se_ship_small_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_hull_repair"
+		radius = @shipSmallAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_hull_repair
+			priority = 1
+		}
+
+		modifier = {
+			ship_auto_repair_add = 0.02
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
+# CORVETTE - Sensor Dampener
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_SMALL_AURA_SENSOR_DAMPENER"
+	size = small
+	icon = "GFX_cofh_se_ship_part_aura_sensor_dampener"
+	icon_frame = 1
+	power = -25
+	cost = 100
+
+	component_set = "cofh_se_ship_small_aura_components"
+
+	hostile_aura = {
+		name = "cofh_se_aura_sensor_dampener"
+		radius = @shipSmallAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_inhibitor_aura_sensor_dampener
+			priority = 1
+		}
+
+		modifier = {
+			ship_accuracy_add = -5
+			ship_tracking_add = -10
+			ship_weapon_range_mult = -0.1
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_negative_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
+# DESTROYER - Stasis Field
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_MEDIUM_AURA_STASIS_FIELD"
+	size = medium
+	icon = "GFX_cofh_se_ship_part_aura_stasis_field"
+	icon_frame = 1
+	power = -50
+	cost = 150
+
+	component_set = "cofh_se_ship_medium_aura_components"
+
+	hostile_aura = {
+		name = "cofh_se_aura_stasis_field"
+		radius = @shipMediumAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_inhibitor_stasis_field
+			priority = 5
+		}
+
+		modifier = {
+			ship_combat_speed_mult = -0.5
+			ship_speed_mult = -0.25
+			ship_evasion_mult = -0.25
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_negative_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
+# DESTROYER - Interdiction Field
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_MEDIUM_AURA_INTERDICTION_FIELD"
+	size = medium
+	icon = "GFX_ship_part_aura_snare"
+	icon_frame = 1
+	power = -50
+	cost = 150
+
+	component_set = "cofh_se_ship_medium_aura_components"
+
+	hostile_aura = {
+		name = "cofh_se_aura_interdiction_field"
+		radius = @shipMediumAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_inhibitor_interdiction_field
+			priority = 5
+		}
+
+		modifier = {
+			ship_speed_mult = -0.25
+			ship_windup_mult = 2
+			fleet_emergency_ftl_min_days_mult = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_negative_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
+# CRUISER - Structural Integrity Matrix
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_LARGE_AURA_HULL_BOOST"
+	size = large
+	icon = "GFX_cofh_se_ship_part_aura_hull_boost"
+	icon_frame = 1
+	power = -100
+	cost = 200
+
+	component_set = "cofh_se_ship_large_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_hull_boost"
+		radius = @shipLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_hull_boost
+			priority = 10
+		}
+
+		modifier = {
+			ship_hitpoints_mult = 0.1
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
+# CRUISER - Sensor Booster
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_LARGE_AURA_SENSOR_BOOST"
+	size = large
+	icon = "GFX_cofh_se_ship_part_aura_sensor_boost"
+	icon_frame = 1
+	power = -100
+	cost = 200
+
+	component_set = "cofh_se_ship_large_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_sensor_boost"
+		radius = @shipLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_sensor_boost
+			priority = 10
+		}
+
+		modifier = {
+			ship_accuracy_add = 5
+			ship_tracking_add = 10
+			ship_weapon_range_mult = 0.1
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
+# CRUISER - Shield Recharger
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_LARGE_AURA_SHIELD_RECHARGER"
+	size = large
+	icon = "GFX_ship_part_aura_shield_recharger"
+	icon_frame = 1
+	power = -100
+	cost = 200
+
+	component_set = "cofh_se_ship_large_aura_components"
+	prerequisites = { "tech_shield_recharge_aura_1" }
+
+	friendly_aura = {
+		name = "cofh_se_aura_shield_recharger"
+		radius = @shipLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_shield_recharger
+			priority = 10
+		}
+
+		modifier = {
+			ship_shield_regen_add_perc = 0.15
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}

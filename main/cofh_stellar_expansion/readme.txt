@@ -66,6 +66,9 @@ Capacitor Bank I:
 	Empire Modifier:
 		+500 Maximum Energy
 
+	Adjacency Bonus:
+		+1 Energy
+
 Capacitor Bank II:
 	Build:
 		180 Days
@@ -74,6 +77,9 @@ Capacitor Bank II:
 
 	Empire Modifier:
 		+750 Maximum Energy
+
+	Adjacency Bonus:
+		+1 Energy
 
 	Prerequisites:
 		Tech - Global Energy Management
@@ -86,6 +92,9 @@ Capacitor Bank III:
 
 	Empire Modifier:
 		+1000 Maximum Energy
+
+	Adjacency Bonus:
+		+2 Energy
 
 	Prerequisites:
 		Tech - Planetary Power Grid
@@ -254,6 +263,17 @@ Deep Scanning Algorithms:
 	Effects:
 		+25% Anomaly Discovery Chance
 
+Positronic Algorithms:
+	Computation
+	Repeatable (5x)
+
+	Prerequisites:
+		Tech - Sentient AI
+
+	Effects:
+		+1% Research Speed
+		+3% Robot Production Output
+
 Society
 --------------------------------------------------------------------------------
 Adaptive Training Regimen:
@@ -397,16 +417,6 @@ The Final Frontier:
 
 	Effects:
 		Unlocks - Building: Frontier Science Institute
-
-Xeno Nutriment Factory:
-	Biology
-
-	Prerequisites:
-		Tech - Xenology
-		Ethos: NOT Xenophile or Fanatic Xenophile
-
-	Effects:
-		Unlocks - Building: Xeno Nutriment Factory
 
 ################################################################################
 # Notes

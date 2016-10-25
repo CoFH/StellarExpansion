@@ -1,0 +1,772 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Ship Components - Roles
+# Author: King Lemming
+
+################################################################################
+# CORVETTES
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	upgrades_to = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.05
+	}
+	modifier = {
+		ship_evasion_add = 3
+		ship_combat_speed_mult = 0.1
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.1
+	}
+	modifier = {
+		ship_evasion_add = 6
+		ship_combat_speed_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 10
+		ship_weapon_range_mult = 0.1
+	}
+	modifier = {
+		ship_evasion_add = 6
+		ship_combat_speed_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.1
+	}
+	modifier = {
+		ship_evasion_add = 11
+		ship_combat_speed_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_sup }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	upgrades_to = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_sup }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3"
+
+	modifier = {
+		ship_evasion_add = 3
+		ship_combat_speed_mult = 0.1
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_aggressive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_sup }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_combat_computers_2" }
+
+	modifier = {
+		ship_evasion_add = 6
+		ship_combat_speed_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_sup }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_accuracy_add = 5
+	}
+	modifier = {
+		ship_evasion_add = 6
+		ship_combat_speed_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_corvette_sup }
+	component_set = "combat_computers"
+	ship_behavior = "corvette_default"
+	prerequisites = { "tech_precognition_interface" }
+
+	modifier = {
+		ship_evasion_add = 11
+		ship_combat_speed_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+################################################################################
+# DESTROYERS
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	upgrades_to = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_tracking_add = 15
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.1
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_tracking_add = 17
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.15
+	}
+	modifier = {
+		ship_evasion_add = 2
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_tracking_add = 19
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.2
+	}
+	modifier = {
+		ship_evasion_add = 4
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_tracking_add = 19
+		ship_accuracy_add = 10
+		ship_weapon_range_mult = 0.2
+	}
+	modifier = {
+		ship_evasion_add = 4
+	}
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_tracking_add = 19
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.2
+	}
+	modifier = {
+		ship_evasion_add = 9
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_sup }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	upgrades_to = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_tracking_add = 10
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_sup }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_tracking_add = 12
+	}
+	modifier = {
+		ship_evasion_add = 2
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_sup }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_tracking_add = 14
+	}
+	modifier = {
+		ship_evasion_add = 4
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_sup }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_tracking_add = 14
+		ship_accuracy_add = 5
+	}
+	modifier = {
+		ship_evasion_add = 4
+	}
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_destroyer_sup }
+	component_set = "combat_computers"
+	ship_behavior = "destroyer_default"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_tracking_add = 14
+	}
+	modifier = {
+		ship_evasion_add = 9
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+################################################################################
+# CRUISERS
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	upgrades_to = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+		ship_weapon_range_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 7
+		ship_fire_rate_mult = 0.05
+		ship_weapon_range_mult = 0.3
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 9
+		ship_fire_rate_mult = 0.10
+		ship_weapon_range_mult = 0.4
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 9
+		ship_fire_rate_mult = 0.15
+		ship_weapon_range_mult = 0.4
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 9
+		ship_fire_rate_mult = 0.10
+		ship_weapon_range_mult = 0.4
+	}
+	modifier = {
+		ship_evasion_add = 5
+	}
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	upgrades_to = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_weapon_range_mult = 0.1
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_accuracy_add = 2
+		ship_fire_rate_mult = 0.05
+		ship_weapon_range_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_accuracy_add = 4
+		ship_fire_rate_mult = 0.10
+		ship_weapon_range_mult = 0.3
+	}
+
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_accuracy_add = 4
+		ship_fire_rate_mult = 0.15
+		ship_weapon_range_mult = 0.3
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_cruiser_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_accuracy_add = 4
+		ship_fire_rate_mult = 0.10
+		ship_weapon_range_mult = 0.3
+	}
+	modifier = {
+		ship_evasion_add = 5
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}

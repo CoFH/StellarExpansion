@@ -1,0 +1,19 @@
+CoFH - Stellar Expansion - Voidcraft
+Author: King Lemming
+
+2016-10-25:
+Mod now exists! :)
+
+Added new ship classes and related technologies.
+
+New Ships:
+	-Heavy Corvette
+	-Logistics Corvette
+
+	-Heavy Destroyer
+	-Tactical Destroyer
+
+	-Heavy Cruiser
+	-Command Cruiser
+
+--------------------------------------------------------------------------------

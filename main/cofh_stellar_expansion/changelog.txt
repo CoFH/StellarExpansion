@@ -1,6 +1,22 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-10-25:
+Added German localization.
+Improved icon graphics for repeatable technologies.
+
+New Technologies:
+	Positronic Algorithms:
+		Computation
+		+1% Research Speed
+		+3% Robot Production Output
+		Repeatable (5x)
+
+Bugfixes:
+	Capacitor Bank III now has +2 Energy Adjacency Bonus to match the Mineral Silo III.
+
+--------------------------------------------------------------------------------
+
 2016-10-20:
 This update streamlines and changes things for the 1.3 Heinlein update. There's been a LOT of internal refactoring, so it won't be compatible with 1.2.x saves, and a lot of things have been removed, due to changes to the base game. In particular:
 
@@ -259,7 +275,7 @@ New Buildings:
 
 	Robot Maintenance Facility:
 		Planet-Unique
-		+10% Robot Resource Output on Planet
+		+10% Robot Production Output on Planet
 
 2016-07-06:
 Balancing adjustments and a new tech. Sorry, some numbers were just a little too high.

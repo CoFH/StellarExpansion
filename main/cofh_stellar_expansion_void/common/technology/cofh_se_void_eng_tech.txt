@@ -1,0 +1,306 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Engineering Technologies
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+################################################################################
+# Voidcraft
+################################################################################
+
+# Advanced Corvettes
+tech_cofh_se_corvettes_adv = {
+	icon = "tech_cofh_se_corvettes_adv"
+	cost = @tier1cost2
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	prerequisites = { "tech_spaceport_2" }
+	weight = @tier1weight2
+
+	gateway = ship
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_COFH_SE_UNLOCK_CORVETTES_HVY_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_CORVETTES_HVY_DESC"
+		}
+		custom = {
+			title = "TECH_COFH_SE_UNLOCK_CORVETTES_SUP_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_CORVETTES_SUP_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_cofh_se_corvettes_adv
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 4
+		}
+		modifier = {
+			factor = 3
+			years_passed > 7
+		}
+		modifier = {
+			factor = 4
+			years_passed > 10
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+# Advanced Destroyers
+tech_cofh_se_destroyers_adv = {
+	icon = "tech_cofh_se_destroyers_adv"
+	cost = @tier2cost1
+	area = engineering
+	tier = 2
+	category = { voidcraft }
+	prerequisites = { "tech_spaceport_4" }
+	weight = @tier2weight1
+
+	gateway = ship
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_DESC"
+		}
+		custom = {
+			title = "TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 15 }
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_cofh_se_destroyers_adv
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 20
+		}
+		modifier = {
+			factor = 3
+			years_passed > 25
+		}
+		modifier = {
+			factor = 4
+			years_passed > 30
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+# Advanced Cruisers
+tech_cofh_se_cruisers_adv = {
+	icon = "tech_cofh_se_cruisers_adv"
+	cost = @tier3cost1
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_spaceport_6" }
+	weight = @tier3weight1
+
+	gateway = ship
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_COFH_SE_UNLOCK_CRUISERS_HVY_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_CRUISERS_HVY_DESC"
+		}
+		custom = {
+			title = "TECH_COFH_SE_UNLOCK_CRUISERS_SUP_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_CRUISERS_SUP_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 50 }
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_cofh_se_cruisers_adv
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 60
+		}
+		modifier = {
+			factor = 3
+			years_passed > 65
+		}
+		modifier = {
+			factor = 4
+			years_passed > 70
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+#Advanced Battleships
+tech_cofh_se_battleships_adv = {
+	icon = "tech_cofh_se_battleships_adv"
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_spaceport_6" }
+	#weight = @tier3weight3
+	weight = 0
+
+	gateway = ship
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_DESC"
+		}
+		custom = {
+			title = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 60 }
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_cofh_se_battleships_adv
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 70
+		}
+		modifier = {
+			factor = 3
+			years_passed > 75
+		}
+		modifier = {
+			factor = 4
+			years_passed > 80
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}

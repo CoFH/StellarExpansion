@@ -1,0 +1,120 @@
+﻿l_english:
+
+ cofh_se_corvette_hvy:0 "Heavy Corvette"
+ cofh_se_corvette_hvy_plural:0 "Heavy Corvettes"
+ cofh_se_corvette_sup:0 "Logistics Corvette"
+ cofh_se_corvette_sup_plural:0 "Logistics Corvettes"
+ cofh_se_destroyer_hvy:0 "Heavy Destroyer"
+ cofh_se_destroyer_hvy_plural:0 "Heavy Destroyers"
+ cofh_se_destroyer_sup:0 "Tactical Destroyer"
+ cofh_se_destroyer_sup_plural:0 "Tactical Destroyers"
+ cofh_se_cruiser_hvy:0 "Heavy Cruiser"
+ cofh_se_cruiser_hvy_plural:0 "Heavy Cruisers"
+ cofh_se_cruiser_sup:0 "Command Cruiser"
+ cofh_se_cruiser_sup_plural:0 "Command Cruisers"
+
+ cofh_se_aura_category_offensive:0 "Offensive Aura"
+ cofh_se_aura_category_defensive:0 "Defensive Aura"
+
+ cofh_se_ship_small_aura_components:0 "Small Field Emitter"
+ cofh_se_ship_small_aura_components_desc:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+ cofh_se_ship_medium_aura_components:0 "Medium Field Emitter"
+ cofh_se_ship_medium_aura_components_desc:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+ cofh_se_ship_large_aura_components:0 "Large Field Emitter"
+ cofh_se_ship_large_aura_components_desc:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+
+ cofh_se_aura_hull_repair:0 "$cofh_se_aura_category_defensive$ - Hull Repair"
+ cofh_se_aura_sensor_dampener:0 "$cofh_se_aura_category_offensive$ - Sensor Dampening"
+ cofh_se_aura_weapon_disruptor:0 "$cofh_se_aura_category_offensive$ - Weapon Disruption"
+
+ cofh_se_aura_interdiction_field:0 "$cofh_se_aura_category_offensive$ - Interdiction Field"
+ cofh_se_aura_stasis_field:0 "$cofh_se_aura_category_offensive$ - Stasis Field"
+
+ cofh_se_aura_hull_boost:0 "$cofh_se_aura_category_defensive$ - Hull Integrity"
+ cofh_se_aura_sensor_boost:0 "$cofh_se_aura_category_defensive$ - Sensor Amplification"
+ cofh_se_aura_shield_boost:0 "$cofh_se_aura_category_defensive$ - Shield Integrity"
+ cofh_se_aura_shield_recharger:0 "$cofh_se_aura_category_defensive$ - Shield Recharger"
+
+ TECH_COFH_SE_UNLOCK_CORVETTES_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Corvette"
+ TECH_COFH_SE_UNLOCK_CORVETTES_HVY_DESC:0 "§HHeavy Corvette§!\nAn improved version of the basic military ship meant to engage ships of similar size."
+
+ TECH_COFH_SE_UNLOCK_CORVETTES_SUP_TITLE:0 "§HUnlocks Ship Type:§! Logistics Corvette"
+ TECH_COFH_SE_UNLOCK_CORVETTES_SUP_DESC:0 "§HLogistics Corvette§!\nA lightly armed ship which can provide combat and logistical support."
+
+ TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Destroyer"
+ TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_DESC:0 "§HHeavy Destroyer§!\nA variant of the Destroyer intended for a frontline combat role."
+
+ TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Tactical Destroyer"
+ TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_DESC:0 "§HTactical Destroyer§!\nA sturdy ship which provides frontline combat support."
+
+ TECH_COFH_SE_UNLOCK_CRUISERS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Cruiser"
+ TECH_COFH_SE_UNLOCK_CRUISERS_HVY_DESC:0 "§HHeavy Cruiser§!\nA heavily armored warship intended for a variety of engagement distances."
+
+ TECH_COFH_SE_UNLOCK_CRUISERS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Command Cruiser"
+ TECH_COFH_SE_UNLOCK_CRUISERS_SUP_DESC:0 "§HCommand Cruiser§!\nA heavily armored ship which can provide combat and logistical support to a large fleet."
+
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Corvette)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Corvette)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Corvette)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Corvette)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Corvette)"
+
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Logistics Corvette)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Logistics Corvette)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Logistics Corvette)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Logistics Corvette)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Logistics Corvette)"
+
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Destroyer)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Destroyer)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Destroyer)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Destroyer)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Destroyer)"
+
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Tactical Destroyer)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Tactical Destroyer)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Tactical Destroyer)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Tactical Destroyer)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Tactical Destroyer)"
+
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Cruiser)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Cruiser)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Cruiser)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Cruiser)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Cruiser)"
+
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Command Cruiser)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Command Cruiser)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Command Cruiser)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Command Cruiser)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Command Cruiser)"
+
+ COFH_SE_AURA_EMPTY:0 "Empty Slot"
+ COFH_SE_AURA_HULL_BOOST:0 "Hull Integrity Matrix"
+ COFH_SE_AURA_HULL_REPAIR:0 "Nanobot Cloud"
+ COFH_SE_AURA_INTERDICTION_FIELD:0 "Interdiction Bubble"
+ COFH_SE_AURA_SENSOR_BOOST:0 "Sensor Locus"
+ COFH_SE_AURA_SENSOR_DAMPENER:0 "Sensor Dampener"
+ COFH_SE_AURA_SHIELD_BOOST:0 "Shield Integrity Matrix"
+ COFH_SE_AURA_SHIELD_RECHARGER:0 "Capacitor Field"
+ COFH_SE_AURA_STASIS_FIELD:0 "Stasis Bubble"
+
+ COFH_SE_SHIP_MOUNTED:0 "Ship-mounted"
+ COFH_SE_AURA_SMALL:0 "Support"
+ COFH_SE_AURA_MEDIUM:0 "Tactical"
+ COFH_SE_AURA_LARGE:0 "Command"
+
+ COFH_SE_SHIP_AURA_SMALL_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_MEDIUM_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_LARGE_EMPTY:0 "$AURA_EMPTY$"
+
+ COFH_SE_SHIP_SMALL_AURA_HULL_REPAIR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REPAIR$"
+ COFH_SE_SHIP_SMALL_AURA_SENSOR_DAMPENER:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DAMPENER$"
+
+ COFH_SE_SHIP_MEDIUM_AURA_STASIS_FIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_STASIS_FIELD$"
+ COFH_SE_SHIP_MEDIUM_AURA_INTERDICTION_FIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_INTERDICTION_FIELD$"
+
+ COFH_SE_SHIP_LARGE_AURA_HULL_BOOST:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_BOOST$"
+ COFH_SE_SHIP_LARGE_AURA_SENSOR_BOOST:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_BOOST$"
+ COFH_SE_SHIP_LARGE_AURA_SHIELD_BOOST:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_BOOST$"
+ COFH_SE_SHIP_LARGE_AURA_SHIELD_RECHARGER:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_RECHARGER$"

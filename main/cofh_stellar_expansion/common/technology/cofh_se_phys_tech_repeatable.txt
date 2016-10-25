@@ -1,0 +1,47 @@
+# CoFH - Stellar Expansion
+# Engineering Technologies (Repeatable)
+# Author: King Lemming
+
+@repeatableTechBaseCost = 1500
+@repeatableTechLevelCost = 480
+
+@repeatableTechWeight = 25
+@repeatableTechFactor = 0.5
+
+################################################################################
+# Computing
+################################################################################
+
+# Positronic Algorithms
+tech_cofh_se_repeatable_sentient_ai_improved = {
+	icon = "tech_cofh_se_repeatable_sentient_ai_improved"
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { computing }
+	levels = 5
+	prerequisites = { "tech_sentient_ai" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		all_technology_research_speed = 0.01
+		pop_robot_production_output = 0.03
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

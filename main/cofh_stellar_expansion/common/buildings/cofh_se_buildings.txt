@@ -129,7 +129,7 @@ building_cofh_se_robot_maintenance = {
 
 	allow = {
 		custom_tooltip = {
-			text = "requirement_robot_maintenance"
+			text = "requirement_cofh_se_robot_maintenance"
 			planet = {
 				owner = {
 					NOT = { has_policy_flag = ai_outlawed }
@@ -148,12 +148,10 @@ building_cofh_se_robot_maintenance = {
 		factor = 1000
 		modifier = {
 			factor = 0
-			from = { sector_controlled = yes }
-		}
-		modifier = {
-			weight = 0
-			NOT = { has_ai_personality_behaviour = robot_exploiter }
-			NOT = { has_ai_personality_behaviour = robot_liberator }
+			NOR = {
+				has_ai_personality_behaviour = robot_exploiter
+				has_ai_personality_behaviour = robot_liberator
+			}
 		}
 	}
 }
@@ -198,12 +196,12 @@ building_cofh_se_energy_silo_2 = {
 		max_energy = 750
 	}
 
-	prerequisites = {
-		"tech_power_hub_1"
-	}
-
 	adjacency_bonus = {
 		resource_energy_add = 1
+	}
+
+	prerequisites = {
+		"tech_power_hub_1"
 	}
 
 	upgrades = {
@@ -238,12 +236,12 @@ building_cofh_se_energy_silo_3 = {
 		max_energy = 1000
 	}
 
-	prerequisites = {
-		"tech_power_hub_2"
+	adjacency_bonus = {
+		resource_energy_add = 2
 	}
 
-	adjacency_bonus = {
-		resource_energy_add = 1
+	prerequisites = {
+		"tech_power_hub_2"
 	}
 
 	allow = {

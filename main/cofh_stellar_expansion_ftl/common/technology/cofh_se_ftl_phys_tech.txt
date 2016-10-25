@@ -13,18 +13,17 @@
 @repeatableTechFactor = 0.5
 
 ################################################################################
-# FTL Improvement
+# FTL Travel
 ################################################################################
 
-# Hypernavigation Optimization
-tech_cofh_se_ftl_repeatable_hyper_drive_improved = {
+# Hypernavigation Calibration
+tech_cofh_se_repeatable_reduced_ftl_windup = {
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
 	tier = 2
 	category = { particles }
 	levels = 5
-	prerequisites = { "tech_hyper_drive_2" }
 	weight = @repeatableTechWeight
 
 	modifier = {
@@ -33,6 +32,19 @@ tech_cofh_se_ftl_repeatable_hyper_drive_improved = {
 
 	weight_modifier = {
 		factor = @repeatableTechFactor
+
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = "tech_hyper_drive_2"
+				has_technology = "tech_jump_drive_1"
+				has_technology = "tech_psi_jump_drive_1"
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { has_technology = tech_hyper_drive_2 }
+		}
 	}
 
 	ai_weight = {
@@ -48,25 +60,35 @@ tech_cofh_se_ftl_repeatable_hyper_drive_improved = {
 	}
 }
 
-# Warp Field Optimization
-tech_cofh_se_ftl_repeatable_warp_drive_improved = {
+# Spacetime Resonance Damping
+tech_cofh_se_repeatable_reduced_ftl_winddown = {
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
 	tier = 2
 	category = { field_manipulation }
 	levels = 5
-	prerequisites = { "tech_warp_drive_2" }
 	weight = @repeatableTechWeight
 
 	modifier = {
-		ship_ftl_warp_range_mult = 0.20
-		ship_interstellar_speed_mult = 0.20
-		ship_winddown_mult = -0.10
+		ship_winddown_mult = -0.05
 	}
 
 	weight_modifier = {
 		factor = @repeatableTechFactor
+
+		modifier = {
+			factor = 0
+			NOR = {
+				has_technology = "tech_warp_drive_2"
+				has_technology = "tech_jump_drive_1"
+				has_technology = "tech_psi_jump_drive_1"
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { has_technology = tech_warp_drive_2 }
+		}
 	}
 
 	ai_weight = {
