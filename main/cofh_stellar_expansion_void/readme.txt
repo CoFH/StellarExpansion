@@ -107,9 +107,9 @@ significant offensive combat abilities beyond that of standard ships.
 [1]	This wouldn't be strictly fair for Heavy Corvettes, so they instead have
 	a lower base Evasion score and are very slightly slower in combat.
 
-[2] Support Corvettes do not have increased range.
+[2]	Support Corvettes do not have increased range.
 
 [3]	In some cases this may be an extra Hangar Slot instead of a Utility slot.
 
-[4] This basically means 2x Supply is necessary. A support ship costs the same
+[4]	This basically means 2x Supply is necessary. A support ship costs the same
 	as a ship one size class larger.
