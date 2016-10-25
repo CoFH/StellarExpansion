@@ -38,7 +38,7 @@ Advanced Corvettes
 
 At the moment, AI do not make fantastic use of these ships, as they are not
 standard classes. While that's a bit unfortunate for normal play, it does mean
-that Awakened Fallen Empires and the endgame crises are a bit more managable
+that Awakened Fallen Empires and the endgame crises are a bit more manageable
 when the 1.3 empire AI inevitably fails to do anything useful.
 
 Heavy Ships
