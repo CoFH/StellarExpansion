@@ -1,22 +1,22 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_cofh_se_ship_part_aura_hull_boost"
-		texturefile = "gfx/interface/icons/ship_parts/cofh_se_ship_part_aura_hull_boost.dds"
+		name = "GFX_ship_part_cofh_se_aura_hull_boost"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_hull_boost.dds"
 	}
 
 	spriteType = {
-		name = "GFX_cofh_se_ship_part_aura_sensor_boost"
-		texturefile = "gfx/interface/icons/ship_parts/cofh_se_ship_part_aura_sensor_boost.dds"
+		name = "GFX_ship_part_cofh_se_aura_sensor_boost"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_sensor_boost.dds"
 	}
 
 	spriteType = {
-		name = "GFX_cofh_se_ship_part_aura_stasis_field"
-		texturefile = "gfx/interface/icons/ship_parts/cofh_se_ship_part_aura_stasis_field.dds"
+		name = "GFX_ship_part_cofh_se_aura_stasis_field"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_stasis_field.dds"
 	}
 
 		spriteType = {
-		name = "GFX_cofh_se_ship_part_aura_sensor_dampener"
-		texturefile = "gfx/interface/icons/ship_parts/cofh_se_ship_part_aura_sensor_dampener.dds"
+		name = "GFX_ship_part_cofh_se_aura_sensor_dampener"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_sensor_dampener.dds"
 	}
 }

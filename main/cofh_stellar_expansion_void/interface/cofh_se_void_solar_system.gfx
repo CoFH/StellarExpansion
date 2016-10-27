@@ -1,0 +1,41 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_corvette_hvy"
+		textureFile = "gfx/interface/system/icon_cofh_se_corvette_hvy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_corvette_sup"
+		textureFile = "gfx/interface/system/icon_cofh_se_corvette_sup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_destroyer_hvy"
+		textureFile = "gfx/interface/system/icon_cofh_se_destroyer_hvy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_destroyer_sup"
+		textureFile = "gfx/interface/system/icon_cofh_se_destroyer_sup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_cruiser_hvy"
+		textureFile = "gfx/interface/system/icon_cofh_se_cruiser_hvy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_cruiser_sup"
+		textureFile = "gfx/interface/system/icon_cofh_se_cruiser_sup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_battleship_hvy"
+		textureFile = "gfx/interface/system/icon_cofh_se_battleship_hvy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_battleship_sup"
+		textureFile = "gfx/interface/system/icon_cofh_se_battleship_sup.dds"
+	}
+}

@@ -20,13 +20,13 @@ Advanced Corvettes
 	Effects:
 		Allows construction of Heavy and Logistics Corvettes
 
-Advanced Corvettes
+Advanced Destroyers
 	Voidcraft
 
 	Effects:
 		Allows construction of Heavy and Tactical Destroyers
 
-Advanced Corvettes
+Advanced Cruisers
 	Voidcraft
 
 	Effects:

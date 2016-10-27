@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-10-26:
+Internal refactoring and minor bugfixes.
+
+Spaceships now have custom pip icons in Solar System view.
+
+--------------------------------------------------------------------------------
+
 2016-10-25:
 Mod now exists! :)
 
