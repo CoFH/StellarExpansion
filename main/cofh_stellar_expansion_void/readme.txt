@@ -61,14 +61,15 @@ with the notable exception of the Heavy Cruiser's Siege Sections.
 
 	Disadvantages
 	----------------------------------------
-	+1 Fleet Supply Used [1]
+	+25% Fleet Supply Used, Rounded [1]
 	+25% Build Time
 	+100% Base Cost
 	No Large Weapons
 
 	Other
 	----------------------------------------
-	Nonstandard Slot Layouts
+	Alternate Slot Layouts
+	Alternate Roles
 
 Support Ships
 --------------------------------------------------------------------------------
@@ -98,14 +99,15 @@ significant offensive combat abilities beyond that of standard ships.
 
 	Other
 	----------------------------------------
-	Nonstandard Slot Layouts
+	Alternate Slot Layouts
+	Alternate Roles
 
 ################################################################################
 # Notes
 ################################################################################
 
-[1]	This wouldn't be strictly fair for Heavy Corvettes, so they instead have
-	a lower base Evasion score and are very slightly slower in combat.
+[1]	Heavy Corvettes get a free pass here since it rounds down, so they instead
+	have a lower base Evasion score and are very slightly slower in combat.
 
 [2]	Support Corvettes do not have increased range.
 

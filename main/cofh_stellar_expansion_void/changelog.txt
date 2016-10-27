@@ -1,6 +1,12 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-10-27:
+Preparing for Battleship variants.
+More internal refactoring and minor bugfixes.
+
+--------------------------------------------------------------------------------
+
 2016-10-26:
 Internal refactoring and minor bugfixes.
 

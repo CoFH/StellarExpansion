@@ -16,6 +16,9 @@
  tech_cofh_se_repeatable_ship_repair_upkeep:0 "Applied Fleet Logistics"
  tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Advances in material science and transport allow for our fleets to be more easily maintained."
 
+ tech_cofh_se_repeatable_weapon_type_strike_craft_speed:0 "Inertial Compensators"
+ tech_cofh_se_repeatable_weapon_type_strike_craft_speed_desc:0 "Insulating our fighter pilots from g-forces allows for strike craft to reach much higher speeds."
+
 # Physics
 
  tech_cofh_se_repeatable_sentient_ai_improved:0 "Positronic Algorithms"

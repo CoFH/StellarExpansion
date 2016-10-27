@@ -5,6 +5,7 @@
 @shipSmallAuraRange = 20
 @shipMediumAuraRange = 40
 @shipLargeAuraRange = 60
+@shipXLargeAuraRange = 80
 
 utility_component_template = {
 	key = "COFH_SE_SHIP_AURA_SMALL_EMPTY"
@@ -45,6 +46,21 @@ utility_component_template = {
 	cost = 0
 
 	component_set = "cofh_se_ship_large_aura_components"
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_AURA_XLARGE_EMPTY"
+	size = large
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "cofh_se_ship_xlarge_aura_components"
 
 	ai_weight = {
 		weight = 1
@@ -372,5 +388,62 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 2
+	}
+}
+
+################################################################################
+# BATTLESHIP - Minefield
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_XLARGE_AURA_MINEFIELD"
+	size = medium
+	icon = "GFX_ship_part_aura_minefield"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "cofh_se_ship_xlarge_aura_components"
+
+	hostile_aura = {
+		name = "cofh_se_aura_minefield"
+		radius = @shipXLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_minefield_aura
+			priority = 1
+		}
+
+		damage_per_day = {
+			accuracy = 0.2
+			damage = { min = 5 max = 15 }
+			shield_damage = 1.0
+			shield_penetration = 0.0
+			armor_penetration = 0.75
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			area_effect = {
+				entity = "mine_field_small_entity"
+				dynamic_scale = no
+			}
+			#ship_effect = {
+			#	 entity = "ship_aura_minefield_entity"
+			#	 dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 0
+		modifier = {
+			weight = 101
+			has_country_flag = aggressive
+		}
 	}
 }

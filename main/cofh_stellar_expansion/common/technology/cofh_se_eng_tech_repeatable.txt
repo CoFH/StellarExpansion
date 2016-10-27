@@ -150,3 +150,35 @@ tech_cofh_se_repeatable_ship_repair_upkeep = {
 		repeatable = 0.01
 	}
 }
+
+# Inertial Compensators
+tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 3
+	category = { voidcraft }
+	ai_update_type = military
+	levels = 5
+	prerequisites = { "tech_spaceport_5" }
+	weight = @repeatableTechWeight
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+
+	modifier = {
+		weapon_type_strike_craft_speed_mult = 0.10
+	}
+}

@@ -16,6 +16,9 @@
  tech_cofh_se_repeatable_ship_repair_upkeep:0 "Прикладная логистика"
  tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Достижения в области материаловедения и транспорта позволяют снизит наши затраты на обслуживание флота."
 
+ tech_cofh_se_repeatable_weapon_type_strike_craft_speed:0 "Инерционные компенсаторы"
+ tech_cofh_se_repeatable_weapon_type_strike_craft_speed_desc:1 "Изоляционный наших летчиков-истребителей от перегрузок позволяет удара корабль, чтобы достичь гораздо более высоких скоростях."
+
 # Physics
 
  tech_cofh_se_repeatable_sentient_ai_improved:0 "позитронный Алгоритмы"

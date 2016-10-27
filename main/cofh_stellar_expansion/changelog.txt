@@ -1,6 +1,20 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-10-27:
+New tech! Not sure how I overlooked this modifier.
+
+Personally, I think it's a bit silly that Strike Craft actually have pilots,
+but that's how they are presented in the game, so I'm just staying consistent.
+
+New Technologies:
+	Inertial Compensators:
+		Voidcraft
+		+10% Strike Craft Speed
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
 2016-10-25:
 Added German localization.
 Improved icon graphics for repeatable technologies.

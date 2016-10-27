@@ -198,6 +198,7 @@ entity = {
 	game_data = {
 		size = @destroyer_scale
 	}
+}
 
 entity = {
 	name = "arthropoid_01_cofh_se_destroyer_sup_entity"

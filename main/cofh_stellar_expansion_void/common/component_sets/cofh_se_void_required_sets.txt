@@ -25,3 +25,11 @@ component_set = {
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
+
+component_set = {
+	key = "cofh_se_ship_xlarge_aura_components"
+
+	show_in_designer = no
+	icon = "GFX_ship_part_sensor"
+	icon_frame = 1
+}
