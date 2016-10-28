@@ -68,6 +68,99 @@ utility_component_template = {
 }
 
 ################################################################################
+# TENDER - Ship Upkeep
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_TENDER_AURA_UPKEEP"
+	size = medium
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+
+	component_set = "cofh_se_ship_tender_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_upkeep"
+		radius = @shipMediumAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_upkeep
+			priority = 1
+		}
+
+		modifier = {
+			ship_upkeep_mult = -0.15
+			ship_reparation_speed_mult = 0.15
+		}
+
+		graphics = {
+			#area_effect = {
+			#	entity = "circle_area_entity"
+			#	dynamic_scale = yes
+			#}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+################################################################################
+# TENDER - Hull Repair
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_TENDER_AURA_HULL_REPAIR"
+	size = medium
+	icon = "GFX_ship_part_aura_nanobot"
+	icon_frame = 1
+	power = -25
+	cost = 100
+
+	component_set = "cofh_se_ship_tender_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_upkeep"
+		radius = @shipMediumAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_upkeep
+			priority = 1
+		}
+
+		modifier = {
+			ship_upkeep_mult = -0.15
+			ship_reparation_speed_mult = 0.15
+			ship_auto_repair_add = 0.02
+		}
+
+		graphics = {
+			#area_effect = {
+			#	entity = "circle_area_entity"
+			#	dynamic_scale = yes
+			#}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+################################################################################
 # CORVETTE - Hull Repair
 ################################################################################
 
@@ -88,11 +181,11 @@ utility_component_template = {
 
 		stack_info = {
 			id = friendly_support_aura_hull_repair
-			priority = 1
+			priority = 5
 		}
 
 		modifier = {
-			ship_auto_repair_add = 0.02
+			ship_auto_repair_add = 0.03
 		}
 
 		graphics = {
@@ -108,7 +201,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 1
 	}
 }
 
@@ -156,6 +249,52 @@ utility_component_template = {
 
 	ai_weight = {
 		weight = 2
+	}
+}
+
+################################################################################
+# CORVETTE - Weapon Disruptor
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_SMALL_AURA_WEAPON_DISRUPTOR"
+	size = small
+	icon = "GFX_ship_part_aura_quantum_destabilizer"
+	icon_frame = 1
+	power = -25
+	cost = 200
+
+	component_set = "cofh_se_ship_small_aura_components"
+	prerequisites = {"tech_aura_quantum_destabilizer"}
+
+	hostile_aura = {
+		name = "cofh_se_aura_weapon_disruptor"
+		radius = @shipSmallAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_inhibitor_aura_weapon_disruptor
+			priority = 1
+		}
+
+		modifier = {
+			ship_fire_rate_mult = -0.10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_negative_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 3
 	}
 }
 

@@ -4,6 +4,9 @@
 
 # Engineering
 
+ tech_cofh_se_auxiliary_ships:0 "Auxiliary Ships"
+ tech_cofh_se_auxiliary_ships_desc:0 "Development of dedicated auxiliary support vessels will allow for prolonged fleet operations in deep space."
+
  tech_cofh_se_corvettes_adv:0 "Advanced Corvettes"
  tech_cofh_se_corvettes_adv_desc:0 "Applying new engineering techniques to Corvette-class vessels will allow for the construction of more advanced variants."
 

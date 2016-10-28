@@ -1,0 +1,205 @@
+# CoFH - Stellar Expansion - Terraforming
+# Buildings
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@b0time = 120
+@b0cost = 30
+@b0effect = 1
+@b0upkeep = 1
+
+@b1time = 210
+@b1cost = 60
+@b1effect = 2
+@b1upkeep = 1
+
+@b2time = 180
+@b2cost = 90
+@b2effect = 3
+@b2upkeep = 1.5
+
+@b3time = 180
+@b3cost = 120
+@b3effect = 4
+@b3upkeep = 2
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+################################################################################
+# General
+################################################################################
+
+# Geoengineering Complex
+building_cofh_se_terraformer_1 = {
+	icon = "building_cofh_se_terraformer_1"
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		minerals = 100
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 2
+	}
+
+	prerequisites = {
+		"tech_cofh_se_geoengineering"
+	}
+
+	upgrades = {
+		building_cofh_se_terraformer_2
+		building_cofh_se_terraformer_3
+		building_cofh_se_terraformer_4
+		building_cofh_se_terraformer_5
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+building_cofh_se_terraformer_2 = {
+	icon = "building_cofh_se_terraformer_2"
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		energy = 800
+		minerals = 800
+		influence = 5
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 2
+	}
+
+	prerequisites = {
+		"tech_terrestrial_sculpting"
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+building_cofh_se_terraformer_3 = {
+	icon = "building_cofh_se_terraformer_3"
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		energy = 2000
+		minerals = 2000
+		influence = 10
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 2
+	}
+
+	prerequisites = {
+		"tech_atmospheric_manipulation"
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+building_cofh_se_terraformer_4 = {
+	icon = "building_cofh_se_terraformer_4"
+	base_buildtime = 540
+	planet_unique = yes
+
+	cost = {
+		energy = 4000
+		minerals = 4000
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 2
+	}
+
+	prerequisites = {
+		"tech_climate_restoration"
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+building_cofh_se_terraformer_5 = {
+	icon = "building_cofh_se_terraformer_5"
+	base_buildtime = 720
+	planet_unique = yes
+
+	cost = {
+		energy = 8000
+		minerals = 8000
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 2
+	}
+
+	prerequisites = {
+		"tech_gaia_creation"
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 0
+	}
+}

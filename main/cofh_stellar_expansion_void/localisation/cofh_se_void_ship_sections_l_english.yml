@@ -38,3 +38,7 @@
  COFH_SE_CRUISER_SUP_STERN_S2:0 "Gunship Stern"
 
 # Battleship
+
+# Tender
+
+ COFH_SE_AUXILIARY_TENDER:0 "Tender Ship"

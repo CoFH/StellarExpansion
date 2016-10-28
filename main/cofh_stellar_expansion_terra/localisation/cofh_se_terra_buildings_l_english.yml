@@ -1,0 +1,18 @@
+﻿l_english:
+
+# Buildings
+
+ building_cofh_se_terraformer_1:0 "Geoengineering Complex"
+ building_cofh_se_terraformer_1_desc:0 ""
+
+ building_cofh_se_terraformer_2:0 "Terrestrial Reformation Reactor"
+ building_cofh_se_terraformer_2_desc:0 ""
+
+ building_cofh_se_terraformer_3:0 "Atmospheric Moderation Reactor"
+ building_cofh_se_terraformer_3_desc:0 ""
+
+ building_cofh_se_terraformer_4:0 "Atmospheric Purification Reactor"
+ building_cofh_se_terraformer_4_desc:0 ""
+
+ building_cofh_se_terraformer_5:0 "Gaiaformation Reactor"
+ building_cofh_se_terraformer_5_desc:0 ""

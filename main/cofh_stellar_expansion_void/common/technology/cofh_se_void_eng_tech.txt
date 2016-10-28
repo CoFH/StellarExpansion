@@ -304,3 +304,66 @@ tech_cofh_se_battleships_adv = {
 		}
 	}
 }
+
+# Auxiliary Ships
+tech_cofh_se_auxiliary_ships = {
+	icon = "tech_cofh_se_auxiliary_ships"
+	cost = @tier1cost4
+	area = engineering
+	tier = 1
+	category = { voidcraft }
+	prerequisites = { "tech_spaceport_3" }
+	weight = @tier1weight4
+
+	gateway = ship
+
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_TITLE"
+			desc = "TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 15 }
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_cofh_se_auxiliary_ships
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 20
+		}
+		modifier = {
+			factor = 3
+			years_passed > 25
+		}
+		modifier = {
+			factor = 4
+			years_passed > 30
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 50
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}

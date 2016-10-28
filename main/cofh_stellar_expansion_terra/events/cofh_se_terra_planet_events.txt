@@ -1,0 +1,164 @@
+# CoFH - Stellar Expansion - Terraforming
+# Events
+# Author: King Lemming
+
+namespace = cofh_se_terra
+
+planet_event = {
+	id = cofh_se_terra.1
+	title = "cofh_se_terra.1.name"
+	desc = "cofh_se_terra.1.desc"
+	picture = GFX_evt_mining_operations
+	show_sound = event_construction
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.100
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.100.desc"
+	picture = GFX_evt_continental
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_continental
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.101
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.101.desc"
+	picture = GFX_evt_ocean
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_ocean
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.102
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.102.desc"
+	picture = GFX_evt_tropical
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_tropical
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.103
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.103.desc"
+	picture = GFX_evt_desert
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_desert
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.104
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.104.desc"
+	picture = GFX_evt_arid
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_arid
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.105
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.105.desc"
+	picture = GFX_evt_savannah
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_savannah
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.106
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.106.desc"
+	picture = GFX_evt_arctic
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_arctic
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.107
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.107.desc"
+	picture = GFX_evt_tundra
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_tundra
+	}
+}
+
+planet_event = {
+	id = cofh_se_terra.108
+	title = "PROJECT_COMPLETE"
+	desc = "cofh_se_terra.108.desc"
+	picture = GFX_evt_alpine
+	show_sound = event_mystic_reveal
+	location = ROOT
+
+	is_triggered_only = yes
+
+	option = {
+		custom_tooltip = cofh_se_terraforming_completed
+		change_pc = pc_alpine
+	}
+}

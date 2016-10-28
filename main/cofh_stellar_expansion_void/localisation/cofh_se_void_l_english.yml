@@ -20,8 +20,12 @@
  cofh_se_battleship_sup:0 "Arbiter Battleship"
  cofh_se_battleship_sup_plural:0 "Arbiter Battleships"
 
+ cofh_se_auxiliary_tender:0 "Tender Ship"
+ cofh_se_auxiliary_tender_plural:0 "Tender Ships"
+
  cofh_se_aura_category_offensive:0 "Offensive Aura"
  cofh_se_aura_category_defensive:0 "Defensive Aura"
+ cofh_se_aura_category_support:0 "Support Aura"
 
  cofh_se_ship_small_aura_components:0 "Small Field Emitter"
  cofh_se_ship_small_aura_components_desc:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
@@ -46,6 +50,8 @@
 
  cofh_se_aura_minefield:0 "$cofh_se_aura_category_offensive$ - Minefield"
 
+ cofh_se_aura_upkeep:0 "$cofh_se_aura_category_support$ - Fleet Maintenance"
+
  TECH_COFH_SE_UNLOCK_CORVETTES_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Corvette"
  TECH_COFH_SE_UNLOCK_CORVETTES_HVY_DESC:0 "§HHeavy Corvette§!\nAn improved version of the basic military ship meant to engage ships of similar size."
 
@@ -69,6 +75,9 @@
 
  TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Arbiter Battleship"
  TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HCommand Cruiser§!\nA carrier platform which provides considerable battlefield and logistical control."
+
+ TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HUnlocks Ship Type:§! Tender Ship"
+ TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HHeavy Corvette§!\nAn unarmed support ship which performs routine maintenance and upkeep for a fleet."
 
  COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Corvette)"
  COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Corvette)"
@@ -128,12 +137,14 @@
  COFH_SE_AURA_SHIELD_BOOST:0 "Shield Integrity Matrix"
  COFH_SE_AURA_SHIELD_RECHARGER:0 "Capacitor Field"
  COFH_SE_AURA_STASIS_FIELD:0 "Stasis Bubble"
+ COFH_SE_AURA_WEAPON_DISRUPTOR:0 "Quantum Destabilizer"
 
  COFH_SE_SHIP_MOUNTED:0 "Ship-mounted"
  COFH_SE_AURA_SMALL:0 "Support"
  COFH_SE_AURA_MEDIUM:0 "Tactical"
  COFH_SE_AURA_LARGE:0 "Command"
  COFH_SE_AURA_XLARGE:0 "Arbiter"
+ COFH_SE_AURA_TENDER:0 "Auxiliary"
 
  COFH_SE_SHIP_AURA_SMALL_EMPTY:0 "$AURA_EMPTY$"
  COFH_SE_SHIP_AURA_MEDIUM_EMPTY:0 "$AURA_EMPTY$"
@@ -142,6 +153,7 @@
 
  COFH_SE_SHIP_SMALL_AURA_HULL_REPAIR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REPAIR$"
  COFH_SE_SHIP_SMALL_AURA_SENSOR_DAMPENER:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DAMPENER$"
+ COFH_SE_SHIP_SMALL_AURA_WEAPON_DISRUPTOR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_DISRUPTOR$"
 
  COFH_SE_SHIP_MEDIUM_AURA_STASIS_FIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_STASIS_FIELD$"
  COFH_SE_SHIP_MEDIUM_AURA_INTERDICTION_FIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_INTERDICTION_FIELD$"
@@ -152,3 +164,6 @@
  COFH_SE_SHIP_LARGE_AURA_SHIELD_RECHARGER:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_RECHARGER$"
 
  COFH_SE_SHIP_XLARGE_AURA_MINEFIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD$"
+
+ COFH_SE_SHIP_TENDER_AURA_UPKEEP:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_TENDER_AURA_HULL_REPAIR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REPAIR$"

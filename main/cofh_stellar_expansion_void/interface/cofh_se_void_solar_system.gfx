@@ -38,4 +38,9 @@ spriteTypes = {
 		name = "GFX_ship_counter_cofh_se_battleship_sup"
 		textureFile = "gfx/interface/system/icon_cofh_se_battleship_sup.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ship_counter_cofh_se_auxiliary_tender"
+		textureFile = "gfx/interface/system/icon_cofh_se_auxiliary_tender.dds"
+	}
 }

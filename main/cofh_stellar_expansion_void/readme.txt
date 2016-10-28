@@ -14,6 +14,12 @@ change down to the slot.
 
 Engineering
 --------------------------------------------------------------------------------
+Auxiliary Ships
+	Voidcraft
+
+	Effects:
+		Allows construction of Tender Ships
+
 Advanced Corvettes
 	Voidcraft
 
