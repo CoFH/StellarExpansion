@@ -41,13 +41,13 @@
 ################################################################################
 
 # Geoengineering Complex
-building_cofh_se_terraformer_1 = {
-	icon = "building_cofh_se_terraformer_1"
+building_cofh_se_geo_complex_1 = {
+	icon = "building_cofh_se_geo_complex_1"
 	base_buildtime = 360
 	planet_unique = yes
 
 	cost = {
-		minerals = 100
+		minerals = 200
 	}
 
 	required_resources = {
@@ -60,28 +60,83 @@ building_cofh_se_terraformer_1 = {
 		society_research = 2
 	}
 
+	planet_modifier = {
+		pop_environment_tolerance = 0.05
+	}
+
 	prerequisites = {
 		"tech_cofh_se_geoengineering"
 	}
 
 	upgrades = {
-		building_cofh_se_terraformer_2
-		building_cofh_se_terraformer_3
-		building_cofh_se_terraformer_4
-		building_cofh_se_terraformer_5
+		building_cofh_se_geo_complex_2
+		building_cofh_se_terraformer_basic
+		building_cofh_se_terraformer_adv
+		building_cofh_se_terraformer_tomb
+		building_cofh_se_terraformer_gaia
 	}
 
-	ai_special_building = yes
-
 	ai_weight = {
-		weight = 0
+		weight = 10
+		modifier = {
+			weight = 0
+			from = {
+				OR = {
+					is_planet_class = pc_gaia
+					is_planet_class = pc_ringworld_habitable
+				}
+			}
+		}
 	}
 }
 
-building_cofh_se_terraformer_2 = {
-	icon = "building_cofh_se_terraformer_2"
+building_cofh_se_geo_complex_2 = {
+	icon = "building_cofh_se_geo_complex_2"
+	base_buildtime = 180
+	planet_unique = yes
+	is_listed = no
+
+	cost = {
+		minerals = 250
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 2
+	}
+
+	planet_modifier = {
+		pop_environment_tolerance = 0.10
+	}
+
+	prerequisites = {
+		"tech_atmospheric_manipulation"
+	}
+
+	ai_weight = {
+		weight = 10
+		modifier = {
+			weight = 0
+			from = {
+				OR = {
+					is_planet_class = pc_gaia
+					is_planet_class = pc_ringworld_habitable
+				}
+			}
+		}
+	}
+}
+
+building_cofh_se_terraformer_basic = {
+	icon = "building_cofh_se_terraformer_basic"
 	base_buildtime = 360
 	planet_unique = yes
+	is_listed = no
 
 	cost = {
 		energy = 800
@@ -103,6 +158,18 @@ building_cofh_se_terraformer_2 = {
 		"tech_terrestrial_sculpting"
 	}
 
+	allow = {
+		custom_tooltip = {
+			text = "cofh_se_not_gaia"
+			planet = {
+				NOR = {
+					is_planet_class = pc_gaia
+					is_planet_class = pc_ringworld_habitable
+				}
+			}
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -110,10 +177,11 @@ building_cofh_se_terraformer_2 = {
 	}
 }
 
-building_cofh_se_terraformer_3 = {
-	icon = "building_cofh_se_terraformer_3"
+building_cofh_se_terraformer_adv = {
+	icon = "building_cofh_se_terraformer_adv"
 	base_buildtime = 360
 	planet_unique = yes
+	is_listed = no
 
 	cost = {
 		energy = 2000
@@ -135,6 +203,18 @@ building_cofh_se_terraformer_3 = {
 		"tech_atmospheric_manipulation"
 	}
 
+	allow = {
+		custom_tooltip = {
+			text = "cofh_se_not_gaia"
+			planet = {
+				NOR = {
+					is_planet_class = pc_gaia
+					is_planet_class = pc_ringworld_habitable
+				}
+			}
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -142,10 +222,11 @@ building_cofh_se_terraformer_3 = {
 	}
 }
 
-building_cofh_se_terraformer_4 = {
-	icon = "building_cofh_se_terraformer_4"
+building_cofh_se_terraformer_tomb = {
+	icon = "building_cofh_se_terraformer_tomb"
 	base_buildtime = 540
 	planet_unique = yes
+	is_listed = no
 
 	cost = {
 		energy = 4000
@@ -166,6 +247,15 @@ building_cofh_se_terraformer_4 = {
 		"tech_climate_restoration"
 	}
 
+	allow = {
+		custom_tooltip = {
+			text = "cofh_se_is_tomb"
+			planet = {
+				is_planet_class = pc_nuked
+			}
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -173,10 +263,11 @@ building_cofh_se_terraformer_4 = {
 	}
 }
 
-building_cofh_se_terraformer_5 = {
-	icon = "building_cofh_se_terraformer_5"
+building_cofh_se_terraformer_gaia = {
+	icon = "building_cofh_se_terraformer_gaia"
 	base_buildtime = 720
 	planet_unique = yes
+	is_listed = no
 
 	cost = {
 		energy = 8000
@@ -195,6 +286,18 @@ building_cofh_se_terraformer_5 = {
 
 	prerequisites = {
 		"tech_gaia_creation"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "cofh_se_not_gaia"
+			planet = {
+				NOR = {
+					is_planet_class = pc_gaia
+					is_planet_class = pc_ringworld_habitable
+				}
+			}
+		}
 	}
 
 	ai_special_building = yes

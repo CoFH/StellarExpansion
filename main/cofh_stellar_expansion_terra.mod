@@ -3,7 +3,7 @@ path="mod/cofh_stellar_expansion_terra"
 tags={
 	"CoFH"
 	"Stellar Expansion"
-	"Balance"
+	"Buildings"
 	"Gameplay"
 	"Technologies"
 }

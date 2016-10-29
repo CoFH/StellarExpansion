@@ -381,7 +381,7 @@ cofh_se_auxiliary_tender = {
 	section_slots = { "mid" = { locator = "part1" } }
 	num_target_locators = 0
 	is_space_station = no
-	icon_frame = 7
+	icon_frame = 3
 	base_buildtime = 180
 	required_spaceport_level = 2
 

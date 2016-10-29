@@ -1,7 +1,13 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
-2016-10-2x:
+2016-10-29:
+Added new ship class: Tender Ship. Provides a ship upkeep discount and repair
+boost to fleets that it is attached to. No weapons.
+
+Added support for AI empires to use new ship classes, including Tenders.
+
+Reweighted auto-design components a bit for benefit of AI empires.
 
 --------------------------------------------------------------------------------
 

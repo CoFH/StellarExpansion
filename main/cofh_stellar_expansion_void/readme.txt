@@ -42,10 +42,18 @@ Advanced Cruisers
 # Spaceships
 ################################################################################
 
-At the moment, AI do not make fantastic use of these ships, as they are not
-standard classes. While that's a bit unfortunate for normal play, it does mean
-that Awakened Fallen Empires and the endgame crises are a bit more manageable
-when the 1.3 empire AI inevitably fails to do anything useful.
+Auxiliary Ships
+--------------------------------------------------------------------------------
+This is a catch-all class for ships which are military-class but do not have
+combat roles. At the moment, the only such ship is the Tender Ship.
+
+	Advantages
+	----------------------------------------
+	Unique Fleet Boosts
+
+	Disadvantages
+	----------------------------------------
+	No Weapons
 
 Heavy Ships
 --------------------------------------------------------------------------------

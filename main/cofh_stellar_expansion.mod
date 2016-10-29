@@ -4,6 +4,7 @@ tags={
 	"CoFH"
 	"Stellar Expansion"
 	"Balance"
+	"Buildings"
 	"Gameplay"
 	"Technologies"
 }

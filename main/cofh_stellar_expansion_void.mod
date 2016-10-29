@@ -3,8 +3,8 @@ path="mod/cofh_stellar_expansion_void"
 tags={
 	"CoFH"
 	"Stellar Expansion"
-	"Balance"
 	"Gameplay"
+	"Military"
 	"Technologies"
 	"Spaceships"
 }

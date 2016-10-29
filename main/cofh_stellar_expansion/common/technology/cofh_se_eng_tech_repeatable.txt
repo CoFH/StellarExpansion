@@ -163,6 +163,10 @@ tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
 	prerequisites = { "tech_spaceport_5" }
 	weight = @repeatableTechWeight
 
+	modifier = {
+		weapon_type_strike_craft_speed_mult = 0.10
+	}
+
 	weight_modifier = {
 		factor = @repeatableTechFactor
 	}
@@ -176,9 +180,5 @@ tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
 	}
 	mod_weight_if_group_picked = {
 		repeatable = 0.01
-	}
-
-	modifier = {
-		weapon_type_strike_craft_speed_mult = 0.10
 	}
 }
