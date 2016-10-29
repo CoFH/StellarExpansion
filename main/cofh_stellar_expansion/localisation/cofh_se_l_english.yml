@@ -1,0 +1,13 @@
+﻿l_english:
+
+# Modifiers
+
+ damage_vs_country_type_ai_empire_mult:0 "Damage to Machine Consciousness Vessels"
+ damage_vs_country_type_extradimensional_mult:0 "Damage to Unbidden Invaders"
+ damage_vs_country_type_extradimensional_2_mult:0 "Damage to Aberrant Invaders"
+ damage_vs_country_type_extradimensional_3_mult:0 "Damage to Vehement Invaders"
+
+# Tooltips
+
+ TECH_COFH_SE_ANTI_EXD_TITLE:0 "Damage to Extradimensional Invaders: §G+15%§!"
+ TECH_COFH_SE_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\nEmpire Modifier\n$TECH_COFH_SE_ANTI_EXD_TITLE$"

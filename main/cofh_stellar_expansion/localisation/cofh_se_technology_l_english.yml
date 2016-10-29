@@ -2,6 +2,17 @@
 
 # Technology - Non-Repeatable
 
+# Anti-Crisis
+
+ tech_cofh_se_anti_ai_empire:0 "Machine Consciousness Countermeasures"
+ tech_cofh_se_anti_ai_empire_desc:0 "Analysis of Machine Consciousness vessels provides us with knowledge of their limited structural weaknesses."
+
+ tech_cofh_se_anti_extradimensional:0 "Extradimensional Invader Countermeasures"
+ tech_cofh_se_anti_extradimensional_desc:0 "Observation of Extradimensional forces allows us to more accurately target weapons for maximum disruption."
+
+ tech_cofh_se_anti_swarm:0 "Prethoryn Scourge Countermeasures"
+ tech_cofh_se_anti_swarm_desc:0 "Study of Prethoryn Creature anatomy and physiology allows our forces to more quickly disable the beasts."
+
 # Engineering
 
  tech_cofh_se_protocol_droids:0 "Protocol Droids"
