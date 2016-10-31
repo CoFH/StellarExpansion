@@ -1,0 +1,269 @@
+# CoFH - Stellar Expansion
+# Events
+# Author: King Lemming
+
+namespace = cofh_se
+
+################################################################################
+# SWARM
+################################################################################
+
+country_event = {
+	id = cofh_se.100
+	title = "cofh_se.100.name"
+	desc = "cofh_se.100.desc"
+	picture = GFX_evt_star_chart
+	show_sound = advisor_notification_alien_vessel_encountered
+	location = FROMFROMFROM
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_country_type = swarm }
+		is_country_type = default
+		is_ai = no
+		NOT = { has_country_flag = swarm_encountered }
+	}
+
+	immediate = {
+		set_country_flag = swarm_encountered
+		capital_scope = { save_event_target_as = pc_home }
+		from = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_SWARM"
+				location = event_target:pc_home
+				owner = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+		tooltip = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_SWARM"
+				location = event_target:pc_home
+				owner = ROOT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.101
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = from
+		is_country_type = default
+		FROM = { is_country_type = swarm }
+	}
+
+	immediate = {
+		change_variable = {
+			which = "swarm_ship_kills"
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.110
+	title = cofh_se.110.name
+	desc = cofh_se.110.desc
+	picture = GFX_evt_society_research
+	show_sound = event_alien_nature
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		add_research_option = tech_cofh_se_anti_swarm
+		add_tech_progress = {
+			tech = tech_cofh_se_anti_swarm
+			progress = 0.25
+		}
+	}
+}
+
+################################################################################
+# EXTRADIMENSIONAL
+################################################################################
+
+country_event = {
+	id = cofh_se.200
+	title = "cofh_se.200.name"
+	desc = "cofh_se.200.desc"
+	picture = GFX_evt_star_chart
+	show_sound = advisor_notification_alien_vessel_encountered
+	location = FROMFROMFROM
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = {
+			OR = {
+				is_country_type = extradimensional
+				is_country_type = extradimensional_2
+				is_country_type = extradimensional_3
+			}
+		}
+		is_country_type = default
+		is_ai = no
+		NOT = { has_country_flag = exd_encountered }
+	}
+
+	immediate = {
+		set_country_flag = exd_encountered
+		capital_scope = { save_event_target_as = pc_home }
+		from = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_EXD"
+				location = event_target:pc_home
+				owner = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+		tooltip = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_EXD"
+				location = event_target:pc_home
+				owner = ROOT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.201
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = from
+		is_country_type = default
+		FROM = {
+			OR = {
+				is_country_type = extradimensional
+				is_country_type = extradimensional_2
+				is_country_type = extradimensional_3
+			}
+		}
+	}
+
+	immediate = {
+		change_variable = {
+			which = "exd_ship_kills"
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.210
+	title = cofh_se.210.name
+	desc = cofh_se.210.desc
+	picture = GFX_evt_physics_research
+	show_sound = event_ex_started
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		add_research_option = tech_cofh_se_anti_extradimensional
+		add_tech_progress = {
+			tech = tech_cofh_se_anti_extradimensional
+			progress = 0.25
+		}
+	}
+}
+
+################################################################################
+# AI UPRISING
+################################################################################
+
+country_event = {
+	id = cofh_se.300
+	title = "cofh_se.300.name"
+	desc = "cofh_se.300.desc"
+	picture = GFX_evt_star_chart
+	show_sound = advisor_notification_alien_vessel_encountered
+	location = FROMFROMFROM
+
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = { is_country_type = ai_empire }
+		is_country_type = default
+		is_ai = no
+		NOT = { has_country_flag = ai_encountered }
+	}
+
+	immediate = {
+		set_country_flag = ai_encountered
+		capital_scope = { save_event_target_as = pc_home }
+		from = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_AI"
+				location = event_target:pc_home
+				owner = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = EXCELLENT
+		tooltip = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_AI"
+				location = event_target:pc_home
+				owner = ROOT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.301
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		exists = from
+		is_country_type = default
+		FROM = { is_country_type = ai_empire }
+	}
+
+	immediate = {
+		change_variable = {
+			which = "ai_ship_kills"
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.310
+	title = cofh_se.310.name
+	desc = cofh_se.310.desc
+	picture = GFX_evt_sentient_AI
+	show_sound = event_ai_started
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		add_research_option = tech_cofh_se_anti_ai_empire
+		add_tech_progress = {
+			tech = tech_cofh_se_anti_ai_empire
+			progress = 0.25
+		}
+	}
+}

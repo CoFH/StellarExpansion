@@ -156,7 +156,7 @@ utility_component_template = {
 	upgrades_to = "COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2"
 
 	ai_weight = {
-		weight = 10
+		weight = 11
 	}
 }
 
@@ -180,7 +180,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 20
+		weight = 21
 	}
 }
 
@@ -203,7 +203,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 30
+		weight = 31
 	}
 }
 
@@ -229,7 +229,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 50
+		weight = 41
 	}
 }
 
@@ -252,7 +252,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 100
+		weight = 51
 	}
 }
 
@@ -280,7 +280,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 110
 	}
 }
 
@@ -308,7 +308,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 20
+		weight = 120
 	}
 }
 
@@ -335,7 +335,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 30
+		weight = 130
 	}
 }
 
@@ -362,7 +362,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 40
+		weight = 140
 	}
 }
 
@@ -389,7 +389,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 50
+		weight = 150
 	}
 }
 
@@ -411,7 +411,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 111
 	}
 }
 
@@ -437,7 +437,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 20
+		weight = 121
 	}
 }
 
@@ -462,7 +462,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 30
+		weight = 131
 	}
 }
 
@@ -488,7 +488,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 40
+		weight = 141
 	}
 }
 
@@ -513,7 +513,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 50
+		weight = 151
 	}
 }
 
@@ -541,7 +541,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 210
 	}
 }
 
@@ -567,7 +567,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 20
+		weight = 220
 	}
 }
 
@@ -592,7 +592,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 30
+		weight = 230
 	}
 }
 
@@ -617,7 +617,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 50
+		weight = 250
 	}
 }
 
@@ -645,7 +645,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 40
+		weight = 240
 	}
 }
 
@@ -667,7 +667,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 211
 	}
 }
 
@@ -692,7 +692,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 20
+		weight = 221
 	}
 }
 
@@ -716,7 +716,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 30
+		weight = 231
 	}
 }
 
@@ -740,7 +740,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 50
+		weight = 241
 	}
 }
 
@@ -767,6 +767,249 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 100
+		weight = 251
+	}
+}
+
+################################################################################
+# BATTLESHIPS
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	upgrades_to = "COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+	}
+
+	ai_weight = {
+		weight = 310
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "BATTLESHIP_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_weapon_damage = 0.05
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+	}
+
+	ai_weight = {
+		weight = 320
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+	}
+
+	ai_weight = {
+		weight = 330
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_fire_rate_mult = 0.05
+		ship_tracking_add = 5
+		ship_accuracy_add = 5
+	}
+
+	ai_weight = {
+		weight = 350
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_hvy }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_weapon_damage = 0.05
+		ship_accuracy_add = 10
+		ship_tracking_add = 10
+	}
+
+	ai_weight = {
+		weight = 340
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_1"
+	size = small
+	icon = "GFX_ship_part_computer_default"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	upgrades_to = "COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_2"
+
+	ship_modifier = {
+		ship_weapon_range_mult = 0.1
+	}
+
+	ai_weight = {
+		weight = 311
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_2"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_basic"
+	icon_frame = 1
+	power = -5
+	cost = 5
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_1" }
+	upgrades_to = "BATTLESHIP_COMBAT_COMPUTER_3"
+
+	ship_modifier = {
+		ship_weapon_damage = 0.05
+		ship_weapon_range_mult = 0.2
+	}
+
+	ai_weight = {
+		weight = 321
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_3"
+	size = small
+	icon = "GFX_ship_part_computer_defensive_advanced"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_2" }
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_weapon_range_mult = 0.3
+	}
+
+	ai_weight = {
+		weight = 331
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_4"
+	size = small
+	icon = "GFX_ship_part_computer_sentient"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_combat_computers_3" }
+
+	ship_modifier = {
+		ship_weapon_damage = 0.1
+		ship_fire_rate_mult = 0.05
+		ship_weapon_range_mult = 0.3
+	}
+
+	ai_weight = {
+		weight = 341
+	}
+}
+
+utility_component_template = {
+	key = "COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_PRECOG"
+	size = small
+	icon = "GFX_ship_part_computer_pregoc"
+	icon_frame = 1
+	power = -20
+	cost = 20
+	class_restriction = { shipclass_military }
+	size_restriction = { cofh_se_battleship_sup }
+	component_set = "combat_computers"
+	ship_behavior = "battleship_sniper"
+	prerequisites = { "tech_precognition_interface" }
+
+	ship_modifier = {
+		ship_weapon_damage = 0.05
+		ship_accuracy_add = 5
+		ship_tracking_add = 5
+		ship_weapon_range_mult = 0.3
+	}
+
+	ai_weight = {
+		weight = 351
 	}
 }

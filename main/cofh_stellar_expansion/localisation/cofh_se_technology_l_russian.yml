@@ -16,9 +16,6 @@
 
 # Ethos Buildings
 
- tech_cofh_se_xeno_food:0 "Центр переработки ксено-продовольствия"
- tech_cofh_se_xeno_food_desc:0 "Изучение чужеродных форм жизни и разработака четких представлений о потенциальном риске их биохимии, мы научимся лучше адаптировать и перерабатывать пищевые продукты."
-
  tech_cofh_se_central_intelligence:0 "Министерство разведки"
  tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
 

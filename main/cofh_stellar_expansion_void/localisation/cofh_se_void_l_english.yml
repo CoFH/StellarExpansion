@@ -36,21 +36,26 @@
  cofh_se_ship_xlarge_aura_components:0 "Extra Large Field Emitter"
  cofh_se_ship_xlarge_aura_components_desc:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
 
- cofh_se_aura_hull_repair:0 "$cofh_se_aura_category_defensive$ - Hull Repair"
- cofh_se_aura_sensor_dampener:0 "$cofh_se_aura_category_offensive$ - Sensor Dampening"
- cofh_se_aura_weapon_disruptor:0 "$cofh_se_aura_category_offensive$ - Weapon Disruption"
+ cofh_se_aura_ftl_dec:0 "$cofh_se_aura_category_offensive$ - FTL Interdiction"
 
- cofh_se_aura_interdiction_field:0 "$cofh_se_aura_category_offensive$ - Interdiction Field"
- cofh_se_aura_stasis_field:0 "$cofh_se_aura_category_offensive$ - Stasis Field"
-
- cofh_se_aura_hull_boost:0 "$cofh_se_aura_category_defensive$ - Hull Integrity"
- cofh_se_aura_sensor_boost:0 "$cofh_se_aura_category_defensive$ - Sensor Amplification"
- cofh_se_aura_shield_boost:0 "$cofh_se_aura_category_defensive$ - Shield Integrity"
- cofh_se_aura_shield_recharger:0 "$cofh_se_aura_category_defensive$ - Shield Recharger"
+ cofh_se_aura_hull_inc:0 "$cofh_se_aura_category_defensive$ - Hull Integrity"
+ cofh_se_aura_hull_regen:0 "$cofh_se_aura_category_defensive$ - Hull Repair"
 
  cofh_se_aura_minefield:0 "$cofh_se_aura_category_offensive$ - Minefield"
 
+ cofh_se_aura_sensor_dec:0 "$cofh_se_aura_category_offensive$ - Sensor Dampening"
+ cofh_se_aura_sensor_inc:0 "$cofh_se_aura_category_defensive$ - Sensor Amplification"
+
+ cofh_se_aura_shield_inc:0 "$cofh_se_aura_category_defensive$ - Shield Integrity"
+ cofh_se_aura_shield_regen:0 "$cofh_se_aura_category_defensive$ - Shield Regeneration"
+
+ cofh_se_aura_speed_dec:0 "$cofh_se_aura_category_offensive$ - Sublight Snare"
+ cofh_se_aura_speed_inc:0 "$cofh_se_aura_category_defensive$ - Sublight Speed"
+
  cofh_se_aura_upkeep:0 "$cofh_se_aura_category_support$ - Fleet Maintenance"
+
+ cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - Weapon Disruption"
+ cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - Weapon Amplification"
 
  TECH_COFH_SE_UNLOCK_CORVETTES_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Corvette"
  TECH_COFH_SE_UNLOCK_CORVETTES_HVY_DESC:0 "§HHeavy Corvette§!\nAn improved version of the basic military ship meant to engage ships of similar size."
@@ -71,10 +76,10 @@
  TECH_COFH_SE_UNLOCK_CRUISERS_SUP_DESC:0 "§HCommand Cruiser§!\nA heavily armored ship which can provide combat and logistical support to a fleet."
 
  TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Battleship"
- TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HHeavy Battleship§!\nA variant of the Battleship intended for ."
+ TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HHeavy Battleship§!\nA heavily armored warship specialized in long range engagements."
 
  TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Arbiter Battleship"
- TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HCommand Cruiser§!\nA carrier platform which provides considerable battlefield and logistical control."
+ TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HArbiter Battleship§!\nA support platform which provides considerable battlefield and logistical control."
 
  TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HUnlocks Ship Type:§! Tender Ship"
  TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HHeavy Corvette§!\nAn unarmed support ship which performs routine maintenance and upkeep for a fleet."
@@ -128,16 +133,27 @@
  COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Arbiter Battleship)"
 
  COFH_SE_AURA_EMPTY:0 "Empty Slot"
- COFH_SE_AURA_HULL_BOOST:0 "Hull Integrity Matrix"
- COFH_SE_AURA_HULL_REPAIR:0 "Nanobot Cloud"
- COFH_SE_AURA_INTERDICTION_FIELD:0 "Interdiction Bubble"
- COFH_SE_AURA_MINEFIELD:0 "Proximity Minefield"
- COFH_SE_AURA_SENSOR_BOOST:0 "Sensor Locus"
- COFH_SE_AURA_SENSOR_DAMPENER:0 "Sensor Dampener"
- COFH_SE_AURA_SHIELD_BOOST:0 "Shield Integrity Matrix"
- COFH_SE_AURA_SHIELD_RECHARGER:0 "Capacitor Field"
- COFH_SE_AURA_STASIS_FIELD:0 "Stasis Bubble"
- COFH_SE_AURA_WEAPON_DISRUPTOR:0 "Quantum Destabilizer"
+
+ COFH_SE_AURA_FTL_DEC:0 "Interdiction Bubble"
+
+ COFH_SE_AURA_HULL_INC:0 "Hull Integrity Matrix"
+ COFH_SE_AURA_HULL_REGEN:0 "Nanobot Cloud"
+
+ COFH_SE_AURA_MINEFIELD_0:0 "Proximity Minefield"
+ COFH_SE_AURA_MINEFIELD_1:0 "Proton Minefield"
+ COFH_SE_AURA_MINEFIELD_2:0 "Neutron Minefield"
+
+ COFH_SE_AURA_SENSOR_DEC:0 "Sensor Dampener"
+ COFH_SE_AURA_SENSOR_INC:0 "Sensor Locus"
+
+ COFH_SE_AURA_SHIELD_INC:0 "Shield Integrity Matrix"
+ COFH_SE_AURA_SHIELD_REGEN:0 "Capacitor Field"
+
+ COFH_SE_AURA_SPEED_DEC:0 "Stasis Bubble"
+ COFH_SE_AURA_SPEED_INC:0 "Micro-Warp Bubble"
+
+ COFH_SE_AURA_WEAPON_ROF_DEC:0 "Quantum Destabilizer"
+ COFH_SE_AURA_WEAPON_ROF_INC:0 "Quantum Alignment Field"
 
  COFH_SE_SHIP_MOUNTED:0 "Ship-mounted"
  COFH_SE_AURA_SMALL:0 "Support"
@@ -151,19 +167,22 @@
  COFH_SE_SHIP_AURA_LARGE_EMPTY:0 "$AURA_EMPTY$"
  COFH_SE_SHIP_AURA_XLARGE_EMPTY:0 "$AURA_EMPTY$"
 
- COFH_SE_SHIP_SMALL_AURA_HULL_REPAIR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REPAIR$"
- COFH_SE_SHIP_SMALL_AURA_SENSOR_DAMPENER:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DAMPENER$"
- COFH_SE_SHIP_SMALL_AURA_WEAPON_DISRUPTOR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_DISRUPTOR$"
+ COFH_SE_SHIP_SMALL_AURA_HULL_REGEN:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REGEN$"
+ COFH_SE_SHIP_SMALL_AURA_SENSOR_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DEC$"
+ COFH_SE_SHIP_SMALL_AURA_WEAPON_ROF_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_ROF_DEC$"
 
- COFH_SE_SHIP_MEDIUM_AURA_STASIS_FIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_STASIS_FIELD$"
- COFH_SE_SHIP_MEDIUM_AURA_INTERDICTION_FIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_INTERDICTION_FIELD$"
+ COFH_SE_SHIP_MEDIUM_AURA_FTL_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_FTL_DEC$"
+ COFH_SE_SHIP_MEDIUM_AURA_SPEED_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_SPEED_DEC$"
 
- COFH_SE_SHIP_LARGE_AURA_HULL_BOOST:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_BOOST$"
- COFH_SE_SHIP_LARGE_AURA_SENSOR_BOOST:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_BOOST$"
- COFH_SE_SHIP_LARGE_AURA_SHIELD_BOOST:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_BOOST$"
- COFH_SE_SHIP_LARGE_AURA_SHIELD_RECHARGER:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_RECHARGER$"
+ COFH_SE_SHIP_LARGE_AURA_HULL_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_INC$"
+ COFH_SE_SHIP_LARGE_AURA_SENSOR_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_INC$"
+ COFH_SE_SHIP_LARGE_AURA_SHIELD_REGEN:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_REGEN$"
 
- COFH_SE_SHIP_XLARGE_AURA_MINEFIELD:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_0:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_0$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_1:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_1$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_2:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_2$"
+ COFH_SE_SHIP_XLARGE_AURA_SPEED_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_SPEED_INC$"
+ COFH_SE_SHIP_XLARGE_AURA_WEAPON_ROF_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_WEAPON_ROF_INC$"
 
- COFH_SE_SHIP_TENDER_AURA_UPKEEP:0 "$AURA_EMPTY$"
- COFH_SE_SHIP_TENDER_AURA_HULL_REPAIR:0 "$COFH_SE_SHIP_MOUNTED$ $COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REPAIR$"
+ COFH_SE_SHIP_TENDER_AURA_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_TENDER_AURA_HULL_REGEN:0 "$COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REGEN$"

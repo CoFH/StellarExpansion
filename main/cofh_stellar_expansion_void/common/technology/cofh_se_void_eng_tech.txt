@@ -245,8 +245,7 @@ tech_cofh_se_battleships_adv = {
 	tier = 3
 	category = { voidcraft }
 	prerequisites = { "tech_spaceport_6" }
-	#weight = @tier3weight3
-	weight = 0
+	weight = @tier3weight3
 
 	gateway = ship
 

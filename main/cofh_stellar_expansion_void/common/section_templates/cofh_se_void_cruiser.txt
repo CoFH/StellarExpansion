@@ -68,7 +68,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "COFH_SE_CRUISER_HVY_BOW_M2_T"
+	key = "COFH_SE_CRUISER_HVY_BOW_T2"
 	ship_size = cofh_se_cruiser_hvy
 	fits_on_slot = bow
 	entity = "cruiser_bow_M2_entity"
@@ -172,7 +172,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "COFH_SE_CRUISER_HVY_MID_M3_T"
+	key = "COFH_SE_CRUISER_HVY_MID_T3"
 	ship_size = cofh_se_cruiser_hvy
 	fits_on_slot = mid
 	entity = "cruiser_mid_M3_entity"
@@ -228,7 +228,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "COFH_SE_CRUISER_HVY_STERN_M1_T"
+	key = "COFH_SE_CRUISER_HVY_STERN_T1"
 	ship_size = cofh_se_cruiser_hvy
 	fits_on_slot = stern
 	entity = "cruiser_stern_M1_entity"
@@ -417,7 +417,7 @@ ship_section_template = {
 }
 
 ship_section_template = {
-	key = "COFH_SE_CRUISER_SUP_MID_S2HB"
+	key = "COFH_SE_CRUISER_SUP_MID_S2LHB"
 	ship_size = cofh_se_cruiser_sup
 	fits_on_slot = mid
 	entity = "cruiser_mid_S2HB_entity"

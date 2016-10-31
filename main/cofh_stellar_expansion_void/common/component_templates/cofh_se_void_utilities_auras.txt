@@ -72,7 +72,7 @@ utility_component_template = {
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_TENDER_AURA_UPKEEP"
+	key = "COFH_SE_SHIP_TENDER_AURA_EMPTY"
 	size = medium
 	icon = "GFX_ship_part_empty_ftl_drive"
 	icon_frame = 1
@@ -118,7 +118,7 @@ utility_component_template = {
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_TENDER_AURA_HULL_REPAIR"
+	key = "COFH_SE_SHIP_TENDER_AURA_HULL_REGEN"
 	size = medium
 	icon = "GFX_ship_part_aura_nanobot"
 	icon_frame = 1
@@ -134,13 +134,13 @@ utility_component_template = {
 
 		stack_info = {
 			id = friendly_support_aura_upkeep
-			priority = 1
+			priority = 10
 		}
 
 		modifier = {
+			ship_auto_repair_add = 0.02
 			ship_upkeep_mult = -0.15
 			ship_reparation_speed_mult = 0.15
-			ship_auto_repair_add = 0.02
 		}
 
 		graphics = {
@@ -165,7 +165,7 @@ utility_component_template = {
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_SMALL_AURA_HULL_REPAIR"
+	key = "COFH_SE_SHIP_SMALL_AURA_HULL_REGEN"
 	size = small
 	icon = "GFX_ship_part_aura_nanobot"
 	icon_frame = 1
@@ -175,12 +175,12 @@ utility_component_template = {
 	component_set = "cofh_se_ship_small_aura_components"
 
 	friendly_aura = {
-		name = "cofh_se_aura_hull_repair"
+		name = "cofh_se_aura_hull_regen"
 		radius = @shipSmallAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = friendly_support_aura_hull_repair
+			id = friendly_support_aura_hull_regen
 			priority = 5
 		}
 
@@ -210,9 +210,9 @@ utility_component_template = {
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_SMALL_AURA_SENSOR_DAMPENER"
+	key = "COFH_SE_SHIP_SMALL_AURA_SENSOR_DEC"
 	size = small
-	icon = "GFX_ship_part_cofh_se_aura_sensor_dampener"
+	icon = "GFX_ship_part_cofh_se_aura_sensor_dec"
 	icon_frame = 1
 	power = -25
 	cost = 100
@@ -220,12 +220,12 @@ utility_component_template = {
 	component_set = "cofh_se_ship_small_aura_components"
 
 	hostile_aura = {
-		name = "cofh_se_aura_sensor_dampener"
+		name = "cofh_se_aura_sensor_dec"
 		radius = @shipSmallAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = hostile_inhibitor_aura_sensor_dampener
+			id = hostile_inhibitor_aura_sensor_dec
 			priority = 1
 		}
 
@@ -257,7 +257,7 @@ utility_component_template = {
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_SMALL_AURA_WEAPON_DISRUPTOR"
+	key = "COFH_SE_SHIP_SMALL_AURA_WEAPON_ROF_DEC"
 	size = small
 	icon = "GFX_ship_part_aura_quantum_destabilizer"
 	icon_frame = 1
@@ -268,12 +268,12 @@ utility_component_template = {
 	prerequisites = {"tech_aura_quantum_destabilizer"}
 
 	hostile_aura = {
-		name = "cofh_se_aura_weapon_disruptor"
+		name = "cofh_se_aura_weapon_rof_dec"
 		radius = @shipSmallAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = hostile_inhibitor_aura_weapon_disruptor
+			id = hostile_inhibitor_aura_weapon_rof_dec
 			priority = 1
 		}
 
@@ -299,13 +299,13 @@ utility_component_template = {
 }
 
 ################################################################################
-# DESTROYER - Stasis Field
+# DESTROYER - Interdiction Field
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_MEDIUM_AURA_STASIS_FIELD"
+	key = "COFH_SE_SHIP_MEDIUM_AURA_FTL_DEC"
 	size = medium
-	icon = "GFX_ship_part_cofh_se_aura_stasis_field"
+	icon = "GFX_ship_part_aura_snare"
 	icon_frame = 1
 	power = -50
 	cost = 150
@@ -313,12 +313,59 @@ utility_component_template = {
 	component_set = "cofh_se_ship_medium_aura_components"
 
 	hostile_aura = {
-		name = "cofh_se_aura_stasis_field"
+		name = "cofh_se_aura_ftl_dec"
 		radius = @shipMediumAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = hostile_inhibitor_stasis_field
+			id = hostile_inhibitor_ftl_dec
+			priority = 5
+		}
+
+		modifier = {
+			ship_speed_mult = -0.25
+			ship_windup_mult = 2
+			fleet_emergency_ftl_min_days_mult = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_negative_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 1
+	}
+}
+
+################################################################################
+# DESTROYER - Stasis Field
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_MEDIUM_AURA_SPEED_DEC"
+	size = medium
+	icon = "GFX_ship_part_cofh_se_aura_speed_dec"
+	icon_frame = 1
+	power = -50
+	cost = 150
+
+	component_set = "cofh_se_ship_medium_aura_components"
+
+	hostile_aura = {
+		name = "cofh_se_aura_speed_dec"
+		radius = @shipMediumAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_inhibitor_speed_dec
 			priority = 5
 		}
 
@@ -346,60 +393,13 @@ utility_component_template = {
 }
 
 ################################################################################
-# DESTROYER - Interdiction Field
+# CRUISER - Hull Integrity Matrix
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_MEDIUM_AURA_INTERDICTION_FIELD"
-	size = medium
-	icon = "GFX_ship_part_aura_snare"
-	icon_frame = 1
-	power = -50
-	cost = 150
-
-	component_set = "cofh_se_ship_medium_aura_components"
-
-	hostile_aura = {
-		name = "cofh_se_aura_interdiction_field"
-		radius = @shipMediumAuraRange
-		apply_on = ships
-
-		stack_info = {
-			id = hostile_inhibitor_interdiction_field
-			priority = 5
-		}
-
-		modifier = {
-			ship_speed_mult = -0.25
-			ship_windup_mult = 2
-			fleet_emergency_ftl_min_days_mult = 0.5
-		}
-
-		graphics = {
-			area_effect = {
-				entity = "circle_area_entity"
-				dynamic_scale = yes
-			}
-			#ship_effect = {
-			#	entity = "ship_aura_negative_entity"
-			#	dynamic_scale = no
-			#}
-		}
-	}
-
-	ai_weight = {
-		weight = 2
-	}
-}
-
-################################################################################
-# CRUISER - Structural Integrity Matrix
-################################################################################
-
-utility_component_template = {
-	key = "COFH_SE_SHIP_LARGE_AURA_HULL_BOOST"
+	key = "COFH_SE_SHIP_LARGE_AURA_HULL_INC"
 	size = large
-	icon = "GFX_ship_part_cofh_se_aura_hull_boost"
+	icon = "GFX_ship_part_cofh_se_aura_hull_inc"
 	icon_frame = 1
 	power = -100
 	cost = 200
@@ -407,12 +407,12 @@ utility_component_template = {
 	component_set = "cofh_se_ship_large_aura_components"
 
 	friendly_aura = {
-		name = "cofh_se_aura_hull_boost"
+		name = "cofh_se_aura_hull_inc"
 		radius = @shipLargeAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = friendly_support_aura_hull_boost
+			id = friendly_support_aura_hull_inc
 			priority = 10
 		}
 
@@ -433,7 +433,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 1
 	}
 }
 
@@ -442,9 +442,9 @@ utility_component_template = {
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_LARGE_AURA_SENSOR_BOOST"
+	key = "COFH_SE_SHIP_LARGE_AURA_SENSOR_INC"
 	size = large
-	icon = "GFX_ship_part_cofh_se_aura_sensor_boost"
+	icon = "GFX_ship_part_cofh_se_aura_sensor_inc"
 	icon_frame = 1
 	power = -100
 	cost = 200
@@ -452,12 +452,12 @@ utility_component_template = {
 	component_set = "cofh_se_ship_large_aura_components"
 
 	friendly_aura = {
-		name = "cofh_se_aura_sensor_boost"
+		name = "cofh_se_aura_sensor_inc"
 		radius = @shipLargeAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = friendly_support_aura_sensor_boost
+			id = friendly_support_aura_sensor_inc
 			priority = 10
 		}
 
@@ -485,11 +485,11 @@ utility_component_template = {
 }
 
 ################################################################################
-# CRUISER - Shield Recharger
+# CRUISER - Shield Regeneration
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_LARGE_AURA_SHIELD_RECHARGER"
+	key = "COFH_SE_SHIP_LARGE_AURA_SHIELD_REGEN"
 	size = large
 	icon = "GFX_ship_part_aura_shield_recharger"
 	icon_frame = 1
@@ -500,12 +500,12 @@ utility_component_template = {
 	prerequisites = { "tech_shield_recharge_aura_1" }
 
 	friendly_aura = {
-		name = "cofh_se_aura_shield_recharger"
+		name = "cofh_se_aura_shield_regen"
 		radius = @shipLargeAuraRange
 		apply_on = ships
 
 		stack_info = {
-			id = friendly_support_aura_shield_recharger
+			id = friendly_support_aura_shield_regen
 			priority = 10
 		}
 
@@ -526,21 +526,21 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 3
 	}
 }
 
 ################################################################################
-# BATTLESHIP - Minefield
+# BATTLESHIP - Standard Minefield
 ################################################################################
 
 utility_component_template = {
-	key = "COFH_SE_SHIP_XLARGE_AURA_MINEFIELD"
-	size = medium
-	icon = "GFX_ship_part_aura_minefield"
+	key = "COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_0"
+	size = extra_large
+	icon = "GFX_ship_part_cofh_se_aura_minefield_0"
 	icon_frame = 1
 	power = -200
-	cost = 250
+	cost = 200
 
 	component_set = "cofh_se_ship_xlarge_aura_components"
 
@@ -559,7 +559,7 @@ utility_component_template = {
 			damage = { min = 5 max = 15 }
 			shield_damage = 1.0
 			shield_penetration = 0.0
-			armor_penetration = 0.75
+			armor_penetration = 0.5
 		}
 
 		graphics = {
@@ -579,10 +579,222 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 0
+		weight = 10
+
 		modifier = {
-			weight = 101
+			weight = 110
 			has_country_flag = aggressive
 		}
+	}
+}
+
+################################################################################
+# BATTLESHIP - Proton Minefield
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_1"
+	size = extra_large
+	icon = "GFX_ship_part_cofh_se_aura_minefield_1"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "cofh_se_ship_xlarge_aura_components"
+	prerequisites = {"tech_energy_torpedoes_1"}
+
+	hostile_aura = {
+		name = "cofh_se_aura_minefield"
+		radius = @shipXLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_minefield_aura
+			priority = 2
+		}
+
+		damage_per_day = {
+			accuracy = 0.25
+			damage = { min = 10 max = 20 }
+			shield_damage = 1.5
+			shield_penetration = 0.0
+			armor_penetration = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			area_effect = {
+				entity = "mine_field_small_entity"
+				dynamic_scale = no
+			}
+			#ship_effect = {
+			#	 entity = "ship_aura_minefield_entity"
+			#	 dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 15
+
+		modifier = {
+			weight = 115
+			has_country_flag = aggressive
+		}
+	}
+}
+
+################################################################################
+# BATTLESHIP - Neutron Minefield
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_2"
+	size = extra_large
+	icon = "GFX_ship_part_cofh_se_aura_minefield_2"
+	icon_frame = 1
+	power = -200
+	cost = 300
+
+	component_set = "cofh_se_ship_xlarge_aura_components"
+	prerequisites = {"tech_energy_torpedoes_2"}
+
+	hostile_aura = {
+		name = "cofh_se_aura_minefield"
+		radius = @shipXLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = hostile_minefield_aura
+			priority = 3
+		}
+
+		damage_per_day = {
+			accuracy = 0.3
+			damage = { min = 15 max = 25 }
+			shield_damage = 2.0
+			shield_penetration = 0.0
+			armor_penetration = 0.5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			area_effect = {
+				entity = "mine_field_small_entity"
+				dynamic_scale = no
+			}
+			#ship_effect = {
+			#	 entity = "ship_aura_minefield_entity"
+			#	 dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 20
+
+		modifier = {
+			weight = 120
+			has_country_flag = aggressive
+		}
+	}
+}
+
+################################################################################
+# BATTLESHIP - Speed Boost
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_XLARGE_AURA_SPEED_INC"
+	size = extra_large
+	icon = "GFX_ship_part_cofh_se_aura_speed_inc"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "cofh_se_ship_xlarge_aura_components"
+
+	friendly_aura = {
+		name = "cofh_se_aura_speed_inc"
+		radius = @shipXLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_speed_inc
+			priority = 10
+		}
+
+		modifier = {
+			ship_combat_speed_mult = 0.25
+			ship_speed_mult = 0.25
+			ship_evasion_add = 5
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 20
+	}
+}
+
+################################################################################
+# BATTLESHIP - Weapon Boost
+################################################################################
+
+utility_component_template = {
+	key = "COFH_SE_SHIP_XLARGE_AURA_WEAPON_ROF_INC"
+	size = extra_large
+	icon = "GFX_ship_part_cofh_se_aura_weapon_rof_inc"
+	icon_frame = 1
+	power = -200
+	cost = 250
+
+	component_set = "cofh_se_ship_xlarge_aura_components"
+	prerequisites = {"tech_aura_quantum_destabilizer"}
+
+	friendly_aura = {
+		name = "cofh_se_aura_weapon_rof_inc"
+		radius = @shipXLargeAuraRange
+		apply_on = ships
+
+		stack_info = {
+			id = friendly_support_aura_weapon_rof_inc
+			priority = 10
+		}
+
+		modifier = {
+			ship_fire_rate_mult = 0.10
+		}
+
+		graphics = {
+			area_effect = {
+				entity = "circle_area_entity"
+				dynamic_scale = yes
+			}
+			#ship_effect = {
+			#	entity = "ship_aura_positive_entity"
+			#	dynamic_scale = no
+			#}
+		}
+	}
+
+	ai_weight = {
+		weight = 30
 	}
 }

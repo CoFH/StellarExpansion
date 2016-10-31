@@ -57,25 +57,25 @@ default = {
 				# Final: 15
 			}
 
-			#cofh_se_battleship_hvy = {
-			#	fraction = {
-			#		modifier = {
-			#			add = 7
-			#			has_technology = tech_cofh_se_battleships_adv
-			#		}
-			#		# Final: 7
-			#	}
-			#}
+			cofh_se_battleship_hvy = {
+				fraction = {
+					modifier = {
+						add = 7
+						has_technology = tech_cofh_se_battleships_adv
+					}
+					# Final: 7
+				}
+			}
 
-			#cofh_se_battleship_sup = {
-			#	fraction = {
-			#		modifier = {
-			#			add = 3
-			#			has_technology = tech_cofh_se_battleships_adv
-			#		}
-			#		# Final: 3
-			#	}
-			#}
+			cofh_se_battleship_sup = {
+				fraction = {
+					modifier = {
+						add = 3
+						has_technology = tech_cofh_se_battleships_adv
+					}
+					# Final: 3
+				}
+			}
 
 			cruiser = {
 				fraction = {

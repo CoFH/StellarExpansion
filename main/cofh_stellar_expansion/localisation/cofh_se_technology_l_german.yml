@@ -16,9 +16,6 @@
 
 # Ethos Buildings
 
- tech_cofh_se_xeno_food:0 "Xeno Nahrungsfabrik"
- tech_cofh_se_xeno_food_desc:0 "Nach dem Studium verschiedener Alien Lebensformen und der Entwicklung eines klaren Verständnisses der potentiellen Gefahren welche eine Gefangenhaltung birgt, wäre es vielleicht praktischer sie als Nahrung zu benutzen."
-
  tech_cofh_se_central_intelligence:0 "Informationsgewinnung"
  tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
 
