@@ -5,7 +5,8 @@ Hey there! So the purpose of Stellar Expansion is to add onto the vanilla
 Stellaris experience while not introducing things which are too terribly
 imbalanced or out of place.
 
-So for now, just Buildings and Technologies, although Events are sure to come.
+So for now, just Buildings and Technologies. Some of the techs are unlocked
+via Special Projects, but the mod is otherwise event-free.
 
 For features which change the game in a large way, I'll be putting those into
 their own separate modules.
@@ -418,6 +419,26 @@ The Final Frontier:
 	Effects:
 		Unlocks - Building: Frontier Science Institute
 
+Crisis Countermeasures[2]
+--------------------------------------------------------------------------------
+Machine Consciousness Countermeasures:
+	Engineering - Voidcraft
+
+	Effects:
+		+15% Damage to Machine Consciousness Vessels
+
+Extradimensional Invader Countermeasures:
+	Physics - Particles
+
+	Effects:
+		+15% Damage to Extradimensional Invaders
+
+Prethoryn Sourge Countermeasures:
+	Society - Biology
+
+	Effects:
+		+15% Damage to Prethoryn Creatures
+
 ################################################################################
 # Notes
 ################################################################################
@@ -425,3 +446,8 @@ The Final Frontier:
 [1]	This is intentional and not a bug. When you mark a world as prominent,
 	the local ethos may begin to become more relevant and disparate in the
 	context of your empire.
+
+[2] These technologies are unlocked via Special Projects which appear after the
+	crisis fleets have been engaged in battle with your forces. Once unlocked,
+	the technologies can be researched normally and/or completed by destroying
+	crisis ships in combat.

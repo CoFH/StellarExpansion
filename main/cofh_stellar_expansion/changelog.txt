@@ -1,6 +1,30 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-11-01:
+Three new crisis-countermeasure technologies.
+
+To discover these, your fleets must first engage the crisis fleets in combat (win or lose, just have to engage). After a brief waiting period, there will be a prompt for a special project. When completed, a technology will be partially unlocked which gives bonus damage against the crisis enemies.
+
+The technology will remain in the list as a valid research option, and defeating enemy ships will also advance the research.
+
+These won't trivialize the endgame crises by any means - you'll still need massive fleets to take them down. The technologies just invoke the trope of "finding a weakness," which is something that seems reasonable given the galaxy-disrupting nature of a crisis.
+
+New Technologies:
+	Machine Consciousness Countermeasures:
+		Voidcraft
+		+15% Damage to Machine Consciousness Vessels
+
+	Extradimensional Invader Countermeasures:
+		Particles
+		+15% Damage to Extradimensional Invaders
+
+	Prethoryn Sourge Countermeasures:
+		Biology
+		+15% Damage to Prethoryn Creatures
+
+--------------------------------------------------------------------------------
+
 2016-10-27:
 New tech! Not sure how I overlooked this modifier.
 

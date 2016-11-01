@@ -10,61 +10,63 @@ namespace = cofh_se
 
 country_event = {
 	id = cofh_se.100
-	title = "cofh_se.100.name"
-	desc = "cofh_se.100.desc"
-	picture = GFX_evt_star_chart
-	show_sound = advisor_notification_alien_vessel_encountered
-	location = FROMFROMFROM
-
+	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
 		FROM = { is_country_type = swarm }
 		is_country_type = default
-		is_ai = no
-		NOT = { has_country_flag = swarm_encountered }
+		NOT = { has_country_flag = swarm_engaged }
 	}
 
 	immediate = {
-		set_country_flag = swarm_encountered
-		capital_scope = { save_event_target_as = pc_home }
-		from = {
-			enable_special_project = {
-				name = "COFH_SE_INVESTIGATE_SWARM"
-				location = event_target:pc_home
-				owner = ROOT
-			}
-		}
+		set_country_flag = swarm_engaged
+		country_event = { id = cofh_se.101 days = 30 }
 	}
+}
+
+country_event = {
+	id = cofh_se.101
+	title = cofh_se.101.name
+	desc = cofh_se.101.desc
+	picture = GFX_evt_fleet_evil
+	show_sound = event_laboratory_sound
+
+	is_triggered_only = yes
 
 	option = {
-		name = EXCELLENT
-		tooltip = {
+		name = cofh_se.101.a
+		capital_scope = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_SWARM"
-				location = event_target:pc_home
-				owner = ROOT
+				location = this
+				owner = root
 			}
 		}
 	}
 }
 
 country_event = {
-	id = cofh_se.101
+	id = cofh_se.105
 	hide_window = yes
-
-	is_triggered_only = yes
+ 	is_triggered_only = yes
 
 	trigger = {
 		exists = from
 		is_country_type = default
 		FROM = { is_country_type = swarm }
+		NOT = { has_technology = tech_cofh_se_anti_swarm }
 	}
 
 	immediate = {
-		change_variable = {
-			which = "swarm_ship_kills"
-			value = 1
+		if = {
+			limit = {
+				has_tech_option = tech_cofh_se_anti_swarm
+			}
+			add_tech_progress = {
+				tech = tech_cofh_se_anti_swarm
+				progress = 0.03
+			}
 		}
 	}
 }
@@ -94,12 +96,7 @@ country_event = {
 
 country_event = {
 	id = cofh_se.200
-	title = "cofh_se.200.name"
-	desc = "cofh_se.200.desc"
-	picture = GFX_evt_star_chart
-	show_sound = advisor_notification_alien_vessel_encountered
-	location = FROMFROMFROM
-
+	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
@@ -111,38 +108,39 @@ country_event = {
 			}
 		}
 		is_country_type = default
-		is_ai = no
-		NOT = { has_country_flag = exd_encountered }
+		NOT = { has_country_flag = exd_engaged }
 	}
 
 	immediate = {
-		set_country_flag = exd_encountered
-		capital_scope = { save_event_target_as = pc_home }
-		from = {
-			enable_special_project = {
-				name = "COFH_SE_INVESTIGATE_EXD"
-				location = event_target:pc_home
-				owner = ROOT
-			}
-		}
+		set_country_flag = exd_engaged
+		country_event = { id = cofh_se.201 days = 30 }
 	}
+}
+
+country_event = {
+	id = cofh_se.201
+	title = cofh_se.201.name
+	desc = cofh_se.201.desc
+	picture = GFX_evt_fleet_evil
+	show_sound = event_laboratory_sound
+
+	is_triggered_only = yes
 
 	option = {
-		name = EXCELLENT
-		tooltip = {
+		name = cofh_se.201.a
+		capital_scope = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_EXD"
-				location = event_target:pc_home
-				owner = ROOT
+				location = this
+				owner = root
 			}
 		}
 	}
 }
 
 country_event = {
-	id = cofh_se.201
+	id = cofh_se.205
 	hide_window = yes
-
 	is_triggered_only = yes
 
 	trigger = {
@@ -155,12 +153,18 @@ country_event = {
 				is_country_type = extradimensional_3
 			}
 		}
+		NOT = { has_technology = tech_cofh_se_anti_exd }
 	}
 
 	immediate = {
-		change_variable = {
-			which = "exd_ship_kills"
-			value = 1
+		if = {
+			limit = {
+				has_tech_option = tech_cofh_se_anti_exd
+			}
+			add_tech_progress = {
+				tech = tech_cofh_se_anti_exd
+				progress = 0.03
+			}
 		}
 	}
 }
@@ -176,9 +180,9 @@ country_event = {
 
 	option = {
 		name = EXCELLENT
-		add_research_option = tech_cofh_se_anti_extradimensional
+		add_research_option = tech_cofh_se_anti_exd
 		add_tech_progress = {
-			tech = tech_cofh_se_anti_extradimensional
+			tech = tech_cofh_se_anti_exd
 			progress = 0.25
 		}
 	}
@@ -190,61 +194,63 @@ country_event = {
 
 country_event = {
 	id = cofh_se.300
-	title = "cofh_se.300.name"
-	desc = "cofh_se.300.desc"
-	picture = GFX_evt_star_chart
-	show_sound = advisor_notification_alien_vessel_encountered
-	location = FROMFROMFROM
-
+	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
 		FROM = { is_country_type = ai_empire }
 		is_country_type = default
-		is_ai = no
-		NOT = { has_country_flag = ai_encountered }
+		NOT = { has_country_flag = ai_engaged }
 	}
 
 	immediate = {
-		set_country_flag = ai_encountered
-		capital_scope = { save_event_target_as = pc_home }
-		from = {
-			enable_special_project = {
-				name = "COFH_SE_INVESTIGATE_AI"
-				location = event_target:pc_home
-				owner = ROOT
-			}
-		}
+		set_country_flag = ai_engaged
+		country_event = { id = cofh_se.301 days = 30 }
 	}
+}
+
+country_event = {
+	id = cofh_se.301
+	title = cofh_se.301.name
+	desc = cofh_se.301.desc
+	picture = GFX_evt_fleet_evil
+	show_sound = event_laboratory_sound
+
+	is_triggered_only = yes
 
 	option = {
-		name = EXCELLENT
-		tooltip = {
+		name = cofh_se.301.a
+		capital_scope = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_AI"
-				location = event_target:pc_home
-				owner = ROOT
+				location = this
+				owner = root
 			}
 		}
 	}
 }
 
 country_event = {
-	id = cofh_se.301
+	id = cofh_se.305
 	hide_window = yes
-
 	is_triggered_only = yes
 
 	trigger = {
 		exists = from
 		is_country_type = default
 		FROM = { is_country_type = ai_empire }
+		NOT = { has_technology = tech_cofh_se_anti_ai_empire }
 	}
 
 	immediate = {
-		change_variable = {
-			which = "ai_ship_kills"
-			value = 1
+		if = {
+			limit = {
+				has_tech_option = tech_cofh_se_anti_ai_empire
+			}
+			add_tech_progress = {
+				tech = tech_cofh_se_anti_ai_empire
+				progress = 0.03
+			}
 		}
 	}
 }

@@ -2,7 +2,7 @@
 # On Actions
 # Author: King Lemming
 
-on_first_contact = {
+on_entering_battle = {
 	events = {
 		cofh_se.100
 		cofh_se.200
@@ -12,8 +12,8 @@ on_first_contact = {
 
 on_ship_destroyed_perp = {
 	events = {
-		#cofh_se.101
-		#cofh_se.201
-		#cofh_se.301
+		cofh_se.105
+		cofh_se.205
+		cofh_se.305
 	}
 }

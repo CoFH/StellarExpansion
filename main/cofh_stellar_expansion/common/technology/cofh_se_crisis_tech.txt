@@ -60,8 +60,8 @@ tech_cofh_se_anti_ai_empire = {
 }
 
 # Extradimensional Countermeasures
-tech_cofh_se_anti_extradimensional = {
-	icon = "tech_cofh_se_anti_extradimensional"
+tech_cofh_se_anti_exd = {
+	icon = "tech_cofh_se_anti_exd"
 	area = physics
 	cost = @tier3cost4
 	tier = 3
