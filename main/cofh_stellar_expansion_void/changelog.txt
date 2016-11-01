@@ -1,6 +1,17 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-11-01:
+Added advanced battleships.
+
+Reworked mod internally to allow for ease of compatibility modding.
+
+New Ships:
+	-Heavy Battleship
+	-Arbiter Battleship
+
+--------------------------------------------------------------------------------
+
 2016-10-29:
 Added new ship class: Tender Ship. Provides a ship upkeep discount and repair
 boost to fleets that it is attached to. No weapons.

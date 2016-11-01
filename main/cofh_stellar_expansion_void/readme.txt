@@ -38,6 +38,12 @@ Advanced Cruisers
 	Effects:
 		Allows construction of Heavy and Command Cruisers
 
+Advanced Battleships
+	Voidcraft
+
+	Effects:
+		Allows construction of Heavy and Arbiter Battleships
+
 ################################################################################
 # Spaceships
 ################################################################################

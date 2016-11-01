@@ -201,7 +201,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -248,7 +248,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 3
 	}
 }
 
@@ -294,7 +294,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 3
+		weight = 4
 	}
 }
 
@@ -341,7 +341,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -388,7 +388,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 3
 	}
 }
 
@@ -433,7 +433,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 1
+		weight = 2
 	}
 }
 
@@ -480,7 +480,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 2
+		weight = 3
 	}
 }
 
@@ -526,7 +526,7 @@ utility_component_template = {
 	}
 
 	ai_weight = {
-		weight = 3
+		weight = 4
 	}
 }
 

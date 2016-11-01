@@ -25,7 +25,6 @@
 
  cofh_se_aura_category_offensive:0 "Offensive Aura"
  cofh_se_aura_category_defensive:0 "Defensive Aura"
- cofh_se_aura_category_support:0 "Support Aura"
 
  cofh_se_ship_small_aura_components:0 "Small Field Emitter"
  cofh_se_ship_small_aura_components_desc:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
@@ -52,7 +51,7 @@
  cofh_se_aura_speed_dec:0 "$cofh_se_aura_category_offensive$ - Sublight Snare"
  cofh_se_aura_speed_inc:0 "$cofh_se_aura_category_defensive$ - Sublight Speed"
 
- cofh_se_aura_upkeep:0 "$cofh_se_aura_category_support$ - Fleet Maintenance"
+ cofh_se_aura_upkeep:0 "$cofh_se_aura_category_defensive$ - Fleet Maintenance"
 
  cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - Weapon Disruption"
  cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - Weapon Amplification"
@@ -67,7 +66,7 @@
  TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_DESC:0 "§HHeavy Destroyer§!\nA variant of the Destroyer intended for a frontline combat role."
 
  TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Tactical Destroyer"
- TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_DESC:0 "§HTactical Destroyer§!\nA sturdy ship which provides frontline combat support."
+ TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_DESC:0 "§HTactical Destroyer§!\nA sturdy ship which provides frontline control and support."
 
  TECH_COFH_SE_UNLOCK_CRUISERS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Cruiser"
  TECH_COFH_SE_UNLOCK_CRUISERS_HVY_DESC:0 "§HHeavy Cruiser§!\nA heavily armored warship intended for a variety of engagement distances."
@@ -79,10 +78,10 @@
  TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HHeavy Battleship§!\nA heavily armored warship specialized in long range engagements."
 
  TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Arbiter Battleship"
- TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HArbiter Battleship§!\nA support platform which provides considerable battlefield and logistical control."
+ TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HArbiter Battleship§!\nA sturdy support platform which provides considerable battlefield control."
 
  TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HUnlocks Ship Type:§! Tender Ship"
- TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HHeavy Corvette§!\nAn unarmed support ship which performs routine maintenance and upkeep for a fleet."
+ TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HHeavy Corvette§!\nAn unarmed support ship which provides routine maintenance and upkeep for a fleet."
 
  COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Corvette)"
  COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Corvette)"
