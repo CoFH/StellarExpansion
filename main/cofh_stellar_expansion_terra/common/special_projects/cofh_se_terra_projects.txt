@@ -1,0 +1,551 @@
+# CoFH - Stellar Expansion - Terraforming
+# Special Projects
+# Author: King Lemming
+
+################################################################################
+# Basic (Same Hydrosphere) Projects
+################################################################################
+
+special_project = {
+	key = "COFH_SE_TERRA_CONTINENTAL_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_continental
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.100 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_OCEAN_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_ocean
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.101 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_TROPICAL_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_tropical
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.102 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_DESERT_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_desert
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.103 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ARID_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_arid
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.104 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_SAVANNA_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_savannah
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.105 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ARCTIC_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_arctic
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.106 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_TUNDRA_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_tundra
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.107 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ALPINE_BAS"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 900
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_alpine
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.108 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+################################################################################
+# Advanced (Other Hydrosphere) Projects
+################################################################################
+
+special_project = {
+	key = "COFH_SE_TERRA_CONTINENTAL_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_continental
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.100 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_OCEAN_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_ocean
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.101 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_TROPICAL_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_tropical
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.102 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_DESERT_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_desert
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.103 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ARID_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_arid
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.104 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_SAVANNA_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_savannah
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.105 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ARCTIC_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_arctic
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.106 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_TUNDRA_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_tundra
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.107 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ALPINE_ADV"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 1800
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_alpine
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.108 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+################################################################################
+# Special (Tomb) Projects
+################################################################################
+
+special_project = {
+	key = "COFH_SE_TERRA_CONTINENTAL_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_continental
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.100 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_OCEAN_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_ocean
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.101 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_TROPICAL_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_tropical
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.102 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_DESERT_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_desert
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.103 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ARID_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_arid
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.104 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_SAVANNA_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_savannah
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.105 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ARCTIC_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_arctic
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.106 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_TUNDRA_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_tundra
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.107 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+special_project = {
+	key = "COFH_SE_TERRA_ALPINE_TOMB"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 2700
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_alpine
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.108 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}
+
+################################################################################
+# Special (Gaia) Project
+################################################################################
+
+special_project = {
+	key = "COFH_SE_TERRA_GAIA"
+	event_chain = "cofh_se_terraforming_chain"
+	days_to_research = 5400
+	tech_department = society_technology
+	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
+	picture = GFX_evt_gaia
+
+	event_scope = planet_event
+
+	on_success = {
+		planet_event = { id = cofh_se_terra.109 }
+		owner = { end_event_chain = "cofh_se_terraforming_chain" }
+	}
+	on_fail = {
+
+	}
+}

@@ -154,13 +154,17 @@ building_cofh_se_terraformer_basic = {
 		society_research = 2
 	}
 
+	planet_modifier = {
+		pop_environment_tolerance = 0.05
+	}
+
 	prerequisites = {
 		"tech_terrestrial_sculpting"
 	}
 
 	allow = {
 		custom_tooltip = {
-			text = "cofh_se_not_gaia"
+			text = "requirement_cofh_se_terra_not_gaia"
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
@@ -179,7 +183,7 @@ building_cofh_se_terraformer_basic = {
 
 building_cofh_se_terraformer_adv = {
 	icon = "building_cofh_se_terraformer_adv"
-	base_buildtime = 360
+	base_buildtime = 540
 	planet_unique = yes
 	is_listed = no
 
@@ -199,13 +203,17 @@ building_cofh_se_terraformer_adv = {
 		society_research = 2
 	}
 
+	planet_modifier = {
+		pop_environment_tolerance = 0.05
+	}
+
 	prerequisites = {
 		"tech_atmospheric_manipulation"
 	}
 
 	allow = {
 		custom_tooltip = {
-			text = "cofh_se_not_gaia"
+			text = "requirement_cofh_se_terra_not_gaia"
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
@@ -224,13 +232,14 @@ building_cofh_se_terraformer_adv = {
 
 building_cofh_se_terraformer_tomb = {
 	icon = "building_cofh_se_terraformer_tomb"
-	base_buildtime = 540
+	base_buildtime = 720
 	planet_unique = yes
 	is_listed = no
 
 	cost = {
 		energy = 4000
 		minerals = 4000
+		influence = 15
 	}
 
 	required_resources = {
@@ -243,13 +252,17 @@ building_cofh_se_terraformer_tomb = {
 		society_research = 2
 	}
 
+	planet_modifier = {
+		pop_environment_tolerance = 0.05
+	}
+
 	prerequisites = {
 		"tech_climate_restoration"
 	}
 
 	allow = {
 		custom_tooltip = {
-			text = "cofh_se_is_tomb"
+			text = "requirement_cofh_se_terra_is_tomb"
 			planet = {
 				is_planet_class = pc_nuked
 			}
@@ -265,13 +278,14 @@ building_cofh_se_terraformer_tomb = {
 
 building_cofh_se_terraformer_gaia = {
 	icon = "building_cofh_se_terraformer_gaia"
-	base_buildtime = 720
+	base_buildtime = 1080
 	planet_unique = yes
 	is_listed = no
 
 	cost = {
 		energy = 8000
 		minerals = 8000
+		influence = 20
 	}
 
 	required_resources = {
@@ -284,13 +298,17 @@ building_cofh_se_terraformer_gaia = {
 		society_research = 2
 	}
 
+	planet_modifier = {
+		pop_environment_tolerance = 0.05
+	}
+
 	prerequisites = {
 		"tech_gaia_creation"
 	}
 
 	allow = {
 		custom_tooltip = {
-			text = "cofh_se_not_gaia"
+			text = "requirement_cofh_se_terra_not_gaia"
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia

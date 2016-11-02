@@ -14,8 +14,12 @@
  building_cofh_se_terraformer_adv:0 "Atmospheric Moderation Reactor"
  building_cofh_se_terraformer_adv_desc:0 ""
 
- building_cofh_se_terraformer_tomb:0 "Atmospheric Purification Reactor"
+ building_cofh_se_terraformer_tomb:0 "Climate Restoration Reactor"
  building_cofh_se_terraformer_tomb_desc:0 ""
 
  building_cofh_se_terraformer_gaia:0 "Gaiaformation Reactor"
  building_cofh_se_terraformer_gaia_desc:0 ""
+
+# Building Requirements
+ requirement_cofh_se_terra_is_tomb:0 "Planet must be a §Y$pc_nuked$§!"
+ requirement_cofh_se_terra_not_gaia:0 "Planet may not be a §Y$pc_gaia$§!"

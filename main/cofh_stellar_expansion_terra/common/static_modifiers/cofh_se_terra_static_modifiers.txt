@@ -1,0 +1,39 @@
+# CoFH - Stellar Expansion - Terraforming
+# Static Modifiers
+# Author: King Lemming
+
+cofh_se_terraforming_reactor = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	tile_resource_society_research_mult = 0.20
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_asteroid_impacts.dds"
+	icon_frame = 2
+}
+
+cofh_se_terraforming_storms = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	tile_resource_physics_research_mult = 0.20
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_wild_storms.dds"
+	icon_frame = 2
+}
+
+cofh_se_terraforming_tectonics = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	tile_resource_engineering_research_mult = 0.20
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_unstable_tectonics.dds"
+	icon_frame = 2
+}
+
+cofh_se_terraforming_weather = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	tile_resource_energy_mult = 0.20
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_hazardous_weather.dds"
+	icon_frame = 2
+}
