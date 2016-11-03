@@ -1,13 +1,13 @@
-# CoFH - Stellar Expansion - Terraforming
+# CoFH - Stellar Expansion - Geoengineering
 # Planet Events
 # Author: King Lemming
 
-namespace = cofh_se_terra
+namespace = cofh_se_geo
 
 planet_event = {
-	id = cofh_se_terra.10
-	title = "cofh_se_terra.10.name"
-	desc = "cofh_se_terra.10.desc"
+	id = cofh_se_geo.10
+	title = "cofh_se_geo.10.name"
+	desc = "cofh_se_geo.10.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_construction
 	location = ROOT
@@ -15,7 +15,7 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		any_tile = { has_building = "building_cofh_se_terraformer_basic" }
+		any_tile = { has_building = "building_cofh_se_georeactor_basic" }
 	}
 
 	option = {
@@ -23,16 +23,16 @@ planet_event = {
 			is_planet_class = pc_continental
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_OCEAN_BAS"
+			name = "COFH_SE_GEO_OCEAN_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TROPICAL_BAS"
+			name = "COFH_SE_GEO_TROPICAL_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -42,16 +42,16 @@ planet_event = {
 			is_planet_class = pc_ocean
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_CONTINENTAL_BAS"
+			name = "COFH_SE_GEO_CONTINENTAL_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TROPICAL_BAS"
+			name = "COFH_SE_GEO_TROPICAL_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -61,16 +61,16 @@ planet_event = {
 			is_planet_class = pc_tropical
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_CONTINENTAL_BAS"
+			name = "COFH_SE_GEO_CONTINENTAL_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_OCEAN_BAS"
+			name = "COFH_SE_GEO_OCEAN_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -80,16 +80,16 @@ planet_event = {
 			is_planet_class = pc_desert
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARID_BAS"
+			name = "COFH_SE_GEO_ARID_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_SAVANNA_BAS"
+			name = "COFH_SE_GEO_SAVANNA_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -99,16 +99,16 @@ planet_event = {
 			is_planet_class = pc_arid
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_DESERT_BAS"
+			name = "COFH_SE_GEO_DESERT_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_SAVANNA_BAS"
+			name = "COFH_SE_GEO_SAVANNA_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -118,16 +118,16 @@ planet_event = {
 			is_planet_class = pc_savannah
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_DESERT_BAS"
+			name = "COFH_SE_GEO_DESERT_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARID_BAS"
+			name = "COFH_SE_GEO_ARID_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -137,16 +137,16 @@ planet_event = {
 			is_planet_class = pc_arctic
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TUNDRA_BAS"
+			name = "COFH_SE_GEO_TUNDRA_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ALPINE_BAS"
+			name = "COFH_SE_GEO_ALPINE_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -156,16 +156,16 @@ planet_event = {
 			is_planet_class = pc_tundra
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARCTIC_BAS"
+			name = "COFH_SE_GEO_ARCTIC_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ALPINE_BAS"
+			name = "COFH_SE_GEO_ALPINE_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -175,16 +175,16 @@ planet_event = {
 			is_planet_class = pc_alpine
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARCTIC_BAS"
+			name = "COFH_SE_GEO_ARCTIC_BAS"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TUNDRA_BAS"
+			name = "COFH_SE_GEO_TUNDRA_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -192,9 +192,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.20
-	title = "cofh_se_terra.20.name"
-	desc = "cofh_se_terra.20.desc"
+	id = cofh_se_geo.20
+	title = "cofh_se_geo.20.name"
+	desc = "cofh_se_geo.20.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_construction
 	location = ROOT
@@ -202,7 +202,7 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		any_tile = { has_building = "building_cofh_se_terraformer_adv" }
+		any_tile = { has_building = "building_cofh_se_georeactor_adv" }
 	}
 
 	option = {
@@ -214,36 +214,36 @@ planet_event = {
 			}
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_DESERT_ADV"
+			name = "COFH_SE_GEO_DESERT_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARID_ADV"
+			name = "COFH_SE_GEO_ARID_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_SAVANNA_ADV"
+			name = "COFH_SE_GEO_SAVANNA_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARCTIC_ADV"
+			name = "COFH_SE_GEO_ARCTIC_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TUNDRA_ADV"
+			name = "COFH_SE_GEO_TUNDRA_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ALPINE_ADV"
+			name = "COFH_SE_GEO_ALPINE_ADV"
 			location = this
 			owner = ROOT
 		}
@@ -257,36 +257,36 @@ planet_event = {
 			}
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_CONTINENTAL_ADV"
+			name = "COFH_SE_GEO_CONTINENTAL_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_OCEAN_ADV"
+			name = "COFH_SE_GEO_OCEAN_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TROPICAL_ADV"
+			name = "COFH_SE_GEO_TROPICAL_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARCTIC_ADV"
+			name = "COFH_SE_GEO_ARCTIC_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TUNDRA_ADV"
+			name = "COFH_SE_GEO_TUNDRA_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ALPINE_ADV"
+			name = "COFH_SE_GEO_ALPINE_ADV"
 			location = this
 			owner = ROOT
 		}
@@ -300,36 +300,36 @@ planet_event = {
 			}
 		}
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_CONTINENTAL_ADV"
+			name = "COFH_SE_GEO_CONTINENTAL_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_OCEAN_ADV"
+			name = "COFH_SE_GEO_OCEAN_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TROPICAL_ADV"
+			name = "COFH_SE_GEO_TROPICAL_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_DESERT_ADV"
+			name = "COFH_SE_GEO_DESERT_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARID_ADV"
+			name = "COFH_SE_GEO_ARID_ADV"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_SAVANNA_ADV"
+			name = "COFH_SE_GEO_SAVANNA_ADV"
 			location = this
 			owner = ROOT
 		}
@@ -337,9 +337,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.30
-	title = "cofh_se_terra.30.name"
-	desc = "cofh_se_terra.30.desc"
+	id = cofh_se_geo.30
+	title = "cofh_se_geo.30.name"
+	desc = "cofh_se_geo.30.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_construction
 	location = ROOT
@@ -347,56 +347,56 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		any_tile = { has_building = "building_cofh_se_terraformer_tomb" }
+		any_tile = { has_building = "building_cofh_se_georeactor_tomb" }
 	}
 
 	option = {
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_CONTINENTAL_TOMB"
+			name = "COFH_SE_GEO_CONTINENTAL_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_OCEAN_TOMB"
+			name = "COFH_SE_GEO_OCEAN_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TROPICAL_TOMB"
+			name = "COFH_SE_GEO_TROPICAL_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_DESERT_TOMB"
+			name = "COFH_SE_GEO_DESERT_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARID_TOMB"
+			name = "COFH_SE_GEO_ARID_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_SAVANNA_TOMB"
+			name = "COFH_SE_GEO_SAVANNA_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ARCTIC_TOMB"
+			name = "COFH_SE_GEO_ARCTIC_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_TUNDRA_TOMB"
+			name = "COFH_SE_GEO_TUNDRA_TOMB"
 			location = this
 			owner = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_ALPINE_TOMB"
+			name = "COFH_SE_GEO_ALPINE_TOMB"
 			location = this
 			owner = ROOT
 		}
@@ -404,9 +404,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.40
-	title = "cofh_se_terra.40.name"
-	desc = "cofh_se_terra.40.desc"
+	id = cofh_se_geo.40
+	title = "cofh_se_geo.40.name"
+	desc = "cofh_se_geo.40.desc"
 	picture = GFX_evt_mining_operations
 	show_sound = event_construction
 	location = ROOT
@@ -414,16 +414,16 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		any_tile = { has_building = "building_cofh_se_terraformer_gaia" }
+		any_tile = { has_building = "building_cofh_se_georeactor_gaia" }
 	}
 
 	option = {
 		begin_event_chain = {
-			event_chain = "cofh_se_terraforming_chain"
+			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
 		}
 		enable_special_project = {
-			name = "COFH_SE_TERRA_GAIA"
+			name = "COFH_SE_GEO_GAIA"
 			location = this
 			owner = ROOT
 		}
@@ -431,9 +431,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.100
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.100.desc"
+	id = cofh_se_geo.100
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.100.desc"
 	picture = GFX_evt_continental
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -448,9 +448,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -461,9 +461,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.101
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.101.desc"
+	id = cofh_se_geo.101
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.101.desc"
 	picture = GFX_evt_ocean
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -478,9 +478,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -491,9 +491,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.102
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.102.desc"
+	id = cofh_se_geo.102
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.102.desc"
 	picture = GFX_evt_tropical
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -508,9 +508,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -521,9 +521,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.103
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.103.desc"
+	id = cofh_se_geo.103
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.103.desc"
 	picture = GFX_evt_desert
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -538,9 +538,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -551,9 +551,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.104
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.104.desc"
+	id = cofh_se_geo.104
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.104.desc"
 	picture = GFX_evt_arid
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -568,9 +568,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -581,9 +581,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.105
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.105.desc"
+	id = cofh_se_geo.105
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.105.desc"
 	picture = GFX_evt_savanna
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -598,9 +598,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -611,9 +611,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.106
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.106.desc"
+	id = cofh_se_geo.106
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.106.desc"
 	picture = GFX_evt_arctic
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -628,9 +628,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -641,9 +641,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.107
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.107.desc"
+	id = cofh_se_geo.107
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.107.desc"
 	picture = GFX_evt_tundra
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -658,9 +658,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -671,9 +671,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.108
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.108.desc"
+	id = cofh_se_geo.108
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.108.desc"
 	picture = GFX_evt_alpine
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -688,9 +688,9 @@ planet_event = {
 			random_tile = {
 				limit = {
 					OR = {
-						has_building = "building_cofh_se_terraformer_basic"
-						has_building = "building_cofh_se_terraformer_adv"
-						has_building = "building_cofh_se_terraformer_tomb"
+						has_building = "building_cofh_se_georeactor_basic"
+						has_building = "building_cofh_se_georeactor_adv"
+						has_building = "building_cofh_se_georeactor_tomb"
 					}
 				}
 				remove_building = yes
@@ -701,9 +701,9 @@ planet_event = {
 }
 
 planet_event = {
-	id = cofh_se_terra.109
-	title = "COFH_SE_TERRA_PROJECT_COMPLETE"
-	desc = "cofh_se_terra.109.desc"
+	id = cofh_se_geo.109
+	title = "COFH_SE_GEO_PROJECT_COMPLETE"
+	desc = "cofh_se_geo.109.desc"
 	picture = GFX_evt_gaia
 	show_sound = event_mystic_reveal
 	location = ROOT
@@ -717,7 +717,7 @@ planet_event = {
 		hidden_effect = {
 			random_tile = {
 				limit = {
-					has_building = "building_cofh_se_terraformer_gaia"
+					has_building = "building_cofh_se_georeactor_gaia"
 				}
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"

@@ -1,4 +1,4 @@
-# CoFH - Stellar Expansion - Terraforming
+# CoFH - Stellar Expansion - Terraforming (Extreme)
 # Society Technologies
 # Author: King Lemming
 
@@ -40,31 +40,36 @@
 # Terraforming
 ################################################################################
 
-# Atmospheric Purification
-tech_cofh_se_atmospheric_purification = {
-	icon = "tech_cofh_se_atmospheric_purification"
+# Dynamo Manipulation
+tech_cofh_se_dynamo_manipulation = {
+	icon = "tech_cofh_se_dynamo_manipulation"
 	area = society
-	cost = @tier3cost2
+	cost = @tier3cost4
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_climate_restoration" }
-	weight = @tier3weight2
+	prerequisites = { "tech_cofh_se_atmosphere_creation" }
+	weight = @tier3weight4
+	is_rare = yes
 
 	prereqfor_desc = {
 		diplo_action = {
-			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE"
-			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC"
+			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC"
 		}
 	}
 
 	weight_modifier = {
-		factor = 0.75
+		factor = 0.1
 		modifier = {
 			factor = 0.33
-			NOT = {
+			NOR = {
 				research_leader = {
 					area = society
 					has_trait = "leader_trait_expertise_new_worlds"
+				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_field_manipulation"
 				}
 			}
 		}
@@ -81,26 +86,26 @@ tech_cofh_se_atmospheric_purification = {
 	}
 }
 
-# Atmosphere Creation
-tech_cofh_se_atmosphere_creation = {
-	icon = "tech_cofh_se_atmosphere_creation"
+# Tectonic Restriction
+tech_cofh_se_tectonic_restriction = {
+	icon = "tech_cofh_se_tectonic_restriction"
 	area = society
-	cost = @tier3cost3
+	cost = @tier3cost4
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_cofh_se_atmospheric_purification" }
-	weight = @tier3weight3
+	prerequisites = { "tech_cofh_se_atmosphere_creation" }
+	weight = @tier3weight4
 	is_rare = yes
 
 	prereqfor_desc = {
 		diplo_action = {
-			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE"
-			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC"
+			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC"
 		}
 	}
 
 	weight_modifier = {
-		factor = 0.15
+		factor = 0.1
 		modifier = {
 			factor = 0.33
 			NOR = {
@@ -110,7 +115,7 @@ tech_cofh_se_atmosphere_creation = {
 				}
 				research_leader = {
 					area = society
-					has_trait = "leader_trait_expertise_industry"
+					has_trait = "leader_trait_expertise_field_manipulation"
 				}
 			}
 		}

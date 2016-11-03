@@ -1,4 +1,53 @@
 CoFH - Stellar Expansion - Terraforming
 Author: King Lemming
 
+2016-11-02:
+Complete rewrite for 1.3.x [Heinlein].
+
+Terraforming costs are in line with the base game and will require terraforming resources or Capacitor Banks from Stellar Expansion in some cases.
+
+Gaia World Terraforming has obviously been removed, as it's part of the base game now.
+
+--------------------------------------------------------------------------------
+
+2016-07-28:
+Internal refactoring and naming convention rework.
+
+--------------------------------------------------------------------------------
+
+2016-07-13:
+Just some internal refactoring. :)
+Oh, and the Gaia World Terraforming icon is *slightly* more green.
+
+--------------------------------------------------------------------------------
+
+2016-07-08:
+
+Bugfix:
+	Cold Barren planets can now actually be terraformed.
+
+--------------------------------------------------------------------------------
+
+2016-07-07:
+Okay, so here's the deal. Terraforming is a big, gamechanger of a technology, so the techs will be transitioning OUT of Stellar Expansion. This mod will play alongside it seamlessly.
+
+And, you can safely have both of these installed - when the techs are removed from Stellar Expansion proper, nothing will change in your game.
+
+As of this patch, here are the costs:
+
+Atmospheric Purification:
+	New Worlds
+	Allows Tomb and Toxic Worlds to be terraformed into habitable ones.
+	(15 Years, 2500 Energy, combined 6 Terraforming Liquid/Gas)
+
+Habitable World Terraforming:
+	New Worlds
+	Allows Barren and Cold Barren worlds to be terraformed into habitable ones.
+	(20 Years, 3000 Energy, 3 Terraforming Liquid/Gas)
+
+Gaia World Terraforming:
+	Rare, New Worlds
+	Allows habitable worlds to be terraformed into Gaia worlds.
+	(20 Years, 3000 Energy, 2 Terraforming Liquid/Gas, Engos Vapor, Pitharan Dust)
+
 --------------------------------------------------------------------------------

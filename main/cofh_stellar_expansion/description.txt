@@ -1,0 +1,32 @@
+For those of you familiar with my Minecraft mods, hope you get the reference.
+
+This mod will contain my attempts to expand on the gameplay and content of Stellaris in whatever ways I deem interesting. I will attempt at all times to NOT modify or overwrite base game (vanilla) files. If I do, those files will be in a separate mod. Ultimately, I try to expand on the mechanics of the game while respecting the initial paradigm set forth by the developers.
+
+So basically, this is not a full overhaul mod - it just adds a lot of stuff that integrates well into the look and feel of the base game.
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]Five (5) new buildings for various Ethos which complement their playstyle and expand options.
+	[*]Capacitor Banks - buildings which add Energy Storage to the empire, in the same fashion as Mineral Silos.
+	[*]Diplomatic Hub - a building which generates Influence and also increases Maximum Stored Influence.
+	[*]Twelve (12) Non-repeatable and 10 Repeatable technologies to add more variety and depth to the midgame.
+	[*]Three (3) Crisis Countermeasure technologies which activate during their respective endgame crises.
+[/list]
+To keep things from becoming too overwhelming and/or unbalanced, potentially game-changing mods are split into addon modules. They may be used standalone unless indicated through Steam requirements.
+
+[h1][b]Addon Modules[/b][/h1]
+[list]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=787237639]Stellar Expansion - FTL Enhanced[/url][/i][/b]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=719802418]Stellar Expansion - Terraforming[/url][/i][/b]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=733386004]Stellar Expansion - Terraforming (Extreme)[/url][/i][/b]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=787237693]Stellar Expansion - Voidcraft[/url][/i][/b]
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion/changelog.txt]Change Log[/url][/b]
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you would like to use older versions of any of the Stellar Expansion mods, you may find them here:
+[b][url=https://github.com/CoFH/StellarExpansion/tree/master/archive]Archives[/url][/b]
+Follow the instructions [b][url=http://www.stellariswiki.com/Mods]here[/url][/b] to install a mod manually.

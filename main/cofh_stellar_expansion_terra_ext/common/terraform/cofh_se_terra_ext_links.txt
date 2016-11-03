@@ -1,0 +1,83 @@
+# CoFH - Stellar Expansion - Terraforming (Extreme)
+# Terraforming Links
+# Author: King Lemming
+
+################################################################################
+# Molten Terraforming Links
+################################################################################
+
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_desert"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_tectonic_restriction"
+	}
+}
+
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_arid"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_tectonic_restriction"
+	}
+}
+
+terraform_link = {
+	from = "pc_molten"
+	to = "pc_savannah"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_tectonic_restriction"
+	}
+}
+
+################################################################################
+# Frozen Terraforming Links
+################################################################################
+
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_arctic"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_dynamo_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_tundra"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_dynamo_manipulation"
+	}
+}
+
+terraform_link = {
+	from = "pc_frozen"
+	to = "pc_alpine"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_dynamo_manipulation"
+	}
+}

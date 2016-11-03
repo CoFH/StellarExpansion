@@ -1,0 +1,187 @@
+﻿l_russian:
+# перевел Draft3dd
+ cofh_se_corvette_hvy:0 "Тяжелый корвет"
+ cofh_se_corvette_hvy_plural:0 "Тяжелые корветы"
+ cofh_se_corvette_sup:0 "Корвет поддержки"
+ cofh_se_corvette_sup_plural:0 "Корветы поддержки"
+
+ cofh_se_destroyer_hvy:0 "Тяжелый эсминец"
+ cofh_se_destroyer_hvy_plural:0 "Тяжелые эсминцы"
+ cofh_se_destroyer_sup:0 "Тактический эсминец"
+ cofh_se_destroyer_sup_plural:0 "Тактические эсминцы"
+
+ cofh_se_cruiser_hvy:0 "Тяжелый крейсер"
+ cofh_se_cruiser_hvy_plural:0 "Тяжелые крейсеры"
+ cofh_se_cruiser_sup:0 "Командный крейсер"
+ cofh_se_cruiser_sup_plural:0 "Командные крейсеры"
+
+ cofh_se_battleship_hvy:0 "Тяжелый линкор"
+ cofh_se_battleship_hvy_plural:0 "Тяжелые линкоры"
+ cofh_se_battleship_sup:0 "Штаб Линкор"
+ cofh_se_battleship_sup_plural:0 "Штабные Линкоры"
+
+ cofh_se_auxiliary_tender:0 "Корабль снабжения"
+ cofh_se_auxiliary_tender_plural:0 "Корабли снабжения"
+
+ cofh_se_aura_category_offensive:0 "Наступательная аура"
+ cofh_se_aura_category_defensive:0 "Оборонительная аура"
+
+ cofh_se_ship_small_aura_components:0 "Малый полевой эмиттер"
+ cofh_se_ship_small_aura_components_desc:0 "Полевые эмитторы это устройства позволяющие поддерживать локальные поля поддержки или подавления, которые вызывают у дружеских или вражеских кораблей различные эффекты."
+ cofh_se_ship_medium_aura_components:0 "Средний полевой эмиттер"
+ cofh_se_ship_medium_aura_components_desc:0 "Полевые эмитторы это устройства позволяющие поддерживать локальные поля поддержки или подавления, которые вызывают у дружеских или вражеских кораблей различные эффекты."
+ cofh_se_ship_large_aura_components:0 "Большой полевой эмиттер"
+ cofh_se_ship_large_aura_components_desc:0 "Полевые эмитторы это устройства позволяющие поддерживать локальные поля поддержки или подавления, которые вызывают у дружеских или вражеских кораблей различные эффекты."
+ cofh_se_ship_xlarge_aura_components:0 "Огромный полевой эмиттер"
+ cofh_se_ship_xlarge_aura_components_desc:0 "Полевые эмитторы это устройства позволяющие поддерживать локальные поля поддержки или подавления, которые вызывают у дружеских или вражеских кораблей различные эффекты."
+
+ cofh_se_aura_ftl_dec:0 "$cofh_se_aura_category_offensive$ - Подавление"
+
+ cofh_se_aura_hull_inc:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+ cofh_se_aura_hull_regen:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+
+ cofh_se_aura_minefield:0 "$cofh_se_aura_category_offensive$ - Подавление"
+
+ cofh_se_aura_sensor_dec:0 "$cofh_se_aura_category_offensive$ - Подавление"
+ cofh_se_aura_sensor_inc:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+
+ cofh_se_aura_shield_inc:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+ cofh_se_aura_shield_regen:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+
+ cofh_se_aura_speed_dec:0 "$cofh_se_aura_category_offensive$ - Подавление"
+ cofh_se_aura_speed_inc:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+
+ cofh_se_aura_upkeep:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+
+ cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - Подавление"
+ cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - Поддержка"
+
+ COFH_SE_TECH_UNLOCK_CORVETTES_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый корвет"
+ COFH_SE_TECH_UNLOCK_CORVETTES_HVY_DESC:0 "§HТяжелый корвет§!\nУлучшенный вариант обычного корвета."
+
+ COFH_SE_TECH_UNLOCK_CORVETTES_SUP_TITLE:0 "§HТип кораблей:§! Корвет поддержки"
+ COFH_SE_TECH_UNLOCK_CORVETTES_SUP_DESC:0 "§HКорвет поддержки§!\nУлучшенный вариант обычного корвета, с возможностью обеспечивать материально-техническую поддержку."
+
+ COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый эсминец"
+ COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_DESC:0 "§HТяжелый эсминец§!\nУлучшенный вариант эсминца."
+
+ COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_TITLE:0 "§HТип кораблей:§! Тактический эсминец"
+ COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_DESC:0 "§HТактический эсминец§!\nУлучшенный вариант эсминца, с возможностью обеспечивать материально-техническую поддержку."
+
+ COFH_SE_TECH_UNLOCK_CRUISERS_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый крейсер"
+ COFH_SE_TECH_UNLOCK_CRUISERS_HVY_DESC:0 "§HТяжелый крейсер§!\nУлучшенный вариант крейсера."
+
+ COFH_SE_TECH_UNLOCK_CRUISERS_SUP_TITLE:0 "§HТип кораблей:§! Командный крейсер"
+ COFH_SE_TECH_UNLOCK_CRUISERS_SUP_DESC:0 "§HКомандный крейсер§!\nУлучшенный вариант эсминца, с возможностью обеспечивать материально-техническую поддержку."
+
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый линкор"
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HТяжелый линкор§!\nУлучшенный вариант линкора."
+
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HТип кораблей:§! Штаб Линкор"
+ COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HШтаб Линкор§!\nУлучшенный вариант линкора, с возможностью обеспечивать материально-техническую поддержку."
+
+ COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HТип кораблей:§! Корабль снабжения"
+ COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HКорабль снабжения§!\nОбычный корабль снабжения, который обеспечивает материально-техническую поддержку."
+
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Тяжелый корвет)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Тяжелый корвет)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Тяжелый корвет)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Тяжелый корвет)"
+ COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Тяжелый корвет)"
+
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Корвет поддержки)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Корвет поддержки)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Корвет поддержки)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Корвет поддержки)"
+ COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Корвет поддержки)"
+
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Тяжелый эсминец)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Тяжелый эсминец)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Тяжелый эсминец)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Тяжелый эсминец)"
+ COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Тяжелый эсминец)"
+
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Тактический эсминец)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Тактический эсминец)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Тактический эсминец)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Тактический эсминец)"
+ COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Тактический эсминец)"
+
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Тяжелый крейсер)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Тяжелый крейсер)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Тяжелый крейсер)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Тяжелый крейсер)"
+ COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Тяжелый крейсер)"
+
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Командный крейсер)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Командный крейсер)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Командный крейсер)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Командный крейсер)"
+ COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Командный крейсер)"
+
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Тяжелый линкорp)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Тяжелый линкор)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Тяжелый линкор)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Тяжелый линкор)"
+ COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Тяжелый линкор)"
+
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Штаб Линкор)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Штаб Линкор)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Штаб Линкор)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_4:0 "Разумный военный компьютер (Штаб Линкор)"
+ COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_PRECOG:0 "Прекогнитивный интерфейс (Штаб Линкор)"
+
+ COFH_SE_AURA_EMPTY:0 "Пустая ячейка"
+
+ COFH_SE_AURA_FTL_DEC:0 "Подпространственное поле"
+
+ COFH_SE_AURA_HULL_INC:0 "Целостные щиты"
+ COFH_SE_AURA_HULL_REGEN:0 "Облако наноботов"
+
+ COFH_SE_AURA_MINEFIELD_0:0 "Обычные мины"
+ COFH_SE_AURA_MINEFIELD_1:0 "Протонные мины"
+ COFH_SE_AURA_MINEFIELD_2:0 "Нейтронные мины"
+
+ COFH_SE_AURA_SENSOR_DEC:0 "Сенсорная глушилка"
+ COFH_SE_AURA_SENSOR_INC:0 "Сенсорный годограф"
+
+ COFH_SE_AURA_SHIELD_INC:0 "Щитовая матрица"
+ COFH_SE_AURA_SHIELD_REGEN:0 "Емкостные щиты"
+
+ COFH_SE_AURA_SPEED_DEC:0 "Стазис поле"
+ COFH_SE_AURA_SPEED_INC:0 "Микро-Варповое поле"
+
+ COFH_SE_AURA_WEAPON_ROF_DEC:0 "Квантовый дестабилизатор"
+ COFH_SE_AURA_WEAPON_ROF_INC:0 "Квантовый выравниватель"
+
+ COFH_SE_SHIP_MOUNTED:0 "I"
+ COFH_SE_AURA_SMALL:0 "I"
+ COFH_SE_AURA_MEDIUM:0 "I"
+ COFH_SE_AURA_LARGE:0 "I"
+ COFH_SE_AURA_XLARGE:0 "I"
+ COFH_SE_AURA_TENDER:0 "I"
+
+ COFH_SE_SHIP_AURA_SMALL_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_MEDIUM_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_LARGE_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_AURA_XLARGE_EMPTY:0 "$AURA_EMPTY$"
+
+ COFH_SE_SHIP_SMALL_AURA_HULL_REGEN:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REGEN$"
+ COFH_SE_SHIP_SMALL_AURA_SENSOR_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DEC$"
+ COFH_SE_SHIP_SMALL_AURA_WEAPON_ROF_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_ROF_DEC$"
+
+ COFH_SE_SHIP_MEDIUM_AURA_FTL_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_FTL_DEC$"
+ COFH_SE_SHIP_MEDIUM_AURA_SPEED_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_SPEED_DEC$"
+
+ COFH_SE_SHIP_LARGE_AURA_HULL_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_INC$"
+ COFH_SE_SHIP_LARGE_AURA_SENSOR_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_INC$"
+ COFH_SE_SHIP_LARGE_AURA_SHIELD_REGEN:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_REGEN$"
+
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_0:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_0$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_1:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_1$"
+ COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_2:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_2$"
+ COFH_SE_SHIP_XLARGE_AURA_SPEED_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_SPEED_INC$"
+ COFH_SE_SHIP_XLARGE_AURA_WEAPON_ROF_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_WEAPON_ROF_INC$"
+
+ COFH_SE_SHIP_TENDER_AURA_EMPTY:0 "$AURA_EMPTY$"
+ COFH_SE_SHIP_TENDER_AURA_HULL_REGEN:0 "$COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REGEN$"

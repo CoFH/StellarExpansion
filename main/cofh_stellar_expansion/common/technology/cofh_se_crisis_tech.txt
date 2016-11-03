@@ -70,8 +70,8 @@ tech_cofh_se_anti_exd = {
 	is_rare = yes
 
 	#prereqfor_desc = {
-	#	title = "TECH_COFH_SE_ANTI_EXD_TITLE"
-	#	desc = "TECH_COFH_SE_ANTI_EXD_DESC"
+	#	title = "COFH_SE_TECH_ANTI_EXD_TITLE"
+	#	desc = "COFH_SE_TECH_ANTI_EXD_DESC"
 	#}
 
 	modifier = {

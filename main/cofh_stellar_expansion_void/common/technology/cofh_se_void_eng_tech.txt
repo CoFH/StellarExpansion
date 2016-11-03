@@ -54,12 +54,12 @@ tech_cofh_se_corvettes_adv = {
 
 	prereqfor_desc = {
 		ship = {
-			title = "TECH_COFH_SE_UNLOCK_CORVETTES_HVY_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_CORVETTES_HVY_DESC"
+			title = "COFH_SE_TECH_UNLOCK_CORVETTES_HVY_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_CORVETTES_HVY_DESC"
 		}
 		custom = {
-			title = "TECH_COFH_SE_UNLOCK_CORVETTES_SUP_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_CORVETTES_SUP_DESC"
+			title = "COFH_SE_TECH_UNLOCK_CORVETTES_SUP_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_CORVETTES_SUP_DESC"
 		}
 	}
 
@@ -117,12 +117,12 @@ tech_cofh_se_destroyers_adv = {
 
 	prereqfor_desc = {
 		ship = {
-			title = "TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_DESTROYERS_HVY_DESC"
+			title = "COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_DESC"
 		}
 		custom = {
-			title = "TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_DESTROYERS_SUP_DESC"
+			title = "COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_DESC"
 		}
 	}
 
@@ -184,12 +184,12 @@ tech_cofh_se_cruisers_adv = {
 
 	prereqfor_desc = {
 		ship = {
-			title = "TECH_COFH_SE_UNLOCK_CRUISERS_HVY_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_CRUISERS_HVY_DESC"
+			title = "COFH_SE_TECH_UNLOCK_CRUISERS_HVY_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_CRUISERS_HVY_DESC"
 		}
 		custom = {
-			title = "TECH_COFH_SE_UNLOCK_CRUISERS_SUP_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_CRUISERS_SUP_DESC"
+			title = "COFH_SE_TECH_UNLOCK_CRUISERS_SUP_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_CRUISERS_SUP_DESC"
 		}
 	}
 
@@ -251,12 +251,12 @@ tech_cofh_se_battleships_adv = {
 
 	prereqfor_desc = {
 		ship = {
-			title = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_HVY_DESC"
+			title = "COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_DESC"
 		}
 		custom = {
-			title = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_BATTLESHIPS_SUP_DESC"
+			title = "COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_DESC"
 		}
 	}
 
@@ -318,8 +318,8 @@ tech_cofh_se_auxiliary_ships = {
 
 	prereqfor_desc = {
 		ship = {
-			title = "TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_TITLE"
-			desc = "TECH_COFH_SE_UNLOCK_AUXILIARY_TENDER_DESC"
+			title = "COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_DESC"
 		}
 	}
 

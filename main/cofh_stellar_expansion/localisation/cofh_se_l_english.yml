@@ -9,8 +9,8 @@
 
 # Tooltips
 
- TECH_COFH_SE_ANTI_EXD_TITLE:0 "Damage to Extradimensional Invaders: §G+15%§!"
- TECH_COFH_SE_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\nEmpire Modifier\n$TECH_COFH_SE_ANTI_EXD_TITLE$"
+ COFH_SE_TECH_ANTI_EXD_TITLE:0 "Damage to Extradimensional Invaders: §G+15%§!"
+ COFH_SE_TECH_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\nEmpire Modifier\n$COFH_SE_TECH_ANTI_EXD_TITLE$"
 
 # Events
 

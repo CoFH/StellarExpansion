@@ -1,0 +1,124 @@
+# CoFH - Stellar Expansion - Terraforming
+# Terraforming Links
+# Author: King Lemming
+
+################################################################################
+# Toxic Terraforming Links
+################################################################################
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_continental"
+
+	energy = 10000
+	duration = 7300
+
+	condition = {
+		has_technology = "cofh_se_tech_atmospheric_purification"
+	}
+}
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_ocean"
+
+	energy = 10000
+	duration = 7300
+
+	condition = {
+		has_technology = "cofh_se_tech_atmospheric_purification"
+	}
+}
+
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_tropical"
+
+	energy = 10000
+	duration = 7300
+
+	condition = {
+		has_technology = "cofh_se_tech_atmospheric_purification"
+	}
+}
+
+
+################################################################################
+# Barren Terraforming Links
+################################################################################
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_desert"
+
+	energy = 12500
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_atmosphere_creation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_arid"
+
+	energy = 12500
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_atmosphere_creation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren"
+	to = "pc_savannah"
+
+	energy = 12500
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_atmosphere_creation"
+	}
+}
+
+################################################################################
+# Cold Barren Terraforming Links
+################################################################################
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_arctic"
+
+	energy = 12500
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_atmosphere_creation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_tundra"
+
+	energy = 12500
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_atmosphere_creation"
+	}
+}
+
+terraform_link = {
+	from = "pc_barren_cold"
+	to = "pc_alpine"
+
+	energy = 12500
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_atmosphere_creation"
+	}
+}

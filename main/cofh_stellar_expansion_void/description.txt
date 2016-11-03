@@ -1,0 +1,20 @@
+[h1][b]Stellar Expansion is NOT required.[/b][/h1]
+It is simply compatible with this mod and designed to work alongside it.
+
+This is a rather large addition to [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b] - new ship classes!
+
+1.3 saw a reimagining of Hull sections and a rebalancing of ship roles, as well as the removal of Ship-based Auras. This mod is an attempt to bring back a bit of variance in play while also bringing back Auras in a slightly different fashion.
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]Four Heavy Ship classes (Corvette - Battleship). These ships have extra hull, armor, and tracking, but use some additional supply and have alternate Section configurations.
+	[*]Four Support Ship classes (Corvette - Battleship). These ships have some additional defense, but also have Aura modules to support the fleet in combat. They use twice as much supply and have alternate Section configurations.
+	[*]One Auxiliary Ship class - the Tender Ship. This is a weaponless military vessel that reduces the Maintenance cost of nearby ships.
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/changelog.txt]Change Log[/url][/b]
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

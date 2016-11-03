@@ -1,8 +1,8 @@
-# CoFH - Stellar Expansion - Terraforming
+# CoFH - Stellar Expansion - Geoengineering
 # Static Modifiers
 # Author: King Lemming
 
-cofh_se_terraforming_reactor = {
+cofh_se_geoengineering_reactor = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
 	tile_resource_society_research_mult = 0.20
@@ -11,7 +11,7 @@ cofh_se_terraforming_reactor = {
 	icon_frame = 2
 }
 
-cofh_se_terraforming_storms = {
+cofh_se_geoengineering_storms = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
 	tile_resource_physics_research_mult = 0.20
@@ -20,7 +20,7 @@ cofh_se_terraforming_storms = {
 	icon_frame = 2
 }
 
-cofh_se_terraforming_tectonics = {
+cofh_se_geoengineering_tectonics = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
 	tile_resource_engineering_research_mult = 0.20
@@ -29,7 +29,7 @@ cofh_se_terraforming_tectonics = {
 	icon_frame = 2
 }
 
-cofh_se_terraforming_weather = {
+cofh_se_geoengineering_weather = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
 	tile_resource_energy_mult = 0.20

@@ -1,0 +1,19 @@
+[h1][b]Stellar Expansion is NOT required.[/b][/h1]
+It is simply compatible with this mod and designed to work alongside it.
+
+However, [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=719802418]Stellar Expansion - Terraforming[/url][/i][/b] is required.
+
+This mod adds a couple of new techs and expands the orbital terraforming options.
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]Terraformation of Frozen worlds into Arctic, Tundra, and Alpine worlds.
+	[*]Terraformation of Molten worlds into Desert, Arid, and Savanna worlds.
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_terra_ext/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_terra_ext/changelog.txt]Change Log[/url][/b]
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

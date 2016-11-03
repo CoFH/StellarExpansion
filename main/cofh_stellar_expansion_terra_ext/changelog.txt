@@ -1,0 +1,22 @@
+CoFH - Stellar Expansion - Terraforming (Extreme)
+Author: King Lemming
+
+2016-11-02:
+Complete rewrite for 1.3.x [Heinlein].
+
+Terraforming costs are in line with the base game and will require terraforming resources or Capacitor Banks from Stellar Expansion in some cases.
+
+There are now two separate techs as the necessary processes for each planet type would be *extremely* different.
+
+--------------------------------------------------------------------------------
+
+2016-07-28:
+An addonandon?
+
+I had some requests to revert the terraforming changes and allow for Molten and Frozen planets to be terraformed.
+
+No, I won't be doing that. But here's an addon to the addon that will allow you to do that if you choose.
+
+It adds a single new Technology - Extreme Terraforming.
+
+--------------------------------------------------------------------------------

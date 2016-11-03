@@ -1,0 +1,61 @@
+﻿l_russian:
+# перевел Draft3dd
+# Corvette - Корветы
+
+ COFH_SE_CORVETTE_HVY_MID_M1S1:0 "Тяжелый перехватчик"
+ COFH_SE_CORVETTE_SUP_MID_S1:0 "Тяжелый катер"
+
+# Destroyer - Эсминцы
+
+ COFH_SE_DESTROYER_HVY_BOW_M1S2:0 "Тяжелые носовые орудия"
+ COFH_SE_DESTROYER_HVY_BOW_S3:0 "Носовая батарея"
+ COFH_SE_DESTROYER_HVY_STERN_M1:0 "Тяжелые кормовые орудия"
+ COFH_SE_DESTROYER_HVY_STERN_S2:0 "Кормовые орудия"
+
+ COFH_SE_DESTROYER_SUP_BOW_M1S2:0 "Носовой локатор"
+ COFH_SE_DESTROYER_SUP_BOW_S3:0 "Носовая батарея"
+ COFH_SE_DESTROYER_SUP_STERN_M1:0 "Кормовые орудия"
+ COFH_SE_DESTROYER_SUP_STERN_S2:0 "Корпус корабля носителя"
+
+# Cruiser - Крейсеры
+
+ COFH_SE_CRUISER_HVY_BOW_M1S2:0 "Носовая батарея"
+ COFH_SE_CRUISER_HVY_BOW_M2:0 "Тяжелые носовые орудия"
+ COFH_SE_CRUISER_HVY_BOW_T2:0 "Носовые торпеды"
+ COFH_SE_CRUISER_HVY_MID_M2S2:0 "Орудийная палуба"
+ COFH_SE_CRUISER_HVY_MID_M3:0 "Тяжелая орудийная палуба"
+ COFH_SE_CRUISER_HVY_MID_T3:0 "Торпедная палуба"
+ COFH_SE_CRUISER_HVY_STERN_M1:0 "Тяжелые кормовые орудия"
+ COFH_SE_CRUISER_HVY_STERN_T1:0 "Кормовые торпеды"
+ COFH_SE_CRUISER_HVY_STERN_S2:0 "Кормовые орудия"
+
+ COFH_SE_CRUISER_SUP_BOW_M1S2:0 "Носовая батарея"
+ COFH_SE_CRUISER_SUP_BOW_M2:0 "Тяжелые носовые орудия"
+ COFH_SE_CRUISER_SUP_MID_M2S2:0 "Орудийная палуба"
+ COFH_SE_CRUISER_SUP_MID_M3:0 "Тяжелая орудийная палуба"
+ COFH_SE_CRUISER_SUP_MID_S2LHB:0 "Ангарная палуба"
+ COFH_SE_CRUISER_SUP_STERN_M1:0 "Тяжелые кормовые орудия"
+ COFH_SE_CRUISER_SUP_STERN_S2:0 "Кормовые орудия"
+
+# Battleship - Линкоры
+
+ COFH_SE_BATTLESHIP_HVY_BOW_L2:0 "Носовая артилерия"
+ COFH_SE_BATTLESHIP_HVY_BOW_XL2:0 "Главный калибр"
+ COFH_SE_BATTLESHIP_HVY_MID_L1T4:0 "Торпедная палуба"
+ COFH_SE_BATTLESHIP_HVY_MID_L3:0 "Артиллерийская палуба"
+ COFH_SE_BATTLESHIP_HVY_STERN_L1:0 "Кормовая артилерия"
+ COFH_SE_BATTLESHIP_HVY_STERN_T2:0 "Кормовые торпеды"
+
+ COFH_SE_BATTLESHIP_SUP_BOW_M1S2LHB:0 "Носовые ангары"
+ COFH_SE_BATTLESHIP_SUP_BOW_M1S2XHB:0 "Носовые ангары II"
+ COFH_SE_BATTLESHIP_SUP_BOW_M3S2:0 "Носовая батарея"
+ COFH_SE_BATTLESHIP_SUP_MID_L1M4:0 "Орудийная палуба"
+ COFH_SE_BATTLESHIP_SUP_MID_M4HB:0 "Ангарная палуба"
+ COFH_SE_BATTLESHIP_SUP_MID_S4LHB:0 "Ангарная палуба II"
+ COFH_SE_BATTLESHIP_SUP_STERN_M1S2:0 "Кормовые орудия"
+ COFH_SE_BATTLESHIP_SUP_STERN_M2:0 "Тяжелые кормовые орудия"
+ COFH_SE_BATTLESHIP_SUP_STERN_S4:0 "Корпус корабля носителя"
+
+# Tender - Корабли поддержки
+
+ COFH_SE_AUXILIARY_TENDER:0 "Корпус корабля снабжения"
