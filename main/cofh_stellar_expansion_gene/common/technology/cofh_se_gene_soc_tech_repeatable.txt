@@ -1,0 +1,56 @@
+# CoFH - Stellar Expansion - Genetics
+# Technologies
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@repeatableTechBaseCost = 1500
+@repeatableTechLevelCost = 480
+
+@repeatableTechWeight = 25
+@repeatableTechFactor = 0.5
+
+@repeatable3TechBaseCost = 4200
+@repeatable3TechLevelCost = 1200
+
+@repeatable3TechWeight = 15
+@repeatable3TechFactor = 0.5
+
+################################################################################
+# Genetics
+################################################################################
+
+# Gene Drive Architecting
+tech_cofh_se_repeatable_increased_trait_points = {
+	icon = "tech_cofh_se_repeatable_increased_trait_points"
+	area = society
+	cost = @repeatable3TechBaseCost
+	cost_per_level = @repeatable3TechLevelCost
+	tier = 3
+	category = { biology }
+	levels = 5
+	prerequisites = { "tech_gene_expressions" }
+	weight = @repeatable3TechWeight
+
+	modifier = {
+		trait_points = 1
+	}
+
+	weight_modifier = {
+		factor = @repeatable3TechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

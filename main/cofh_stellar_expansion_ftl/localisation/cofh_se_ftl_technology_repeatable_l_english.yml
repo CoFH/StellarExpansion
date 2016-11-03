@@ -1,6 +1,8 @@
 ﻿l_english:
 
-# Technology - FTL Enhanced
+# Technology - Repeatable
+
+# Physics
 
  tech_cofh_se_repeatable_reduced_ftl_windup:0 "Hypernavigation Calibration"
  tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Improvements to our hypernavigation sensors should allow us to reduce the time required to initiate FTL travel."
