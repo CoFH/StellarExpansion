@@ -1,0 +1,43 @@
+# CoFH - Stellar Expansion - Ringworlds
+# Terraforming Links
+# Author: King Lemming
+
+################################################################################
+# Ringworld Terraforming Links
+################################################################################
+
+terraform_link = {
+	from = "pc_ringworld_habitable_damaged"
+	to = "pc_ringworld_habitable"
+
+	energy = 20000
+	duration = 14600
+
+	condition = {
+		has_technology = "cofh_se_tech_ringworld"
+	}
+}
+
+terraform_link = {
+	from = "pc_ringworld_tech_damaged"
+	to = "pc_ringworld_tech"
+
+	energy = 5000
+	duration = 3600
+
+	condition = {
+		has_technology = "cofh_se_tech_ringworld"
+	}
+}
+
+terraform_link = {
+	from = "pc_ringworld_seam_damaged"
+	to = "pc_ringworld_seam"
+
+	energy = 5000
+	duration = 3600
+
+	condition = {
+		has_technology = "cofh_se_tech_ringworld"
+	}
+}

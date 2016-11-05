@@ -4,5 +4,5 @@
 
 cofh_se_geoengineering_chain = {
 	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
-	picture = GFX_evt_mining_operations
+	picture = GFX_evt_geoengineering
 }

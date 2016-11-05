@@ -2,45 +2,45 @@
 
 # Buildings
 
- building_cofh_se_diplomatic_hub:0 "Diplomatisches Zentrum"
- building_cofh_se_diplomatic_hub_desc:0 "Dieser riesige Komplex der Kultur und Bürokratie steigert die Wichtigkeit dieser Welt und dadurch das Ansehen unseres Reichs."
+building_cofh_se_diplomatic_hub:0 "Diplomatisches Zentrum"
+building_cofh_se_diplomatic_hub_desc:0 "Dieser riesige Komplex der Kultur und Bürokratie steigert die Wichtigkeit dieser Welt und dadurch das Ansehen unseres Reichs."
 
- building_cofh_se_robot_maintenance:0 "Roboter Wartungseinrichtung"
- building_cofh_se_robot_maintenance_desc:0 "Dieser weitläufige high-tech Komplex wird genutzt um die robotischen Arbeiter zu warten, was ihre Leistung erhöht."
+building_cofh_se_robot_maintenance:0 "Roboter Wartungseinrichtung"
+building_cofh_se_robot_maintenance_desc:0 "Dieser weitläufige high-tech Komplex wird genutzt um die robotischen Arbeiter zu warten, was ihre Leistung erhöht."
 
- building_cofh_se_climate_station:0 "Klima stabilisierungs Reaktor"
- building_cofh_se_climate_station_desc:0 "Dieses massive System zur stabilisierung der Athmosphäre verbessert die Luftqualität und reguliert die Hydrosphäre."
+building_cofh_se_climate_station:0 "Klima stabilisierungs Reaktor"
+building_cofh_se_climate_station_desc:0 "Dieses massive System zur stabilisierung der Athmosphäre verbessert die Luftqualität und reguliert die Hydrosphäre."
 
- building_cofh_se_xeno_food:0 "Xeno Nahrungsfabrik"
- building_cofh_se_xeno_food_desc:0 "Die Haltung von Alien Fauna in Gefangenschaft ist viel zu gefährlich, aber wir können ihre Beschaffung einem wohlschmeckendem Ziel widmen."
+building_cofh_se_xeno_food:0 "Xeno Nahrungsfabrik"
+building_cofh_se_xeno_food_desc:0 "Die Haltung von Alien Fauna in Gefangenschaft ist viel zu gefährlich, aber wir können ihre Beschaffung einem wohlschmeckendem Ziel widmen."
 
 # Energy Buildings
 
- building_cofh_se_energy_silo_1:0 "Kondensatorbank I"
- building_cofh_se_energy_silo_1_desc:0 "Kondensatorbänke vergößern die maximalen Energiespeicherkapazitäten unseres Imperiums."
+building_cofh_se_energy_silo_1:0 "Kondensatorbank I"
+building_cofh_se_energy_silo_1_desc:0 "Kondensatorbänke vergößern die maximalen Energiespeicherkapazitäten unseres Imperiums."
 
- building_cofh_se_energy_silo_2:0 "Kondensatorbank II"
- building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+building_cofh_se_energy_silo_2:0 "Kondensatorbank II"
+building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
- building_cofh_se_energy_silo_3:0 "Kondensatorbank III"
- building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+building_cofh_se_energy_silo_3:0 "Kondensatorbank III"
+building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
 # Ethos Buildings
 
- building_cofh_se_ministry_intelligence:0 "Nachrichtenministerium"
- building_cofh_se_ministry_intelligence_desc:0 "Um unsere Feinde im Kampf zu bezwingen, müssen unsere Bürger zuerst die größe der Gefahr begreifen der wir gegenüberstehen."
+building_cofh_se_ministry_intelligence:0 "Nachrichtenministerium"
+building_cofh_se_ministry_intelligence_desc:0 "Um unsere Feinde im Kampf zu bezwingen, müssen unsere Bürger zuerst die größe der Gefahr begreifen der wir gegenüberstehen."
 
- building_cofh_se_ministry_vigilance:0 "Büro für Wachsamkeit"
- building_cofh_se_ministry_vigilance_desc:0 "Die Aliens dieser Galaxie sind bedrohlich und zahlreich. Nur durch beständige Wachsamkeit werden wir unsere Reinheit erhalten."
+building_cofh_se_ministry_vigilance:0 "Büro für Wachsamkeit"
+building_cofh_se_ministry_vigilance_desc:0 "Die Aliens dieser Galaxie sind bedrohlich und zahlreich. Nur durch beständige Wachsamkeit werden wir unsere Reinheit erhalten."
 
- building_cofh_se_frontier_institute:0 "Institut für Grenzwissenschaften"
- building_cofh_se_frontier_institute_desc:0 "Wir sind getrieben von Neugier - um unbekannte neue Welten zu erkunden, neues Leben zu suchen und neue Zivilisationen"
+building_cofh_se_frontier_institute:0 "Institut für Grenzwissenschaften"
+building_cofh_se_frontier_institute_desc:0 "Wir sind getrieben von Neugier - um unbekannte neue Welten zu erkunden, neues Leben zu suchen und neue Zivilisationen"
 
- building_cofh_se_concord_assembly:0 "Harmonische Versammlung"
- building_cofh_se_concord_assembly_desc:0 "Es gibt keinen Weg zum Frieden - Frieden ist der Weg. Um ihm zu folgen müssen wir das Wohlergehen unserer Bürger sicherstellen."
+building_cofh_se_concord_assembly:0 "Harmonische Versammlung"
+building_cofh_se_concord_assembly_desc:0 "Es gibt keinen Weg zum Frieden - Frieden ist der Weg. Um ihm zu folgen müssen wir das Wohlergehen unserer Bürger sicherstellen."
 
- building_cofh_se_monument_creation:0 "Monument der Schöpfung"
- building_cofh_se_monument_creation_desc:0 "Während wir die Sterne durchstreifen, schöpfen wir Mut in dem Wissen das wir das Universum sind das sich selbst erlebt."
+building_cofh_se_monument_creation:0 "Monument der Schöpfung"
+building_cofh_se_monument_creation_desc:0 "Während wir die Sterne durchstreifen, schöpfen wir Mut in dem Wissen das wir das Universum sind das sich selbst erlebt."
 
 # Building Requirements
- requirement_cofh_se_robot_maintenance:0 "§RKünstliche Intelligenz darf nicht geächtet sein.§!"
+requirement_cofh_se_robot_maintenance:0 "§RKünstliche Intelligenz darf nicht geächtet sein.§!"

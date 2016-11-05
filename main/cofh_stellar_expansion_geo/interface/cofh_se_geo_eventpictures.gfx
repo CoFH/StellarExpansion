@@ -6,15 +6,24 @@ spriteTypes = {
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		allwaystransparent = yes
 	}
+
 	spriteType = {
 		name = "GFX_evt_alpine"
 		texturefile = "gfx/event_pictures/cofh_se_alpine_planet.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		allwaystransparent = yes
 	}
+
 	spriteType = {
 		name = "GFX_evt_gaia"
 		texturefile = "gfx/event_pictures/cofh_se_gaia_planet.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_evt_geoengineering"
+		texturefile = "gfx/event_pictures/cofh_se_geoengineering.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		allwaystransparent = yes
 	}

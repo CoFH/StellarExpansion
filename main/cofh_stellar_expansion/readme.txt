@@ -264,6 +264,16 @@ Deep Scanning Algorithms:
 	Effects:
 		+25% Anomaly Discovery Chance
 
+Harmonic Replenishment:
+	Field Manipulation
+	Repeatable (5x)
+
+	Prerequisites:
+		Shield Capacitors
+
+	Effects:
+		+5% Shield Regeneration
+
 Positronic Algorithms:
 	Computation
 	Repeatable (5x)

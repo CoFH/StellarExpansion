@@ -1,4 +1,57 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2016-11-05:
+Mod now exists. :)
+
+It's basically a single technology - Planetary Geoengineering - which allows for the construction of a Geoengineering Complex. The building provides some research on its own, but it notably can be upgraded with Terraformation Reactors which allow for an inhabited world to be terraformed.
+
+New Technologies:
+	Planetary Geoengineering:
+		New Worlds
+		Unlocks Building: Geoengineering Complex (and Upgrades)
+
+New Buildings:
+	Geoengineering Complex:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Social Produced
+		+2 Engineering Produced
+
+	Climate Moderation Complex:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Social Produced
+		+2 Engineering Produced
+		+10% Habitability on Planet
+
+	Terrestrial Reformation Reactor:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Social Produced
+		+2 Engineering Produced
+		*Allows planet to be Terraformed
+
+	Atmospheric Variation Reactor:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Social Produced
+		+2 Engineering Produced
+		*Allows planet to be Terraformed
+
+	Climate Restoration Reactor:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Social Produced
+		+2 Engineering Produced
+		*Allows planet to be Terraformed
+		**Requires Tomb World
+
+	Gaiaformation Reactor:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Social Produced
+		+2 Engineering Produced
+		*Allows planet to be Terraformed
+
 --------------------------------------------------------------------------------

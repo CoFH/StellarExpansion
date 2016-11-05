@@ -45,3 +45,36 @@ tech_cofh_se_repeatable_sentient_ai_improved = {
 		repeatable = 0.01
 	}
 }
+
+# Harmonic Replenishment
+tech_cofh_se_repeatable_shield_regen = {
+	icon = "tech_cofh_se_repeatable_shield_regen"
+	area = physics
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { field_manipulation }
+	levels = 5
+	prerequisites = { "tech_shield_rechargers_1" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		ship_shield_regen_mult = 0.05
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+	}
+
+	ai_weight = {
+		factor = 1.0
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

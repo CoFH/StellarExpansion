@@ -2,25 +2,37 @@
 
 # Modifiers
 
+cofh_se_geoengineering_storms:0 "Wild Storms"
+cofh_se_geoengineering_storms_desc:0 "The terraformation reactor is causing large electrical storms in the planet's atmosphere."
 
+cofh_se_geoengineering_tectonics:0 "Unstable Tectonics"
+cofh_se_geoengineering_tectonics_desc:0 "The terraformation reactor is causing unstable shifts in the planet's tectonic plates."
+
+cofh_se_geoengineering_weather:0 "Hazardous Weather"
+cofh_se_geoengineering_weather_desc:0 "The terraformation reactor is causing unstable and violent weather patterns."
 
 # Events
 
 cofh_se_geoengineering_chain_title:0 "Planetary Geoengineering"
-cofh_se_geoengineering_chain_desc:0 "The necessary equipment and facilities have been constructed on §Y[Root.GetName]§! and terraforming can begin immediately."
+cofh_se_geoengineering_chain_desc:0 "The necessary equipment and facilities have been constructed on §Y[Root.GetName]§! and terraforming can begin immediately. The planetary geoclimate will be somewhat destabilized during the process."
 
 cofh_se_geo.10.name:0 "$building_cofh_se_georeactor_basic$ Online"
-cofh_se_geo.10.desc:0 "The §Y$building_cofh_se_georeactor_basic$§! on §Y[Root.GetName]§! has completed construction. It is capable of drastically altering the landscape of this world."
+cofh_se_geo.10.desc:0 "The §Y$building_cofh_se_georeactor_basic$§! on §Y[Root.GetName]§! has completed construction. It is capable of drastically altering the landscape of this world.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
 
 cofh_se_geo.20.name:0 "$building_cofh_se_georeactor_adv$ Online"
-cofh_se_geo.20.desc:0 "The §Y$building_cofh_se_georeactor_adv$§! on §Y[Root.GetName]§! has completed construction. It is capable of altering the hydrosphere of this world."
+cofh_se_geo.20.desc:0 "The §Y$building_cofh_se_georeactor_adv$§! on §Y[Root.GetName]§! has completed construction. It is capable of altering the hydrosphere of this world.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
 
 cofh_se_geo.30.name:0 "$building_cofh_se_georeactor_tomb$ Online"
-cofh_se_geo.30.desc:0 "The §Y$building_cofh_se_georeactor_tomb$§! on §Y[Root.GetName]§! has completed construction. It is capable of restoring the climate of this ruined world."
+cofh_se_geo.30.desc:0 "The §Y$building_cofh_se_georeactor_tomb$§! on §Y[Root.GetName]§! has completed construction. It is capable of restoring the climate of this ruined world.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
 
 cofh_se_geo.40.name:0 "$building_cofh_se_georeactor_gaia$ Online"
-cofh_se_geo.40.desc:0 "The §Y$building_cofh_se_georeactor_gaia$§! on §Y[Root.GetName]§! has completed construction. It is capable of perfecting the climate of this world."
+cofh_se_geo.40.desc:0 "The §Y$building_cofh_se_georeactor_gaia$§! on §Y[Root.GetName]§! has completed construction. It is capable of perfecting the climate of this world.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
 
+cofh_se_geo.a:0 "Acknowledged."
+
+COFH_SE_GEO_INITIAL_DISTURBANCE:0 "The reactor has partially destabilized the geoclimate, so terraformation should begin immediately."
+COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE:0 "Geoclimatic Disturbance"
+COFH_SE_GEO_UPDATE_DISTURBANCE:0 "continues to produce occasional geoclimatic disturbances, making the world a bit less hospitable."
 COFH_SE_GEO_PROJECT_COMPLETE:0 "Terraformation Complete"
 COFH_SE_GEO_PROCESS_FINISHED:0 "The planetary geoengineering process on §Y[Root.GetName]§! has finished. It is now"
 COFH_SE_GEO_REACTOR_DISMANTLED:0 "The terraformation reactor has been depleted and dismantled."
@@ -35,6 +47,11 @@ cofh_se_geo.106.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ an §Y$pc_arctic$§!.\n\n
 cofh_se_geo.107.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ a §Y$pc_tundra$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
 cofh_se_geo.108.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ an §Y$pc_alpine$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
 cofh_se_geo.109.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ a §Y$pc_gaia$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+
+cofh_se_geo.110.desc:0 "The §Y$building_cofh_se_georeactor_basic$§! on §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+cofh_se_geo.120.desc:0 "The §Y$building_cofh_se_georeactor_adv$§! on §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+cofh_se_geo.130.desc:0 "The §Y$building_cofh_se_georeactor_tomb$§! on §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+cofh_se_geo.140.desc:0 "The §Y$building_cofh_se_georeactor_gaia$§! on §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
 
 # Special Projects
 

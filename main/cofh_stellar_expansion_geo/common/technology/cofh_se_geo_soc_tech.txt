@@ -50,6 +50,13 @@ tech_cofh_se_geoengineering = {
 	prerequisites = { "tech_colonization_2" }
 	weight = @tier2weight2
 
+	prereqfor_desc = {
+		diplo_action = {
+			title = "COFH_SE_TECH_UNLOCK_GEOENGINEERING_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_GEOENGINEERING_DESC"
+		}
+	}
+
 	weight_modifier = {
 		modifier = {
 			factor = 1.25

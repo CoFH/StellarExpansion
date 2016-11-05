@@ -72,7 +72,7 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	allow = {
-		custom_tooltip = {
+		custom_tooltip_fail = {
 			text = "requires_building_capital_2"
 			planet = {
 				OR = {
@@ -81,7 +81,7 @@ building_cofh_se_diplomatic_hub = {
 				}
 			}
 		}
-		custom_tooltip = {
+		custom_tooltip_fail = {
 			text = "requires_pops_15"
 			planet = {
 				count_pops = {

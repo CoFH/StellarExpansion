@@ -4,48 +4,48 @@
 
 # Engineering
 
- tech_cofh_se_protocol_droids:0 "Protokoll Droiden"
- tech_cofh_se_protocol_droids_desc:0 "Die Beherschung von über Sechs Millionen Kommunikationsformen und eine grenzenlosen Tolleranz gegenüber Bürokratie."
+tech_cofh_se_protocol_droids:0 "Protokoll Droiden"
+tech_cofh_se_protocol_droids_desc:0 "Die Beherschung von über Sechs Millionen Kommunikationsformen und eine grenzenlosen Tolleranz gegenüber Bürokratie."
 
 # Physics
 
- tech_cofh_se_deep_scan:0 "Tiefen-Scan Algorithmus"
- tech_cofh_se_deep_scan_desc:0 "Die Anwendung der statistischen Informationstheorie zur Erhebung von Daten offenbart Muster und Einsichten die Andernfalls übersehen worden wären."
+tech_cofh_se_deep_scan:0 "Tiefen-Scan Algorithmus"
+tech_cofh_se_deep_scan_desc:0 "Die Anwendung der statistischen Informationstheorie zur Erhebung von Daten offenbart Muster und Einsichten die Andernfalls übersehen worden wären."
 
 # Society
 
 # Ethos Buildings
 
- tech_cofh_se_central_intelligence:0 "Informationsgewinnung"
- tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
+tech_cofh_se_central_intelligence:0 "Informationsgewinnung"
+tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
 
- tech_cofh_se_eternal_vigilance:0 "Immer währende Wachsamkeit"
- tech_cofh_se_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$"
+tech_cofh_se_eternal_vigilance:0 "Immer währende Wachsamkeit"
+tech_cofh_se_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$"
 
- tech_cofh_se_final_frontier:0 "Die letzte Grenze"
- tech_cofh_se_final_frontier_desc:0 "$building_frontier_institute_desc$"
+tech_cofh_se_final_frontier:0 "Die letzte Grenze"
+tech_cofh_se_final_frontier_desc:0 "$building_frontier_institute_desc$"
 
- tech_cofh_se_galactic_concordance:0 "Galaktischer Friede"
- tech_cofh_se_galactic_concordance_desc:0 "$building_concord_assembly_desc$"
+tech_cofh_se_galactic_concordance:0 "Galaktischer Friede"
+tech_cofh_se_galactic_concordance_desc:0 "$building_concord_assembly_desc$"
 
- tech_cofh_se_cosmic_reflection:0 "Kosmische Reflektion"
- tech_cofh_se_cosmic_reflection_desc:0 "$building_monument_creation_desc$"
+tech_cofh_se_cosmic_reflection:0 "Kosmische Reflektion"
+tech_cofh_se_cosmic_reflection_desc:0 "$building_monument_creation_desc$"
 
 # Diplomacy
 
- tech_cofh_se_galactic_prominence:0 "Galaktische Prominenz"
- tech_cofh_se_galactic_prominence_desc:0 "Die größten unserer Welten haben ihre eigenen komplexen sozio-politischen Dynamiken und diese sind auch auf Galaktischer Ebene wichtig."
+tech_cofh_se_galactic_prominence:0 "Galaktische Prominenz"
+tech_cofh_se_galactic_prominence_desc:0 "Die größten unserer Welten haben ihre eigenen komplexen sozio-politischen Dynamiken und diese sind auch auf Galaktischer Ebene wichtig."
 
- tech_cofh_se_psi_diplomatic_corps:0 "Psi-Diplomaten Korps"
- tech_cofh_se_psi_diplomatic_corps_desc:0 "Diplomatie ist die hohe Kunst des Verhandelns, Gebährens und der Vorhersage. Sie wird zu einer weitaus leichteren Angelegenheit wenn man Gedanken lesen kann."
+tech_cofh_se_psi_diplomatic_corps:0 "Psi-Diplomaten Korps"
+tech_cofh_se_psi_diplomatic_corps_desc:0 "Diplomatie ist die hohe Kunst des Verhandelns, Gebährens und der Vorhersage. Sie wird zu einer weitaus leichteren Angelegenheit wenn man Gedanken lesen kann."
 
- tech_cofh_se_xeno_confidence:0 "Xeno Vertrauen"
- tech_cofh_se_xeno_confidence_desc:0 "Die Vermittlung unserer Absichten auf eine einfache Art und Weise - was sie auch sein mögen - hilft tiefere Beziehungen mit unseren galaktischen Nachbarn zu schaffen."
+tech_cofh_se_xeno_confidence:0 "Xeno Vertrauen"
+tech_cofh_se_xeno_confidence_desc:0 "Die Vermittlung unserer Absichten auf eine einfache Art und Weise - was sie auch sein mögen - hilft tiefere Beziehungen mit unseren galaktischen Nachbarn zu schaffen."
 
- tech_cofh_se_xeno_negotiation:0 "Xeno Verhandlungen"
- tech_cofh_se_xeno_negotiation_desc:0 "Während die Einzelheiten von Spezies zu Spezies unterschiedlich sind, eine Sache ist sicher - alle möchten Glauben ein gutes Geschäft zu machen."
+tech_cofh_se_xeno_negotiation:0 "Xeno Verhandlungen"
+tech_cofh_se_xeno_negotiation_desc:0 "Während die Einzelheiten von Spezies zu Spezies unterschiedlich sind, eine Sache ist sicher - alle möchten Glauben ein gutes Geschäft zu machen."
 
 # Military
 
- tech_cofh_se_battlefield_leadership:0 "Schlachtfeld Führung"
- tech_cofh_se_battlefield_leadership_desc:0 "Unsere Feldkommandanten brauchen kein Einfühlungsvermögen, sollten aber wissen wie sie ihre Truppen sammeln."
+tech_cofh_se_battlefield_leadership:0 "Schlachtfeld Führung"
+tech_cofh_se_battlefield_leadership_desc:0 "Unsere Feldkommandanten brauchen kein Einfühlungsvermögen, sollten aber wissen wie sie ihre Truppen sammeln."

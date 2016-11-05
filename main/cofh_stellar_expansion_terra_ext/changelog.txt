@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Terraforming (Extreme)
 Author: King Lemming
 
+2016-11-05:
+Minor adjustment to technology prerequisites to ensure that as many terraforming techs as possible are required.
+
+The base game apparently ignores missing techs entirely, which leads to improper behavior in the event that somebody has installed this mod and not the base Terraforming addon.
+
+--------------------------------------------------------------------------------
+
 2016-11-02:
 Complete rewrite for 1.3.x [Heinlein].
 

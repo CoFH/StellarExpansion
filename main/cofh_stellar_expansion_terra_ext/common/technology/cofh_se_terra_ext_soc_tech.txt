@@ -47,7 +47,7 @@ tech_cofh_se_dynamo_manipulation = {
 	cost = @tier3cost4
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_cofh_se_atmosphere_creation" }
+	prerequisites = { "tech_cofh_se_atmosphere_creation" "tech_climate_restoration" }
 	weight = @tier3weight4
 	is_rare = yes
 
@@ -93,7 +93,7 @@ tech_cofh_se_tectonic_restriction = {
 	cost = @tier3cost4
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_cofh_se_atmosphere_creation" }
+	prerequisites = { "tech_cofh_se_atmosphere_creation" "tech_climate_restoration" }
 	weight = @tier3weight4
 	is_rare = yes
 

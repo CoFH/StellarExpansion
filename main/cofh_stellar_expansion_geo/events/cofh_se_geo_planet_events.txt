@@ -8,7 +8,7 @@ planet_event = {
 	id = cofh_se_geo.10
 	title = "cofh_se_geo.10.name"
 	desc = "cofh_se_geo.10.desc"
-	picture = GFX_evt_mining_operations
+	picture = GFX_evt_geoengineering
 	show_sound = event_construction
 	location = ROOT
 
@@ -18,7 +18,37 @@ planet_event = {
 		any_tile = { has_building = "building_cofh_se_georeactor_basic" }
 	}
 
+	immediate = {
+		random_list = {
+			20 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 360
+				}
+			}
+			20 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 360
+				}
+			}
+			20 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 360
+				}
+			}
+			40 = {
+				# No effect
+			}
+		}
+	}
+
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_continental
 		}
@@ -38,6 +68,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_ocean
 		}
@@ -57,6 +88,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_tropical
 		}
@@ -76,6 +108,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_desert
 		}
@@ -95,6 +128,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_arid
 		}
@@ -114,6 +148,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_savannah
 		}
@@ -133,6 +168,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_arctic
 		}
@@ -152,6 +188,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_tundra
 		}
@@ -171,6 +208,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			is_planet_class = pc_alpine
 		}
@@ -195,7 +233,7 @@ planet_event = {
 	id = cofh_se_geo.20
 	title = "cofh_se_geo.20.name"
 	desc = "cofh_se_geo.20.desc"
-	picture = GFX_evt_mining_operations
+	picture = GFX_evt_geoengineering
 	show_sound = event_construction
 	location = ROOT
 
@@ -205,7 +243,37 @@ planet_event = {
 		any_tile = { has_building = "building_cofh_se_georeactor_adv" }
 	}
 
+	immediate = {
+		random_list = {
+			25 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 360
+				}
+			}
+			25 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 360
+				}
+			}
+			25 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 360
+				}
+			}
+			25 = {
+				# No effect
+			}
+		}
+	}
+
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			OR = {
 				is_planet_class = pc_continental
@@ -249,6 +317,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			OR = {
 				is_planet_class = pc_desert
@@ -292,6 +361,7 @@ planet_event = {
 		}
 	}
 	option = {
+		name = cofh_se_geo.a
 		trigger = {
 			OR = {
 				is_planet_class = pc_arctic
@@ -340,7 +410,7 @@ planet_event = {
 	id = cofh_se_geo.30
 	title = "cofh_se_geo.30.name"
 	desc = "cofh_se_geo.30.desc"
-	picture = GFX_evt_mining_operations
+	picture = GFX_evt_geoengineering
 	show_sound = event_construction
 	location = ROOT
 
@@ -350,7 +420,37 @@ planet_event = {
 		any_tile = { has_building = "building_cofh_se_georeactor_tomb" }
 	}
 
+	immediate = {
+		random_list = {
+			30 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 360
+				}
+			}
+			30 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 360
+				}
+			}
+			30 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 360
+				}
+			}
+			10 = {
+				# No effect
+			}
+		}
+	}
+
 	option = {
+		name = cofh_se_geo.a
 		begin_event_chain = {
 			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
@@ -407,7 +507,7 @@ planet_event = {
 	id = cofh_se_geo.40
 	title = "cofh_se_geo.40.name"
 	desc = "cofh_se_geo.40.desc"
-	picture = GFX_evt_mining_operations
+	picture = GFX_evt_geoengineering
 	show_sound = event_construction
 	location = ROOT
 
@@ -417,7 +517,37 @@ planet_event = {
 		any_tile = { has_building = "building_cofh_se_georeactor_gaia" }
 	}
 
+	immediate = {
+		random_list = {
+			30 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 360
+				}
+			}
+			30 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 360
+				}
+			}
+			30 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 360
+				}
+			}
+			10 = {
+				# No effect
+			}
+		}
+	}
+
 	option = {
+		name = cofh_se_geo.a
 		begin_event_chain = {
 			event_chain = "cofh_se_geoengineering_chain"
 			target = ROOT
@@ -456,6 +586,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -486,6 +620,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -516,6 +654,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -546,6 +688,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -576,6 +722,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -606,6 +756,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -636,6 +790,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -666,6 +824,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -696,6 +858,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
 	}
 }
@@ -722,6 +888,218 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
+			remove_modifier = "cofh_se_geoengineering_reactor"
+			remove_modifier = "cofh_se_geoengineering_storms"
+			remove_modifier = "cofh_se_geoengineering_tectonics"
+			remove_modifier = "cofh_se_geoengineering_weather"
 		}
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.110
+	title = "cofh_se_geo.110.name"
+	desc = "cofh_se_geo.110.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	trigger = {
+		any_tile = {
+			has_building = "building_cofh_se_georeactor_basic"
+		}
+	}
+
+	immediate = {
+		random_list = {
+			20 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 360
+				}
+			}
+			20 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 360
+				}
+			}
+			20 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 360
+				}
+			}
+			40 = {
+				# No effect
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = cofh_se_geo.a
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.120
+	title = "cofh_se_geo.120.name"
+	desc = "cofh_se_geo.120.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	trigger = {
+		any_tile = {
+			has_building = "building_cofh_se_georeactor_adv"
+		}
+	}
+
+	immediate = {
+		random_list = {
+			25 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 720
+				}
+			}
+			25 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 720
+				}
+			}
+			25 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 720
+				}
+			}
+			25 = {
+				# No effect
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {
+		name = cofh_se_geo.a
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.130
+	title = "cofh_se_geo.130.name"
+	desc = "cofh_se_geo.130.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	trigger = {
+		any_tile = {
+			has_building = "building_cofh_se_georeactor_tomb"
+		}
+	}
+
+	immediate = {
+		random_list = {
+			30 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 1080
+				}
+			}
+			30 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 1080
+				}
+			}
+			30 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 1080
+				}
+			}
+			30 = {
+				# No effect
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 54
+	}
+
+	option = {
+		name = cofh_se_geo.a
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.140
+	title = "cofh_se_geo.140.name"
+	desc = "cofh_se_geo.140.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	trigger = {
+		any_tile = {
+			has_building = "building_cofh_se_georeactor_gaia"
+		}
+	}
+
+	immediate = {
+		random_list = {
+			30 = {
+				# Storms
+				add_modifier = {
+					modifier = cofh_se_geoengineering_storms
+					days = 1080
+				}
+			}
+			30 = {
+				# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geoengineering_tectonics
+					days = 1080
+				}
+			}
+			30 = {
+				# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geoengineering_weather
+					days = 1080
+				}
+			}
+			30 = {
+				# No effect
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 54
+	}
+
+	option = {
+		name = cofh_se_geo.a
 	}
 }

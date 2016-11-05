@@ -60,10 +60,6 @@ building_cofh_se_geo_complex_1 = {
 		society_research = 2
 	}
 
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
-	}
-
 	prerequisites = {
 		"tech_cofh_se_geoengineering"
 	}
@@ -75,6 +71,8 @@ building_cofh_se_geo_complex_1 = {
 		building_cofh_se_georeactor_tomb
 		building_cofh_se_georeactor_gaia
 	}
+
+	ai_special_building = yes
 
 	ai_weight = {
 		weight = 10
@@ -118,6 +116,8 @@ building_cofh_se_geo_complex_2 = {
 		"tech_atmospheric_manipulation"
 	}
 
+	ai_special_building = yes
+
 	ai_weight = {
 		weight = 10
 		modifier = {
@@ -139,9 +139,9 @@ building_cofh_se_georeactor_basic = {
 	is_listed = no
 
 	cost = {
-		energy = 800
-		minerals = 800
-		influence = 5
+		energy = 1000
+		minerals = 1000
+		influence = 50
 	}
 
 	required_resources = {
@@ -152,10 +152,6 @@ building_cofh_se_georeactor_basic = {
 		engineering_research = 2
 		physics_research = 2
 		society_research = 2
-	}
-
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
 	}
 
 	prerequisites = {
@@ -188,9 +184,9 @@ building_cofh_se_georeactor_adv = {
 	is_listed = no
 
 	cost = {
-		energy = 2000
-		minerals = 2000
-		influence = 10
+		energy = 2500
+		minerals = 2500
+		influence = 50
 	}
 
 	required_resources = {
@@ -201,10 +197,6 @@ building_cofh_se_georeactor_adv = {
 		engineering_research = 2
 		physics_research = 2
 		society_research = 2
-	}
-
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
 	}
 
 	prerequisites = {
@@ -237,9 +229,9 @@ building_cofh_se_georeactor_tomb = {
 	is_listed = no
 
 	cost = {
-		energy = 4000
-		minerals = 4000
-		influence = 15
+		energy = 5000
+		minerals = 5000
+		influence = 25
 	}
 
 	required_resources = {
@@ -250,10 +242,6 @@ building_cofh_se_georeactor_tomb = {
 		engineering_research = 2
 		physics_research = 2
 		society_research = 2
-	}
-
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
 	}
 
 	prerequisites = {
@@ -283,9 +271,9 @@ building_cofh_se_georeactor_gaia = {
 	is_listed = no
 
 	cost = {
-		energy = 8000
-		minerals = 8000
-		influence = 20
+		energy = 10000
+		minerals = 10000
+		influence = 100
 	}
 
 	required_resources = {
@@ -296,10 +284,6 @@ building_cofh_se_georeactor_gaia = {
 		engineering_research = 2
 		physics_research = 2
 		society_research = 2
-	}
-
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
 	}
 
 	prerequisites = {

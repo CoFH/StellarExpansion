@@ -1,6 +1,17 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-11-05:
+New tech! Didn't know about this modifier either. 5% might be too low given that Shield Capacitors are 50%, but I'm being careful not to overdo it.
+
+New Technologies:
+	Harmonic Replenishment:
+		Field Manipulation
+		+5% Shield Regeneration
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
 2016-11-01:
 Three new crisis-countermeasure technologies.
 

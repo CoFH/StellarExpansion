@@ -1,0 +1,28 @@
+[h1][b]Stellar Expansion is NOT required.[/b][/h1]
+It is simply compatible with this mod and designed to work alongside it.
+
+This mod unlocks a technology and a gameplay mechanic - Geoengineering! Basically, it allows you to use Buildings and Special Projects to terraform already inhabited worlds.
+
+To do so, a Geoengineering Complex must first be constructed. Then, it can be upgraded to include a Terraformation Reactor. This is where all of the resource cost occurs - energy, minerals, and influence. Once the reactor is built, you'll have the option to terraform the planet into the types allowed by that reactor. It will still take roughly as long as orbital terraforming. In addition, there will occasionally be minor geoclimatic disturbances which make the planet slightly less habitable.
+
+Don't worry though, buildings won't get destroyed, and people won't be killed.
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]One (1) new technology - Geoengineering, which unlocks the mechanic of the same name.
+	[*]Six (6) new buildings to make use of the technology!
+	[*]Terraformation of already inhabited worlds, and an alternate terraforming path in general (building-based).
+[/list]
+
+This mod doesn't allow you to terraform things that you can't already colonize or inhabit, or planets which by default are uninhabitable. If you're looking to do that, try these instead:
+[list]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=719802418]Stellar Expansion - Terraforming[/url][/i][/b]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=733386004]Stellar Expansion - Terraforming (Extreme)[/url][/i][/b]
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_geo/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_geo/changelog.txt]Change Log[/url][/b]
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].
