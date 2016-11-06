@@ -586,7 +586,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -620,7 +619,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -654,7 +652,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -688,7 +685,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -722,7 +718,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -756,7 +751,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -790,7 +784,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -824,7 +817,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -858,7 +850,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"
@@ -888,7 +879,6 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_reactor"
 			remove_modifier = "cofh_se_geoengineering_storms"
 			remove_modifier = "cofh_se_geoengineering_tectonics"
 			remove_modifier = "cofh_se_geoengineering_weather"

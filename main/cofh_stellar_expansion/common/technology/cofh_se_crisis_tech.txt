@@ -103,3 +103,23 @@ tech_cofh_se_anti_swarm = {
 		factor = 0
 	}
 }
+
+# Fallen Empire Countermeasures
+tech_cofh_se_anti_fallen_empire = {
+	icon = "tech_cofh_se_anti_fallen_empire"
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+
+	modifier = {
+		damage_vs_country_type_fallen_empire_mult = 0.15
+		damage_vs_country_type_awakened_fallen_empire_mult = 0.15
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+}
