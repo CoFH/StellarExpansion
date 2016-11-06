@@ -159,13 +159,18 @@ building_cofh_se_georeactor_basic = {
 	}
 
 	allow = {
-		custom_tooltip = {
+		custom_tooltip_fail = {
 			text = "requirement_cofh_se_geo_not_gaia"
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
 					is_planet_class = pc_ringworld_habitable
 				}
+			}
+		}
+		planet = {
+			NOT = {
+				is_planet_class = pc_nuked
 			}
 		}
 	}
@@ -204,13 +209,18 @@ building_cofh_se_georeactor_adv = {
 	}
 
 	allow = {
-		custom_tooltip = {
+		custom_tooltip_fail = {
 			text = "requirement_cofh_se_geo_not_gaia"
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
 					is_planet_class = pc_ringworld_habitable
 				}
+			}
+		}
+		planet = {
+			NOT = {
+				is_planet_class = pc_nuked
 			}
 		}
 	}
@@ -291,13 +301,18 @@ building_cofh_se_georeactor_gaia = {
 	}
 
 	allow = {
-		custom_tooltip = {
+		custom_tooltip_fail = {
 			text = "requirement_cofh_se_geo_not_gaia"
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
 					is_planet_class = pc_ringworld_habitable
 				}
+			}
+		}
+		planet = {
+			NOT = {
+				is_planet_class = pc_nuked
 			}
 		}
 	}
