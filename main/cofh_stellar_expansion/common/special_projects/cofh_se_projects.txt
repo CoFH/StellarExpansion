@@ -10,7 +10,7 @@ special_project = {
 	key = "COFH_SE_INVESTIGATE_SWARM"
 	picture = GFX_evt_star_chart
 	icon = "gfx/interface/icons/situation_log/situation_log_radar.dds"
-	cost = 200
+	cost = 1500
 	tech_department = society_technology
 	days_to_research = 0
 	location = no
@@ -18,8 +18,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -27,15 +26,14 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 special_project = {
 	key = "COFH_SE_INVESTIGATE_EXD"
 	picture = GFX_evt_star_chart
 	icon = "gfx/interface/icons/situation_log/situation_log_radar.dds"
-	cost = 200
+	cost = 1500
 	tech_department = physics_technology
 	days_to_research = 0
 	location = no
@@ -43,8 +41,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -52,15 +49,14 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 special_project = {
 	key = "COFH_SE_INVESTIGATE_AI"
 	picture = GFX_evt_star_chart
 	icon = "gfx/interface/icons/situation_log/situation_log_radar.dds"
-	cost = 200
+	cost = 1500
 	tech_department = engineering_technology
 	days_to_research = 0
 	location = no
@@ -68,8 +64,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -77,15 +72,14 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }
 
 special_project = {
 	key = "COFH_SE_INVESTIGATE_FE"
 	picture = GFX_evt_star_chart
 	icon = "gfx/interface/icons/situation_log/situation_log_radar.dds"
-	cost = 200
+	cost = 1500
 	tech_department = engineering_technology
 	days_to_research = 0
 	location = no
@@ -93,8 +87,7 @@ special_project = {
 
 	event_scope = planet_event
 
-	requirements = {
-	}
+	requirements = {}
 
 	on_success = {
 		owner = {
@@ -102,6 +95,5 @@ special_project = {
 		}
 	}
 
-	on_fail = {
-	}
+	on_fail = {}
 }

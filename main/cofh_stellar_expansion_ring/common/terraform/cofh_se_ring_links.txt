@@ -10,7 +10,8 @@ terraform_link = {
 	from = "pc_ringworld_habitable_damaged"
 	to = "pc_ringworld_habitable"
 
-	energy = 20000
+	energy = 15000
+	minerals = 15000
 	duration = 14600
 
 	condition = {
@@ -23,6 +24,7 @@ terraform_link = {
 	to = "pc_ringworld_tech"
 
 	energy = 5000
+	minerals = 5000
 	duration = 3600
 
 	condition = {
@@ -35,6 +37,7 @@ terraform_link = {
 	to = "pc_ringworld_seam"
 
 	energy = 5000
+	minerals = 5000
 	duration = 3600
 
 	condition = {

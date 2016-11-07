@@ -40,7 +40,7 @@ country_event = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_SWARM"
 				location = this
-				owner = root
+				owner = ROOT
 			}
 		}
 	}
@@ -132,7 +132,7 @@ country_event = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_EXD"
 				location = this
-				owner = root
+				owner = ROOT
 			}
 		}
 	}
@@ -224,7 +224,7 @@ country_event = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_AI"
 				location = this
-				owner = root
+				owner = ROOT
 			}
 		}
 	}
@@ -315,7 +315,7 @@ country_event = {
 			enable_special_project = {
 				name = "COFH_SE_INVESTIGATE_FE"
 				location = this
-				owner = root
+				owner = ROOT
 			}
 		}
 	}

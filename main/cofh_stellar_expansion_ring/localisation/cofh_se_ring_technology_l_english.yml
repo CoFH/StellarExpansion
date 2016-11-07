@@ -3,3 +3,21 @@
 # Technology - Non-Repeatable
 
 # Society
+
+tech_cofh_se_ring_seam_repair:0 "Ringworld Seam Repair"
+tech_cofh_se_ring_seam_repair_desc:0 "Knowledge of Living Metallurgy combined with study of Ringworld engineering allows for the repair of the most basic sections."
+
+tech_cofh_se_ring_tech_repair:0 "Ringworld Support Repair"
+tech_cofh_se_ring_tech_repair_desc:0 ""
+
+tech_cofh_se_ring_habitable_repair:0 "Ringworld Habitat Repair"
+tech_cofh_se_ring_habitable_repair_desc:0 ""
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_SEAM_REPAIR_TITLE:0 "§HUnlocks Feature:§! Ringworld Seam Repair"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_SEAM_REPAIR_DESC:0 "§HRingworld Seam Repair§!\nAllows us to repair the structural support sections of broken Ringworlds."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_TECH_REPAIR_TITLE:0 "§HUnlocks Feature:§! Ringworld Support Repair"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_TECH_REPAIR_DESC:0 "§HRingworld Support Repair§!\nAllows us to repair the technological support sections of broken Ringworlds."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_HABITABLE_REPAIR_TITLE:0 "§HUnlocks Feature:§! Ringworld Habitat Repair"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_HABITABLE_REPAIR_DESC:0 "§HRingworld Habitat Repair§!\nAllows us repair the habitable sections of broken Ringworlds."

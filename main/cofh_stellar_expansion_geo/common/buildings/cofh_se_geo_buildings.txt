@@ -168,9 +168,12 @@ building_cofh_se_georeactor_basic = {
 				}
 			}
 		}
-		planet = {
-			NOT = {
+		custom_tooltip_fail = {
+			text = "requirement_cofh_se_geo_not_tomb"
+			planet = {
+				NOT = {
 				is_planet_class = pc_nuked
+				}
 			}
 		}
 	}
@@ -218,9 +221,12 @@ building_cofh_se_georeactor_adv = {
 				}
 			}
 		}
-		planet = {
-			NOT = {
+		custom_tooltip_fail = {
+			text = "requirement_cofh_se_geo_not_tomb"
+			planet = {
+				NOT = {
 				is_planet_class = pc_nuked
+				}
 			}
 		}
 	}
@@ -310,9 +316,12 @@ building_cofh_se_georeactor_gaia = {
 				}
 			}
 		}
-		planet = {
-			NOT = {
+		custom_tooltip_fail = {
+			text = "requirement_cofh_se_geo_not_tomb"
+			planet = {
+				NOT = {
 				is_planet_class = pc_nuked
+				}
 			}
 		}
 	}

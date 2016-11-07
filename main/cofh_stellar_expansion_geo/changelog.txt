@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2016-11-06:
+Added non-Tomb World restrictions to all terraformers except for the Climate Restoration Reactor.
+
+Touched up localization slightly. Yay red text!
+
+--------------------------------------------------------------------------------
+
 2016-11-05:
 Mod now exists. :)
 

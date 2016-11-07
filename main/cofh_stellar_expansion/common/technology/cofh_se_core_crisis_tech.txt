@@ -114,6 +114,11 @@ tech_cofh_se_anti_fallen_empire = {
 	weight = 0
 	is_rare = yes
 
+	#prereqfor_desc = {
+	#	title = "COFH_SE_TECH_ANTI_FE_TITLE"
+	#	desc = "COFH_SE_TECH_ANTI_FE_DESC"
+	#}
+
 	modifier = {
 		damage_vs_country_type_fallen_empire_mult = 0.15
 		damage_vs_country_type_awakened_fallen_empire_mult = 0.15

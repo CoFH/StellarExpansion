@@ -128,7 +128,7 @@ building_cofh_se_robot_maintenance = {
 	}
 
 	allow = {
-		custom_tooltip = {
+		custom_tooltip_fail = {
 			text = "requirement_cofh_se_robot_maintenance"
 			planet = {
 				owner = {
