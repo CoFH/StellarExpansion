@@ -1,6 +1,16 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-11-08:
+New crisis-countermeasure technology for Fallen Empires. Works the same way as the other 3 - you'll have to engage them in combat and then complete the Special Project.
+
+New Technologies:
+	Fallen Empire Countermeasures:
+		Voidcraft
+		+15% Damage to Fallen Empire Ships
+
+--------------------------------------------------------------------------------
+
 2016-11-05:
 New tech! Didn't know about this modifier either. 5% might be too low given that Shield Capacitors are 50%, but I'm being careful not to overdo it.
 
@@ -15,7 +25,7 @@ New Technologies:
 2016-11-01:
 Three new crisis-countermeasure technologies.
 
-To discover these, your fleets must first engage the crisis fleets in combat (win or lose, just have to engage). After a brief waiting period, there will be a prompt for a special project. When completed, a technology will be partially unlocked which gives bonus damage against the crisis enemies.
+To discover these, your fleets must first engage the crisis fleets in combat (win or lose, just have to engage). After a brief waiting period, there will be a prompt for a Special Project. When completed, a technology will be partially unlocked which gives bonus damage against the crisis enemies.
 
 The technology will remain in the list as a valid research option, and defeating enemy ships will also advance the research.
 

@@ -1,6 +1,20 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2016-11-08:
+Major rework of the mod to handle incorrect behaviors. Apologies for the oversights.
+
+-Special Projects are no longer part of an Event Chain.
+-Terraformation Projects now require that you choose the specific planet type that you want in the popup window.
+-Terraformation Projects have a 30 day timeout window, upon which you may select a different planet (if you misclicked).
+-Geoclimatic event severity has been decreased, but they are more frequent and you can have multiples appear at once now.
+
+-This update has inconsistent behavior with existing saves - projects which are in progress or available are going to look weird in the situation log. To fix this, open the console (` by default) and type:
+
+"event cofh_se_geo.999" without the quotation marks.
+
+--------------------------------------------------------------------------------
+
 2016-11-06:
 Added non-Tomb World restrictions to all terraformers except for the Climate Restoration Reactor.
 

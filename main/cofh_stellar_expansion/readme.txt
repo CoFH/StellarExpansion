@@ -449,6 +449,12 @@ Prethoryn Sourge Countermeasures:
 	Effects:
 		+15% Damage to Prethoryn Creatures
 
+Fallen Empire Countermeasures:
+	Engineering - Voidcraft
+
+	Effects:
+		+15% Damage to Fallen Empire Ships
+
 ################################################################################
 # Notes
 ################################################################################

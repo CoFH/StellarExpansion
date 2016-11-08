@@ -15,91 +15,111 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
 		any_tile = { has_building = "building_cofh_se_georeactor_basic" }
 	}
 
 	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
 		random_list = {
-			20 = {
-				# Storms
+			15 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 360
 				}
 			}
-			20 = {
-				# Earthquakes
+			30 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 360
 				}
 			}
-			20 = {
-				# Hazardous Weather
+			15 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 360
 				}
 			}
-			40 = {
-				# No effect
+			15 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			5 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			5 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
 			}
 		}
 	}
 
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.continental
 		trigger = {
-			is_planet_class = pc_continental
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_OCEAN_BAS"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_TROPICAL_BAS"
-			location = this
-			owner = ROOT
-		}
-	}
-	option = {
-		name = cofh_se_geo.a
-		trigger = {
-			is_planet_class = pc_ocean
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
+			OR = {
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_CONTINENTAL_BAS"
 			location = this
 			owner = ROOT
 		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_TROPICAL_BAS"
-			location = this
-			owner = ROOT
-		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.ocean
 		trigger = {
-			is_planet_class = pc_tropical
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_CONTINENTAL_BAS"
-			location = this
-			owner = ROOT
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_tropical
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_OCEAN_BAS"
@@ -108,58 +128,40 @@ planet_event = {
 		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.tropical
 		trigger = {
-			is_planet_class = pc_desert
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ARID_BAS"
-			location = this
-			owner = ROOT
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+			}
 		}
 		enable_special_project = {
-			name = "COFH_SE_GEO_SAVANNA_BAS"
+			name = "COFH_SE_GEO_TROPICAL_BAS"
 			location = this
 			owner = ROOT
 		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.desert
 		trigger = {
-			is_planet_class = pc_arid
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
+			OR = {
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_DESERT_BAS"
 			location = this
 			owner = ROOT
 		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_SAVANNA_BAS"
-			location = this
-			owner = ROOT
-		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.arid
 		trigger = {
-			is_planet_class = pc_savannah
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_DESERT_BAS"
-			location = this
-			owner = ROOT
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_savannah
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_ARID_BAS"
@@ -168,61 +170,57 @@ planet_event = {
 		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.savanna
 		trigger = {
-			is_planet_class = pc_arctic
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_TUNDRA_BAS"
-			location = this
-			owner = ROOT
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+			}
 		}
 		enable_special_project = {
-			name = "COFH_SE_GEO_ALPINE_BAS"
+			name = "COFH_SE_GEO_SAVANNA_BAS"
 			location = this
 			owner = ROOT
 		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.arctic
 		trigger = {
-			is_planet_class = pc_tundra
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
+			OR = {
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_ARCTIC_BAS"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.tundra
+		trigger = {
+			OR = {
+				is_planet_class = pc_arctic
+				is_planet_class = pc_alpine
+			}
+		}
 		enable_special_project = {
-			name = "COFH_SE_GEO_ALPINE_BAS"
+			name = "COFH_SE_GEO_TUNDRA_BAS"
 			location = this
 			owner = ROOT
 		}
 	}
 	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.alpine
 		trigger = {
-			is_planet_class = pc_alpine
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ARCTIC_BAS"
-			location = this
-			owner = ROOT
+			OR = {
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+			}
 		}
 		enable_special_project = {
-			name = "COFH_SE_GEO_TUNDRA_BAS"
+			name = "COFH_SE_GEO_ALPINE_BAS"
 			location = this
 			owner = ROOT
 		}
@@ -240,166 +238,248 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
 		any_tile = { has_building = "building_cofh_se_georeactor_adv" }
 	}
 
 	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
 		random_list = {
-			25 = {
-				# Storms
+			20 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 360
 				}
 			}
-			25 = {
-				# Earthquakes
+			10 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 360
 				}
 			}
-			25 = {
-				# Hazardous Weather
+			20 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 360
 				}
 			}
-			25 = {
-				# No effect
+			10 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			20 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
 			}
 		}
 	}
 
 	option = {
-		name = cofh_se_geo.a
-		trigger = {
-			OR = {
-				is_planet_class = pc_continental
-				is_planet_class = pc_ocean
-				is_planet_class = pc_tropical
-			}
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_DESERT_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ARID_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_SAVANNA_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ARCTIC_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_TUNDRA_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ALPINE_ADV"
-			location = this
-			owner = ROOT
-		}
-	}
-	option = {
-		name = cofh_se_geo.a
+		name = cofh_se_geo.continental
 		trigger = {
 			OR = {
 				is_planet_class = pc_desert
 				is_planet_class = pc_arid
 				is_planet_class = pc_savannah
-			}
-		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_CONTINENTAL_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_OCEAN_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_TROPICAL_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ARCTIC_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_TUNDRA_ADV"
-			location = this
-			owner = ROOT
-		}
-		enable_special_project = {
-			name = "COFH_SE_GEO_ALPINE_ADV"
-			location = this
-			owner = ROOT
-		}
-	}
-	option = {
-		name = cofh_se_geo.a
-		trigger = {
-			OR = {
 				is_planet_class = pc_arctic
 				is_planet_class = pc_tundra
 				is_planet_class = pc_alpine
 			}
 		}
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_CONTINENTAL_ADV"
 			location = this
 			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.ocean
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_OCEAN_ADV"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.tropical
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_TROPICAL_ADV"
 			location = this
 			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.desert
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
 		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_DESERT_ADV"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.arid
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_ARID_ADV"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.savanna
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_SAVANNA_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arctic
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARCTIC_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tundra
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_TUNDRA_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.alpine
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ALPINE_ADV"
 			location = this
 			owner = ROOT
 		}
@@ -417,84 +497,156 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
 		any_tile = { has_building = "building_cofh_se_georeactor_tomb" }
 	}
 
 	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
 		random_list = {
-			30 = {
-				# Storms
+			15 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 360
 				}
 			}
-			30 = {
-				# Earthquakes
+			15 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 360
 				}
 			}
-			30 = {
-				# Hazardous Weather
+			15 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
 					days = 360
 				}
 			}
 			10 = {
-				# No effect
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
 			}
 		}
 	}
 
 	option = {
-		name = cofh_se_geo.a
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
+		name = cofh_se_geo.continental
 		enable_special_project = {
 			name = "COFH_SE_GEO_CONTINENTAL_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.ocean
 		enable_special_project = {
 			name = "COFH_SE_GEO_OCEAN_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.tropical
 		enable_special_project = {
 			name = "COFH_SE_GEO_TROPICAL_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.desert
 		enable_special_project = {
 			name = "COFH_SE_GEO_DESERT_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.arid
 		enable_special_project = {
 			name = "COFH_SE_GEO_ARID_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.savanna
 		enable_special_project = {
 			name = "COFH_SE_GEO_SAVANNA_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.arctic
 		enable_special_project = {
 			name = "COFH_SE_GEO_ARCTIC_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.tundra
 		enable_special_project = {
 			name = "COFH_SE_GEO_TUNDRA_TOMB"
 			location = this
 			owner = ROOT
 		}
+	}
+	option = {
+		name = cofh_se_geo.alpine
 		enable_special_project = {
 			name = "COFH_SE_GEO_ALPINE_TOMB"
 			location = this
@@ -514,44 +666,92 @@ planet_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
 		any_tile = { has_building = "building_cofh_se_georeactor_gaia" }
 	}
 
 	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
 		random_list = {
-			30 = {
-				# Storms
+			20 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 360
 				}
 			}
-			30 = {
-				# Earthquakes
+			20 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 360
 				}
 			}
-			30 = {
-				# Hazardous Weather
+			20 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 360
 				}
 			}
 			10 = {
-				# No effect
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
 			}
 		}
 	}
 
 	option = {
 		name = cofh_se_geo.a
-		begin_event_chain = {
-			event_chain = "cofh_se_geoengineering_chain"
-			target = ROOT
-		}
 		enable_special_project = {
 			name = "COFH_SE_GEO_GAIA"
 			location = this
@@ -586,9 +786,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -619,9 +820,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -652,9 +854,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -685,9 +888,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -718,9 +922,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -751,9 +956,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -784,9 +990,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -817,9 +1024,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -850,9 +1058,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -879,9 +1088,10 @@ planet_event = {
 				remove_building = yes
 				set_building = "building_cofh_se_geo_complex_1"
 			}
-			remove_modifier = "cofh_se_geoengineering_storms"
-			remove_modifier = "cofh_se_geoengineering_tectonics"
-			remove_modifier = "cofh_se_geoengineering_weather"
+			remove_modifier = "cofh_se_geo_pm_reactor"
+			remove_modifier = "cofh_se_geo_pm_storms"
+			remove_modifier = "cofh_se_geo_pm_tectonics"
+			remove_modifier = "cofh_se_geo_pm_weather"
 		}
 	}
 }
@@ -895,6 +1105,7 @@ planet_event = {
 	location = ROOT
 
 	trigger = {
+		has_modifier = "cofh_se_geo_pm_reactor"
 		any_tile = {
 			has_building = "building_cofh_se_georeactor_basic"
 		}
@@ -902,29 +1113,74 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			20 = {
-				# Storms
+			15 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 360
 				}
 			}
-			20 = {
-				# Earthquakes
+			30 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 360
 				}
 			}
-			20 = {
-				# Hazardous Weather
+			15 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 360
 				}
 			}
-			40 = {
-				# No effect
+			15 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			5 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			5 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
 			}
 		}
 	}
@@ -947,6 +1203,7 @@ planet_event = {
 	location = ROOT
 
 	trigger = {
+		has_modifier = "cofh_se_geo_pm_reactor"
 		any_tile = {
 			has_building = "building_cofh_se_georeactor_adv"
 		}
@@ -954,29 +1211,74 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			25 = {
-				# Storms
+			20 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 720
 				}
 			}
-			25 = {
-				# Earthquakes
+			10 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 720
 				}
 			}
-			25 = {
-				# Hazardous Weather
+			20 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 720
 				}
 			}
-			25 = {
-				# No effect
+			10 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 720
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 720
+				}
+			}
+			20 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 720
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 720
+				}
+			}
+			10 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 720
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 720
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 720
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 720
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 720
+				}
 			}
 		}
 	}
@@ -999,6 +1301,7 @@ planet_event = {
 	location = ROOT
 
 	trigger = {
+		has_modifier = "cofh_se_geo_pm_reactor"
 		any_tile = {
 			has_building = "building_cofh_se_georeactor_tomb"
 		}
@@ -1006,29 +1309,74 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			30 = {
-				# Storms
+			15 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 1080
 				}
 			}
-			30 = {
-				# Earthquakes
+			15 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 1080
 				}
 			}
-			30 = {
-				# Hazardous Weather
+			15 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 1080
 				}
 			}
-			30 = {
-				# No effect
+			15 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 1080
+				}
+			}
+			15 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 1080
+				}
+			}
+			15 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 1080
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 1080
+				}
 			}
 		}
 	}
@@ -1051,6 +1399,7 @@ planet_event = {
 	location = ROOT
 
 	trigger = {
+		has_modifier = "cofh_se_geo_pm_reactor"
 		any_tile = {
 			has_building = "building_cofh_se_georeactor_gaia"
 		}
@@ -1058,29 +1407,74 @@ planet_event = {
 
 	immediate = {
 		random_list = {
-			30 = {
-				# Storms
+			20 = {
+			# Storms
 				add_modifier = {
-					modifier = cofh_se_geoengineering_storms
+					modifier = cofh_se_geo_pm_storms
 					days = 1080
 				}
 			}
-			30 = {
-				# Earthquakes
+			20 = {
+			# Earthquakes
 				add_modifier = {
-					modifier = cofh_se_geoengineering_tectonics
+					modifier = cofh_se_geo_pm_tectonics
 					days = 1080
 				}
 			}
-			30 = {
-				# Hazardous Weather
+			20 = {
+			# Hazardous Weather
 				add_modifier = {
-					modifier = cofh_se_geoengineering_weather
+					modifier = cofh_se_geo_pm_weather
 					days = 1080
 				}
 			}
-			30 = {
-				# No effect
+			10 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 1080
+				}
+			}
+			10 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 1080
+				}
+			}
+			10 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 1080
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 1080
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 1080
+				}
 			}
 		}
 	}
@@ -1091,5 +1485,775 @@ planet_event = {
 
 	option = {
 		name = cofh_se_geo.a
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.200
+	hide_window = yes
+ 	is_triggered_only = yes
+
+ 	immediate = {
+ 		remove_modifier = "cofh_se_geo_pm_reactor"
+		remove_modifier = "cofh_se_geo_pm_storms"
+		remove_modifier = "cofh_se_geo_pm_tectonics"
+		remove_modifier = "cofh_se_geo_pm_weather"
+ 	}
+}
+
+
+planet_event = {
+	id = cofh_se_geo.210
+	title = "cofh_se_geo.210.name"
+	desc = "cofh_se_geo.210.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
+		any_tile = { has_building = "building_cofh_se_georeactor_basic" }
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
+		random_list = {
+			15 = {
+			# Storms
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+			}
+			30 = {
+			# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			15 = {
+			# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			5 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			5 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cofh_se_geo.continental
+		trigger = {
+			OR = {
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_CONTINENTAL_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.ocean
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_tropical
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_OCEAN_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tropical
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_TROPICAL_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.desert
+		trigger = {
+			OR = {
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_DESERT_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arid
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARID_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.savanna
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_SAVANNA_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arctic
+		trigger = {
+			OR = {
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARCTIC_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tundra
+		trigger = {
+			OR = {
+				is_planet_class = pc_arctic
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_TUNDRA_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.alpine
+		trigger = {
+			OR = {
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ALPINE_BAS"
+			location = this
+			owner = ROOT
+		}
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.220
+	title = "cofh_se_geo.220.name"
+	desc = "cofh_se_geo.220.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
+		any_tile = { has_building = "building_cofh_se_georeactor_adv" }
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
+		random_list = {
+			20 = {
+			# Storms
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+			}
+			10 = {
+			# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			20 = {
+			# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			20 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cofh_se_geo.continental
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_CONTINENTAL_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.ocean
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_OCEAN_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tropical
+		trigger = {
+			OR = {
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_TROPICAL_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.desert
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_DESERT_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arid
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARID_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.savanna
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_arctic
+				is_planet_class = pc_tundra
+				is_planet_class = pc_alpine
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_SAVANNA_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arctic
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARCTIC_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tundra
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_TUNDRA_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.alpine
+		trigger = {
+			OR = {
+				is_planet_class = pc_continental
+				is_planet_class = pc_ocean
+				is_planet_class = pc_tropical
+				is_planet_class = pc_desert
+				is_planet_class = pc_arid
+				is_planet_class = pc_savannah
+			}
+		}
+		enable_special_project = {
+			name = "COFH_SE_GEO_ALPINE_ADV"
+			location = this
+			owner = ROOT
+		}
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.230
+	title = "cofh_se_geo.230.name"
+	desc = "cofh_se_geo.230.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
+		any_tile = { has_building = "building_cofh_se_georeactor_tomb" }
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
+		random_list = {
+			15 = {
+			# Storms
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+			}
+			15 = {
+			# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			15 = {
+			# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			15 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cofh_se_geo.continental
+		enable_special_project = {
+			name = "COFH_SE_GEO_CONTINENTAL_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.ocean
+		enable_special_project = {
+			name = "COFH_SE_GEO_OCEAN_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tropical
+		enable_special_project = {
+			name = "COFH_SE_GEO_TROPICAL_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.desert
+		enable_special_project = {
+			name = "COFH_SE_GEO_DESERT_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arid
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARID_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.savanna
+		enable_special_project = {
+			name = "COFH_SE_GEO_SAVANNA_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.arctic
+		enable_special_project = {
+			name = "COFH_SE_GEO_ARCTIC_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.tundra
+		enable_special_project = {
+			name = "COFH_SE_GEO_TUNDRA_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+	option = {
+		name = cofh_se_geo.alpine
+		enable_special_project = {
+			name = "COFH_SE_GEO_ALPINE_TOMB"
+			location = this
+			owner = ROOT
+		}
+	}
+}
+
+planet_event = {
+	id = cofh_se_geo.240
+	title = "cofh_se_geo.240.name"
+	desc = "cofh_se_geo.240.desc"
+	picture = GFX_evt_geoengineering
+	show_sound = event_construction
+	location = ROOT
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_modifier = "cofh_se_geo_pm_reactor"
+		}
+		any_tile = { has_building = "building_cofh_se_georeactor_gaia" }
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = "cofh_se_geo_pm_reactor"
+			days = -1
+		}
+		random_list = {
+			20 = {
+			# Storms
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+			}
+			20 = {
+			# Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			20 = {
+			# Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Earthquakes + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Storms + Hazardous Weather
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+			10 = {
+			# Storms + Earthquakes
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+			}
+			10 = {
+			# All 3
+				add_modifier = {
+					modifier = cofh_se_geo_pm_storms
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_tectonics
+					days = 360
+				}
+				add_modifier = {
+					modifier = cofh_se_geo_pm_weather
+					days = 360
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cofh_se_geo.a
+		enable_special_project = {
+			name = "COFH_SE_GEO_GAIA"
+			location = this
+			owner = ROOT
+		}
 	}
 }

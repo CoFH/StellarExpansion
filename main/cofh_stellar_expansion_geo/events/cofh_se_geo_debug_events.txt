@@ -1,0 +1,24 @@
+# CoFH - Stellar Expansion - Geoengineering
+# Debug Events
+# Author: King Lemming
+
+namespace = cofh_se_geo
+
+event = {
+	id = cofh_se_geo.999
+	hide_window = yes
+ 	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			end_event_chain = "cofh_se_geoengineering_chain"
+
+			every_owned_planet = {
+				planet_event = { id = cofh_se_geo.10 }
+				planet_event = { id = cofh_se_geo.20 }
+				planet_event = { id = cofh_se_geo.30 }
+				planet_event = { id = cofh_se_geo.40 }
+			}
+		}
+	}
+}

@@ -2,27 +2,32 @@
 # Static Modifiers
 # Author: King Lemming
 
-cofh_se_geoengineering_storms = {
-	pop_environment_tolerance = -0.20
-	pop_happiness = -0.10
+cofh_se_geo_pm_reactor = {
+	icon = "gfx/interface/icons/planet_modifiers/cofh_se_pm_reactor.dds"
+	icon_frame = 2
+}
+
+cofh_se_geo_pm_storms = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
 	tile_resource_physics_research_mult = 0.10
 
 	icon = "gfx/interface/icons/planet_modifiers/pm_wild_storms.dds"
 	icon_frame = 2
 }
 
-cofh_se_geoengineering_tectonics = {
-	pop_environment_tolerance = -0.20
-	pop_happiness = -0.10
+cofh_se_geo_pm_tectonics = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
 	tile_resource_engineering_research_mult = 0.10
 
 	icon = "gfx/interface/icons/planet_modifiers/pm_unstable_tectonics.dds"
 	icon_frame = 2
 }
 
-cofh_se_geoengineering_weather = {
-	pop_environment_tolerance = -0.20
-	pop_happiness = -0.10
+cofh_se_geo_pm_weather = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
 	tile_resource_energy_mult = 0.10
 
 	icon = "gfx/interface/icons/planet_modifiers/pm_hazardous_weather.dds"

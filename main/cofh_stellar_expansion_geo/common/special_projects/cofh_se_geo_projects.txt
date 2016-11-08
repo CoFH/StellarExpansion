@@ -8,172 +8,190 @@
 
 special_project = {
 	key = "COFH_SE_GEO_CONTINENTAL_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_continental
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.100 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_OCEAN_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_ocean
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.101 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_TROPICAL_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_tropical
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.102 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_DESERT_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_desert
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.103 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ARID_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_arid
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.104 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_SAVANNA_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_savanna
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.105 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ARCTIC_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_arctic
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.106 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_TUNDRA_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_tundra
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.107 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ALPINE_BAS"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 1800
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_alpine
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.108 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.210 }
+		}
 	}
 }
 
@@ -183,172 +201,190 @@ special_project = {
 
 special_project = {
 	key = "COFH_SE_GEO_CONTINENTAL_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_continental
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.100 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_OCEAN_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_ocean
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.101 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_TROPICAL_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_tropical
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.102 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_DESERT_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_desert
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.103 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ARID_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_arid
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.104 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_SAVANNA_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_savanna
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.105 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ARCTIC_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_arctic
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.106 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_TUNDRA_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_tundra
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.107 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ALPINE_ADV"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 3600
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_alpine
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.108 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.220 }
+		}
 	}
 }
 
@@ -358,172 +394,190 @@ special_project = {
 
 special_project = {
 	key = "COFH_SE_GEO_CONTINENTAL_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_continental
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.100 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_OCEAN_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_ocean
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.101 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_TROPICAL_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_tropical
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.102 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_DESERT_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_desert
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.103 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ARID_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_arid
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.104 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_SAVANNA_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_savanna
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.105 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ARCTIC_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_arctic
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.106 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_TUNDRA_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_tundra
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.107 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
 special_project = {
 	key = "COFH_SE_GEO_ALPINE_TOMB"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 7200
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_alpine
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.108 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.230 }
+		}
 	}
 }
 
@@ -533,19 +587,21 @@ special_project = {
 
 special_project = {
 	key = "COFH_SE_GEO_GAIA"
-	event_chain = "cofh_se_geoengineering_chain"
 	days_to_research = 14400
 	tech_department = society_technology
 	icon = "gfx/interface/icons/situation_log/situation_log_planet.dds"
 	picture = GFX_evt_gaia
+	timelimit = 30
 
 	event_scope = planet_event
 
 	on_success = {
 		planet_event = { id = cofh_se_geo.109 }
-		owner = { end_event_chain = "cofh_se_geoengineering_chain" }
 	}
 	on_fail = {
-
+		FROM = {
+			planet_event = { id = cofh_se_geo.200 }
+			planet_event = { id = cofh_se_geo.240 }
+		}
 	}
 }
