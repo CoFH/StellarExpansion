@@ -12,6 +12,12 @@ This is a rather large addition to [b][i][url=https://steamcommunity.com/sharedf
 	[*]One Auxiliary Ship class - the Tender Ship. This is a weaponless military vessel that reduces the Maintenance cost of nearby ships.
 [/list]
 
+[h1][b]Integrated Support[/b][/h1]
+[list]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=790455347]Advanced Ship Behaviour Modules[/url][/i][/b]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/776095610]Ship Power Stations[/url][/i][/b]
+[/list]
+
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/changelog.txt]Change Log[/url][/b]
 

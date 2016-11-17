@@ -1,6 +1,17 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-11-17:
+Added support for Advanced Ship Behavior Modules and Ship Power Stations.
+
+If you do not have one or both of these mods installed, you will see an error
+in your startup log. However, this error is 100% harmless.
+
+I heavily considered a compatibility patch for this, but decided against it as
+any errors associated with integrated support are harmless.
+
+--------------------------------------------------------------------------------
+
 2016-11-02:
 Added Russian localization.
 

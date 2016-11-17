@@ -1098,7 +1098,7 @@ planet_event = {
 
 planet_event = {
 	id = cofh_se_geo.110
-	title = "cofh_se_geo.110.name"
+	title = "COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE"
 	desc = "cofh_se_geo.110.desc"
 	picture = GFX_evt_geoengineering
 	show_sound = event_construction
@@ -1196,7 +1196,7 @@ planet_event = {
 
 planet_event = {
 	id = cofh_se_geo.120
-	title = "cofh_se_geo.120.name"
+	title = "COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE"
 	desc = "cofh_se_geo.120.desc"
 	picture = GFX_evt_geoengineering
 	show_sound = event_construction
@@ -1294,7 +1294,7 @@ planet_event = {
 
 planet_event = {
 	id = cofh_se_geo.130
-	title = "cofh_se_geo.130.name"
+	title = "COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE"
 	desc = "cofh_se_geo.130.desc"
 	picture = GFX_evt_geoengineering
 	show_sound = event_construction
@@ -1392,7 +1392,7 @@ planet_event = {
 
 planet_event = {
 	id = cofh_se_geo.140
-	title = "cofh_se_geo.140.name"
+	title = "COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE"
 	desc = "cofh_se_geo.140.desc"
 	picture = GFX_evt_geoengineering
 	show_sound = event_construction

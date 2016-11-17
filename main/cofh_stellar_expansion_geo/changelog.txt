@@ -1,6 +1,11 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2016-11-14:
+Fixed an issue with some missing localization strings.
+
+--------------------------------------------------------------------------------
+
 2016-11-08:
 Major rework of the mod to handle incorrect behaviors. Apologies for the oversights.
 
