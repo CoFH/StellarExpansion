@@ -4,17 +4,17 @@
 
 # Anti-Crisis
 
-tech_cofh_se_anti_ai_empire:0 "Machine Consciousness Countermeasures"
-tech_cofh_se_anti_ai_empire_desc:0 "Engineering analysis of Machine Consciousness vessels provides us with knowledge of their structural weaknesses."
+tech_cofh_se_anti_ai_empire:0 "Maschinenbewusstsein Gegenmaßnahmen"
+tech_cofh_se_anti_ai_empire_desc:0 "Die technische Analyse der Schiffe des Maschinenbewusstseins führt zu Wissen über deren strukturellen Schwächen."
 
-tech_cofh_se_anti_exd:0 "Extradimensional Invader Countermeasures"
-tech_cofh_se_anti_exd_desc:0 "Multispectral observation of Extradimensional forces reveals exploitable flaws in their energy fields."
+tech_cofh_se_anti_exd:0 "Extradimensionale Invasoren Gegenmaßnahmen"
+tech_cofh_se_anti_exd_desc:0 "Die multispektrale Beobachtung der extradimensionalen Streitkräften deckt ausnutzbare Schwachpunkte in ihren Energieschilden auf."
 
-tech_cofh_se_anti_swarm:0 "Prethoryn Scourge Countermeasures"
-tech_cofh_se_anti_swarm_desc:0 "Field study of Prethoryn anatomy and physiology illuminates weaknesses that our forces can exploit."
+tech_cofh_se_anti_swarm:0 "Prethoryn Plage Gegenmaßnahmen"
+tech_cofh_se_anti_swarm_desc:0 "Die Feldstudie der Prethoryn Anatomie und Physiologie beleuchtet Schwachpunkte die unsere Streitkräfte ausnutzen können."
 
-tech_cofh_se_anti_fallen_empire:0 "Fallen Empire Countermeasures"
-tech_cofh_se_anti_fallen_empire_desc:0 "Observation of Fallen Empire ship construction and fleet composition provides us with knowledge of their weaknesses."
+tech_cofh_se_anti_fallen_empire:0 "Gefallene Reiche Gegenmaßnahmen"
+tech_cofh_se_anti_fallen_empire_desc:0 "Die Beobachtung des Schiffsbaus und der Flottenzusammensetzung der gefallenen Reiche liefert uns Wissen um ihre Schwachpunkte."
 
 # Engineering
 
