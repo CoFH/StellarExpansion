@@ -1,0 +1,187 @@
+﻿l_german:
+
+cofh_se_corvette_hvy:0 "Schwere Korvette"
+cofh_se_corvette_hvy_plural:0 "Schwere Korvetten"
+cofh_se_corvette_sup:0 "Logistik Korvette"
+cofh_se_corvette_sup_plural:0 "Logistik Korvetten"
+
+cofh_se_destroyer_hvy:0 "Schwerer Zerstörer"
+cofh_se_destroyer_hvy_plural:0 "Schwere Zerstörer"
+cofh_se_destroyer_sup:0 "Taktischer Zerstörer"
+cofh_se_destroyer_sup_plural:0 "Taktische Zerstörer"
+
+cofh_se_cruiser_hvy:0 "Schwerer Kreuzer"
+cofh_se_cruiser_hvy_plural:0 "Schwere Kreuzer"
+cofh_se_cruiser_sup:0 "Kommando Kreuzer"
+cofh_se_cruiser_sup_plural:0 "Kommando Kreuzer"
+
+cofh_se_battleship_hvy:0 "Schweres Schlachtschiff"
+cofh_se_battleship_hvy_plural:0 "Schwere Schlachtschiffe"
+cofh_se_battleship_sup:0 "Gebieter Schlachtschiff"
+cofh_se_battleship_sup_plural:0 "Gebieter Schlachtschiffe"
+
+cofh_se_auxiliary_tender:0 "Begleitschiff"
+cofh_se_auxiliary_tender_plural:0 "Begleitschiffe"
+
+cofh_se_aura_category_offensive:0 "Offensive Aura"
+cofh_se_aura_category_defensive:0 "Defensive Aura"
+
+cofh_se_ship_small_aura_components:0 "Kleine Feldemitter"
+cofh_se_ship_small_aura_components_DESC:0 "Feldemitter projizieren und unterhalten lokale Felder, die feindliche oder befreundete Schiffe mit unterschiedlichen Effekten belegen."
+cofh_se_ship_medium_aura_components:0 "Mittlere Feldemitter"
+cofh_se_ship_medium_aura_components_DESC:0 "Feldemitter projizieren und unterhalten lokale Felder, die feindliche oder befreundete Schiffe mit unterschiedlichen Effekten belegen."
+cofh_se_ship_large_aura_components:0 "Große Feldemitter"
+cofh_se_ship_large_aura_components_DESC:0 "Feldemitter projizieren und unterhalten lokale Felder, die feindliche oder befreundete Schiffe mit unterschiedlichen Effekten belegen."
+cofh_se_ship_xlarge_aura_components:0 "Extra Große Feldemitter"
+cofh_se_ship_xlarge_aura_components_DESC:0 "Feldemitter projizieren und unterhalten lokale Felder, die feindliche oder befreundete Schiffe mit unterschiedlichen Effekten belegen."
+
+cofh_se_aura_ftl_dec:0 "$cofh_se_aura_category_offensive$ - FTL Verbot"
+
+cofh_se_aura_hull_inc:0 "$cofh_se_aura_category_defensive$ - Rumpf Integrität"
+cofh_se_aura_hull_regen:0 "$cofh_se_aura_category_defensive$ - Rumpf Reparatur"
+
+cofh_se_aura_minefield:0 "$cofh_se_aura_category_offensive$ - Minenfeld"
+
+cofh_se_aura_sensor_dec:0 "$cofh_se_aura_category_offensive$ - Sensor Dämpfung"
+cofh_se_aura_sensor_inc:0 "$cofh_se_aura_category_defensive$ - Sensor Verstärkung"
+
+cofh_se_aura_shield_inc:0 "$cofh_se_aura_category_defensive$ - Schild Integrität"
+cofh_se_aura_shield_regen:0 "$cofh_se_aura_category_defensive$ - Schild Regeneration"
+
+cofh_se_aura_speed_dec:0 "$cofh_se_aura_category_offensive$ - Unterlicht Schlinge"
+cofh_se_aura_speed_inc:0 "$cofh_se_aura_category_defensive$ - Unterlicht Geschwindigkeit"
+
+cofh_se_aura_upkeep:0 "$cofh_se_aura_category_defensive$ - Flottenwartung"
+
+cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - Waffenstörung"
+cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - Waffenverstärkung"
+
+COFH_SE_TECH_UNLOCK_CORVETTES_HVY_TITLE:0 "§HNeuer Schiffstyp:§! Schwere Korvette"
+COFH_SE_TECH_UNLOCK_CORVETTES_HVY_DESC:0 "§HSchwere Korvette§!\nEine verbesserte Version des grundlegenden militärischen Schiffes, dafür gedacht, Schiffe von ähnlicher Größe anzugreifen"
+
+COFH_SE_TECH_UNLOCK_CORVETTES_SUP_TITLE:0 "§HNeuer Schiffstyp:§! Logistik Korvette"
+COFH_SE_TECH_UNLOCK_CORVETTES_SUP_DESC:0 "§HLogistik Korvette§!\nEin leicht bewaffnetes Schiff, das Kampf und logistische Unterstützung bieten kann."
+
+COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_TITLE:0 "§HNeuer Schiffstyp:§! Schwerer Zerstörer"
+COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_DESC:0 "§HSchwerer Zerstörer§!\nEine Variante des Zerstörers, die für den Kampf an der Front bestimmt ist."
+
+COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_TITLE:0 "§HNeuer Schiffstyp:§! Taktischer Zerstörer"
+COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_DESC:0 "§HTaktischer Zerstörer§!\nEin robustes Schiff, das Unterstützung an vorderster Front bietet."
+
+COFH_SE_TECH_UNLOCK_CRUISERS_HVY_TITLE:0 "§HNeuer Schiffstyp:§! Schwerer Kreuzer"
+COFH_SE_TECH_UNLOCK_CRUISERS_HVY_DESC:0 "§HSchwerer Kreuzer§!\nEin schwer gepanzertes Kriegsschiff, gedacht für eine Vielzahl von Gefechtsdistanzen."
+
+COFH_SE_TECH_UNLOCK_CRUISERS_SUP_TITLE:0 "§HNeuer Schiffstyp:§! Kommando Kreuzer"
+COFH_SE_TECH_UNLOCK_CRUISERS_SUP_DESC:0 "§HKommando Kreuzer§!\nEin schwer gepanzertes Schiff, das einer Flotte Kampf und logistische Unterstützung bieten kann."
+
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_TITLE:0 "§HNeuer Schiffstyp:§! Schweres Schlachtschiff"
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HSchweres Schlachtschiff§!\nEin schwer gepanzertes Kriegsschiff, das auf große Reichweite spezialisiert ist."
+
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HNeuer Schiffstyp:§! Gebieter Schlachtschiff"
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HGebieter Schlachtschiff§!\nEine stabile Unterstützungsplattform, die eine beträchtliche Kontrolle auf dem Schlachtfeld ermöglicht."
+
+COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HNeuer Schiffstyp:§! Begleitschiff"
+COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HBegleitschiff§!\nEin unbewaffnetes Unterstützungsschiff, das routinemäßige Wartung und Instandhaltung für eine Flotte bietet."
+
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Schwere Korvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Schwere Korvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Schwere Korvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Schwere Korvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Schwere Korvette)"
+
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Logistik Korvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Logistik Korvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Logistik Korvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Logistik Korvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Logistik Korvette)"
+
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Schwerer Zerstörer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Schwerer Zerstörer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Schwerer Zerstörer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Schwerer Zerstörer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Schwerer Zerstörer)"
+
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Taktischer Zerstörer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Taktischer Zerstörer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Taktischer Zerstörer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Taktischer Zerstörer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Taktischer Zerstörer)"
+
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Schwerer Kreuzer)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Schwerer Kreuzer)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Schwerer Kreuzer)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Schwerer Kreuzer)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Schwerer Kreuzer)"
+
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Kommando Kreuzer)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Kommando Kreuzer)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Kommando Kreuzer)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Kommando Kreuzer)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Kommando Kreuzer)"
+
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Schweres Schlachtschiff)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Schweres Schlachtschiff)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Schweres Schlachtschiff)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Schweres Schlachtschiff)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Schweres Schlachtschiff)"
+
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_1:0 "Einfacher Gefechtscomputer (Gebieter Schlachtschiff)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_2:0 "Mittlerer Gefechtscomputer (Gebieter Schlachtschiff)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_3:0 "Fortschrittlicher Gefechtscomputer (Gebieter Schlachtschiff)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_4:0 "Fühlender Gefechtscomputer (Gebieter Schlachtschiff)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_PRECOG:0 "Präkognitives Interface (Gebieter Schlachtschiff)"
+
+COFH_SE_AURA_EMPTY:0 "Leerer Slot"
+
+COFH_SE_AURA_FTL_DEC:0 "Abfangblase"
+
+COFH_SE_AURA_HULL_INC:0 "Rumpf Integritätsmatrix"
+COFH_SE_AURA_HULL_REGEN:0 "Nanobot Wolke"
+
+COFH_SE_AURA_MINEFIELD_0:0 "Annäherungs Minenfeld"
+COFH_SE_AURA_MINEFIELD_1:0 "Protonen Minenfeld"
+COFH_SE_AURA_MINEFIELD_2:0 "Neutronen Minenfeld"
+
+COFH_SE_AURA_SENSOR_DEC:0 "Sensoren Dämpfung"
+COFH_SE_AURA_SENSOR_INC:0 "Sensoren Verstärkung"
+
+COFH_SE_AURA_SHIELD_INC:0 "Schild Integritätsmatrix"
+COFH_SE_AURA_SHIELD_REGEN:0 "Kondensatorfeld"
+
+COFH_SE_AURA_SPEED_DEC:0 "Stasis Blase"
+COFH_SE_AURA_SPEED_INC:0 "Micro-Warp Blase"
+
+COFH_SE_AURA_WEAPON_ROF_DEC:0 "Quantendestabilisierer"
+COFH_SE_AURA_WEAPON_ROF_INC:0 "Quantenausrichtungsfeld"
+
+COFH_SE_SHIP_MOUNTED:0 "Montiert"
+COFH_SE_AURA_SMALL:0 "Unterstützungs"
+COFH_SE_AURA_MEDIUM:0 "Taktische"
+COFH_SE_AURA_LARGE:0 "Kommando"
+COFH_SE_AURA_XLARGE:0 "Gebieter"
+COFH_SE_AURA_TENDER:0 "Hilfs"
+
+COFH_SE_SHIP_AURA_SMALL_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_AURA_MEDIUM_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_AURA_LARGE_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_AURA_XLARGE_EMPTY:0 "$AURA_EMPTY$"
+
+COFH_SE_SHIP_SMALL_AURA_HULL_REGEN:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REGEN$"
+COFH_SE_SHIP_SMALL_AURA_SENSOR_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DEC$"
+COFH_SE_SHIP_SMALL_AURA_WEAPON_ROF_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_ROF_DEC$"
+
+COFH_SE_SHIP_MEDIUM_AURA_FTL_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_FTL_DEC$"
+COFH_SE_SHIP_MEDIUM_AURA_SPEED_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_SPEED_DEC$"
+
+COFH_SE_SHIP_LARGE_AURA_HULL_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_INC$"
+COFH_SE_SHIP_LARGE_AURA_SENSOR_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_INC$"
+COFH_SE_SHIP_LARGE_AURA_SHIELD_REGEN:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_REGEN$"
+
+COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_0:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_0$"
+COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_1:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_1$"
+COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_2:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_2$"
+COFH_SE_SHIP_XLARGE_AURA_SPEED_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_SPEED_INC$"
+COFH_SE_SHIP_XLARGE_AURA_WEAPON_ROF_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_WEAPON_ROF_INC$"
+
+COFH_SE_SHIP_TENDER_AURA_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_TENDER_AURA_HULL_REGEN:0 "$COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REGEN$"
