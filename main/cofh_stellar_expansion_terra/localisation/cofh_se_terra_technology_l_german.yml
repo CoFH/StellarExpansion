@@ -1,0 +1,17 @@
+﻿l_german:
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_atmospheric_purification:0 "Atmosphärische Reinigung"
+tech_cofh_se_atmospheric_purification_desc:0 "Fortschrittliche Filtrations- und Reinigungssysteme ermöglichen die Entfernung von nahezu allen toxischen Abfällen in der Atmosphäre eines Planeten."
+
+tech_cofh_se_atmosphere_creation:0 "Atmosphäreentstehung"
+tech_cofh_se_atmosphere_creation_desc:0 "Mit genügend Zeit und Ressourcen kann eine Atmosphäre auch auf den verwüstesten Welten geschaffen werden."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§HFreischalten des Features:§! Atmosphärische Reinigung"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HAtmosphärische Reinigung§!\nErlaubt es uns, toxische Welten in bestimmte bewohnbare Welten zu terraformieren."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HFreischalten des Features:§! Atmosphäreentstehung"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HAtmosphäreentstehung§!\nErlaubt uns, unfruchtbare Welten in bestimmte bewohnbare Welten zu terraformieren."

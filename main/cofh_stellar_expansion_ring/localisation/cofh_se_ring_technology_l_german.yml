@@ -1,0 +1,23 @@
+﻿l_german:
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_ring_seam_repair:0 "Ringwelt Nahtbearbeitung"
+tech_cofh_se_ring_seam_repair_desc:0 "Wissen um die Lebendige Metallurgie kombiniert mit dem Studium der Ringwelttechnik, ermöglicht uns dir Reperatur der grundlegendsten Abschnitte."
+
+tech_cofh_se_ring_tech_repair:0 "Ringwelt Unterstützungs-Reparatur"
+tech_cofh_se_ring_tech_repair_desc:0 ""
+
+tech_cofh_se_ring_habitable_repair:0 "Ringwelt Lebensraum-Reparatur"
+tech_cofh_se_ring_habitable_repair_desc:0 ""
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_SEAM_REPAIR_TITLE:0 "§HFreischalten des Features:§! Ringwelt Nahtbearbeitung"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_SEAM_REPAIR_DESC:0 "§HRingworld Seam Repair§!\nErlaubt es uns, die strukturellen Unterstützungsabschnitte der zerstörten Ringwelt zu reparieren."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_TECH_REPAIR_TITLE:0 "§HFreischalten des Features:§! Ringwelt Unterstützungs-Reparatur"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_TECH_REPAIR_DESC:0 "§HRingworld Support Repair§!\nErlaubt es uns, die technologischen Unterstützungsabschnitte der zerstörten Ringwelt zu reparieren."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_HABITABLE_REPAIR_TITLE:0 "§HFreischalten des Features:§! Ringwelt Lebensraum-Reparatur"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_HABITABLE_REPAIR_DESC:0 "§HRingworld Habitat Repair§!\nErlaubt es uns, die bewohnbaren Teile der zerstörten Ringwelt zu reparieren."
