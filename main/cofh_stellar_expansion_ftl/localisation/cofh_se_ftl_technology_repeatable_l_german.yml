@@ -1,0 +1,11 @@
+﻿l_german:
+
+# Technology - Repeatable
+
+# Physics
+
+tech_cofh_se_repeatable_reduced_ftl_windup:0 "Hyper-Navigation Kalibrierung"
+tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Verbesserungen unserer Hyper-Navigations Sensoren sollte es uns erlauben, die Zeit, die für die Einleitung des FTL Sprunges nötig ist, zu reduzieren."
+
+tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Raumzeit Resonanz Dämpfung"
+tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Verbesserungen unserer Antriebsspulen sollte es uns ermöglichen, die Raumzeitresonanzperiode nach einem FTL Sprung zu reduzieren."

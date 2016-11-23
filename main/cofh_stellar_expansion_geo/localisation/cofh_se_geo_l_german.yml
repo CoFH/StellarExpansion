@@ -1,0 +1,174 @@
+﻿l_german:
+
+# Modifiers
+
+cofh_se_geo_pm_reactor:0 "Terraforming-Reaktor"
+cofh_se_geo_pm_reactor_desc:0 "Der Geoengineering-Prozess verursacht gelegentlich klimatische Störungen."
+
+cofh_se_geo_pm_storms:0 "Wilde Stürme"
+cofh_se_geo_pm_storms_desc:0 "Der Terraforming-Reaktor verursacht große elektrische Stürme in der Atmosphäre des Planeten."
+
+cofh_se_geo_pm_tectonics:0 "Instabile Tektonik"
+cofh_se_geo_pm_tectonics_desc:0 "Der Terraforming-Reaktor verursacht instabile Verschiebungen in den tektonischen Platten des Planeten."
+
+cofh_se_geo_pm_weather:0 "Gefährliches Wetter"
+cofh_se_geo_pm_weather_desc:0 "Der Terraforming-Reaktor verursacht instabile und heftige Witterungsverhältnisse"
+
+# Events
+
+cofh_se_geo.10.name:0 "$building_cofh_se_georeactor_basic$ Online"
+cofh_se_geo.10.desc:0 "Der §Y$building_cofh_se_georeactor_basic$§! auf §Y[Root.GetName]§! ist fertiggestellt. Er ist in der Lage, die Landschaft dieser Welt drastisch zu verändern\n\n$COFH_SE_GEO_WORLD_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.20.name:0 "$building_cofh_se_georeactor_adv$ Online"
+cofh_se_geo.20.desc:0 "Der §Y$building_cofh_se_georeactor_adv$§! auf §Y[Root.GetName]§! ist fertiggestellt. Er ist in der Lage die Hydrosphäre dieser Welt du verändern.\n\n$COFH_SE_GEO_WORLD_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.30.name:0 "$building_cofh_se_georeactor_tomb$ Online"
+cofh_se_geo.30.desc:0 "Der §Y$building_cofh_se_georeactor_tomb$§! auf §Y[Root.GetName]§! ist fertiggestellt. Er ist in der Lage, das Klima dieser ruinierten Welt wiederherzustellen.\n\n$COFH_SE_GEO_WORLD_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.40.name:0 "$building_cofh_se_georeactor_gaia$ Online"
+cofh_se_geo.40.desc:0 "Der §Y$building_cofh_se_georeactor_gaia$§! auf §Y[Root.GetName]§! ist fertiggestellt. Er ist in der Lage, das Klima dieser Welt zu perfektionieren.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.100.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_continental$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.101.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_ocean$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.102.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_tropical$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.103.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_desert$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.104.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_arid$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.105.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_savannah$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.106.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_arctic$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.107.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_tundra$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.108.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_alpine$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+cofh_se_geo.109.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ eine §Y$pc_gaia$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
+
+cofh_se_geo.110.desc:0 "Der §Y$building_cofh_se_georeactor_basic$§! auf §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+cofh_se_geo.120.desc:0 "Der §Y$building_cofh_se_georeactor_adv$§! auf §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+cofh_se_geo.130.desc:0 "Der §Y$building_cofh_se_georeactor_tomb$§! auf §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+cofh_se_geo.140.desc:0 "Der §Y$building_cofh_se_georeactor_gaia$§! auf §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
+
+cofh_se_geo.210.name:0 "$building_cofh_se_georeactor_basic$ im Leerlauf"
+cofh_se_geo.210.desc:0 "Der §Y$building_cofh_se_georeactor_basic$§! auf §Y[Root.GetName]§! befindet sich im Leerlauf.\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.220.name:0 "$building_cofh_se_georeactor_adv$ im Leerlauf"
+cofh_se_geo.220.desc:0 "Der §Y$building_cofh_se_georeactor_adv$§! auf §Y[Root.GetName]§! befindet sich im Leerlauf.\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.230.name:0 "$building_cofh_se_georeactor_tomb$ im Leerlauf"
+cofh_se_geo.230.desc:0 "Der §Y$building_cofh_se_georeactor_tomb$§! auf §Y[Root.GetName]§! befindet sich im Leerlauf.\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.240.name:0 "$building_cofh_se_georeactor_gaia$ im Leerlauf"
+cofh_se_geo.240.desc:0 "Der §Y$building_cofh_se_georeactor_gaia$§! auf §Y[Root.GetName]§! wartet vor Beginn des Terraforming-Prozesses auf eine Bestätigung. \n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
+
+cofh_se_geo.a:0 "Bestätigt."
+
+COFH_SE_GEO_WORLD_CHOICE:0 "Wähle die Art der Welt aus, für die der Reaktor konfiguriert werden soll. Das Geoengineering-Team wird bis zu einem Monat auf die Bestätigung warten."
+COFH_SE_GEO_WORLD_ALT_CHOICE:0 "Diese Ausfallzeit hat es dem Geoengineering-Team ermöglicht, den Reaktor in seinen Ausgangszustand umzukonfigurieren. Wähle die Art der Welt aus, für die der Reaktor konfiguriert werden soll."
+COFH_SE_GEO_INITIAL_DISTURBANCE:0 "Der Reaktor hat das Geoklima teilweise destabilisiert, so dass das Terraforming sofort beginnen sollte."
+COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE:0 "Geoklimatische Unruhen"
+COFH_SE_GEO_UPDATE_DISTURBANCE:0 "wird weiterhin gelegentlich für geoklimatische Unruhen sorgen, die diese Welt weniger gastfreundlich machen."
+COFH_SE_GEO_PROJECT_COMPLETE:0 "Terraforming Abgeschlossen"
+COFH_SE_GEO_PROCESS_FINISHED:0 "Der planetare Geoengineering-Prozess auf §Y[Root.GetName]§! ist abgeschlossen. Es ist nun"
+COFH_SE_GEO_REACTOR_DISMANTLED:0 "Der Terraforming-Reaktor wurde aufgebraucht und demontiert."
+
+cofh_se_geo.continental:0 "$pc_continental$"
+cofh_se_geo.ocean:0 "$pc_ocean$"
+cofh_se_geo.tropical:0 "$pc_tropical$"
+cofh_se_geo.desert:0 "$pc_desert$"
+cofh_se_geo.arid:0 "$pc_arid$"
+cofh_se_geo.savanna:0 "$pc_savannah$"
+cofh_se_geo.arctic:0 "$pc_arctic$"
+cofh_se_geo.tundra:0 "$pc_tundra$"
+cofh_se_geo.alpine:0 "$pc_alpine$"
+cofh_se_geo.tomb:0 "$pc_nuked$"
+cofh_se_geo.gaia:0 "$pc_gaia$"
+
+# Special Projects
+
+# Basic
+
+COFH_SE_GEO_CONTINENTAL_BAS:0 "Terrestrische Remodellierung: Kontinental"
+COFH_SE_GEO_CONTINENTAL_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine §Y$pc_continental$§! terraformiert werden."
+
+COFH_SE_GEO_OCEAN_BAS:0 "Terrestrische Remodellierung: Ozean"
+COFH_SE_GEO_OCEAN_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine  §Y$pc_ocean$§! terraformiert werden."
+
+COFH_SE_GEO_TROPICAL_BAS:0 "Terrestrische Remodellierung: Tropisch"
+COFH_SE_GEO_TROPICAL_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine §Y$pc_tropical$§! terraformiert werden."
+
+COFH_SE_GEO_DESERT_BAS:0 "Terrestrische Remodellierung: Wüste"
+COFH_SE_GEO_DESERT_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine §Y$pc_desert$§! terraformiert werden."
+
+COFH_SE_GEO_ARID_BAS:0 "Terrestrische Remodellierung: Arid"
+COFH_SE_GEO_ARID_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine  §Y$pc_arid$§! terraformiert werden."
+
+COFH_SE_GEO_SAVANNA_BAS:0 "Terrestrische Remodellierung: Savanne"
+COFH_SE_GEO_SAVANNA_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine §Y$pc_savannah$§! terraformiert werden."
+
+COFH_SE_GEO_ARCTIC_BAS:0 "Terrestrische Remodellierung: Arktisch"
+COFH_SE_GEO_ARCTIC_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine  §Y$pc_arctic$§! terraformiert werden."
+
+COFH_SE_GEO_TUNDRA_BAS:0 "Terrestrische Remodellierung: Tundra"
+COFH_SE_GEO_TUNDRA_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine §Y$pc_tundra$§! terraformiert werden."
+
+COFH_SE_GEO_ALPINE_BAS:0 "Terrestrische Remodellierung: Alpin"
+COFH_SE_GEO_ALPINE_BAS_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_basic$§!, kann §Y[Root.GetName]§! in eine  §Y$pc_alpine$§! terraformiert werden."
+
+# Advanced
+
+COFH_SE_GEO_CONTINENTAL_ADV:0 "Atmosphärische Manipulation: Kontinental"
+COFH_SE_GEO_CONTINENTAL_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_continental$§! terraformiert werden."
+
+COFH_SE_GEO_OCEAN_ADV:0 "Atmosphärische Manipulation: Ozean"
+COFH_SE_GEO_OCEAN_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_ocean$§! terraformiert werden."
+
+COFH_SE_GEO_TROPICAL_ADV:0 "Atmosphärische Manipulation: Tropisch"
+COFH_SE_GEO_TROPICAL_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_tropical$§! terraformiert werden."
+
+COFH_SE_GEO_DESERT_ADV:0 "Atmosphärische Manipulation: Wüste"
+COFH_SE_GEO_DESERT_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_desert$§! terraformiert werden."
+
+COFH_SE_GEO_ARID_ADV:0 "Atmosphärische Manipulation: Arid"
+COFH_SE_GEO_ARID_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_arid$§! terraformiert werden."
+
+COFH_SE_GEO_SAVANNA_ADV:0 "Atmosphärische Manipulation: Savanne"
+COFH_SE_GEO_SAVANNA_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_savannah$§! terraformiert werden."
+
+COFH_SE_GEO_ARCTIC_ADV:0 "Atmosphärische Manipulation: Arktisch"
+COFH_SE_GEO_ARCTIC_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_arctic$§! terraformiert werden."
+
+COFH_SE_GEO_TUNDRA_ADV:0 "Atmosphärische Manipulation: Tundra"
+COFH_SE_GEO_TUNDRA_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_tundra$§! terraformiert werden."
+
+COFH_SE_GEO_ALPINE_ADV:0 "Atmosphärische Manipulation: Alpin"
+COFH_SE_GEO_ALPINE_ADV_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_adv$§!, kann §Y[Root.GetName]§!, indem die Hydrosphäre verändert wird, in eine §Y$pc_alpine$§! terraformiert werden."
+
+# Tomb
+
+COFH_SE_GEO_CONTINENTAL_TOMB:0 "Klima Wiederherstellung: Kontinental"
+COFH_SE_GEO_CONTINENTAL_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_continental$§! terraformiert werden."
+
+COFH_SE_GEO_OCEAN_TOMB:0 "Klima Wiederherstellung: Ozean"
+COFH_SE_GEO_OCEAN_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_ocean$§! terraformiert werden."
+
+COFH_SE_GEO_TROPICAL_TOMB:0 "Klima Wiederherstellung: Tropisch"
+COFH_SE_GEO_TROPICAL_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_tropical$§! terraformiert werden."
+
+COFH_SE_GEO_DESERT_TOMB:0 "Klima Wiederherstellung: Wüste"
+COFH_SE_GEO_DESERT_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_desert$§! terraformiert werden."
+
+COFH_SE_GEO_ARID_TOMB:0 "Klima Wiederherstellung: Arid"
+COFH_SE_GEO_ARID_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_arid$§! terraformiert werden."
+
+COFH_SE_GEO_SAVANNA_TOMB:0 "Klima Wiederherstellung: Savanne"
+COFH_SE_GEO_SAVANNA_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_savannah$§! terraformiert werden."
+
+COFH_SE_GEO_ARCTIC_TOMB:0 "Klima Wiederherstellung: Arktisch"
+COFH_SE_GEO_ARCTIC_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_arctic$§! terraformiert werden."
+
+COFH_SE_GEO_TUNDRA_TOMB:0 "Klima Wiederherstellung: Tundra"
+COFH_SE_GEO_TUNDRA_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_tundra$§! terraformiert werden."
+
+COFH_SE_GEO_ALPINE_TOMB:0 "Klima Wiederherstellung: Alpin"
+COFH_SE_GEO_ALPINE_TOMB_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_tomb$§!, kann §Y[Root.GetName]§!, durch die Wiederherstellung der Hydrosphäre und Atmosphäre, in eine §Y$pc_alpine$§! terraformiert werden."
+
+# Gaia
+
+COFH_SE_GEO_GAIA:0 "Gaia Kreation"
+COFH_SE_GEO_GAIA_DESC:0 "Mit Hilfe eines massiven §Y$building_cofh_se_georeactor_gaia$§!, kann §Y[Root.GetName]§!, indem das Klima perfektioniert wird, in eine §Y$pc_gaia$§! terraformiert werden."

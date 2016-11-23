@@ -1,0 +1,20 @@
+﻿l_german:
+
+# Technology - Non-Repeatable
+
+# Engineering
+
+tech_cofh_se_auxiliary_ships:0 "Hilfsschiffe"
+tech_cofh_se_auxiliary_ships_desc:0 "Die Entwicklung von speziellen Hilfsschiffen ermöglicht längere Flottenoperationen im Weltraum."
+
+tech_cofh_se_corvettes_adv:0 "Verbesserte Korvetten"
+tech_cofh_se_corvettes_adv_desc:0 "Die Anwendung neuer Maschinenbau-Techniken für Schiffe der Korvetten-Klasse, ermöglicht den Bau von weiter vorgeschrittenen Varianten."
+
+tech_cofh_se_destroyers_adv:0 "Verbesserte Zerstörer"
+tech_cofh_se_destroyers_adv_desc:0 "Die Anwendung neuer Maschinenbau-Techniken für Schiffe der Zerstörer-Klasse, ermöglicht den Bau von weiter vorgeschrittenen Varianten."
+
+tech_cofh_se_cruisers_adv:0 "Verbesserte Kreuzer"
+tech_cofh_se_cruisers_adv_desc:0 "Die Anwendung neuer Maschinenbau-Techniken für Schiffe der Kreuzer-Klasse, ermöglicht den Bau von weiter vorgeschrittenen Varianten."
+
+tech_cofh_se_battleships_adv:0 "Verbesserte Schlachtschiffe"
+tech_cofh_se_battleships_adv_desc:0 "Die Anwendung neuer Maschinenbau-Techniken für Schiffe der Schlachtschiff-Klasse, ermöglicht den Bau von weiter vorgeschrittenen Varianten."

@@ -1,0 +1,11 @@
+﻿l_german:
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_geoengineering:0 "Planetares Geoengineering"
+tech_cofh_se_geoengineering_desc:0 "Mit genügend Wissen, Geduld und Ressourcen können wir schon bewohnte Welten vorsichtig terraformieren."
+
+COFH_SE_TECH_UNLOCK_GEOENGINEERING_TITLE:0 "§HFreischalten des Features:§! Planetares Geoengineering"
+COFH_SE_TECH_UNLOCK_GEOENGINEERING_DESC:0 "§HPlanetares Geoengineering§!\nErlaubt uns schon bewohnte Welten durch den Einsatz von Terraforming-Reaktoren zu terraformieren."

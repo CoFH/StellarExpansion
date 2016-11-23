@@ -1,0 +1,17 @@
+﻿l_german:
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_dynamo_manipulation:0 "Dynamo Manipulation"
+tech_cofh_se_dynamo_manipulation_desc:0 "Manipulation der fundamentalen Kräfte erlaubt es, sogar den entferntesten gefrorenen Welten etwas Leben zu beherbergen."
+
+tech_cofh_se_tectonic_restriction:0 "Tektonische Beschränkung"
+tech_cofh_se_tectonic_restriction_desc:0 "Kontrolle über die fundamentalen Kräfte erlaubt es, Welten mit weitverbreiteter vulkanischer Aktivität zu zähmen."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§HFreischalten des Features:§! Dynamo Manipulation"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HDynamo Manipulation§!\nErlaubt es uns, gefrorene Welten in bestimmte bewohnbare Welten zu terraformieren."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HFreischalten des Features:§! Tektonische Beschränkung"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HTektonische Beschränkung§!\nErlaubt es uns, geschmolzene Welten in bestimmte bewohnbare Welten zu terraformieren."
