@@ -128,7 +128,9 @@ tech_cofh_se_repeatable_terraforming_improved = {
 	weight = @repeatableTechWeight
 
 	modifier = {
-		terraforming_cost_mult = -0.05
+		terraforming_cost_mult = -0.03
+		#terraforming_time_mult = -0.05
+		#planet_clear_blocker_cost_mult = -0.03
 		planet_clear_blocker_cost_mult = -0.05
 		planet_clear_blocker_time_mult = -0.05
 	}

@@ -10,7 +10,7 @@ ship_section_template = {
 	key = "COFH_SE_CORVETTE_HVY_MID_M1S1"
 	ship_size = cofh_se_corvette_hvy
 	fits_on_slot = mid
-	entity = "cofh_se_corvette_M1S1_entity"
+	entity = "corvette_M1S1_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
@@ -41,7 +41,7 @@ ship_section_template = {
 	key = "COFH_SE_CORVETTE_SUP_MID_S1"
 	ship_size = cofh_se_corvette_sup
 	fits_on_slot = mid
-	entity = "cofh_se_corvette_S1_entity"
+	entity = "corvette_S1_entity"
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {

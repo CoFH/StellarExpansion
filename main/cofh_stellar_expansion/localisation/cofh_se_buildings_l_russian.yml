@@ -1,0 +1,46 @@
+﻿l_russian:
+
+# Buildings
+
+ building_cofh_se_diplomatic_hub:0 "Дипломатический центр"
+ building_cofh_se_diplomatic_hub_desc:0 "Этот огромный комплекс является центром культуры и бюрократии на планете. Его целью является повышение влияния нашей империи."
+
+ building_cofh_se_robot_maintenance:0 "Роботизированный ремонтный колмплекс"
+ building_cofh_se_robot_maintenance_desc:0 "Это высокотехнологичный комплекс предназначен для ремонта и модернизации рабочих роботов, что улучшает их производительность."
+
+ building_cofh_se_climate_station:0 "Центр управления погодой"
+ building_cofh_se_climate_station_desc:0 "Эта огромный центр контроля и управления погодой. Следит за качеством воздуха и регулирует гидросферу."
+
+ building_cofh_se_xeno_food:0 "Центр переработки ксено-продовольствия"
+ building_cofh_se_xeno_food_desc:0 "Чужие фауна не пригодна для питания наших колонистов, но мы можем ее переработать."
+
+# Energy Buildings
+
+ building_cofh_se_energy_silo_1:0 "Акумулирующий банк I"
+ building_cofh_se_energy_silo_1_desc:0 "Банки увеличивают максимальную энергоемкость нашей империи."
+
+ building_cofh_se_energy_silo_2:0 "Акумулирующий банк II"
+ building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+ building_cofh_se_energy_silo_3:0 "Акумулирующий банк III"
+ building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+# Ethos Buildings
+
+ building_cofh_se_ministry_intelligence:0 "Министерство разведки"
+ building_cofh_se_ministry_intelligence_desc:0 "Чтобы победить наших врагов, наши граждане должны знать масштабы стоящих перед нами угроз."
+
+ building_cofh_se_ministry_vigilance:0 "Бюро ксено-контроля"
+ building_cofh_se_ministry_vigilance_desc:0 "Инопланетяне галактики многочисленны, они угрожают нашим ценностям, только будучи очень бдительными, мы сохраним чистоту нашей культуры."
+
+ building_cofh_se_frontier_institute:0 "Научный институт «Рубеж»"
+ building_cofh_se_frontier_institute_desc:0 "Нами движет любопытство, стремление исследовать странные новые миры, искать новую жизнь и новые цивилизации."
+
+ building_cofh_se_concord_assembly:0 "Асамблея согласия"
+ building_cofh_se_concord_assembly_desc:0 "Не существует пути к миру, мир - путь. Следовать за ним означает гарантировать благосостояние наших граждан."
+
+ building_cofh_se_monument_creation:0 "Памятник мироздания"
+ building_cofh_se_monument_creation_desc:0 "Поскольку мы пересекаем звезды, мы набираемся храбрости в знании, что мы - вселенная, испытывающая себя."
+
+# Building Requirements
+ requirement_cofh_se_robot_maintenance:0 "§RИскуственный интелект не должен быть вне закона§!"
