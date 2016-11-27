@@ -39,7 +39,7 @@ Atmosphere Creation:
 	Effects:
 		Unlocks - Mechanic: Atmosphere Creation
 			Allows Barren and Cold Barren worlds to be terraformed:
-				12500 Energy
-				14600 Days
+				10000 Energy
+				7300 Days
 				*Barren: Limited to Desert, Arid, Savanna
 				*Cold Barren: Limited to Arctic, Tundra, Alpine

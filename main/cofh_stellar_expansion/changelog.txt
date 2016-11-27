@@ -1,6 +1,21 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Updated thumbnail.
+
+Changed Technologies:
+	Intensive Ecological Engineering:
+		New Worlds
+		-2% Terraforming Cost (-3%)
+		-5% Tile Blocker Cost
+		-5% Tile Blocker Time
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
 2016-11-08:
 New crisis-countermeasure technology for Fallen Empires. Works the same way as the other 3 - you'll have to engage them in combat and then complete the Special Project.
 

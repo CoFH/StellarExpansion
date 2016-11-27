@@ -43,4 +43,5 @@ building_cofh_se_monument_creation:0 "Monument to Creation"
 building_cofh_se_monument_creation_desc:0 "As we traverse the stars, we take heart in the knowledge that we are the universe experiencing itself."
 
 # Building Requirements
+
 requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"

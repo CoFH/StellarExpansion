@@ -61,12 +61,20 @@ tech_cofh_se_atmospheric_purification = {
 		factor = 0.75
 		modifier = {
 			factor = 0.33
-			NOT = {
+			NOR = {
 				research_leader = {
 					area = society
 					has_trait = "leader_trait_expertise_new_worlds"
 				}
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_industry"
+				}
 			}
+		}
+		modifier = {
+			factor = 10
+			has_technology = tech_cofh_se_atmosphere_creation
 		}
 	}
 
@@ -85,11 +93,11 @@ tech_cofh_se_atmospheric_purification = {
 tech_cofh_se_atmosphere_creation = {
 	icon = "tech_cofh_se_atmosphere_creation"
 	area = society
-	cost = @tier3cost3
+	cost = @tier3cost2
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_cofh_se_atmospheric_purification" }
-	weight = @tier3weight3
+	prerequisites = { "tech_climate_restoration" }
+	weight = @tier3weight2
 	is_rare = yes
 
 	prereqfor_desc = {
@@ -100,7 +108,7 @@ tech_cofh_se_atmosphere_creation = {
 	}
 
 	weight_modifier = {
-		factor = 0.15
+		factor = 0.75
 		modifier = {
 			factor = 0.33
 			NOR = {
@@ -113,6 +121,10 @@ tech_cofh_se_atmosphere_creation = {
 					has_trait = "leader_trait_expertise_industry"
 				}
 			}
+		}
+		modifier = {
+			factor = 10
+			has_technology = tech_cofh_se_atmospheric_purification
 		}
 	}
 

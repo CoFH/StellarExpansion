@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Tweaked how Corvette models were being assigned, which should increase cross-mod compatibility.
+
+--------------------------------------------------------------------------------
+
 2016-11-17:
 Added support for Advanced Ship Behavior Modules and Ship Power Stations.
 

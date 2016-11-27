@@ -1,0 +1,47 @@
+﻿l_braz_por:
+
+# Buildings
+
+building_cofh_se_diplomatic_hub:0 "Diplomatic Hub"
+building_cofh_se_diplomatic_hub_desc:0 "This massive complex of culture and bureaucracy elevates the importance of this world, and our empire in turn."
+
+building_cofh_se_robot_maintenance:0 "Robot Maintenance Facility"
+building_cofh_se_robot_maintenance_desc:0 "This sprawling high-tech complex is used to maintain robot workers, improving their output."
+
+building_cofh_se_climate_station:0 "Climate Moderation Reactor"
+building_cofh_se_climate_station_desc:0 "This massive atmospheric stabilization system improves air quality and regulates the hydrosphere."
+
+building_cofh_se_xeno_food:0 "Xeno Nutriment Factory"
+building_cofh_se_xeno_food_desc:0 "Alien fauna are far too dangerous to keep in captivity, but we can make their acquisition a more palatable endeavor."
+
+# Energy Buildings
+
+building_cofh_se_energy_silo_1:0 "Capacitor Bank I"
+building_cofh_se_energy_silo_1_desc:0 "Capacitor Banks increase our Empire's maximum Energy storage capacity."
+
+building_cofh_se_energy_silo_2:0 "Capacitor Bank II"
+building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+building_cofh_se_energy_silo_3:0 "Capacitor Bank III"
+building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+# Ethos Buildings
+
+building_cofh_se_ministry_intelligence:0 "Ministry of Intelligence"
+building_cofh_se_ministry_intelligence_desc:0 "To defeat our enemies in battle, our citizens must first know the magnitude of the threats we face."
+
+building_cofh_se_ministry_vigilance:0 "Bureau of Vigilance"
+building_cofh_se_ministry_vigilance_desc:0 "The galaxy's aliens are numerous and threatening. Only through continued vigilance shall we maintain purity."
+
+building_cofh_se_frontier_institute:0 "Frontier Science Institute"
+building_cofh_se_frontier_institute_desc:0 "We are driven by curiosity - to explore strange new worlds, to seek out new life and new civilizations."
+
+building_cofh_se_concord_assembly:0 "Concord Assembly"
+building_cofh_se_concord_assembly_desc:0 "There is no path to peace - peace is the path. To follow it is to ensure the well-being of our citizens."
+
+building_cofh_se_monument_creation:0 "Monument to Creation"
+building_cofh_se_monument_creation_desc:0 "As we traverse the stars, we take heart in the knowledge that we are the universe experiencing itself."
+
+# Building Requirements
+
+requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"

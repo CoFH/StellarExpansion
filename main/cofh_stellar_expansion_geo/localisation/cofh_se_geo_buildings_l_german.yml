@@ -21,6 +21,7 @@ building_cofh_se_georeactor_gaia:0 "Gaiaformierungs Reaktor"
 building_cofh_se_georeactor_gaia_desc:0 "Eine massive und komplexe Struktur, welche es erlaubt einen Planeten in eine Gaiawelt zu terraformieren."
 
 # Building Requirements
+
 requirement_cofh_se_geo_is_tomb:0 "§RPlanet muss eine§! §Y$pc_nuked$§!§R.§ sein!"
 requirement_cofh_se_geo_not_gaia:0 "§RPlanet darf keine§! §Y$pc_gaia$§!§R.§ sein!"
 requirement_cofh_se_geo_not_tomb:0 "§RPlanet darf keine§! §Y$pc_nuked$§!§R.§ sein!"

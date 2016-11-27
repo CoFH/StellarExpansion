@@ -1,0 +1,17 @@
+﻿l_french:
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_dynamo_manipulation:0 "Dynamo Manipulation"
+tech_cofh_se_dynamo_manipulation_desc:0 "Manipulation of fundamental forces allows for even the most distant frozen worlds to harbor some life."
+
+tech_cofh_se_tectonic_restriction:0 "Tectonic Restriction"
+tech_cofh_se_tectonic_restriction_desc:0 "Control over fundamental forces allows for worlds with widespread volcanic activity to be tamed."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Dynamo Manipulation"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HDynamo Manipulation§!\nAllows us to terraform frozen worlds into specific habitable worlds."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Tectonic Restriction"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HTectonic Restriction§!\nAllows us to terraform molten worlds into specific habitable worlds."

@@ -1,6 +1,11 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+--------------------------------------------------------------------------------
+
 2016-11-03:
 Mod now exists. :)
 

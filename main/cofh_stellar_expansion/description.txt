@@ -27,6 +27,8 @@ To keep things from becoming too overwhelming and/or unbalanced, potentially gam
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion/changelog.txt]Change Log[/url][/b]
 
+Localizations: English, German, Russian.
+
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
 
 If you would like to use older versions of any of the Stellar Expansion mods, you may find them here:

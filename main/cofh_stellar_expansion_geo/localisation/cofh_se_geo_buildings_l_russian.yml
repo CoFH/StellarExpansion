@@ -21,6 +21,7 @@ building_cofh_se_georeactor_gaia:0 "Реактор климатического 
 building_cofh_se_georeactor_gaia_desc:0 "Невероятно сложный комплекс позволяющий создать на планете множество сбалансированных климатических зон. Позволяет создавать Идеальные миры."
 
 # Building Requirements
+
 requirement_cofh_se_geo_is_tomb:0 "Предназначен для §Y$pc_nuked$§!"
 requirement_cofh_se_geo_not_gaia:0 "Не предназначен для §Y$pc_gaia$§!"
 requirement_cofh_se_geo_not_tomb:0 "§RНе предназначен для §! §Y$pc_nuked$§!§R.§!"

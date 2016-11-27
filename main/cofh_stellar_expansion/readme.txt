@@ -334,7 +334,7 @@ Intensive Ecological Engineering:
 		Tech - Terrestrial Sculpting
 
 	Effects:
-		-5% Terraforming Cost
+		-2% Terraforming Cost
 		-5% Clear Blocker Cost
 		-5% Clear Blocker Time
 

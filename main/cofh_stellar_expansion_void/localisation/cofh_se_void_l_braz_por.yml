@@ -1,0 +1,160 @@
+﻿l_braz_por:
+
+cofh_se_corvette_hvy:0 "Heavy Corvette"
+cofh_se_corvette_hvy_plural:0 "Heavy Corvettes"
+cofh_se_corvette_sup:0 "Logistics Corvette"
+cofh_se_corvette_sup_plural:0 "Logistics Corvettes"
+
+cofh_se_destroyer_hvy:0 "Heavy Destroyer"
+cofh_se_destroyer_hvy_plural:0 "Heavy Destroyers"
+cofh_se_destroyer_sup:0 "Tactical Destroyer"
+cofh_se_destroyer_sup_plural:0 "Tactical Destroyers"
+
+cofh_se_cruiser_hvy:0 "Heavy Cruiser"
+cofh_se_cruiser_hvy_plural:0 "Heavy Cruisers"
+cofh_se_cruiser_sup:0 "Command Cruiser"
+cofh_se_cruiser_sup_plural:0 "Command Cruisers"
+
+cofh_se_battleship_hvy:0 "Heavy Battleship"
+cofh_se_battleship_hvy_plural:0 "Heavy Battleships"
+cofh_se_battleship_sup:0 "Arbiter Battleship"
+cofh_se_battleship_sup_plural:0 "Arbiter Battleships"
+
+cofh_se_auxiliary_tender:0 "Tender Ship"
+cofh_se_auxiliary_tender_plural:0 "Tender Ships"
+
+cofh_se_aura_category_offensive:0 "Offensive Aura"
+cofh_se_aura_category_defensive:0 "Defensive Aura"
+
+cofh_se_ship_small_aura_components:0 "Small Field Emitter"
+cofh_se_ship_small_aura_components_DESC:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+cofh_se_ship_medium_aura_components:0 "Medium Field Emitter"
+cofh_se_ship_medium_aura_components_DESC:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+cofh_se_ship_large_aura_components:0 "Large Field Emitter"
+cofh_se_ship_large_aura_components_DESC:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+cofh_se_ship_xlarge_aura_components:0 "Extra Large Field Emitter"
+cofh_se_ship_xlarge_aura_components_DESC:0 "Field Emitters project and maintain localized fields that induce various effects in enemy or friendly vessels."
+
+cofh_se_aura_ftl_dec:0 "$cofh_se_aura_category_offensive$ - FTL Interdiction"
+
+cofh_se_aura_hull_inc:0 "$cofh_se_aura_category_defensive$ - Hull Integrity"
+cofh_se_aura_hull_regen:0 "$cofh_se_aura_category_defensive$ - Hull Repair"
+
+cofh_se_aura_minefield:0 "$cofh_se_aura_category_offensive$ - Minefield"
+
+cofh_se_aura_sensor_dec:0 "$cofh_se_aura_category_offensive$ - Sensor Dampening"
+cofh_se_aura_sensor_inc:0 "$cofh_se_aura_category_defensive$ - Sensor Amplification"
+
+cofh_se_aura_shield_inc:0 "$cofh_se_aura_category_defensive$ - Shield Integrity"
+cofh_se_aura_shield_regen:0 "$cofh_se_aura_category_defensive$ - Shield Regeneration"
+
+cofh_se_aura_speed_dec:0 "$cofh_se_aura_category_offensive$ - Sublight Snare"
+cofh_se_aura_speed_inc:0 "$cofh_se_aura_category_defensive$ - Sublight Speed"
+
+cofh_se_aura_upkeep:0 "$cofh_se_aura_category_defensive$ - Fleet Maintenance"
+
+cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - Weapon Disruption"
+cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - Weapon Amplification"
+
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Corvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Corvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Corvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Corvette)"
+COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Corvette)"
+
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Logistics Corvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Logistics Corvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Logistics Corvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Logistics Corvette)"
+COFH_SE_CORVETTE_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Logistics Corvette)"
+
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Destroyer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Destroyer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Destroyer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Destroyer)"
+COFH_SE_DESTROYER_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Destroyer)"
+
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Tactical Destroyer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Tactical Destroyer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Tactical Destroyer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Tactical Destroyer)"
+COFH_SE_DESTROYER_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Tactical Destroyer)"
+
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Cruiser)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Cruiser)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Cruiser)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Cruiser)"
+COFH_SE_CRUISER_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Cruiser)"
+
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Command Cruiser)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Command Cruiser)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Command Cruiser)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Command Cruiser)"
+COFH_SE_CRUISER_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Command Cruiser)"
+
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Heavy Battleship)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Heavy Battleship)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Heavy Battleship)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Heavy Battleship)"
+COFH_SE_BATTLESHIP_HVY_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Heavy Battleship)"
+
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Arbiter Battleship)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Arbiter Battleship)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Arbiter Battleship)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Arbiter Battleship)"
+COFH_SE_BATTLESHIP_SUP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Arbiter Battleship)"
+
+COFH_SE_AURA_EMPTY:0 "Empty Slot"
+
+COFH_SE_AURA_FTL_DEC:0 "Interdiction Bubble"
+
+COFH_SE_AURA_HULL_INC:0 "Hull Integrity Matrix"
+COFH_SE_AURA_HULL_REGEN:0 "Nanobot Cloud"
+
+COFH_SE_AURA_MINEFIELD_0:0 "Proximity Minefield"
+COFH_SE_AURA_MINEFIELD_1:0 "Proton Minefield"
+COFH_SE_AURA_MINEFIELD_2:0 "Neutron Minefield"
+
+COFH_SE_AURA_SENSOR_DEC:0 "Sensor Dampener"
+COFH_SE_AURA_SENSOR_INC:0 "Sensor Locus"
+
+COFH_SE_AURA_SHIELD_INC:0 "Shield Integrity Matrix"
+COFH_SE_AURA_SHIELD_REGEN:0 "Capacitor Field"
+
+COFH_SE_AURA_SPEED_DEC:0 "Stasis Bubble"
+COFH_SE_AURA_SPEED_INC:0 "Micro-Warp Bubble"
+
+COFH_SE_AURA_WEAPON_ROF_DEC:0 "Quantum Destabilizer"
+COFH_SE_AURA_WEAPON_ROF_INC:0 "Quantum Alignment Field"
+
+COFH_SE_SHIP_MOUNTED:0 "Ship-mounted"
+COFH_SE_AURA_SMALL:0 "Support"
+COFH_SE_AURA_MEDIUM:0 "Tactical"
+COFH_SE_AURA_LARGE:0 "Command"
+COFH_SE_AURA_XLARGE:0 "Arbiter"
+COFH_SE_AURA_TENDER:0 "Auxiliary"
+
+COFH_SE_SHIP_AURA_SMALL_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_AURA_MEDIUM_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_AURA_LARGE_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_AURA_XLARGE_EMPTY:0 "$AURA_EMPTY$"
+
+COFH_SE_SHIP_SMALL_AURA_HULL_REGEN:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_HULL_REGEN$"
+COFH_SE_SHIP_SMALL_AURA_SENSOR_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_SENSOR_DEC$"
+COFH_SE_SHIP_SMALL_AURA_WEAPON_ROF_DEC:0 "$COFH_SE_AURA_SMALL$ $COFH_SE_AURA_WEAPON_ROF_DEC$"
+
+COFH_SE_SHIP_MEDIUM_AURA_FTL_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_FTL_DEC$"
+COFH_SE_SHIP_MEDIUM_AURA_SPEED_DEC:0 "$COFH_SE_AURA_MEDIUM$ $COFH_SE_AURA_SPEED_DEC$"
+
+COFH_SE_SHIP_LARGE_AURA_HULL_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_HULL_INC$"
+COFH_SE_SHIP_LARGE_AURA_SENSOR_INC:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SENSOR_INC$"
+COFH_SE_SHIP_LARGE_AURA_SHIELD_REGEN:0 "$COFH_SE_AURA_LARGE$ $COFH_SE_AURA_SHIELD_REGEN$"
+
+COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_0:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_0$"
+COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_1:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_1$"
+COFH_SE_SHIP_XLARGE_AURA_MINEFIELD_2:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_MINEFIELD_2$"
+COFH_SE_SHIP_XLARGE_AURA_SPEED_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_SPEED_INC$"
+COFH_SE_SHIP_XLARGE_AURA_WEAPON_ROF_INC:0 "$COFH_SE_AURA_XLARGE$ $COFH_SE_AURA_WEAPON_ROF_INC$"
+
+COFH_SE_SHIP_TENDER_AURA_EMPTY:0 "$AURA_EMPTY$"
+COFH_SE_SHIP_TENDER_AURA_HULL_REGEN:0 "$COFH_SE_AURA_TENDER$ $COFH_SE_AURA_HULL_REGEN$"

@@ -56,33 +56,6 @@ cofh_se_aura_upkeep:0 "$cofh_se_aura_category_defensive$ - Поддержка"
 cofh_se_aura_weapon_rof_dec:0 "$cofh_se_aura_category_offensive$ - Подавление"
 cofh_se_aura_weapon_rof_inc:0 "$cofh_se_aura_category_defensive$ - Поддержка"
 
-COFH_SE_TECH_UNLOCK_CORVETTES_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый корвет"
-COFH_SE_TECH_UNLOCK_CORVETTES_HVY_DESC:0 "§HТяжелый корвет§!\nУлучшенный вариант обычного корвета."
-
-COFH_SE_TECH_UNLOCK_CORVETTES_SUP_TITLE:0 "§HТип кораблей:§! Корвет поддержки"
-COFH_SE_TECH_UNLOCK_CORVETTES_SUP_DESC:0 "§HКорвет поддержки§!\nУлучшенный вариант обычного корвета, с возможностью обеспечивать материально-техническую поддержку."
-
-COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый эсминец"
-COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_DESC:0 "§HТяжелый эсминец§!\nУлучшенный вариант эсминца."
-
-COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_TITLE:0 "§HТип кораблей:§! Тактический эсминец"
-COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_DESC:0 "§HТактический эсминец§!\nУлучшенный вариант эсминца, с возможностью обеспечивать материально-техническую поддержку."
-
-COFH_SE_TECH_UNLOCK_CRUISERS_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый крейсер"
-COFH_SE_TECH_UNLOCK_CRUISERS_HVY_DESC:0 "§HТяжелый крейсер§!\nУлучшенный вариант крейсера."
-
-COFH_SE_TECH_UNLOCK_CRUISERS_SUP_TITLE:0 "§HТип кораблей:§! Командный крейсер"
-COFH_SE_TECH_UNLOCK_CRUISERS_SUP_DESC:0 "§HКомандный крейсер§!\nУлучшенный вариант эсминца, с возможностью обеспечивать материально-техническую поддержку."
-
-COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_TITLE:0 "§HТип кораблей:§! Тяжелый линкор"
-COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HТяжелый линкор§!\nУлучшенный вариант линкора."
-
-COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HТип кораблей:§! Штаб Линкор"
-COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HШтаб Линкор§!\nУлучшенный вариант линкора, с возможностью обеспечивать материально-техническую поддержку."
-
-COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HТип кораблей:§! Корабль снабжения"
-COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HКорабль снабжения§!\nОбычный корабль снабжения, который обеспечивает материально-техническую поддержку."
-
 COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_1:0 "Базовый военный компьютер (Тяжелый корвет)"
 COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_2:0 "Средний военный компьютер (Тяжелый корвет)"
 COFH_SE_CORVETTE_HVY_COMBAT_COMPUTER_3:0 "Улучшенный военный компьютер (Тяжелый корвет)"

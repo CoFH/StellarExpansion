@@ -21,6 +21,8 @@ This is a rather large addition to [b][i][url=https://steamcommunity.com/sharedf
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/changelog.txt]Change Log[/url][/b]
 
+Localizations: English, German, Russian.
+
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
 
 If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Terraforming (Extreme)
 Author: King Lemming
 
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Minor adjustments to tech weighting. Technologies show up slightly more often, and researching one makes it MUCH more likely that the other will show up as an option.
+
+--------------------------------------------------------------------------------
+
 2016-11-05:
 Minor adjustment to technology prerequisites to ensure that as many terraforming techs as possible are required.
 

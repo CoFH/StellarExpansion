@@ -59,7 +59,7 @@ tech_cofh_se_dynamo_manipulation = {
 	}
 
 	weight_modifier = {
-		factor = 0.1
+		factor = 0.25
 		modifier = {
 			factor = 0.33
 			NOR = {
@@ -72,6 +72,10 @@ tech_cofh_se_dynamo_manipulation = {
 					has_trait = "leader_trait_expertise_field_manipulation"
 				}
 			}
+		}
+		modifier = {
+			factor = 10
+			has_technology = tech_cofh_se_tectonic_restriction
 		}
 	}
 
@@ -105,7 +109,7 @@ tech_cofh_se_tectonic_restriction = {
 	}
 
 	weight_modifier = {
-		factor = 0.1
+		factor = 0.25
 		modifier = {
 			factor = 0.33
 			NOR = {
@@ -118,6 +122,10 @@ tech_cofh_se_tectonic_restriction = {
 					has_trait = "leader_trait_expertise_field_manipulation"
 				}
 			}
+		}
+		modifier = {
+			factor = 10
+			has_technology = tech_cofh_se_dynamo_manipulation
 		}
 	}
 

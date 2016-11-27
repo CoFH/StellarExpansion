@@ -1,0 +1,11 @@
+﻿l_braz_por:
+
+# Technology - Repeatable
+
+# Physics
+
+tech_cofh_se_repeatable_reduced_ftl_windup:0 "Calibração de Hipernavigação"
+tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Melhorias em nossos sensores de hipernavigação devem permitir reduzir o tempo necessário para iniciar viagens FTL."
+
+tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Amortecimento de Ressonância Espacial"
+tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Melhorias em nossas bobinas de drive devem nos permitir reduzir o período de ressonância do espaço-tempo que persiste após viagens FTL."

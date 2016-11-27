@@ -1,9 +1,11 @@
 ﻿l_russian:
 
-# Technology - FTL Enhanced
+# Technology - Repeatable
 
- tech_cofh_se_repeatable_reduced_ftl_windup:0 "Продвинутая Подпространственная Калибровка"
- tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Улучшение наших подпространственных датчиков должено позволить нам уменьшать время, требуемое для Сверхсветовых путешествий."
+# Physics
 
- tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Демфирование Пространственно-временного Резонанса"
- tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Управление пространственно-временными калебаниями, образующимися после сверхсветового прыжка, уменьшит время задержки после сверхсветового прыжка."
+tech_cofh_se_repeatable_reduced_ftl_windup:0 "Продвинутая Подпространственная Калибровка"
+tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Улучшение наших подпространственных датчиков должено позволить нам уменьшать время, требуемое для Сверхсветовых путешествий."
+
+tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Демфирование Пространственно-временного Резонанса"
+tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Управление пространственно-временными калебаниями, образующимися после сверхсветового прыжка, уменьшит время задержки после сверхсветового прыжка."

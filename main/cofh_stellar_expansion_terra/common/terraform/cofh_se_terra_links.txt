@@ -50,8 +50,8 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_desert"
 
-	energy = 12500
-	duration = 14600
+	energy = 10000
+	duration = 7300
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
@@ -62,8 +62,8 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_arid"
 
-	energy = 12500
-	duration = 14600
+	energy = 10000
+	duration = 7300
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
@@ -74,8 +74,8 @@ terraform_link = {
 	from = "pc_barren"
 	to = "pc_savannah"
 
-	energy = 12500
-	duration = 14600
+	energy = 10000
+	duration = 7300
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
@@ -90,8 +90,8 @@ terraform_link = {
 	from = "pc_barren_cold"
 	to = "pc_arctic"
 
-	energy = 12500
-	duration = 14600
+	energy = 10000
+	duration = 7300
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
@@ -102,8 +102,8 @@ terraform_link = {
 	from = "pc_barren_cold"
 	to = "pc_tundra"
 
-	energy = 12500
-	duration = 14600
+	energy = 10000
+	duration = 7300
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
@@ -114,8 +114,8 @@ terraform_link = {
 	from = "pc_barren_cold"
 	to = "pc_alpine"
 
-	energy = 12500
-	duration = 14600
+	energy = 10000
+	duration = 7300
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"

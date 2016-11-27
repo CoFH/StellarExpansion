@@ -1,0 +1,47 @@
+﻿l_french:
+
+# Technology - Non-Repeatable
+
+# Engineering
+
+tech_cofh_se_auxiliary_ships:0 "Auxiliary Ships"
+tech_cofh_se_auxiliary_ships_desc:0 "Development of dedicated auxiliary support vessels will allow for prolonged fleet operations in deep space."
+
+tech_cofh_se_corvettes_adv:0 "Advanced Corvettes"
+tech_cofh_se_corvettes_adv_desc:0 "Applying new engineering techniques to Corvette-class vessels will allow for the construction of more advanced variants."
+
+tech_cofh_se_destroyers_adv:0 "Advanced Destroyers"
+tech_cofh_se_destroyers_adv_desc:0 "Applying new engineering techniques to Destroyer-class vessels will allow for the construction of more advanced variants."
+
+tech_cofh_se_cruisers_adv:0 "Advanced Cruisers"
+tech_cofh_se_cruisers_adv_desc:0 "Applying new engineering techniques to Cruiser-class vessels will allow for the construction of more advanced variants."
+
+tech_cofh_se_battleships_adv:0 "Advanced Battleships"
+tech_cofh_se_battleships_adv_desc:0 "Applying new engineering techniques to Battleship-class vessels will allow for the construction of more advanced variants."
+
+COFH_SE_TECH_UNLOCK_CORVETTES_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Corvette"
+COFH_SE_TECH_UNLOCK_CORVETTES_HVY_DESC:0 "§HHeavy Corvette§!\nAn improved version of the basic military ship meant to engage ships of similar size."
+
+COFH_SE_TECH_UNLOCK_CORVETTES_SUP_TITLE:0 "§HUnlocks Ship Type:§! Logistics Corvette"
+COFH_SE_TECH_UNLOCK_CORVETTES_SUP_DESC:0 "§HLogistics Corvette§!\nA lightly armed ship which can provide combat and logistical support."
+
+COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Destroyer"
+COFH_SE_TECH_UNLOCK_DESTROYERS_HVY_DESC:0 "§HHeavy Destroyer§!\nA variant of the Destroyer intended for a frontline combat role."
+
+COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Tactical Destroyer"
+COFH_SE_TECH_UNLOCK_DESTROYERS_SUP_DESC:0 "§HTactical Destroyer§!\nA sturdy ship which provides frontline control and support."
+
+COFH_SE_TECH_UNLOCK_CRUISERS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Cruiser"
+COFH_SE_TECH_UNLOCK_CRUISERS_HVY_DESC:0 "§HHeavy Cruiser§!\nA heavily armored warship intended for a variety of engagement distances."
+
+COFH_SE_TECH_UNLOCK_CRUISERS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Command Cruiser"
+COFH_SE_TECH_UNLOCK_CRUISERS_SUP_DESC:0 "§HCommand Cruiser§!\nA heavily armored ship which can provide combat and logistical support to a fleet."
+
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_TITLE:0 "§HUnlocks Ship Type:§! Heavy Battleship"
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_HVY_DESC:0 "§HHeavy Battleship§!\nA heavily armored warship specialized in long range engagements."
+
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_TITLE:0 "§HUnlocks Ship Type:§! Arbiter Battleship"
+COFH_SE_TECH_UNLOCK_BATTLESHIPS_SUP_DESC:0 "§HArbiter Battleship§!\nA sturdy support platform which provides considerable battlefield control."
+
+COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_TITLE:0 "§HUnlocks Ship Type:§! Tender Ship"
+COFH_SE_TECH_UNLOCK_AUXILIARY_TENDER_DESC:0 "§HHeavy Corvette§!\nAn unarmed support ship which provides routine maintenance and upkeep for a fleet."

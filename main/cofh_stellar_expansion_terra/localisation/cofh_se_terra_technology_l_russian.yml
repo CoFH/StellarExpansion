@@ -4,14 +4,14 @@
 
 # Society
 
- tech_cofh_se_atmospheric_purification:0 "Продвинутые системы отчистки атмосферы"
- tech_cofh_se_atmospheric_purification_desc:0 "Продвинутые системы отчистки атмосферы позволят терраформировать токсичные миры."
+tech_cofh_se_atmospheric_purification:0 "Продвинутые системы отчистки атмосферы"
+tech_cofh_se_atmospheric_purification_desc:0 "Продвинутые системы отчистки атмосферы позволят терраформировать токсичные миры."
 
- tech_cofh_se_atmosphere_creation:0 "Искуственная атмосфера"
- tech_cofh_se_atmosphere_creation_desc:0 "Позволяют нам в короткие сроки создать атмосферы на мирах, на которых она не может появится естественным путем."
+tech_cofh_se_atmosphere_creation:0 "Искуственная атмосфера"
+tech_cofh_se_atmosphere_creation_desc:0 "Позволяют нам в короткие сроки создать атмосферы на мирах, на которых она не может появится естественным путем."
 
- COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§HОткрывает доступ:§! Продвинутые системы отчистки атмосферы"
- COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HПродвинутые системы отчистки атмосферы§!\nПозволяет терраформировать Токсичные миры в пригодные для жизни."
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§HОткрывает доступ:§! Продвинутые системы отчистки атмосферы"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HПродвинутые системы отчистки атмосферы§!\nПозволяет терраформировать Токсичные миры в пригодные для жизни."
 
- COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Искуственная атмосфера"
- COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HИскуственная атмосфера§!\nПозволяет терраформировать Бесплодные миры в пригодные для жизни."
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Искуственная атмосфера"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HИскуственная атмосфера§!\nПозволяет терраформировать Бесплодные миры в пригодные для жизни."

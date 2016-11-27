@@ -15,6 +15,8 @@ If you also want to terraform Frozen and Molten worlds, then you need the follow
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_terra/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_terra/changelog.txt]Change Log[/url][/b]
 
+Localizations: English, Brazilian Portuguese, German, Russian.
+
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
 
 If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

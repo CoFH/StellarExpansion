@@ -1,0 +1,17 @@
+﻿l_braz_por:
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_dynamo_manipulation:0 "Dynamo Manipulação"
+tech_cofh_se_dynamo_manipulation_desc:0 "Manipulação de forças fundamentais permite até mesmo os mais distantes mundos congelados para abrigar alguma vida."
+
+tech_cofh_se_tectonic_restriction:0 "Restrição Tectônica"
+tech_cofh_se_tectonic_restriction_desc:0 "O controle sobre forças fundamentais permite que mundos com atividade vulcânica difundida sejam domesticados."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§HLibera Característica:§! Dynamo Manipulação"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HDynamo Manipulação§!\nPermite terraformar mundos congelados em mundos habitáveis específicos."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HLibera Característica:§! Restrição Tectônica"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HRestrição Tectônica§!\nPermite terraformar mundos derritedos em mundos habitáveis específicos."

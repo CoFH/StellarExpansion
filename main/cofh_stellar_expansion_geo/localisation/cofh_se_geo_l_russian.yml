@@ -172,18 +172,3 @@ COFH_SE_GEO_ALPINE_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_ge
 
 COFH_SE_GEO_GAIA:0 "Идеальный мир"
 COFH_SE_GEO_GAIA_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_gaia$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_gaia$§!."
-
-cofh_se_geo.100.name:0 "Планетарная геоинженерия"
-cofh_se_geo.101.name:0 "Планетарная геоинженерия"
-cofh_se_geo.102.name:0 "Планетарная геоинженерия"
-cofh_se_geo.103.name:0 "Планетарная геоинженерия"
-cofh_se_geo.104.name:0 "Планетарная геоинженерия"
-cofh_se_geo.105.name:0 "Планетарная геоинженерия"
-cofh_se_geo.106.name:0 "Планетарная геоинженерия"
-cofh_se_geo.107.name:0 "Планетарная геоинженерия"
-cofh_se_geo.108.name:0 "Планетарная геоинженерия"
-cofh_se_geo.109.name:0 "Планетарная геоинженерия"
-cofh_se_geo.110.name:0 "Планетарная геоинженерия"
-cofh_se_geo.120.name:0 "Планетарная геоинженерия"
-cofh_se_geo.130.name:0 "Планетарная геоинженерия"
-cofh_se_geo.140.name:0 "Планетарная геоинженерия"

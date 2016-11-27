@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Updated thumbnail.
+
+--------------------------------------------------------------------------------
+
 2016-10-25:
 Mod now exists. :)
 

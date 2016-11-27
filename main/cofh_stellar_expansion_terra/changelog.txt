@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion - Terraforming
 Author: King Lemming
 
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Minor adjustment to tech progression and weighting - one is no longer a prerequisite for the other. Technologies show up slightly more often, and researching one makes it MUCH more likely that the other will show up as an option.
+
+Changed terraforming costs of Barren and Cold Barren planets to match that of Toxic and Tomb worlds.
+
+--------------------------------------------------------------------------------
+
 2016-11-02:
 Complete rewrite for 1.3.x [Heinlein].
 

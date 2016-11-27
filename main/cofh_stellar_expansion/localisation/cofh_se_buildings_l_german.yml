@@ -43,4 +43,5 @@ building_cofh_se_monument_creation:0 "Monument der Schöpfung"
 building_cofh_se_monument_creation_desc:0 "Während wir die Sterne durchstreifen, schöpfen wir Mut in dem Wissen das wir das Universum sind das sich selbst erlebt."
 
 # Building Requirements
+
 requirement_cofh_se_robot_maintenance:0 "§RKünstliche Intelligenz darf nicht geächtet sein.§!"
