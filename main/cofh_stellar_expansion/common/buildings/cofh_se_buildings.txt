@@ -72,22 +72,24 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	allow = {
-		custom_tooltip_fail = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
+		AND = {
+			custom_tooltip_fail = {
+				text = "requires_building_capital_2"
+				planet = {
+					OR = {
+						has_building = "building_capital_2"
+						has_building = "building_capital_3"
+					}
 				}
 			}
-		}
-		custom_tooltip_fail = {
-			text = "requires_pops_15"
-			planet = {
-				count_pops = {
-					count > 14
-					limit = {
-						is_colony_pop = yes
+			custom_tooltip_fail = {
+				text = "requires_pops_15"
+				planet = {
+					count_pops = {
+						count > 14
+						limit = {
+							is_colony_pop = yes
+						}
 					}
 				}
 			}

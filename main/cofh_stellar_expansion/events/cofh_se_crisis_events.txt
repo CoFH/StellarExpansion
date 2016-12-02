@@ -52,7 +52,7 @@ country_event = {
  	is_triggered_only = yes
 
 	trigger = {
-		exists = from
+		exists = FROM
 		is_country_type = default
 		FROM = { is_country_type = swarm }
 		NOT = { has_technology = tech_cofh_se_anti_swarm }
@@ -144,7 +144,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		exists = from
+		exists = FROM
 		is_country_type = default
 		FROM = {
 			OR = {
@@ -236,7 +236,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		exists = from
+		exists = FROM
 		is_country_type = default
 		FROM = { is_country_type = ai_empire }
 		NOT = { has_technology = tech_cofh_se_anti_ai_empire }
@@ -327,7 +327,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		exists = from
+		exists = FROM
 		is_country_type = default
 		FROM = {
 			OR = {

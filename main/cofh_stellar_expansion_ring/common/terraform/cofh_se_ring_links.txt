@@ -7,15 +7,16 @@
 ################################################################################
 
 terraform_link = {
-	from = "pc_ringworld_habitable_damaged"
-	to = "pc_ringworld_habitable"
+	from = "pc_ringworld_seam_damaged"
+	to = "pc_ringworld_seam"
 
-	energy = 15000
-	minerals = 15000
-	duration = 14600
+	energy = 5000
+	minerals = 5000
+	duration = 1800
 
 	condition = {
-		has_technology = "cofh_se_tech_ringworld"
+		has_technology = "tech_cofh_se_ring_seam_repair"
+		has_country_strategic_resource = "sr_living_metal"
 	}
 }
 
@@ -23,24 +24,26 @@ terraform_link = {
 	from = "pc_ringworld_tech_damaged"
 	to = "pc_ringworld_tech"
 
-	energy = 5000
-	minerals = 5000
+	energy = 7500
+	minerals = 7500
 	duration = 3600
 
 	condition = {
-		has_technology = "cofh_se_tech_ringworld"
+		has_technology = "tech_cofh_se_ring_tech_repair"
+		has_country_strategic_resource = "sr_living_metal"
 	}
 }
 
 terraform_link = {
-	from = "pc_ringworld_seam_damaged"
-	to = "pc_ringworld_seam"
+	from = "pc_ringworld_habitable_damaged"
+	to = "pc_ringworld_habitable"
 
-	energy = 5000
-	minerals = 5000
-	duration = 3600
+	energy = 15000
+	minerals = 15000
+	duration = 7300
 
 	condition = {
-		has_technology = "cofh_se_tech_ringworld"
+		has_technology = "tech_cofh_se_ring_habitable_repair"
+		has_country_strategic_resource = "sr_living_metal"
 	}
 }

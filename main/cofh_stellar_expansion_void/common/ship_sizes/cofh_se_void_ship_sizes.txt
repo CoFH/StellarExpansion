@@ -107,7 +107,7 @@ cofh_se_corvette_sup = {
 	num_target_locators = 2
 	is_space_station = no
 	icon_frame = 2
-	base_buildtime = 90
+	base_buildtime = 75
 	required_spaceport_level = 2
 	can_have_federation_design = yes
 	enable_default_design = yes
@@ -151,8 +151,8 @@ cofh_se_destroyer_hvy = {
 	fleet_slot_size = 2
 	section_slots = { "bow" = { locator = "part1" } "stern" = { locator = "part2" } }
 	num_target_locators = 4
-	icon_frame = 3
 	is_space_station = no
+	icon_frame = 3
 	base_buildtime = 150
 	required_spaceport_level = 4
 	can_have_federation_design = yes
@@ -191,9 +191,9 @@ cofh_se_destroyer_sup = {
 	fleet_slot_size = 2
 	section_slots = { "bow" = { locator = "part1" } "stern" = { locator = "part2" } }
 	num_target_locators = 4
-	icon_frame = 3
 	is_space_station = no
-	base_buildtime = 180
+	icon_frame = 3
+	base_buildtime = 150
 	required_spaceport_level = 4
 	can_have_federation_design = yes
 	enable_default_design = yes
@@ -279,7 +279,7 @@ cofh_se_cruiser_sup = {
 	num_target_locators = 4
 	is_space_station = no
 	icon_frame = 4
-	base_buildtime = 360
+	base_buildtime = 300
 	required_spaceport_level = 5
 	can_have_federation_design = yes
 	enable_default_design = yes
@@ -361,7 +361,7 @@ cofh_se_battleship_sup = {
 	num_target_locators = 4
 	is_space_station = no
 	icon_frame = 5
-	base_buildtime = 720
+	base_buildtime = 600
 	required_spaceport_level = 6
 	can_have_federation_design = yes
 	enable_default_design = yes
@@ -372,7 +372,7 @@ cofh_se_battleship_sup = {
 	required_component_set = "ftl_components"
 
 	required_component_set = "ai_behaviour"
-	
+
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
@@ -406,10 +406,11 @@ cofh_se_auxiliary_tender = {
 	num_target_locators = 0
 	is_space_station = no
 	icon_frame = 3
-	base_buildtime = 180
+	base_buildtime = 150
 	required_spaceport_level = 2
-
+	can_have_federation_design = yes
 	enable_default_design = yes
+
 	prerequisites = { "tech_cofh_se_auxiliary_ships" }
 
 	class = shipclass_military

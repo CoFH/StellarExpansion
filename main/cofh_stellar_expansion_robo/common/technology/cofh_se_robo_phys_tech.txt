@@ -1,0 +1,130 @@
+# CoFH - Stellar Expansion - Crisis
+# Technologies
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+################################################################################
+# Anti-Crisis Technology
+################################################################################
+
+# Machine Consciousness Countermeasures
+tech_cofh_se_anti_ai_empire = {
+	icon = "tech_cofh_se_anti_ai_empire"
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+
+	modifier = {
+		damage_vs_country_type_ai_empire_mult = 0.15
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+}
+
+# Extradimensional Countermeasures
+tech_cofh_se_anti_exd = {
+	icon = "tech_cofh_se_anti_exd"
+	area = physics
+	cost = @tier3cost4
+	tier = 3
+	category = { particles }
+	weight = 0
+	is_rare = yes
+
+	#prereqfor_desc = {
+	#	title = "COFH_SE_TECH_ANTI_EXD_TITLE"
+	#	desc = "COFH_SE_TECH_ANTI_EXD_DESC"
+	#}
+
+	modifier = {
+		damage_vs_country_type_extradimensional_mult = 0.15
+		damage_vs_country_type_extradimensional_2_mult = 0.15
+		damage_vs_country_type_extradimensional_3_mult = 0.15
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+}
+
+# Prethoryn Swarm Countermeasures
+tech_cofh_se_anti_swarm = {
+	icon = "tech_cofh_se_anti_swarm"
+	area = society
+	cost = @tier3cost4
+	tier = 3
+	category = { biology }
+	weight = 0
+	is_rare = yes
+
+	modifier = {
+		damage_vs_country_type_swarm_mult = 0.15
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+}
+
+# Fallen Empire Countermeasures
+tech_cofh_se_anti_fallen_empire = {
+	icon = "tech_cofh_se_anti_fallen_empire"
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { voidcraft }
+	weight = 0
+	is_rare = yes
+
+	#prereqfor_desc = {
+	#	title = "COFH_SE_TECH_ANTI_FE_TITLE"
+	#	desc = "COFH_SE_TECH_ANTI_FE_DESC"
+	#}
+
+	modifier = {
+		damage_vs_country_type_fallen_empire_mult = 0.15
+		damage_vs_country_type_awakened_fallen_empire_mult = 0.15
+	}
+
+	weight_modifier = {
+		factor = 0
+	}
+}

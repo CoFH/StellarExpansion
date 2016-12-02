@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-12-02:
+Support variants now take +25% extra time to build, down from +50%.
+
+Updated thumbnail.
+
+--------------------------------------------------------------------------------
+
 2016-11-27:
 Localization overhaul. Placeholder localization files for all languages.
 

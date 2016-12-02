@@ -8,10 +8,10 @@ tech_cofh_se_ring_seam_repair:0 "Ringworld Seam Repair"
 tech_cofh_se_ring_seam_repair_desc:0 "Knowledge of Living Metallurgy combined with study of Ringworld engineering allows for the repair of the most basic sections."
 
 tech_cofh_se_ring_tech_repair:0 "Ringworld Support Repair"
-tech_cofh_se_ring_tech_repair_desc:0 ""
+tech_cofh_se_ring_tech_repair_desc:0 "Continued study of Ringworld engineering allows for the restoration of the structure's technological support sections."
 
 tech_cofh_se_ring_habitable_repair:0 "Ringworld Habitat Repair"
-tech_cofh_se_ring_habitable_repair_desc:0 ""
+tech_cofh_se_ring_habitable_repair_desc:0 "Our combined knowledge of Ringworld repair and terraforming technologies allows for the repair of habitable Ringworld sections."
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_SEAM_REPAIR_TITLE:0 "§HUnlocks Feature:§! Ringworld Seam Repair"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_RING_SEAM_REPAIR_DESC:0 "§HRingworld Seam Repair§!\nAllows us to repair the structural support sections of broken Ringworlds."

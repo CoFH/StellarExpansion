@@ -113,7 +113,7 @@ significant offensive combat abilities beyond that of standard ships.
 	Disadvantages
 	----------------------------------------
 	+100% Fleet Supply Used [4]
-	+50% Build Time
+	+25% Build Time
 	+200% Base Cost
 	No Large Weapons
 
