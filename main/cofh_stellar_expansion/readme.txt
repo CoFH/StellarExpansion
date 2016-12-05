@@ -65,7 +65,7 @@ Capacitor Bank I:
 		60 Minerals
 
 	Empire Modifier:
-		+500 Maximum Energy
+		+1000 Maximum Energy
 
 	Adjacency Bonus:
 		+1 Energy
@@ -77,7 +77,7 @@ Capacitor Bank II:
 		*Planetary Administration (or better)
 
 	Empire Modifier:
-		+750 Maximum Energy
+		+1500 Maximum Energy
 
 	Adjacency Bonus:
 		+1 Energy
@@ -92,10 +92,10 @@ Capacitor Bank III:
 		*Planetary Capital (or better)
 
 	Empire Modifier:
-		+1000 Maximum Energy
+		+2000 Maximum Energy
 
 	Adjacency Bonus:
-		+2 Energy
+		+1 Energy
 
 	Prerequisites:
 		Tech - Planetary Power Grid

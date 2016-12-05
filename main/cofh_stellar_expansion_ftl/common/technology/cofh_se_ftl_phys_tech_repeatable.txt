@@ -6,8 +6,8 @@
 # Tier Variables
 ################################################################################
 
-@repeatableTechBaseCost = 1500
-@repeatableTechLevelCost = 480
+@repeatableTechBaseCost = 3000
+@repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5

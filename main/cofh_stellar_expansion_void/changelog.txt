@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-12-05:
+Updated for 1.4 [Kennedy].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2016-12-02:
 Support variants now take +25% extra time to build, down from +50%.
 

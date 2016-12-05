@@ -1,6 +1,24 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-12-05:
+Updated for 1.4 [Kennedy].
+
+Repeatable technology costs have been changed to match the base game.
+
+Capacitor Banks adjusted to match Mineral Silos:
+	-Now Planet Unique
+	-Energy storage doubled (500/750/1000 to 1000/1500/2000)
+	-Adjacency bonus of 3rd tier reduced to 1
+
+Changed Technologies:
+	Harmonic Replenishment:
+		Field Manipulation
+		+10% Shield Regeneration (+5%)
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
 2016-11-27:
 Localization overhaul. Placeholder localization files for all languages.
 

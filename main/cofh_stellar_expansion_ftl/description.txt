@@ -3,7 +3,7 @@ It is simply compatible with this mod and designed to work alongside it.
 
 This is a simple addon mod meant to boost Hyperlane and Warp empires slightly.
 
-Prior to 1.3, versions of these technologies were included in the base version of [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b]. They have been separated out as FTL is a cornerstone of the game and not everyone is necessarily interested in having it altered.
+Prior to 1.3 [Heinlein], versions of these technologies were included in the base version of [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b]. They have been separated out as FTL is a cornerstone of the game and not everyone is necessarily interested in having it altered.
 
 [h1][b]Features[/b][/h1]
 [list]

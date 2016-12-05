@@ -2,8 +2,8 @@
 # Engineering Technologies (Repeatable)
 # Author: King Lemming
 
-@repeatableTechBaseCost = 1500
-@repeatableTechLevelCost = 480
+@repeatableTechBaseCost = 3000
+@repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5
@@ -59,7 +59,7 @@ tech_cofh_se_repeatable_shield_regen = {
 	weight = @repeatableTechWeight
 
 	modifier = {
-		ship_shield_regen_mult = 0.05
+		ship_shield_regen_mult = 0.10
 	}
 
 	weight_modifier = {

@@ -3,7 +3,7 @@ It is simply compatible with this mod and designed to work alongside it.
 
 This is a rather large addition to [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b] - new ship classes!
 
-1.3 saw a reimagining of Hull sections and a rebalancing of ship roles, as well as the removal of Ship-based Auras. This mod is an attempt to bring back a bit of variance in play while also bringing back Auras in a slightly different fashion.
+1.3 [Heinlein] saw a reimagining of Hull sections and a rebalancing of ship roles, as well as the removal of Ship-based Auras. This mod is an attempt to bring back a bit of variance in play while also bringing back Auras in a slightly different fashion.
 
 [h1][b]Features[/b][/h1]
 [list]

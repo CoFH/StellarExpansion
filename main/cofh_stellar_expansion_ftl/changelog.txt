@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
+2016-12-05:
+Updated for 1.4 [Kennedy].
+
+Repeatable technology costs have been changed to match the base game.
+
+--------------------------------------------------------------------------------
+
 2016-11-27:
 Localization overhaul. Placeholder localization files for all languages.
 

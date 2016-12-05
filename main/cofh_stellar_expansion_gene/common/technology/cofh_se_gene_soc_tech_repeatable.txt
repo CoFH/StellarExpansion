@@ -6,17 +6,17 @@
 # Tier Variables
 ################################################################################
 
-@repeatableTechBaseCost = 1500
-@repeatableTechLevelCost = 480
+@repeatableTechBaseCost = 3000
+@repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5
 
-@repeatable3TechBaseCost = 4200
-@repeatable3TechLevelCost = 1200
+@repeatable2TechBaseCost = 4500
+@repeatable2TechLevelCost = 1500
 
-@repeatable3TechWeight = 15
-@repeatable3TechFactor = 0.5
+@repeatable2TechWeight = 25
+@repeatable2TechFactor = 0.5
 
 ################################################################################
 # Genetics
@@ -26,20 +26,20 @@
 tech_cofh_se_repeatable_increased_trait_points = {
 	icon = "tech_cofh_se_repeatable_increased_trait_points"
 	area = society
-	cost = @repeatable3TechBaseCost
-	cost_per_level = @repeatable3TechLevelCost
+	cost = @repeatable2TechBaseCost
+	cost_per_level = @repeatable2TechLevelCost
 	tier = 3
 	category = { biology }
 	levels = 5
 	prerequisites = { "tech_gene_expressions" }
-	weight = @repeatable3TechWeight
+	weight = @repeatable2TechWeight
 
 	modifier = {
 		trait_points = 1
 	}
 
 	weight_modifier = {
-		factor = @repeatable3TechFactor
+		factor = @repeatable2TechFactor
 	}
 
 	ai_weight = {

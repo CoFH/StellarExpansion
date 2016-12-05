@@ -166,13 +166,14 @@ building_cofh_se_robot_maintenance = {
 building_cofh_se_energy_silo_1 = {
 	icon = "building_cofh_se_energy_silo"
 	base_buildtime = @b1time
+	planet_unique = yes
 
 	cost = {
 		minerals = @b1cost
 	}
 
 	country_modifier = {
-		max_energy = 500
+		max_energy = 1000
 	}
 
 	adjacency_bonus = {
@@ -188,6 +189,7 @@ building_cofh_se_energy_silo_1 = {
 building_cofh_se_energy_silo_2 = {
 	icon = "building_cofh_se_energy_silo"
 	base_buildtime = @b2time
+	planet_unique = yes
 	is_listed = no
 
 	cost = {
@@ -195,7 +197,7 @@ building_cofh_se_energy_silo_2 = {
 	}
 
 	country_modifier = {
-		max_energy = 750
+		max_energy = 1500
 	}
 
 	adjacency_bonus = {
@@ -228,6 +230,7 @@ building_cofh_se_energy_silo_2 = {
 building_cofh_se_energy_silo_3 = {
 	icon = "building_cofh_se_energy_silo"
 	base_buildtime = @b3time
+	planet_unique = yes
 	is_listed = no
 
 	cost = {
@@ -235,11 +238,11 @@ building_cofh_se_energy_silo_3 = {
 	}
 
 	country_modifier = {
-		max_energy = 1000
+		max_energy = 2000
 	}
 
 	adjacency_bonus = {
-		resource_energy_add = 2
+		resource_energy_add = 1
 	}
 
 	prerequisites = {
