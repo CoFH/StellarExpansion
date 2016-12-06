@@ -1,5 +1,5 @@
 # CoFH - Stellar Expansion
-# Events
+# Countermeasure Events
 # Author: King Lemming
 
 namespace = cofh_se

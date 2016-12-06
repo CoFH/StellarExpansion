@@ -1,4 +1,4 @@
-# CoFH - Stellar Expansion - Voidcraft - AI
+# CoFH - Stellar Expansion - Robotics
 # Ship Sizes
 # Author: King Lemming
 

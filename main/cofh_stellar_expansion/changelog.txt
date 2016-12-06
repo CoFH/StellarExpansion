@@ -1,6 +1,38 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-12-06:
+More updates for improved 1.4 gameplay. In particular, alternative uses for local resources.
+	Xeno Nutriment Factory:
+		The thought here is that Alien Pets might be easily domesticated, but could well be unfit for zoos. And they might be delicious.
+
+	Betharian Mining Network:
+		Betharian Stone is not a super-mineral, the thought is that it could be consumed locally for extra-powerful extraction machinery.
+
+Countermeasure technologies have been boosted to +20%. This makes the technology a bit more relevant and also helps to combat the power gap introduced in 1.4 when Repeatable Technology was made much more expensive.
+
+Buildings have been adjusted further to match the 1.4 paradigm:
+	-Empire Unique buildings are limited to the Capital world.
+	-Empire Unique buildings have had their cost normalized.
+	-Influence Cost has been removed from all non-Empire Unique buildings.
+	-Buildings have been reworked so that AI and sectors make much better use of them.
+
+The Pacifist Empire Unique building (Concord Assembly) and its associated technology have new icons.
+
+New Buildings:
+	Betharian Mining Network I-IV:
+		+4/6/8/10 Minerals
+		Requires Betharian Stone
+
+	Xeno Nutriment Factory:
+		Planet-Unique
+		+2 Society Research
+		+8 Food Produced
+		+10% Food Output on Planet
+		Requires Alien Pets
+
+--------------------------------------------------------------------------------
+
 2016-12-05:
 Updated for 1.4 [Kennedy].
 
@@ -110,7 +142,7 @@ Bugfixes:
 --------------------------------------------------------------------------------
 
 2016-10-20:
-This update streamlines and changes things for the 1.3 Heinlein update. There's been a LOT of internal refactoring, so it won't be compatible with 1.2.x saves, and a lot of things have been removed, due to changes to the base game. In particular:
+This update streamlines and changes things for the 1.3 [Heinlein] update. There's been a LOT of internal refactoring, so it won't be compatible with 1.2.x saves, and a lot of things have been removed, due to changes to the base game. In particular:
 
 -FTL Improvement Techs have been removed.
 -Ship Components have been removed.

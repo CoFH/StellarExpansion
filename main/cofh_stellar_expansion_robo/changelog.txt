@@ -1,27 +1,7 @@
-CoFH - Stellar Expansion - FTL Enhanced
+CoFH - Stellar Expansion - Robotics
 Author: King Lemming
 
-2016-11-27:
-Localization overhaul. Placeholder localization files for all languages.
-
-Updated thumbnail.
-
---------------------------------------------------------------------------------
-
-2016-10-25:
+2016-12-07:
 Mod now exists. :)
-
-Added relevant technologies, adjusted for 1.3 play.
-
-New Technologies:
-	Hypernavigation Calibration:
-		Particles
-		-5% FTL Jump Charge Time
-		Repeatable (5x)
-
-	Spacetime Resonance Damping
-		Field Manipulation
-		-5% FTL Jump Cooldown
-		Repeatable (5x)
 
 --------------------------------------------------------------------------------

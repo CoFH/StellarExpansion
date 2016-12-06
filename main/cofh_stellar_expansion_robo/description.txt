@@ -1,19 +1,17 @@
 [h1][b]Stellar Expansion is NOT required.[/b][/h1]
 It is simply compatible with this mod and designed to work alongside it.
 
-This is a simple addon mod meant to boost Hyperlane and Warp empires slightly.
-
-Prior to 1.3, versions of these technologies were included in the base version of [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b]. They have been separated out as FTL is a cornerstone of the game and not everyone is necessarily interested in having it altered.
+<insert>
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]Two repeatable technologies which reduce FTL Wind-Up and Wind-Down by 25% (5x 5%).
+	[*]<insert>.
 [/list]
 
-[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_ftl/readme.txt]Feature List[/url][/b]
-[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_ftl/changelog.txt]Change Log[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_robo/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_robo/changelog.txt]Change Log[/url][/b]
 
-Localizations: English, Brazilian Portuguese, German, Russian.
+Localizations: English, German, Russian.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
 

@@ -21,7 +21,7 @@ Atmospheric Purification:
 	New Worlds
 
 	Prerequisites:
-		Tech - Atmospheric Manipulation
+		Tech - Climate Restoration
 
 	Effects:
 		Unlocks - Mechanic: Atmospheric Purification
@@ -31,10 +31,10 @@ Atmospheric Purification:
 				*Limited to Continental, Ocean, Tropical
 
 Atmosphere Creation:
-	New Worlds, Rare
+	New Worlds
 
 	Prerequisites:
-		Tech - Atmospheric Purification
+		Tech - Climate Restoration
 
 	Effects:
 		Unlocks - Mechanic: Atmosphere Creation

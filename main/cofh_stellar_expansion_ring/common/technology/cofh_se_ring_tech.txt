@@ -153,7 +153,7 @@ tech_cofh_se_ring_habitable_repair = {
 	cost = @tier3cost4
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_cofh_se_ring_tech_repair" "tech_cofh_se_atmosphere_creation" "tech_climate_restoration" }
+	prerequisites = { "tech_cofh_se_ring_tech_repair" "tech_climate_restoration" }
 	weight = 0
 	is_rare = yes
 

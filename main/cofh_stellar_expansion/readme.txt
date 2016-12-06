@@ -57,6 +57,25 @@ Robot Maintenance Facility:
 		Tech - Robotic Workers
 		**AI cannot be outlawed.
 
+Xeno Nutriment Factory:
+	Planet-Unique
+	Build:
+		360 Days
+		200 Minerals
+
+	Requires:
+		1 Energy
+
+	Produces:
+		8 Food
+		2 Society Research
+
+	Planet Modifier:
+		+10% Food
+
+	Prerequisites:
+		Tech - Alien Life Studies
+
 Energy
 --------------------------------------------------------------------------------
 Capacitor Bank I:
@@ -99,6 +118,69 @@ Capacitor Bank III:
 
 	Prerequisites:
 		Tech - Planetary Power Grid
+
+Minerals
+--------------------------------------------------------------------------------
+Betharian Mining Network I:
+	Build:
+		210 Days
+		60 Minerals
+		*Planetary Administration (or better)
+
+	Requires:
+		1 Energy
+
+	Produces:
+		4 Minerals
+
+	Prerequisites:
+		Tech - Betharian Refining
+
+Betharian Mining Network II:
+	Build:
+		180 Days
+		90 Minerals
+		*Planetary Administration (or better)
+
+	Requires:
+		1.5 Energy
+
+	Produces:
+		6 Minerals
+
+	Prerequisites:
+		Tech - Geothermal Fracking
+
+Betharian Mining Network III:
+	Build:
+		180 Days
+		120 Minerals
+		*Planetary Capital (or better)
+
+	Requires:
+		2 Energy
+
+	Produces:
+		8 Minerals
+
+	Prerequisites:
+		Tech - Deep Core Mining
+
+Betharian Mining Network IV:
+	Build:
+		180 Days
+		150 Minerals
+		*Planetary Capital (or better)
+
+	Requires:
+		2.5 Energy
+
+	Produces:
+		10 Minerals
+
+	Prerequisites:
+		Tech - Mineral Isolation
+
 
 Ethos
 --------------------------------------------------------------------------------
@@ -429,31 +511,31 @@ The Final Frontier:
 	Effects:
 		Unlocks - Building: Frontier Science Institute
 
-Crisis Countermeasures[2]
+Countermeasure Technologies[2]
 --------------------------------------------------------------------------------
 Machine Consciousness Countermeasures:
 	Engineering - Voidcraft
 
 	Effects:
-		+15% Damage to Machine Consciousness Vessels
+		+20% Damage to Machine Consciousness Vessels
 
 Extradimensional Invader Countermeasures:
 	Physics - Particles
 
 	Effects:
-		+15% Damage to Extradimensional Invaders
+		+20% Damage to Extradimensional Invaders
 
 Prethoryn Sourge Countermeasures:
 	Society - Biology
 
 	Effects:
-		+15% Damage to Prethoryn Creatures
+		+20% Damage to Prethoryn Creatures
 
 Fallen Empire Countermeasures:
 	Engineering - Voidcraft
 
 	Effects:
-		+15% Damage to Fallen Empire Ships
+		+20% Damage to Fallen Empire Ships
 
 ################################################################################
 # Notes
@@ -464,6 +546,6 @@ Fallen Empire Countermeasures:
 	context of your empire.
 
 [2] These technologies are unlocked via Special Projects which appear after the
-	crisis fleets have been engaged in battle with your forces. Once unlocked,
-	the technologies can be researched normally and/or completed by destroying
-	crisis ships in combat.
+	respective fleets have been engaged in battle with your forces. Once
+	unlocked, the technologies can be researched normally and/or completed by
+	destroying those ships in combat.

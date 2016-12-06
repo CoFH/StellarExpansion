@@ -1,4 +1,4 @@
-# CoFH - Stellar Expansion - Terraforming
+# CoFH - Stellar Expansion - Robotics
 # Society Technologies
 # Author: King Lemming
 
@@ -44,21 +44,21 @@
 tech_cofh_se_atmospheric_purification = {
 	icon = "tech_cofh_se_atmospheric_purification"
 	area = society
-	cost = @tier3cost2
+	cost = @tier3cost4
 	tier = 3
 	category = { new_worlds }
-	prerequisites = { "tech_climate_restoration" }
-	weight = @tier3weight2
+	prerequisites = { "tech_climate_restoration" "tech_sentient_ai" }
+	weight = @tier3weight4
 
 	prereqfor_desc = {
 		diplo_action = {
-			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE"
-			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC"
+			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_AI_CHANGE_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_AI_CHANGE_DESC"
 		}
 	}
 
 	weight_modifier = {
-		factor = 0.75
+		factor = 0.1
 		modifier = {
 			factor = 0.33
 			NOR = {
@@ -67,63 +67,10 @@ tech_cofh_se_atmospheric_purification = {
 					has_trait = "leader_trait_expertise_new_worlds"
 				}
 				research_leader = {
-					area = society
-					has_trait = "leader_trait_expertise_industry"
+					area = physics
+					has_trait = "leader_trait_expertise_computing"
 				}
 			}
-		}
-		modifier = {
-			factor = 10
-			has_technology = tech_cofh_se_atmosphere_creation
-		}
-	}
-
-	ai_weight = {
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_new_worlds"
-			}
-		}
-	}
-}
-
-# Atmosphere Creation
-tech_cofh_se_atmosphere_creation = {
-	icon = "tech_cofh_se_atmosphere_creation"
-	area = society
-	cost = @tier3cost2
-	tier = 3
-	category = { new_worlds }
-	prerequisites = { "tech_climate_restoration" }
-	weight = @tier3weight2
-
-	prereqfor_desc = {
-		diplo_action = {
-			title = "COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE"
-			desc = "COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC"
-		}
-	}
-
-	weight_modifier = {
-		factor = 0.75
-		modifier = {
-			factor = 0.33
-			NOR = {
-				research_leader = {
-					area = society
-					has_trait = "leader_trait_expertise_new_worlds"
-				}
-				research_leader = {
-					area = society
-					has_trait = "leader_trait_expertise_industry"
-				}
-			}
-		}
-		modifier = {
-			factor = 10
-			has_technology = tech_cofh_se_atmospheric_purification
 		}
 	}
 
