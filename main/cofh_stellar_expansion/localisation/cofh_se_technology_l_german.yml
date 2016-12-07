@@ -18,6 +18,9 @@ tech_cofh_se_anti_fallen_empire_desc:0 "Die Beobachtung des Schiffsbaus und der 
 
 # Engineering
 
+tech_cofh_se_orbital_mineral_processing:0 "Orbitale Mineralverarbeitung"
+tech_cofh_se_orbital_mineral_processing_desc:0 "Orbitale Mineralverarbeitungsanlagen können den Weltraum und die irdischen Erträge erhöhen."
+
 tech_cofh_se_protocol_droids:0 "Protokoll Droiden"
 tech_cofh_se_protocol_droids_desc:0 "Die Beherrschung von über Sechs Millionen Kommunikationsformen und eine grenzenlosen Toleranz gegenüber Bürokratie."
 

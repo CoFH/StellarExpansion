@@ -1,4 +1,5 @@
 spriteTypes = {
+
 	spriteType = {
 		name = "GFX_ship_counter_cofh_se_corvette_hvy"
 		textureFile = "gfx/interface/system/icon_cofh_se_corvette_hvy.dds"

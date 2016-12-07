@@ -6,12 +6,10 @@ So basically, this is not a full overhaul mod - it just adds a lot of stuff that
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]Five (5) new buildings for various Ethos which complement their playstyle and expand options.
-	[*]Capacitor Banks - buildings which add Energy Storage to the empire, in the same fashion as Mineral Silos.
-	[*]Betharian Mining Networks - buildings which provide an alternative use for Betharian Stone.
-	[*]Xeno Nutriment Factory - another use for Alien Pets, for when they just look too delicious.
-	[*]Diplomatic Hub - a building which generates Influence and also increases Maximum Stored Influence.
-	[*]Twelve (12) Non-repeatable and eleven (11) Repeatable technologies to add more variety and depth to the midgame.
+	[*]Four (4) Buildings which add functionality and flexibility to your worlds.
+	[*]Five (5) Empire-Unique buildings for different Ethos which complement their playstyles.
+	[*]Two (2) Spaceport Modules which provide new features.
+	[*]Thirteen (13) Non-repeatable and eleven (11) Repeatable technologies to add more variety and depth to the midgame.
 	[*]Four (4) Countermeasure technologies which are made available when fighting specific foes (Endgame Crises or Fallen Empires).
 [/list]
 To keep things from becoming too overwhelming and/or unbalanced, potentially game-changing mods are split into addon modules. They may be used standalone unless indicated through Steam requirements.

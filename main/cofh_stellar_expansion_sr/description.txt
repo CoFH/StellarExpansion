@@ -1,0 +1,18 @@
+[h1][b]Stellar Expansion is NOT required.[/b][/h1]
+It is simply compatible with this mod and designed to work alongside it.
+
+<insert>
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]<insert>.
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_sr/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_sr/changelog.txt]Change Log[/url][/b]
+
+Localizations: English, Brazilian Portuguese, German, Russian.
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

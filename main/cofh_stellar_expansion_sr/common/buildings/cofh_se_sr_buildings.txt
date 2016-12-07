@@ -1,0 +1,439 @@
+# CoFH - Stellar Expansion - Strategic Resources
+# Buildings
+# Author: King Lemming
+
+################################################################################
+# Variables
+################################################################################
+
+@btime = 360
+@bcost = 350
+@beffect = 8
+@bupkeep = 3
+
+building_cofh_se_engos = {
+	icon = "building_cofh_se_engos"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_engos = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_engos = 1
+	}
+
+	country_modifier = {
+		pop_growth_req_mult = -0.10
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_garanthium = {
+	icon = "building_cofh_se_garanthium"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_garanthium = 1
+	}
+
+	produced_resources = {
+		engineering_research = @beffect
+		sr_garanthium = 1
+	}
+
+	country_modifier = {
+		spaceport_ship_build_cost_mult = -0.05
+		spaceport_ship_build_time_mult = -0.05
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_lythuric = {
+	icon = "building_cofh_se_lythuric"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_lythuric = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_lythuric = 1
+	}
+
+	country_modifier = {
+		tile_resource_energy_mult = 0.10
+		planet_fortification_strength = 0.25
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_neutronium = {
+	icon = "building_cofh_se_neutronium"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_neutronium = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_neutronium = 1
+	}
+
+	country_modifier = {
+		army_health = 0.25
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_orillium = {
+	icon = "building_cofh_se_orillium"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_orillium = 1
+	}
+
+	produced_resources = {
+		engineering_research = @beffect
+		sr_orillium = 1
+	}
+
+	country_modifier = {
+		tile_resource_minerals_mult = 0.10
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_pitharan = {
+	icon = "building_cofh_se_pitharan"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_pitharan = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_pitharan = 1
+	}
+
+	country_modifier = {
+		pop_food_req_mult = -0.10
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_satramene = {
+	icon = "building_cofh_se_satramene"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_satramene = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_satramene = 1
+	}
+
+	country_modifier = {
+		pop_xenophobia = -0.05
+		faction_surpression_cost = -0.10
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_teldar = {
+	icon = "building_cofh_se_teldar"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_teldar = 1
+	}
+
+	produced_resources = {
+		engineering_research = @beffect
+		sr_teldar = 1
+	}
+
+	country_modifier = {
+		army_damage_mult = 0.25
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_zro = {
+	icon = "building_cofh_se_zro"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_zro = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_zro = 1
+	}
+
+	country_modifier = {
+		planet_border_mult = 0.1
+		planet_sensor_range_mult = 0.5
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}

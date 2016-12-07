@@ -1,23 +1,5 @@
 ﻿l_english:
 
-# Modifiers
-
-damage_vs_country_type_ai_empire_mult:0 "Damage to Machine Consciousness Vessels"
-damage_vs_country_type_extradimensional_mult:0 "Damage to Unbidden Invaders"
-damage_vs_country_type_extradimensional_2_mult:0 "Damage to Aberrant Invaders"
-damage_vs_country_type_extradimensional_3_mult:0 "Damage to Vehement Invaders"
-
-damage_vs_country_type_fallen_empire_mult:0 "Damage to Fallen Empire Ships"
-damage_vs_country_type_awakened_fallen_empire_mult:0 "Damage to Awakened Fallen Empire Ships"
-
-# Tooltips
-
-COFH_SE_TECH_ANTI_EXD_TITLE:0 "Damage to Extradimensional Invaders: §G+15%§!"
-COFH_SE_TECH_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\nEmpire Modifier\n$COFH_SE_TECH_ANTI_EXD_TITLE$"
-
-COFH_SE_TECH_ANTI_FE_TITLE:0 "Damage to Fallen Empire ships: §G+15%§!"
-COFH_SE_TECH_ANTI_FE_DESC:0 "§H$tech_cofh_se_anti_fallen_empire$§!\nEmpire Modifier\n$COFH_SE_TECH_ANTI_FE_TITLE$"
-
 # Events
 
 COFH_SE_FURTHER_RESEARCH:0 "Further research and remote observation can confirm these theories.\n\nEmpirical testing, also referred to as "combat," may assist with research efforts."
@@ -46,6 +28,21 @@ cofh_se.401.a:0 "Acknowledged."
 cofh_se.410.name:0 "Fallen Empire Weaknesses Discovered"
 cofh_se.410.desc:0 "Observation of Fallen Empire fleets has resulted in the discovery of a number of potential weaknesses owing to their hubris and ship designs rooted in presumably ancient traditions. $COFH_SE_FURTHER_RESEARCH$"
 
+# Modifiers
+
+damage_vs_country_type_ai_empire_mult:0 "Damage to Machine Consciousness Vessels"
+damage_vs_country_type_extradimensional_mult:0 "Damage to Unbidden Invaders"
+damage_vs_country_type_extradimensional_2_mult:0 "Damage to Aberrant Invaders"
+damage_vs_country_type_extradimensional_3_mult:0 "Damage to Vehement Invaders"
+
+damage_vs_country_type_fallen_empire_mult:0 "Damage to Fallen Empire Ships"
+damage_vs_country_type_awakened_fallen_empire_mult:0 "Damage to Awakened Fallen Empire Ships"
+
+# Spaceport Modules
+
+sm_cofh_se_atmospheric_manipulator:0 "Atmospheric Manipulator"
+sm_cofh_se_mining_terminal:0 "Mining Terminal"
+
 # Special Projects
 
 COFH_SE_INVESTIGATE_AI:0 "Engineering Analysis: Machine Consciousness"
@@ -56,3 +53,11 @@ COFH_SE_INVESTIGATE_SWARM:0 "Field Study: Prethoryn Creatures"
 COFH_SE_INVESTIGATE_SWARM_DESC:0 "Task a science department with study of Prethoryn creatures in an effort to gain a combat advantage for our forces."
 COFH_SE_INVESTIGATE_FE:0 "Fleet Observation: Fallen Empire"
 COFH_SE_INVESTIGATE_FE_DESC:0 "Task a science department with study of Fallen Empire ships in an effort to gain a combat advantage for our forces."
+
+# Tooltips
+
+COFH_SE_TECH_ANTI_EXD_TITLE:0 "Damage to Extradimensional Invaders: §G+15%§!"
+COFH_SE_TECH_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\nEmpire Modifier\n$COFH_SE_TECH_ANTI_EXD_TITLE$"
+
+COFH_SE_TECH_ANTI_FE_TITLE:0 "Damage to Fallen Empire ships: §G+15%§!"
+COFH_SE_TECH_ANTI_FE_DESC:0 "§H$tech_cofh_se_anti_fallen_empire$§!\nEmpire Modifier\n$COFH_SE_TECH_ANTI_FE_TITLE$"

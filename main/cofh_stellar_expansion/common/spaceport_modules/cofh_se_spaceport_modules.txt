@@ -1,0 +1,49 @@
+# CoFH - Stellar Expansion
+# Spaceport Modules
+# Author: King Lemming
+
+# Orbital Mineral Processing
+cofh_se_mining_terminal = {
+	icon = "GFX_spaceport_module_cofh_se_mining_terminal"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { "tech_cofh_se_orbital_mineral_processing" }
+	spaceport_level = 1
+
+	cost = {
+		minerals = 100
+	}
+
+	required_resources = {
+		energy = 1
+	}
+
+	produced_resources = {
+		minerals = 3
+	}
+
+	planet_modifier = {
+		tile_resource_minerals_mult = 0.10
+	}
+}
+
+# Atmospheric Manipulator
+cofh_se_atmospheric_manipulator = {
+	icon = "GFX_spaceport_module_cofh_se_atmospheric_manipulator"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { "tech_atmospheric_manipulation" }
+	spaceport_level = 2
+
+	cost = {
+		minerals = 200
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	planet_modifier = {
+		pop_environment_tolerance = 0.10
+	}
+}

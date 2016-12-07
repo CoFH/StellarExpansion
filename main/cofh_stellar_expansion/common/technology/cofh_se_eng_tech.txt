@@ -37,6 +37,41 @@
 @tier3weight4 = 35
 
 ################################################################################
+# Industry
+################################################################################
+
+# Orbital Mineral Processing
+tech_cofh_se_orbital_mineral_processing = {
+	icon = "tech_cofh_se_orbital_mineral_processing"
+	area = engineering
+	cost = @tier1cost2
+	tier = 1
+	category = { industry }
+	prerequisites = { "tech_space_construction" }
+	weight = @tier1weight2
+
+	# Unlock Spaceport Module - Orbital Mineral Processing
+
+	weight_modifier = {
+		modifier = {
+			is_ai = yes
+			factor = 10
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 10
+	}
+}
+
+################################################################################
 # Robotics
 ################################################################################
 

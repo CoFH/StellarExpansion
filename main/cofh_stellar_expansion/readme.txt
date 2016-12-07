@@ -5,8 +5,8 @@ Hey there! So the purpose of Stellar Expansion is to add onto the vanilla
 Stellaris experience while not introducing things which are too terribly
 imbalanced or out of place.
 
-So for now, just Buildings and Technologies. Some of the techs are unlocked
-via Special Projects, but the mod is otherwise event-free.
+So for now, just Buildings, Spaceport Modules, and Technologies. Some of the
+techs are unlocked via Special Projects, but the mod is otherwise event-free.
 
 For features which change the game in a large way, I'll be putting those into
 their own separate modules.
@@ -274,6 +274,45 @@ Monument to Creation:
 		*Only available to Spiritualists and Fanatic Spiritualists.
 
 ################################################################################
+# Spaceport Modules
+################################################################################
+
+Atmospheric Manipulator:
+
+	Build:
+		360 Days
+		200 Minerals
+		*Level 2 Spaceport (or better)
+
+	Requires:
+		2 Energy
+
+	Planet Modifier:
+		+10% Habitability on Planet
+
+	Prerequisites:
+		Tech - Atmospheric Manipulation
+
+Mining Terminal:
+
+	Build:
+		180 Days
+		100 Minerals
+		*Level 1 Spaceport (or better)
+
+	Requires:
+		1 Energy
+
+	Produces:
+		+3 Minerals
+
+	Planet Modifier:
+		+10% Minerals on Planet
+
+	Prerequisites:
+		Tech - Orbital Mineral Processing
+
+################################################################################
 # Technologies
 ################################################################################
 
@@ -312,6 +351,15 @@ Applied Fleet Logistics:
 		+10% Ship Repair Speed
 		-5% Ship Repair Cost
 		-5% Ship Upkeep
+
+Orbital Mineral Processing:
+	Industry
+
+	Prerequisites:
+		Tech - Space Construction
+
+	Effects:
+		Unlocks Spaceport Module - Mining Terminal
 
 Protocol Droids:
 	Industry

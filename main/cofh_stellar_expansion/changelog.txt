@@ -1,6 +1,24 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-12-07:
+Added a couple of new Spaceport Modules. Low-hanging fruit, but should help round out the functionality of Spaceports.
+
+New Spaceport Modules:
+	Atmospheric Manipulator:
+		+10% Habitability on Planet
+
+	Mining Terminal:
+		+3 Minerals
+		+10% Minerals on Planet
+
+New Technologies:
+	Orbital Mineral Processing:
+		Industry
+		Unlocks Spaceport Module - Mining Terminal
+
+--------------------------------------------------------------------------------
+
 2016-12-06:
 More updates for improved 1.4 gameplay. In particular, alternative uses for local resources.
 	Xeno Nutriment Factory:

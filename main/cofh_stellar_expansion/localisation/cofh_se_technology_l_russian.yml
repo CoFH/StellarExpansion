@@ -4,62 +4,65 @@
 
 # Anti-Crisis
 
- tech_cofh_se_anti_ai_empire:0 "Изучение методов противодействия ИИ"
- tech_cofh_se_anti_ai_empire_desc:0 "Реинжинеринг технологий ИИ позволит найти их слабые места."
+tech_cofh_se_anti_ai_empire:0 "Изучение методов противодействия ИИ"
+tech_cofh_se_anti_ai_empire_desc:0 "Реинжинеринг технологий ИИ позволит найти их слабые места."
 
- tech_cofh_se_anti_exd:0 "Изучение методов противодействия Вторженцам"
- tech_cofh_se_anti_exd_desc:0 "Реинжинеринг технологий Захватчиков позволит найти их слабые места."
+tech_cofh_se_anti_exd:0 "Изучение методов противодействия Вторженцам"
+tech_cofh_se_anti_exd_desc:0 "Реинжинеринг технологий Захватчиков позволит найти их слабые места."
 
- tech_cofh_se_anti_swarm:0 "Изучение методов противодействия Преторианцам"
- tech_cofh_se_anti_swarm_desc:0 "Глубокий биоанализ Преторианцев позволит найти их слабые места."
+tech_cofh_se_anti_swarm:0 "Изучение методов противодействия Преторианцам"
+tech_cofh_se_anti_swarm_desc:0 "Глубокий биоанализ Преторианцев позволит найти их слабые места."
 
- tech_cofh_se_anti_fallen_empire:0 "Изучение методов противодействия Угасшим Империям"
- tech_cofh_se_anti_fallen_empire_desc:0 "Изучение строения кораблей Угасшей Империи привели к одному простому выводу, они падки на красоту и декор. Это создает огромное количество слабых мест в их структуре."
+tech_cofh_se_anti_fallen_empire:0 "Изучение методов противодействия Угасшим Империям"
+tech_cofh_se_anti_fallen_empire_desc:0 "Изучение строения кораблей Угасшей Империи привели к одному простому выводу, они падки на красоту и декор. Это создает огромное количество слабых мест в их структуре."
 
 # Engineering
 
- tech_cofh_se_protocol_droids:0 "Протокольные дроиды"
- tech_cofh_se_protocol_droids_desc:0 "Свободно владеют более чем шестью миллионами форм общения, и обладают безграничной терпимостью к бюрократии."
+tech_cofh_se_orbital_mineral_processing:0 "Орбитальный переработки минерального сырья"
+tech_cofh_se_orbital_mineral_processing_desc:0 "Орбитальные объекты переработки минерального сырья может увеличить как глубокое пространство и наземные выходы."
+
+tech_cofh_se_protocol_droids:0 "Протокольные дроиды"
+tech_cofh_se_protocol_droids_desc:0 "Свободно владеют более чем шестью миллионами форм общения, и обладают безграничной терпимостью к бюрократии."
 
 # Physics
 
- tech_cofh_se_deep_scan:0 "Алгоритмы глубинного сканирования"
- tech_cofh_se_deep_scan_desc:0 "Применение статистической информационной теории обработки данных позволяет найти образцы, которые могли бы быть пропущены."
+tech_cofh_se_deep_scan:0 "Алгоритмы глубинного сканирования"
+tech_cofh_se_deep_scan_desc:0 "Применение статистической информационной теории обработки данных позволяет найти образцы, которые могли бы быть пропущены."
 
 # Society
 
 # Ethos Buildings
 
- tech_cofh_se_central_intelligence:0 "Министерство разведки"
- tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
+tech_cofh_se_central_intelligence:0 "Министерство разведки"
+tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
 
- tech_cofh_se_eternal_vigilance:0 "Бюро ксеноконтроля"
- tech_cofh_se_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$"
+tech_cofh_se_eternal_vigilance:0 "Бюро ксеноконтроля"
+tech_cofh_se_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$"
 
- tech_cofh_se_final_frontier:0 "Научный институт «Рубеж»"
- tech_cofh_se_final_frontier_desc:0 "$building_frontier_institute_desc$"
+tech_cofh_se_final_frontier:0 "Научный институт «Рубеж»"
+tech_cofh_se_final_frontier_desc:0 "$building_frontier_institute_desc$"
 
- tech_cofh_se_galactic_concordance:0 "Галактическое согласие"
- tech_cofh_se_galactic_concordance_desc:0 "$building_concord_assembly_desc$"
+tech_cofh_se_galactic_concordance:0 "Галактическое согласие"
+tech_cofh_se_galactic_concordance_desc:0 "$building_concord_assembly_desc$"
 
- tech_cofh_se_cosmic_reflection:0 "Космическое отражение"
- tech_cofh_se_cosmic_reflection_desc:0 "$building_monument_creation_desc$"
+tech_cofh_se_cosmic_reflection:0 "Космическое отражение"
+tech_cofh_se_cosmic_reflection_desc:0 "$building_monument_creation_desc$"
 
 # Diplomacy
 
- tech_cofh_se_galactic_prominence:0 "Галактическое возвышение"
- tech_cofh_se_galactic_prominence_desc:0 "Наши самые крупные миры имеют собственную социополитическую динамику, они имеют большой вес на галактической сцене."
+tech_cofh_se_galactic_prominence:0 "Галактическое возвышение"
+tech_cofh_se_galactic_prominence_desc:0 "Наши самые крупные миры имеют собственную социополитическую динамику, они имеют большой вес на галактической сцене."
 
- tech_cofh_se_psi_diplomatic_corps:0 "Псионический дипломатический корпус"
- tech_cofh_se_psi_diplomatic_corps_desc:0 "Дипломатия - сложное искусство переговоров, позерства и шантажа. Это - намного более простое дело, когда можно прочитать мысли."
+tech_cofh_se_psi_diplomatic_corps:0 "Псионический дипломатический корпус"
+tech_cofh_se_psi_diplomatic_corps_desc:0 "Дипломатия - сложное искусство переговоров, позерства и шантажа. Это - намного более простое дело, когда можно прочитать мысли."
 
- tech_cofh_se_xeno_confidence:0 "Ксено-уверенность"
- tech_cofh_se_xeno_confidence_desc:0 "Передача наших намерений напрямую, какими бы они ни были, помогает создать более глубокие отношения с нашими галактическими соседями."
+tech_cofh_se_xeno_confidence:0 "Ксено-уверенность"
+tech_cofh_se_xeno_confidence_desc:0 "Передача наших намерений напрямую, какими бы они ни были, помогает создать более глубокие отношения с нашими галактическими соседями."
 
- tech_cofh_se_xeno_negotiation:0 "Ксено-переговоры"
- tech_cofh_se_xeno_negotiation_desc:0 "В то время как специфика варьируются от вида к виду, ясно одно - каждый хочет получить выгоду."
+tech_cofh_se_xeno_negotiation:0 "Ксено-переговоры"
+tech_cofh_se_xeno_negotiation_desc:0 "В то время как специфика варьируются от вида к виду, ясно одно - каждый хочет получить выгоду."
 
 # Military
 
- tech_cofh_se_battlefield_leadership:0 "Лидерство на поле боя"
- tech_cofh_se_battlefield_leadership_desc:0 "Наши полевые командиры не нуждаются в сопереживание, они должны знать, как сплотить своих солдат."
+tech_cofh_se_battlefield_leadership:0 "Лидерство на поле боя"
+tech_cofh_se_battlefield_leadership_desc:0 "Наши полевые командиры не нуждаются в сопереживание, они должны знать, как сплотить своих солдат."
