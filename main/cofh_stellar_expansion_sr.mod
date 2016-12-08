@@ -3,8 +3,8 @@ path="mod/cofh_stellar_expansion_sr"
 tags={
 	"CoFH"
 	"Stellar Expansion"
-	"Balance"
 	"Buildings"
+	"Economy"
 	"Gameplay"
 }
 picture="thumb.png"

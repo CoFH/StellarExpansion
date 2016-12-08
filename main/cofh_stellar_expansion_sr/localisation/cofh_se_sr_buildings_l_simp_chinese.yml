@@ -1,0 +1,30 @@
+﻿l_simp_chinese:
+
+# Buildings
+
+building_cofh_se_engos:0 "Engos Dispersal Station"
+building_cofh_se_engos_desc:0 "This industrial research complex creates and distributes aerosolized §Y$sr_engos$§!, promoting health throughout our empire."
+
+building_cofh_se_garanthium:0 "Garanthium Manufactory"
+building_cofh_se_garanthium_desc:0 "This industrial research complex produces spaceship components using §Y$sr_garanthium$§!, assisting our shipyard construction efforts."
+
+building_cofh_se_lythuric:0 "Lythuric Stabilization Plant"
+building_cofh_se_lythuric_desc:0 "This industrial research complex utilizes §Y$sr_lythuric$§! to construct components used in planetary defenses and power plants."
+
+building_cofh_se_neutronium:0 "Neutronium Armory"
+building_cofh_se_neutronium_desc:0 "This industrial research complex produces military equipment using §Y$sr_neutronium$§!, greatly strengthening our armies."
+
+building_cofh_se_orillium:0 "Orillium Explosives Factory"
+building_cofh_se_orillium_desc:0 "This industrial research complex produces explosives with §Y$sr_orillium$§!, which are then used in mining and construction."
+
+building_cofh_se_pitharan:0 "Pitharan Distillation Facility"
+building_cofh_se_pitharan_desc:0 "This industrial research complex distills §Y$sr_pitharan$§!, with the resulting products being used in agriculture and power plants."
+
+building_cofh_se_satramene:0 "Satramene Infusion Plant"
+building_cofh_se_satramene_desc:0 "This industrial research complex creates and distributes aerosolized §Y$sr_satramene$§!, which can be discretely utilized in negotiation efforts."
+
+building_cofh_se_teldar:0 "Teldar Purification Plant"
+building_cofh_se_teldar_desc:0 "This industrial research complex produces industrial equipment using §Y$sr_teldar$§!, enhancing our mineral processing and construction productivity."
+
+building_cofh_se_zro:0 "Zro Diffusion Station"
+building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, awakening and enhancing latent psionic abilities in our populace."

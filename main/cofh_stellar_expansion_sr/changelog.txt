@@ -1,9 +1,64 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
-2016-12-06:
+2016-12-07:
 Mod now exists. :)
 
+For the moment, this is pretty simple - 9 buildings to make use of Strategic Resources. They aren't quite what the old ones used to be, but they provide slightly more incentive to acquire Strategic Resources.
 
+New Buildings:
+	Engos Dispersal Station:
+		Empire-Unique
+		+8 Society Produced
+		-10% Population Growth Time
+
+	Garanthium Manufactory:
+		Empire-Unique
+		+8 Engineering Produced
+		-5% Ship Build Time
+		-5% Ship Cost
+
+	Lythuric Stabilization Plant:
+		Empire-Unique
+		+8 Physics Produced
+		+5% Energy Credits
+		+25% Planetary Fortification Strength
+
+	Neutronium Armory:
+		Empire-Unique
+		+8 Physics Produced
+		+25% Army Damage
+		+25% Army Health
+
+	Orillium Explosives Factory:
+		Empire-Unique
+		+8 Engineering Produced
+		-5% Building Time
+		+5% Minerals
+
+	Pitharan Distillation Facility:
+		Empire-Unique
+		+8 Society Produced
+		+5% Energy Credits
+		-5% Food Required for Population
+
+	Satramene Infusion Plant:
+		Empire-Unique
+		+8 Society Produced
+		-10% Faction Suppression Cost
+		+10% Trade Attractiveness
+		+10% Trust Growth
+
+	Teldar Purification Plant:
+		Empire-Unique
+		+8 Engineering Produced
+		-5% Building Cost
+		+5% Minerals
+
+	Zro Diffusion Station:
+		Empire-Unique
+		+8 Physics Produced
+		+10% Border Extrusion Range
+		+50% Planetary Sensor Range
 
 --------------------------------------------------------------------------------

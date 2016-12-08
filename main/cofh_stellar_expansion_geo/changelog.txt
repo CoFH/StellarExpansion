@@ -53,34 +53,34 @@ New Buildings:
 	Geoengineering Complex:
 		Planet-Unique
 		+2 Physics Produced
-		+2 Social Produced
+		+2 Society Produced
 		+2 Engineering Produced
 
 	Climate Moderation Complex:
 		Planet-Unique
 		+2 Physics Produced
-		+2 Social Produced
+		+2 Society Produced
 		+2 Engineering Produced
 		+10% Habitability on Planet
 
 	Terrestrial Reformation Reactor:
 		Planet-Unique
 		+2 Physics Produced
-		+2 Social Produced
+		+2 Society Produced
 		+2 Engineering Produced
 		*Allows planet to be Terraformed
 
 	Atmospheric Variation Reactor:
 		Planet-Unique
 		+2 Physics Produced
-		+2 Social Produced
+		+2 Society Produced
 		+2 Engineering Produced
 		*Allows planet to be Terraformed
 
 	Climate Restoration Reactor:
 		Planet-Unique
 		+2 Physics Produced
-		+2 Social Produced
+		+2 Society Produced
 		+2 Engineering Produced
 		*Allows planet to be Terraformed
 		**Requires Tomb World
@@ -88,7 +88,7 @@ New Buildings:
 	Gaiaformation Reactor:
 		Planet-Unique
 		+2 Physics Produced
-		+2 Social Produced
+		+2 Society Produced
 		+2 Engineering Produced
 		*Allows planet to be Terraformed
 
