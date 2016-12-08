@@ -1,6 +1,11 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
+2016-12-08:
+Removed files which weren't ready for deployment. Sorry about that!
+
+--------------------------------------------------------------------------------
+
 2016-12-07:
 Mod now exists. :)
 

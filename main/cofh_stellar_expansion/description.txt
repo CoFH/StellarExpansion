@@ -27,8 +27,12 @@ To keep things from becoming too overwhelming and/or unbalanced, potentially gam
 
 Additionally, here are some other mods I have made which are various quality of life improvements, tweaks, and/or fixes to the base game.
 
-[h1][b]Other Mods[/b][/h1]
+[h1][b]UI Mods[/b][/h1]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792136722]CoFH UI - Species Mod Window[/url][/i][/b]
+[/list]
+
+[h1][b]Tweak Mods[/b][/h1]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=814471604]CoFH Tweaks - Easy Modes[/url][/i][/b]
 [/list]
 
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion/readme.txt]Feature List[/url][/b]

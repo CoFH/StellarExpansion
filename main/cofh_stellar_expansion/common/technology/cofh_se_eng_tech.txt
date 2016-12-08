@@ -47,7 +47,7 @@ tech_cofh_se_orbital_mineral_processing = {
 	cost = @tier1cost2
 	tier = 1
 	category = { industry }
-	prerequisites = { "tech_space_construction" }
+	prerequisites = { "tech_mineral_processing_1" "tech_space_construction" }
 	weight = @tier1weight2
 
 	# Unlock Spaceport Module - Orbital Mineral Processing

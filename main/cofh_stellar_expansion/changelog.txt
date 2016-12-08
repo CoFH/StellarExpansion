@@ -1,6 +1,11 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2016-12-08:
+Tech - Orbital Mineral Processing now has Tech - Mineral Processing as a prerequisite.
+
+--------------------------------------------------------------------------------
+
 2016-12-07:
 Added a couple of new Spaceport Modules. Low-hanging fruit, but should help round out the functionality of Spaceports.
 
