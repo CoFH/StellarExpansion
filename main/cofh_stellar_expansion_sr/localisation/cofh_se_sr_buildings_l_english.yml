@@ -2,11 +2,20 @@
 
 # Buildings
 
+building_cofh_se_dark_matter:0 "Dark Matter Concentrator"
+building_cofh_se_dark_matter_desc:0 "This industrial research complex utilizes §Y$sr_dark_matter$§! to produce gravity-manipulation devices for spaceships."
+
 building_cofh_se_engos:0 "Engos Dispersal Station"
 building_cofh_se_engos_desc:0 "This industrial research complex creates and distributes aerosolized §Y$sr_engos$§!, promoting health throughout our empire."
 
 building_cofh_se_garanthium:0 "Garanthium Manufactory"
 building_cofh_se_garanthium_desc:0 "This industrial research complex produces spaceship components using §Y$sr_garanthium$§!, assisting our shipyard construction efforts."
+
+building_cofh_se_ixrybun:0 "Ixrybun Deposition Plant"
+building_cofh_se_ixrybun_desc:0 "This industrial research complex produces advanced computational circuitry using §Y$sr_cofh_se_ixrybun$§!, enhancing our research efforts."
+
+building_cofh_se_living_metal:0 "Living Metal Depot"
+building_cofh_se_living_metal_desc:0 "This industrial research complex produces spaceship components using §Y$sr_living_metal$§!, providing our fleets with a logistics advantage."
 
 building_cofh_se_lythuric:0 "Lythuric Stabilization Plant"
 building_cofh_se_lythuric_desc:0 "This industrial research complex utilizes §Y$sr_lythuric$§! to construct components used in planetary defenses and power plants."

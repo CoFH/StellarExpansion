@@ -11,6 +11,55 @@
 @beffect = 8
 @bupkeep = 3
 
+building_cofh_se_dark_matter = {
+	icon = "building_cofh_se_dark_matter"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_dark_matter = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_dark_matter = 1
+	}
+
+	country_modifier = {
+		ship_speed_mult = 0.10
+		ship_combat_speed_mult = 0.10
+		ship_evasion_add = 5
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
 building_cofh_se_engos = {
 	icon = "building_cofh_se_engos"
 	base_buildtime = @btime
@@ -106,6 +155,101 @@ building_cofh_se_garanthium = {
 	}
 }
 
+building_cofh_se_ixrybun= {
+	icon = "building_cofh_se_ixrybun"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_cofh_se_ixrybun = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_cofh_se_ixrybun = 1
+	}
+
+	country_modifier = {
+		all_technology_research_speed = 0.05
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_living_metal = {
+	icon = "building_cofh_se_living_metal"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_living_metal = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_living_metal = 1
+	}
+
+	country_modifier = {
+		ship_upkeep_mult = -0.10
+		ship_reparation_speed_mult = 0.25
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
 building_cofh_se_lythuric = {
 	icon = "building_cofh_se_lythuric"
 	base_buildtime = @btime
@@ -169,7 +313,7 @@ building_cofh_se_neutronium = {
 	}
 
 	produced_resources = {
-		physics_research = @beffect
+		engineering_research = @beffect
 		sr_neutronium = 1
 	}
 

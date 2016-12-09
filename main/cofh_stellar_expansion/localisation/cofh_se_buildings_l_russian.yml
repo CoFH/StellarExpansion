@@ -27,16 +27,16 @@ building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
 # Mineral Buildings
 
-building_cofh_se_betharian_mining_1:0 "Бетарианская Добывающее предприятие I"
-building_cofh_se_betharian_mining_1_desc:0 "Бетарианская Добывающее предприятие потребляют Бетарианский камень к мощности специализированного оборудования по добыче полезных ископаемых."
+building_cofh_se_betharian_mining_1:0 "Бетарианское Добывающее Предприятие I"
+building_cofh_se_betharian_mining_1_desc:0 "Бетарианское Добывающее Предприятие потребляет Бетарианский камень для усиления мощности специализированного оборудования по добыче полезных ископаемых."
 
-building_cofh_se_betharian_mining_2:0 "Бетарианская Добывающее предприятие II"
+building_cofh_se_betharian_mining_2:0 "Бетарианское Добывающее Предприятие II"
 building_cofh_se_betharian_mining_2_desc:0 "$building_cofh_se_betharian_mining_1_desc$"
 
-building_cofh_se_betharian_mining_3:0 "Бетарианская Добывающее предприятие III"
+building_cofh_se_betharian_mining_3:0 "Бетарианское Добывающее Предприятие III"
 building_cofh_se_betharian_mining_3_desc:0 "$building_cofh_se_betharian_mining_1_desc$"
 
-building_cofh_se_betharian_mining_4:0 "Бетарианская Добывающее предприятие IV"
+building_cofh_se_betharian_mining_4:0 "Бетарианское Добывающее Предприятие IV"
 building_cofh_se_betharian_mining_4_desc:0 "$building_cofh_se_betharian_mining_1_desc$"
 
 # Ethos Buildings

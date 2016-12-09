@@ -40,8 +40,8 @@ damage_vs_country_type_awakened_fallen_empire_mult:0 "Увеличеный ур�
 
 # Spaceport Modules
 
-sm_cofh_se_atmospheric_manipulator:0 "Атмосферное Манипулятор"
-sm_cofh_se_mining_terminal:0 "Добыча терминал"
+sm_cofh_se_atmospheric_manipulator:0 "Атмосферный Манипулятор"
+sm_cofh_se_mining_terminal:0 "Добывающий Терминал"
 
 # Special Projects
 

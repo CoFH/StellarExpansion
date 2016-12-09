@@ -7,7 +7,9 @@ Spaceport Modules may also make an appearance, if the new Strategic Resource cod
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]Nine (9) new Empire-Unique buildings which provide benefits for having Strategic Resources.
+	[*]One (1) new Strategic Resource - Ixrybun Crystals - which boost Energy Weapon Damage.
+	[*]Twelve (12) new Empire-Unique buildings which provide benefits for having Strategic Resources.
+	[*]One (1) new technology for acquiring Ixrybun Crystals.
 [/list]
 
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_sr/readme.txt]Feature List[/url][/b]

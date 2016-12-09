@@ -1,6 +1,48 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
+2016-12-09:
+Added new Strategic Resource: Ixrybun Crystals. If you're currently in a game, it won't show up. You'll need a new one for that.
+
+When SRs were overhauled in 1.3, Explosive and Kinetic Weapons received a relative boost in that there was a resource which provided +10% damage to those weapon types. Energy did not have such a resource. It now does.
+
+And yes, it's a red crystal. A red stone if you will. Those of you familiar with my Minecraft work will get it.
+
+Also, new buildings for the remaining resources, as well as Ixrybun. To keep the research "even" among these buildings, Neutronium now generates Engineering Research instead of Physics.
+
+New Buildings:
+	Dark Matter Concentrator:
+		Empire-Unique
+		+8 Physics Produced
+		+10% Ship Combat Speed
+		+10% Ship Speed
+		+5 Ship Evasion
+
+	Ixrybun Deposition Plant:
+		Empire-Unique
+		+8 Physics Produced
+		+5% Research Speed
+
+	Living Metal Depot:
+		Empire-Unique
+		+8 Society Produced
+		-10% Ship Upkeep Cost
+		+25% Ship Repair Speed
+
+New Technologies:
+	Ixrybun Crystal Mining:
+		Industry
+		Reveals Ixrybun Crystals
+
+Changed Buildings:
+	Neutronium Armory:
+		Empire-Unique
+		+8 Engineering Produced
+		+25% Army Damage
+		+25% Army Health
+
+--------------------------------------------------------------------------------
+
 2016-12-08:
 Removed files which weren't ready for deployment. Sorry about that!
 

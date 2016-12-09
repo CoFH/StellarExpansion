@@ -2,14 +2,14 @@
 # Strategic Resources
 # Author: King Lemming
 
-#sr_cofh_se_teldar = {
-#	AI_category = strategic_resource
-#	prerequisites = { "tech_cofh_se_mine_teldar" }
-#	tradable = yes
-#	is_rare = yes
-#	is_global = yes
-#
-#	modifier = {
-#		weapon_type_energy_weapon_damage_mult = 0.10
-#	}
-#}
+sr_cofh_se_ixrybun = {
+	AI_category = strategic_resource
+	prerequisites = { "tech_cofh_se_mine_ixrybun" }
+	tradable = yes
+	is_rare = yes
+	is_global = yes
+
+	modifier = {
+		weapon_type_energy_weapon_damage_mult = 0.10
+	}
+}

@@ -22,6 +22,23 @@ working.
 NOTE: All buildings require their respective Strategic Resource to construct and
 maintain, but also "produce" that resource, so it is not actually consumed.
 
+Dark Matter Concentrator:
+	Empire-Unique
+	Build:
+		360 Days
+		350 Minerals
+
+	Requires:
+		3 Energy
+
+	Produces:
+		8 Physics Research
+
+	Empire Modifier:
+		+10% Ship Combat Speed
+		+10% Ship Speed
+		+5 Ship Evasion
+
 Engos Dispersal Station:
 	Empire-Unique
 	Build:
@@ -53,6 +70,37 @@ Garanthium Manufactory:
 		-5% Ship Build Time
 		-5% Ship Cost
 
+Ixrybun Deposition Plant:
+	Empire-Unique
+	Build:
+		360 Days
+		350 Minerals
+
+	Requires:
+		3 Energy
+
+	Produces:
+		8 Physics Research
+
+	Empire Modifier:
+		+5% Research Speed
+
+Living Metal Depot:
+	Empire-Unique
+	Build:
+		360 Days
+		350 Minerals
+
+	Requires:
+		3 Energy
+
+	Produces:
+		8 Society Research
+
+	Empire Modifier:
+		-10% Ship Upkeep Cost
+		+25% Ship Repair Speed
+
 Lythuric Stabilization Plant:
 	Empire-Unique
 	Build:
@@ -79,7 +127,7 @@ Neutronium Armory:
 		3 Energy
 
 	Produces:
-		8 Physics Research
+		8 Engineering Research
 
 	Empire Modifier:
 		+25% Army Damage
@@ -165,3 +213,25 @@ Zro Diffusion Station:
 	Empire Modifier:
 		+10% Planet Border Extrusion
 		+50% Planetary Sensor Range
+
+################################################################################
+# Strategic Resources
+################################################################################
+
+Ixrybun Crystals:
+	+10% Energy Weapon Damage
+	Found on Molten Worlds and Asteroids.
+
+################################################################################
+# Technologies
+################################################################################
+
+Ixrybun Crystal Mining:
+	Industry
+
+	Prerequisites:
+		Tech - Mineral Processing
+		*Borders must include potential Ixrybun system
+
+	Effects:
+		Reveals Strategic Resource: Ixrybun Crystals

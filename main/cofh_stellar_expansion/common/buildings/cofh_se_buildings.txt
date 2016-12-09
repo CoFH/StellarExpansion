@@ -272,7 +272,7 @@ building_cofh_se_xeno_food = {
 	}
 
 	produced_resources = {
-		food = 8
+		food = 4
 		society_research = 2
 	}
 
@@ -508,7 +508,7 @@ building_cofh_se_concord_assembly = {
 	}
 
 	country_modifier = {
-		pop_growth_req_mult = -0.20
+		pop_growth_req_mult = -0.15
 	}
 
 	prerequisites = {

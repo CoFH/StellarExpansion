@@ -10,8 +10,6 @@ This is a simple addon mod which plays with genetic manipulation, adding some tr
 
 While not REQUIRED, this mod is highly recommended: [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792136722]CoFH UI - Species Mod Window[/url][/i][/b]
 
-It currently fixes some issues with the window that exist in 1.3.x [Heinlein].
-
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_gene/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_gene/changelog.txt]Change Log[/url][/b]
 

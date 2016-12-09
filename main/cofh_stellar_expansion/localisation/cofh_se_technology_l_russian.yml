@@ -18,8 +18,8 @@ tech_cofh_se_anti_fallen_empire_desc:0 "Изучение строения кор
 
 # Engineering
 
-tech_cofh_se_orbital_mineral_processing:0 "Орбитальный переработки минерального сырья"
-tech_cofh_se_orbital_mineral_processing_desc:0 "Орбитальные объекты переработки минерального сырья может увеличить как глубокое пространство и наземные выходы."
+tech_cofh_se_orbital_mineral_processing:0 "Орбитальный комплекс переработки минерального сырья"
+tech_cofh_se_orbital_mineral_processing_desc:0 "Орбитальные объекты для переработки минерального сырья могут увеличить как глубину бурения, так и выход полезных минераллов."
 
 tech_cofh_se_protocol_droids:0 "Протокольные дроиды"
 tech_cofh_se_protocol_droids_desc:0 "Свободно владеют более чем шестью миллионами форм общения, и обладают безграничной терпимостью к бюрократии."
