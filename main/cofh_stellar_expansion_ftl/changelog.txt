@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
+2016-12-13:
+Minor tweak for balance.
+
+-Repeatable techs are now marked as Tier 3, to match the base game.
+
+--------------------------------------------------------------------------------
+
 2016-12-05:
 Updated for 1.4 [Kennedy].
 

@@ -24,7 +24,7 @@ building_cofh_se_neutronium:0 "Neutronium Armory"
 building_cofh_se_neutronium_desc:0 "This industrial research complex produces military equipment using §Y$sr_neutronium$§!, greatly strengthening our armies."
 
 building_cofh_se_orillium:0 "Orillium Explosives Factory"
-building_cofh_se_orillium_desc:0 "This industrial research complex produces explosives with §Y$sr_orillium$§!, which are then used in mining and construction."
+building_cofh_se_orillium_desc:0 "This industrial research complex produces explosives with §Y$sr_orillium$§!, which are used in mining and construction."
 
 building_cofh_se_pitharan:0 "Pitharan Distillation Facility"
 building_cofh_se_pitharan_desc:0 "This industrial research complex distills §Y$sr_pitharan$§!, with the resulting products being used in agriculture and power plants."

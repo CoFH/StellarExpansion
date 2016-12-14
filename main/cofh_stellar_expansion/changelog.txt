@@ -1,7 +1,14 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
-2016-12-08:
+2016-12-13:
+Minor tweaks for balance.
+
+-Repeatable techs are now marked as Tier 3, to match the base game.
+
+Building - Diplomatic Hub now costs 350 Minerals, generates 0.5 Influence, and has +10% Ethics Divergence.
+Building - Xeno Nutriment Factory now generates 4 Food.
+
 Tech - Orbital Mineral Processing now has Tech - Mineral Processing as a prerequisite.
 
 --------------------------------------------------------------------------------

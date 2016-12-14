@@ -47,7 +47,7 @@ building_cofh_se_diplomatic_hub = {
 	planet_unique = yes
 
 	cost = {
-		minerals = 400
+		minerals = 350
 	}
 
 	required_resources = {
@@ -55,7 +55,7 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	produced_resources = {
-		influence = 1
+		influence = 0.5
 	}
 
 	country_modifier = {
@@ -63,7 +63,7 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	planet_modifier = {
-		pop_ethic_shift = 0.15
+		pop_ethic_shift = 0.10
 	}
 
 	prerequisites = {

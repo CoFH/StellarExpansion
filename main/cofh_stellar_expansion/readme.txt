@@ -24,8 +24,7 @@ Diplomatic Hub:
 	Planet-Unique
 	Build:
 		720 Days
-		400 Minerals
-		25 Influence
+		350 Minerals
 		*15 Population on Planet
 		*Planetary Capital (or better)
 
@@ -33,10 +32,10 @@ Diplomatic Hub:
 		3 Energy
 
 	Produces:
-		1 Influence
+		0.5 Influence
 
 	Planet Modifier:
-		+15% Ethics Divergence [1]
+		+10% Ethics Divergence [1]
 
 	Empire Modifier:
 		+100 Maximum Influence
@@ -67,7 +66,7 @@ Xeno Nutriment Factory:
 		1 Energy
 
 	Produces:
-		8 Food
+		4 Food
 		2 Society Research
 
 	Planet Modifier:

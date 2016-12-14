@@ -2,10 +2,10 @@
 
 # Strategic Resources
 
-sr_cofh_se_ixrybun:0 "Ixrybun Crystals"
-sr_cofh_se_ixrybun_desc:0 "Dense magma-forged crystals which can be used as focusing lenses, increasing destructive potential of energy weapons."
+sr_cofh_se_ixrybun:0 "Кристаллы Иксрибана"
+sr_cofh_se_ixrybun_desc:0 "Плотные метаморфические кристаллы, из которых можно изготовить чрезвычайно чистые фокусирующие линзы для оптических приборов и лазерного вооружения."
 
 # Technology
 
-tech_cofh_se_mine_ixrybun:0 "Ixrybun Crystal Mining"
-tech_cofh_se_mine_ixrybun_desc:0 "Temperature-invariant materials allow for the extraction of Ixrybun crystals from magma pockets."
+tech_cofh_se_mine_ixrybun:0 "Добыча кристаллов Иксрибана"
+tech_cofh_se_mine_ixrybun_desc:0 "Использование термоустойчивых сплавов для добычи ценных материалов из глубоких слоёв планетарной мантии."

@@ -15,7 +15,7 @@ Spaceport Modules may also make an appearance, if the new Strategic Resource cod
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_sr/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_sr/changelog.txt]Change Log[/url][/b]
 
-Localizations: English.
+Localizations: English, Russian.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
 

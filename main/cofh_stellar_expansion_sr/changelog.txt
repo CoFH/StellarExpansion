@@ -1,6 +1,11 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
+2016-12-13:
+Added Russian localization.
+
+--------------------------------------------------------------------------------
+
 2016-12-09:
 Added new Strategic Resource: Ixrybun Crystals. If you're currently in a game, it won't show up. You'll need a new one for that.
 
