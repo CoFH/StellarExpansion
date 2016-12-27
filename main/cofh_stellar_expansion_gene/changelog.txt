@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
+2016-12-27:
+Minor tweak for balance.
+
+-Repeatable technology costs have been adjusted downward to match standard repeatable technologies, as they frankly are expensive enough already post 1.4, and the higher tiers of this tech felt excessively pricey.
+
+--------------------------------------------------------------------------------
+
 2016-12-05:
 Updated for 1.4 [Kennedy].
 

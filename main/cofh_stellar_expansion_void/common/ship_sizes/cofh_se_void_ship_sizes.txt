@@ -76,13 +76,11 @@ cofh_se_corvette_hvy = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -116,15 +114,13 @@ cofh_se_corvette_sup = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
 	required_component_set = "cofh_se_ship_small_aura_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -162,13 +158,11 @@ cofh_se_destroyer_hvy = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -202,15 +196,13 @@ cofh_se_destroyer_sup = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
 	required_component_set = "cofh_se_ship_medium_aura_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -248,13 +240,11 @@ cofh_se_cruiser_hvy = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -288,15 +278,13 @@ cofh_se_cruiser_sup = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
 	required_component_set = "cofh_se_ship_large_aura_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -332,13 +320,11 @@ cofh_se_battleship_hvy = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 
@@ -370,15 +356,13 @@ cofh_se_battleship_sup = {
 
 	class = shipclass_military
 	required_component_set = "ftl_components"
-
-	required_component_set = "ai_behaviour"
-
 	required_component_set = "combat_computers"
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 
 	required_component_set = "cofh_se_ship_xlarge_aura_components"
 
+	required_component_set = "ai_behaviour"
 	required_component_set = "powerstation_components"
 }
 

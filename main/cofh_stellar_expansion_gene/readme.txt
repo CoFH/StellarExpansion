@@ -16,16 +16,10 @@ Society
 --------------------------------------------------------------------------------
 Gene Drive Architecture:
 	Biology
-	Repeatable[1] (5x)
+	Repeatable (5x)
 
 	Prerequisites:
 		Tech - Targeted Gene Expressions
 
 	Effects:
 		+1 Trait Point
-
-################################################################################
-# Notes
-################################################################################
-
-[1]	This is not a standard repeatable tech - it is substantially more expensive.

@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
+2016-12-27:
+Minor tweak for compatibility.
+
+-Rearranged ordering of class modules for proper crossmod support with Advanced Ship Behaviour Modules.
+
+--------------------------------------------------------------------------------
+
 2016-12-05:
 Updated for 1.4 [Kennedy].
 

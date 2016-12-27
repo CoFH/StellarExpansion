@@ -12,12 +12,6 @@
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5
 
-@repeatable2TechBaseCost = 4500
-@repeatable2TechLevelCost = 1500
-
-@repeatable2TechWeight = 25
-@repeatable2TechFactor = 0.5
-
 ################################################################################
 # Genetics
 ################################################################################
@@ -26,13 +20,13 @@
 tech_cofh_se_repeatable_increased_trait_points = {
 	icon = "tech_cofh_se_repeatable_increased_trait_points"
 	area = society
-	cost = @repeatable2TechBaseCost
+	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatable2TechLevelCost
 	tier = 3
 	category = { biology }
 	levels = 5
 	prerequisites = { "tech_gene_expressions" }
-	weight = @repeatable2TechWeight
+	weight = @repeatableTechWeight
 
 	modifier = {
 		trait_points = 1
