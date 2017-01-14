@@ -1,6 +1,11 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
+2016-01-14:
+Fixed a small typo.
+
+--------------------------------------------------------------------------------
+
 2016-12-27:
 Minor tweak for balance.
 
