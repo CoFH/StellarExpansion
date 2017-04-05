@@ -1,8 +1,8 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
-2016-01-14:
-Fixed a small typo.
+2017-04-05:
+Updated Russian localization. Final 1.4 [Kennedy] version. :)
 
 --------------------------------------------------------------------------------
 
