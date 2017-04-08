@@ -10,4 +10,4 @@ tags={
 }
 picture="thumb.png"
 remote_file_id="718529178"
-supported_version="1.4.*"
+supported_version="1.5.*"

@@ -130,7 +130,6 @@ tech_cofh_se_repeatable_ship_repair_upkeep = {
 
 	modifier = {
 		ship_reparation_speed_mult = 0.10
-		ship_reparation_cost_mult = -0.05
 		ship_upkeep_mult = -0.05
 	}
 
@@ -164,7 +163,7 @@ tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
 	weight = @repeatableTechWeight
 
 	modifier = {
-		weapon_type_strike_craft_speed_mult = 0.10
+		weapon_type_strike_craft_speed_mult = 0.15
 	}
 
 	weight_modifier = {

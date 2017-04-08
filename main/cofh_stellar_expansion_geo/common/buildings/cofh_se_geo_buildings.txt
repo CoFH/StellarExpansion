@@ -81,6 +81,7 @@ building_cofh_se_geo_complex_1 = {
 			from = {
 				OR = {
 					is_planet_class = pc_gaia
+					is_planet_class = pc_habitat
 					is_planet_class = pc_ringworld_habitable
 				}
 			}
@@ -125,6 +126,7 @@ building_cofh_se_geo_complex_2 = {
 			from = {
 				OR = {
 					is_planet_class = pc_gaia
+					is_planet_class = pc_habitat
 					is_planet_class = pc_ringworld_habitable
 				}
 			}
@@ -141,7 +143,7 @@ building_cofh_se_georeactor_basic = {
 	cost = {
 		energy = 1000
 		minerals = 1000
-		influence = 50
+		influence = 10
 	}
 
 	required_resources = {
@@ -164,6 +166,7 @@ building_cofh_se_georeactor_basic = {
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
+					is_planet_class = pc_habitat
 					is_planet_class = pc_ringworld_habitable
 				}
 			}
@@ -194,7 +197,7 @@ building_cofh_se_georeactor_adv = {
 	cost = {
 		energy = 2500
 		minerals = 2500
-		influence = 50
+		influence = 25
 	}
 
 	required_resources = {
@@ -217,6 +220,7 @@ building_cofh_se_georeactor_adv = {
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
+					is_planet_class = pc_habitat
 					is_planet_class = pc_ringworld_habitable
 				}
 			}
@@ -247,7 +251,7 @@ building_cofh_se_georeactor_tomb = {
 	cost = {
 		energy = 5000
 		minerals = 5000
-		influence = 25
+		influence = 10
 	}
 
 	required_resources = {
@@ -289,7 +293,7 @@ building_cofh_se_georeactor_gaia = {
 	cost = {
 		energy = 10000
 		minerals = 10000
-		influence = 100
+		influence = 25
 	}
 
 	required_resources = {
@@ -312,6 +316,7 @@ building_cofh_se_georeactor_gaia = {
 			planet = {
 				NOR = {
 					is_planet_class = pc_gaia
+					is_planet_class = pc_habitat
 					is_planet_class = pc_ringworld_habitable
 				}
 			}

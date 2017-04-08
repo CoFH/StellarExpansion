@@ -50,6 +50,12 @@ building_cofh_se_diplomatic_hub = {
 		minerals = 350
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	required_resources = {
 		energy = 3
 	}
@@ -63,7 +69,7 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	planet_modifier = {
-		pop_ethic_shift = 0.10
+		pop_government_ethic_attraction = -0.10
 	}
 
 	prerequisites = {
@@ -110,6 +116,12 @@ building_cofh_se_robot_maintenance = {
 
 	cost = {
 		minerals = 350
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	planet_modifier = {
@@ -163,12 +175,18 @@ building_cofh_se_energy_silo_1 = {
 		minerals = @b1cost
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	country_modifier = {
 		max_energy = 1000
 	}
 
 	adjacency_bonus = {
-		resource_energy_add = 1
+		tile_building_resource_energy_add = 1
 	}
 
 	upgrades = {
@@ -187,12 +205,18 @@ building_cofh_se_energy_silo_2 = {
 		minerals = @b2cost
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	country_modifier = {
 		max_energy = 1500
 	}
 
 	adjacency_bonus = {
-		resource_energy_add = 1
+		tile_building_resource_energy_add = 1
 	}
 
 	prerequisites = {
@@ -228,12 +252,18 @@ building_cofh_se_energy_silo_3 = {
 		minerals = @b3cost
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	country_modifier = {
 		max_energy = 2000
 	}
 
 	adjacency_bonus = {
-		resource_energy_add = 1
+		tile_building_resource_energy_add = 1
 	}
 
 	prerequisites = {
@@ -265,6 +295,12 @@ building_cofh_se_xeno_food = {
 
 	cost = {
 		minerals = 200
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	required_resources = {
@@ -336,6 +372,12 @@ building_cofh_se_betharian_mining_1 = {
 		minerals = @b1cost
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	required_resources = {
 		energy = @b1upkeep
 	}
@@ -386,6 +428,12 @@ building_cofh_se_betharian_mining_2 = {
 		minerals = @b2cost
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	required_resources = {
 		energy = @b2upkeep
 	}
@@ -423,6 +471,12 @@ building_cofh_se_betharian_mining_3 = {
 
 	cost = {
 		minerals = @b3cost
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	required_resources = {
@@ -463,6 +517,12 @@ building_cofh_se_betharian_mining_4 = {
 		minerals = @b4cost
 	}
 
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	required_resources = {
 		energy = @b4upkeep
 	}
@@ -485,255 +545,5 @@ building_cofh_se_betharian_mining_4 = {
 				}
 			}
 		}
-	}
-}
-
-################################################################################
-# Ethos
-################################################################################
-
-# Concord Assembly
-building_cofh_se_concord_assembly = {
-	icon = "building_cofh_se_concord_assembly"
-	base_buildtime = 720
-	empire_unique = yes
-
-	cost = {
-		minerals = 500
-		influence = 100
-	}
-
-	required_resources = {
-		energy = 3
-	}
-
-	country_modifier = {
-		pop_growth_req_mult = -0.15
-	}
-
-	prerequisites = {
-		"tech_cofh_se_galactic_concordance"
-	}
-
-	potential = {
-		planet = { is_capital = yes }
-	}
-
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 7000
-	}
-}
-
-# Frontier Institute
-building_cofh_se_frontier_institute = {
-	icon = "building_cofh_se_frontier_institute"
-	base_buildtime = 720
-	empire_unique = yes
-
-	cost = {
-		minerals = 500
-		influence = 100
-	}
-
-	required_resources = {
-		energy = 8
-	}
-
-	produced_resources = {
-		engineering_research = 2
-		physics_research = 2
-		society_research = 8
-	}
-
-	country_modifier = {
-		country_society_tech_research_speed = 0.10
-	}
-
-	prerequisites = {
-		"tech_cofh_se_final_frontier"
-	}
-
-	potential = {
-		planet = { is_capital = yes }
-	}
-
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 7000
-	}
-}
-
-# Ministry of Intelligence
-building_cofh_se_ministry_intelligence = {
-	icon = "building_cofh_se_ministry_intelligence"
-	base_buildtime = 720
-	empire_unique = yes
-
-	cost = {
-		minerals = 500
-		influence = 100
-	}
-
-	required_resources = {
-		energy = 5
-	}
-
-	country_modifier = {
-		max_rivalries = 2
-	}
-
-	prerequisites = {
-		"tech_cofh_se_central_intelligence"
-	}
-
-	potential = {
-		planet = { is_capital = yes }
-	}
-
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_3"
-			planet = {
-				has_building = "building_capital_3"
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 7000
-	}
-}
-
-# Bureau of Vigilance
-building_cofh_se_ministry_vigilance = {
-	icon = "building_cofh_se_ministry_vigilance"
-	base_buildtime = 720
-	empire_unique = yes
-
-	cost = {
-		minerals = 500
-		influence = 100
-	}
-
-	required_resources = {
-		energy = 5
-	}
-
-	country_modifier = {
-		rivalry_influence_gain = 0.50
-	}
-
-	prerequisites = {
-		"tech_cofh_se_eternal_vigilance"
-	}
-
-	potential = {
-		planet = { is_capital = yes }
-	}
-
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_3"
-			planet = {
-				has_building = "building_capital_3"
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 7000
-	}
-}
-
-# Monument to Creation
-building_cofh_se_monument_creation = {
-	icon = "building_cofh_se_monument_creation"
-	base_buildtime = 720
-	empire_unique = yes
-
-	cost = {
-		minerals = 500
-		influence = 100
-	}
-
-	country_modifier = {
-		pop_happiness = 0.10
-	}
-
-	potential = {
-		planet = { is_capital = yes }
-	}
-
-	destroy_if = {
-		planet = { is_capital = no }
-	}
-
-	prerequisites = {
-		"tech_cofh_se_cosmic_reflection"
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 7000
 	}
 }

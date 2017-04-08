@@ -87,7 +87,7 @@ tech_cofh_se_protocol_droids = {
 	is_rare = yes
 
 	modifier = {
-		influence_gain_add = 1
+		country_resource_influence_add = 1
 		country_trade_attractiveness = 0.10
 		country_trust_growth = 0.10
 	}

@@ -1,0 +1,323 @@
+################################################################################
+# Buildings
+################################################################################
+
+# Central Intelligence
+tech_cofh_se_central_intelligence = {
+	icon = "tech_cofh_se_central_intelligence"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_galactic_administration" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_militarist
+				has_ethic = ethic_fanatic_militarist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Cosmic Reflection
+tech_cofh_se_cosmic_reflection = {
+	icon = "tech_cofh_se_cosmic_reflection"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_colonial_centralization" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_spiritualist
+					has_ethic = ethic_fanatic_spiritualist
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Eternal Vigilance
+tech_cofh_se_eternal_vigilance = {
+	icon = "tech_cofh_se_eternal_vigilance"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_galactic_administration" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_xenophobe
+					has_ethic = ethic_fanatic_xenophobe
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophobe
+				has_ethic = ethic_fanatic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# The Final Frontier
+tech_cofh_se_final_frontier = {
+	icon = "tech_cofh_se_final_frontier"
+	area = society
+	tier = 2
+	cost = @tier2cost1
+	category = { statecraft }
+	prerequisites = { "tech_biolab_1" "tech_colonial_centralization" }
+	weight = @tier2weight1
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_xenophile
+					has_ethic = ethic_fanatic_xenophile
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_xenophile
+				has_ethic = ethic_fanatic_xenophile
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+# Galactic Concordance
+tech_cofh_se_galactic_concordance = {
+	icon = "tech_cofh_se_galactic_concordance"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_colonial_centralization" }
+	weight = @tier2weight2
+	is_rare = yes
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_statecraft"
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					has_ethic = ethic_pacifist
+					has_ethic = ethic_fanatic_pacifist
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_fanatic_pacifist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}

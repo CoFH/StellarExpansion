@@ -1,0 +1,271 @@
+################################################################################
+# Ethos
+################################################################################
+
+# Concord Assembly
+building_cofh_se_concord_assembly = {
+	icon = "building_cofh_se_concord_assembly"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+
+	required_resources = {
+		energy = 4
+	}
+
+	produced_resources = {
+		unity = 4
+	}
+
+	country_modifier = {
+		pop_growth_req_mult = -0.15
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_concordance"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	destroy_if = {
+		planet = { is_capital = no }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_any_empire_capital"
+			planet = {
+				OR = {
+					has_building = "building_capital_3"
+					has_building = "building_hab_capital"
+				}		
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 10000
+	}
+}
+
+# Frontier Institute
+building_cofh_se_frontier_institute = {
+	icon = "building_cofh_se_frontier_institute"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+
+	required_resources = {
+		energy = 8
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 8
+	}
+
+	country_modifier = {
+		country_society_tech_research_speed = 0.15
+	}
+
+	prerequisites = {
+		"tech_cofh_se_final_frontier"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	destroy_if = {
+		planet = { is_capital = no }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_any_empire_capital"
+			planet = {
+				OR = {
+					has_building = "building_capital_3"
+					has_building = "building_hab_capital"
+				}		
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 10000
+	}
+}
+
+# Ministry of Intelligence
+building_cofh_se_ministry_intelligence = {
+	icon = "building_cofh_se_ministry_intelligence"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+
+	required_resources = {
+		energy = 5
+	}
+
+	produced_resources = {
+		unity = 4
+	}
+
+	country_modifier = {
+		max_rivalries = 2
+	}
+
+	prerequisites = {
+		"tech_cofh_se_central_intelligence"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	destroy_if = {
+		planet = { is_capital = no }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_any_empire_capital"
+			planet = {
+				OR = {
+					has_building = "building_capital_3"
+					has_building = "building_hab_capital"
+				}		
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 10000
+	}
+}
+
+# Bureau of Vigilance
+building_cofh_se_ministry_vigilance = {
+	icon = "building_cofh_se_ministry_vigilance"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+
+	required_resources = {
+		energy = 5
+	}
+
+	produced_resources = {
+		unity = 4
+	}
+
+	country_modifier = {
+		rivalry_influence_gain = 0.50
+	}
+
+	prerequisites = {
+		"tech_cofh_se_eternal_vigilance"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	destroy_if = {
+		planet = { is_capital = no }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_any_empire_capital"
+			planet = {
+				OR = {
+					has_building = "building_capital_3"
+					has_building = "building_hab_capital"
+				}		
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 10000
+	}
+}
+
+# Monument to Creation
+building_cofh_se_monument_creation = {
+	icon = "building_cofh_se_monument_creation"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 500
+		influence = 100
+	}
+
+	produced_resources = {
+		unity = 6
+	}
+
+	country_modifier = {
+		pop_happiness = 0.10
+	}
+
+	prerequisites = {
+		"tech_cofh_se_cosmic_reflection"
+	}
+
+	potential = {
+		planet = { is_capital = yes }
+	}
+
+	destroy_if = {
+		planet = { is_capital = no }
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_any_empire_capital"
+			planet = {
+				OR = {
+					has_building = "building_capital_3"
+					has_building = "building_hab_capital"
+				}		
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 10000
+	}
+}

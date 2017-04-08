@@ -33,7 +33,11 @@ tech_cofh_se_repeatable_increased_trait_points = {
 	}
 
 	weight_modifier = {
-		factor = @repeatable2TechFactor
+		modifier = {
+			factor = 0
+			host_has_dlc = "Utopia"
+		}
+		factor = @repeatableTechFactor
 	}
 
 	ai_weight = {
