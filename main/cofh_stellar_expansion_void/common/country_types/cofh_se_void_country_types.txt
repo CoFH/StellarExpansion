@@ -1,11 +1,13 @@
-
 # CoFH - Stellar Expansion - Voidcraft
 # Country Types - Default
 # Author: King Lemming
 
 default = {
+	has_fortifications = yes
+	can_have_orbital_stations = yes
 	has_difficulty_bonuses = yes
 	counts_for_victory = yes
+	pop_growth = yes
 	playable = yes
 	shuffle_pop_ethos = yes
 	diplomatic_wars = yes
@@ -18,6 +20,7 @@ default = {
 		min_navy_for_wars = 0.5
 		colonizer = yes
 		internal_policies = yes
+		traditions = yes
 		construction = yes
 		modules = {
 			military_minister_module
@@ -33,9 +36,9 @@ default = {
 			}
 
 			science	= {
-				min = 1
-				max = 2
-				planet_mult = 0.5
+				min = 2
+				max = 3
+				planet_mult = 0.25
 			}
 
 			colonizer = {
@@ -581,5 +584,6 @@ default = {
 		standard_technology_module = {}
 		standard_pop_factions_module = {}
 		standard_expansion_module = {}
+		standard_species_rights_module = {}
 	}
 }

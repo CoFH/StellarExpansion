@@ -1,10 +1,10 @@
 CoFH - Stellar Expansion - Voidcraft
 Author: King Lemming
 
-2017-04-06:
+2017-04-08:
 Updated for patch 1.5 [Banks].
 
-No actual changes - just version incrementing.
+No actual gameplay changes - just version incrementing and some file rewrites.
 
 --------------------------------------------------------------------------------
 
