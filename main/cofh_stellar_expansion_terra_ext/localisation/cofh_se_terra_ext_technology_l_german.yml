@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HDynamo Manipulation§!
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HFreischalten des Features:§! Tektonische Beschränkung"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HTektonische Beschränkung§!\nErlaubt es uns, geschmolzene Welten in bestimmte bewohnbare Welten zu terraformieren."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

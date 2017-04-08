@@ -1,12 +1,12 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
-2017-04-07:
+2017-04-08:
 Updated for 1.5 [Banks].
 
 I am considering how to handle this in light of the new Biological Ascension path.
 
-For now, the technologies will NOT appear if the Utopia DLC is installed.
+For now, the technologies will NOT be available if the Utopia DLC is installed.
 
 --------------------------------------------------------------------------------
 

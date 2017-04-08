@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HDynamo Manipulation§!
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Tectonic Restriction"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HTectonic Restriction§!\nAllows us to terraform molten worlds into specific habitable worlds."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HПодрыв Ядра�
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Управляемая Тектоника"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HУправляемая Тектоника§!\nПозволяет терраформировать Расплавленные миры в пригодные для жизни."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

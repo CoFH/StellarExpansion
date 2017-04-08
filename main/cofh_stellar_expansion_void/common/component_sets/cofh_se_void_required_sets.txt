@@ -5,7 +5,7 @@
 component_set = {
 	key = "cofh_se_ship_tender_aura_components"
 
-	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
@@ -13,7 +13,7 @@ component_set = {
 component_set = {
 	key = "cofh_se_ship_small_aura_components"
 
-	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
@@ -21,7 +21,7 @@ component_set = {
 component_set = {
 	key = "cofh_se_ship_medium_aura_components"
 
-	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
@@ -29,7 +29,7 @@ component_set = {
 component_set = {
 	key = "cofh_se_ship_large_aura_components"
 
-	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }
@@ -37,7 +37,7 @@ component_set = {
 component_set = {
 	key = "cofh_se_ship_xlarge_aura_components"
 
-	show_in_designer = no
+	required_component_set = yes
 	icon = "GFX_ship_part_sensor"
 	icon_frame = 1
 }

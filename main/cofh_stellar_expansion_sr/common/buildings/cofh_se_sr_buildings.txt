@@ -155,53 +155,6 @@ building_cofh_se_garanthium = {
 	}
 }
 
-building_cofh_se_ixrybun= {
-	icon = "building_cofh_se_ixrybun"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_cofh_se_ixrybun = 1
-	}
-
-	produced_resources = {
-		physics_research = @beffect
-		sr_cofh_se_ixrybun = 1
-	}
-
-	country_modifier = {
-		all_technology_research_speed = 0.05
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_1"
-			planet = {
-				OR = {
-					has_building = "building_capital_1"
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
 building_cofh_se_living_metal = {
 	icon = "building_cofh_se_living_metal"
 	base_buildtime = @btime
@@ -464,7 +417,7 @@ building_cofh_se_satramene = {
 	country_modifier = {
 		country_trade_attractiveness = 0.10
 		country_trust_growth = 0.10
-		faction_surpression_cost = -0.10
+		planet_unrest_add = -10
 	}
 
 	allow = {
@@ -513,6 +466,53 @@ building_cofh_se_teldar = {
 	country_modifier = {
 		planet_building_cost_mult = -0.05
 		tile_resource_minerals_mult = 0.05
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_yuranic= {
+	icon = "building_cofh_se_yuranic"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_yuranic = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_yuranic = 1
+	}
+
+	country_modifier = {
+		all_technology_research_speed = 0.05
 	}
 
 	allow = {

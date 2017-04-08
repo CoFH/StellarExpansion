@@ -11,9 +11,6 @@ building_cofh_se_engos_desc:0 "This industrial research complex creates and dist
 building_cofh_se_garanthium:0 "Garanthium Manufactory"
 building_cofh_se_garanthium_desc:0 "This industrial research complex produces spaceship components using §Y$sr_garanthium$§!, assisting our shipyard construction efforts."
 
-building_cofh_se_ixrybun:0 "Ixrybun Deposition Plant"
-building_cofh_se_ixrybun_desc:0 "This industrial research complex produces advanced computational circuitry using §Y$sr_cofh_se_ixrybun$§!, enhancing our research efforts."
-
 building_cofh_se_living_metal:0 "Living Metal Depot"
 building_cofh_se_living_metal_desc:0 "This industrial research complex produces spaceship components using §Y$sr_living_metal$§!, providing our fleets with a logistics advantage."
 
@@ -34,6 +31,9 @@ building_cofh_se_satramene_desc:0 "This industrial research complex creates and 
 
 building_cofh_se_teldar:0 "Teldar Purification Plant"
 building_cofh_se_teldar_desc:0 "This industrial research complex produces industrial equipment using §Y$sr_teldar$§!, enhancing our mineral processing and construction productivity."
+
+building_cofh_se_yuranic:0 "Yurantic Deposition Plant"
+building_cofh_se_yuranic_desc:0 "This industrial research complex produces advanced computational circuitry using §Y$sr_yuranic$§!, enhancing our research efforts."
 
 building_cofh_se_zro:0 "Zro Diffusion Station"
 building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, awakening and enhancing latent psionic abilities in our populace."

@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HПродвинутые 
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Искуственная атмосфера"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HИскуственная атмосфера§!\nПозволяет терраформировать Бесплодные миры в пригодные для жизни."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

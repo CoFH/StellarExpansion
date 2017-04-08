@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HPurificação Atmosfér
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HLibera Característica:§! Criação de Atmosfera"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HCriação de Atmosfera§!\nPermite terraformar mundos infértiles em mundos habitáveis específicos."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

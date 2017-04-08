@@ -57,11 +57,11 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	required_resources = {
-		energy = 3
+		energy = 5
 	}
 
 	produced_resources = {
-		influence = 0.5
+		influence = 1
 	}
 
 	country_modifier = {
@@ -69,7 +69,7 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	planet_modifier = {
-		pop_government_ethic_attraction = -0.10
+		pop_government_ethic_attraction = -0.15
 	}
 
 	prerequisites = {
@@ -78,8 +78,8 @@ building_cofh_se_diplomatic_hub = {
 
 	allow = {
 		AND = {
-			custom_tooltip_fail = {
-				text = "requires_building_capital_2"
+			custom_tooltip = {
+				fail_text = "requires_building_capital_2"
 				planet = {
 					OR = {
 						has_building = "building_capital_2"
@@ -87,8 +87,8 @@ building_cofh_se_diplomatic_hub = {
 					}
 				}
 			}
-			custom_tooltip_fail = {
-				text = "requires_pops_15"
+			custom_tooltip = {
+				fail_text = "requires_pops_15"
 				planet = {
 					count_pops = {
 						count > 14
@@ -318,8 +318,8 @@ building_cofh_se_xeno_food = {
 
 	allow = {
 		AND = {
-			custom_tooltip_fail = {
-				text = "requires_building_capital_1"
+			custom_tooltip = {
+				fail_text = "requires_building_capital_1"
 				planet = {
 					OR = {
 						has_building = "building_capital_1"
@@ -328,8 +328,8 @@ building_cofh_se_xeno_food = {
 					}
 				}
 			}
-			custom_tooltip_fail = {
-				text = "requires_alien_pets"
+			custom_tooltip = {
+				fail_text = "requires_alien_pets"
 				tile = {
 					has_resource = {
 						type = sr_alien_pets
@@ -396,8 +396,8 @@ building_cofh_se_betharian_mining_1 = {
 
 	allow = {
 		AND = {
-			custom_tooltip_fail = {
-				text = "requires_building_capital_1"
+			custom_tooltip = {
+				fail_text = "requires_building_capital_1"
 				planet = {
 					OR = {
 						has_building = "building_capital_1"
@@ -406,8 +406,8 @@ building_cofh_se_betharian_mining_1 = {
 					}
 				}
 			}
-			custom_tooltip_fail = {
-				text = "requires_betharian_stone"
+			custom_tooltip = {
+				fail_text = "requires_betharian_stone"
 				tile = {
 					has_resource = {
 						type = sr_betharian

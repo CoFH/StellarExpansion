@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HAtmospheric Purificatio
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Atmosphere Creation"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HAtmosphere Creation§!\nAllows us to terraform barren worlds into specific habitable worlds."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

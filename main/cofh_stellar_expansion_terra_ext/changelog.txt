@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion - Terraforming (Extreme)
 Author: King Lemming
 
+2017-04-08:
+Updated for 1.5 [Banks].
+
+Planet size restrictions have been implemented - planets must be size 8-25.
+
+I am going to investigate further restrictions, such as requiring certain Ascension Perks.
+
+--------------------------------------------------------------------------------
+
 2016-12-05:
 Updated for 1.4 [Kennedy].
 

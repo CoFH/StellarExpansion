@@ -15,3 +15,7 @@ COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HAtmosphärische Reinigu
 
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HFreischalten des Features:§! Atmosphäreentstehung"
 COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HAtmosphäreentstehung§!\nErlaubt uns, unfruchtbare Welten in bestimmte bewohnbare Welten zu terraformieren."
+
+# Requirements
+
+requirement_cofh_se_planet_size:0 "§RPlanet size must be within allowable limits.§!"

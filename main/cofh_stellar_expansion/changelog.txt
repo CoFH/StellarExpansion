@@ -1,12 +1,14 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
-2017-04-07:
+2017-04-08:
 Updated for patch 1.5 [Banks].
 
 Buildings should have proper planetary restrictions.
 
-Some buildings produce Unity.
+Building - Diplomatic Hub now costs 350 Minerals, generates 1 Influence, has a 5 Energy Upkeep, and has -15% Ethics Attraction.
+
+Ethics buildings adn their associated technologies have been temporarily removed. I need to figure out a good way to balance these for 1.5.
 
 Tech - Intensive Ecological Engineering now increases Terraforming speed by 10% per level. Tile Blocker cost reduction now 3% per level, down from 5%.
 Tech - Inertial Compensators is now 15% per level, up from 10%.

@@ -1,7 +1,7 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
-2017-04-07:
+2017-04-08:
 Updated for 1.5 [Banks].
 
 No actual changes - just version incrementing.

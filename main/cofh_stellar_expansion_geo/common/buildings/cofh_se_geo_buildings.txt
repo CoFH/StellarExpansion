@@ -73,6 +73,7 @@ building_cofh_se_geo_complex_1 = {
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
 		weight = 10
@@ -118,6 +119,7 @@ building_cofh_se_geo_complex_2 = {
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
 		weight = 10
@@ -182,6 +184,7 @@ building_cofh_se_georeactor_basic = {
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
 		weight = 0
@@ -236,6 +239,7 @@ building_cofh_se_georeactor_adv = {
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
 		weight = 0
@@ -278,6 +282,7 @@ building_cofh_se_georeactor_tomb = {
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
 		weight = 0
@@ -332,6 +337,7 @@ building_cofh_se_georeactor_gaia = {
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
 		weight = 0

@@ -49,10 +49,10 @@ default = {
 						add = 25
 						has_technology = tech_spaceport_6
 					}
-					#modifier = {
-					#	add = -10
-					#	has_technology = tech_cofh_se_battleships_adv
-					#}
+					modifier = {
+						add = -10
+						has_technology = tech_cofh_se_battleships_adv
+					}
 				}
 				# Final: 15
 			}
@@ -301,8 +301,8 @@ default = {
 									has_leader_flag = has_elite_guard
 								}
 								OR = {
-									has_government = despotic_hegemony
-									has_government = ai_overlordship
+									has_government = gov_despotic_hegemony
+									has_government = gov_illuminated_autocracy
 								}
 							}
 						}
@@ -389,8 +389,8 @@ default = {
 									has_leader_flag = has_elite_guard
 								}
 								OR = {
-									has_government = despotic_hegemony
-									has_government = ai_overlordship
+									has_government = gov_despotic_hegemony
+									has_government = gov_illuminated_autocracy
 								}
 							}
 						}
@@ -435,8 +435,8 @@ default = {
 									has_leader_flag = has_elite_guard
 								}
 								OR = {
-									has_government = despotic_hegemony
-									has_government = ai_overlordship
+									has_government = gov_despotic_hegemony
+									has_government = gov_illuminated_autocracy
 								}
 							}
 						}
@@ -480,8 +480,8 @@ default = {
 									has_leader_flag = has_elite_guard
 								}
 								OR = {
-									has_government = despotic_hegemony
-									has_government = ai_overlordship
+									has_government = gov_despotic_hegemony
+									has_government = gov_illuminated_autocracy
 								}
 							}
 						}
@@ -524,8 +524,8 @@ default = {
 									has_leader_flag = has_elite_guard
 								}
 								OR = {
-									has_government = despotic_hegemony
-									has_government = ai_overlordship
+									has_government = gov_despotic_hegemony
+									has_government = gov_illuminated_autocracy
 								}
 							}
 						}
@@ -564,8 +564,8 @@ default = {
 								has_leader_flag = has_elite_guard
 							}
 							OR = {
-								has_government = despotic_hegemony
-								has_government = ai_overlordship
+								has_government = gov_despotic_hegemony
+								has_government = gov_illuminated_autocracy
 							}
 						}
 					}

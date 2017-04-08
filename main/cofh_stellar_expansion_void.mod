@@ -1,4 +1,4 @@
-﻿name="Stellar Expansion - Voidcraft"
+name="Stellar Expansion - Voidcraft"
 path="mod/cofh_stellar_expansion_void"
 tags={
 	"CoFH"

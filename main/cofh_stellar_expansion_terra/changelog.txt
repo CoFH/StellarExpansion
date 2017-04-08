@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion - Terraforming
 Author: King Lemming
 
+2017-04-08:
+Updated for 1.5 [Banks].
+
+Planet size restrictions have been implemented - planets must be size 8-25.
+
+Future updates may tweak this restriction.
+
+--------------------------------------------------------------------------------
+
 2016-12-06:
 Atmosphere Creation is no longer marked as a "rare" technology.
 

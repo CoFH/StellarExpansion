@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
+2017-04-08:
+Updated for 1.5 [Banks].
+
+Ixrybun Crystals and their associated building and technology have been removed, as the base game has added Yurantic Crystals, which provide Energy Damage.
+
+Don't worry, they'll probably be back. :)
+
+--------------------------------------------------------------------------------
+
 2017-04-05:
 Updated Russian localization. Final 1.4 [Kennedy] version. :)
 

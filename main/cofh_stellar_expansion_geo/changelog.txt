@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2017-04-08:
+Updated for 1.5 [Banks].
+
+No actual changes - just version incrementing.
+
+I will eventually work some Ascension Perks into this. :)
+
+--------------------------------------------------------------------------------
+
 2016-12-05:
 Updated for 1.4 [Kennedy].
 

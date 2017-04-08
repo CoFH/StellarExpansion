@@ -15,6 +15,16 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmospheric_purification"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
 	}
 }
 
@@ -27,6 +37,16 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmospheric_purification"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
 	}
 }
 
@@ -39,6 +59,16 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmospheric_purification"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
 	}
 }
 
@@ -55,6 +85,19 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
+		NOT = {
+			from = { has_modifier = terraforming_candidate }
+		}
 	}
 }
 
@@ -67,6 +110,19 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
+		NOT = {
+			from = { has_modifier = terraforming_candidate }
+		}
 	}
 }
 
@@ -79,6 +135,19 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
+		NOT = {
+			from = { has_modifier = terraforming_candidate }
+		}
 	}
 }
 
@@ -95,6 +164,19 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
+		NOT = {
+			from = { has_modifier = terraforming_candidate }
+		}
 	}
 }
 
@@ -107,6 +189,19 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
+		NOT = {
+			from = { has_modifier = terraforming_candidate }
+		}
 	}
 }
 
@@ -119,5 +214,18 @@ terraform_link = {
 
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_planet_size"
+			from = {
+				AND = {
+					planet_size > 7
+					planet_size < 26
+				}
+			}
+		}
+		NOT = {
+			from = { has_modifier = terraforming_candidate }
+		}
 	}
 }

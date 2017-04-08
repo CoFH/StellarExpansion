@@ -1,0 +1,2 @@
+planet_building_upkeep_mult = -0.10
+country_robot_maintenance_mult
