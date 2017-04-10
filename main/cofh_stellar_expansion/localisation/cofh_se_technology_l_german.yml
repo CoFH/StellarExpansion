@@ -29,6 +29,9 @@ tech_cofh_se_protocol_droids_desc:0 "Die Beherrschung von über Sechs Millionen 
 tech_cofh_se_deep_scan:0 "Tiefen-Scan Algorithmus"
 tech_cofh_se_deep_scan_desc:0 "Die Anwendung der statistischen Informationstheorie zur Erhebung von Daten offenbart Muster und Einsichten die Andernfalls übersehen worden wären."
 
+tech_cofh_se_fast_scan:0 "Multiphasic Scanning"
+tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analysis allow for scientific scans to be completed more rapidly."
+
 # Society
 
 # Ethos Buildings

@@ -51,7 +51,44 @@ tech_cofh_se_deep_scan = {
 	weight = @tier2weight1
 
 	modifier = {
-		ship_anomaly_generation_chance_mult = 0.5
+		ship_anomaly_fail_risk = -0.05
+		ship_anomaly_generation_chance_mult = 0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+	}
+}
+
+# Multiphasic Scanning
+tech_cofh_se_fast_scan = {
+	icon = "tech_cofh_se_fast_scan"
+	area = physics
+	cost = @tier2cost2
+	tier = 2
+	category = { field_manipulation }
+	prerequisites = { "tech_sensors_3" }
+	weight = @tier2weight2
+
+	modifier = {
+		science_ship_survey_speed = 0.15
+		ship_anomaly_research_speed_mult = 0.15
 	}
 
 	weight_modifier = {

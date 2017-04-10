@@ -71,10 +71,6 @@ tech_cofh_se_orbital_mineral_processing = {
 	}
 }
 
-################################################################################
-# Robotics
-################################################################################
-
 # Protocol Droids
 tech_cofh_se_protocol_droids = {
 	icon = "tech_cofh_se_protocol_droids"

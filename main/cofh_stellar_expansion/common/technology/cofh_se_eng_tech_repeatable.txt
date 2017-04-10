@@ -91,7 +91,7 @@ tech_cofh_se_repeatable_ship_build_speed = {
 	cost_per_level = @repeatableTechLevelCost
 	tier = 3
 	category = { voidcraft }
-	levels = 5
+	levels = 10
 	prerequisites = { "tech_engineering_lab_2" }
 	weight = @repeatableTechWeight
 
@@ -163,7 +163,7 @@ tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
 	weight = @repeatableTechWeight
 
 	modifier = {
-		weapon_type_strike_craft_speed_mult = 0.15
+		weapon_type_strike_craft_speed_mult = 0.20
 	}
 
 	weight_modifier = {

@@ -27,17 +27,8 @@ building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
 # Mineral Buildings
 
-building_cofh_se_betharian_mining_1:0 "Betharian Mining Network I"
-building_cofh_se_betharian_mining_1_desc:0 "Betharian Mining Networks consume Betharian Stone to power specialized Mineral extraction equipment."
-
-building_cofh_se_betharian_mining_2:0 "Betharian Mining Network II"
-building_cofh_se_betharian_mining_2_desc:0 "$building_cofh_se_betharian_mining_1_desc$"
-
-building_cofh_se_betharian_mining_3:0 "Betharian Mining Network III"
-building_cofh_se_betharian_mining_3_desc:0 "$building_cofh_se_betharian_mining_1_desc$"
-
-building_cofh_se_betharian_mining_4:0 "Betharian Mining Network IV"
-building_cofh_se_betharian_mining_4_desc:0 "$building_cofh_se_betharian_mining_1_desc$"
+building_cofh_se_betharian_mining:0 "Betharian Mining Network"
+building_cofh_se_betharian_mining_desc:0 "Betharian Mining Networks consume Betharian Stone to power specialized Mineral extraction equipment."
 
 # Ethos Buildings
 

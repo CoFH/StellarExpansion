@@ -37,7 +37,78 @@
 @tier3weight4 = 35
 
 ################################################################################
-# Diplomacy
+# Military Theory
+################################################################################
+
+# Battlefield Leadership
+tech_cofh_se_battlefield_leadership = {
+	icon = "tech_cofh_se_battlefield_leadership"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { military_theory }
+	prerequisites = { "tech_centralized_command" }
+	weight = @tier2weight2
+
+	modifier = {
+		army_morale = 0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
+################################################################################
+# Statecraft
 ################################################################################
 
 # Galactic Prominence
@@ -316,77 +387,6 @@ tech_cofh_se_xeno_negotiation = {
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_statecraft"
-			}
-		}
-	}
-}
-
-################################################################################
-# Military
-################################################################################
-
-# Battlefield Leadership
-tech_cofh_se_battlefield_leadership = {
-	icon = "tech_cofh_se_battlefield_leadership"
-	area = society
-	cost = @tier2cost2
-	tier = 2
-	category = { military_theory }
-	prerequisites = { "tech_centralized_command" }
-	weight = @tier2weight2
-
-	modifier = {
-		army_morale = 0.15
-	}
-
-	weight_modifier = {
-		modifier = {
-			factor = 0.65
-			has_ethic = ethic_fanatic_pacifist
-		}
-		modifier = {
-			factor = 0.8
-			has_ethic = ethic_pacifist
-		}
-		modifier = {
-			factor = 1.25
-			has_ethic = ethic_militarist
-		}
-		modifier = {
-			factor = 1.5
-			has_ethic = ethic_fanatic_militarist
-		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_military_theory"
-			}
-		}
-	}
-
-	ai_weight = {
-		modifier = {
-			factor = 0.65
-			has_ethic = ethic_fanatic_pacifist
-		}
-		modifier = {
-			factor = 0.8
-			has_ethic = ethic_pacifist
-		}
-		modifier = {
-			factor = 1.25
-			has_ethic = ethic_militarist
-		}
-		modifier = {
-			factor = 1.5
-			has_ethic = ethic_fanatic_militarist
-		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_military_theory"
 			}
 		}
 	}

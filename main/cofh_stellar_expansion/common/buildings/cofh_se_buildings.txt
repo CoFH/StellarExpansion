@@ -364,12 +364,12 @@ building_cofh_se_xeno_food = {
 }
 
 # Betharian Mining Network
-building_cofh_se_betharian_mining_1 = {
+building_cofh_se_betharian_mining = {
 	icon = "building_cofh_se_betharian_mining"
-	base_buildtime = @b1time
+	base_buildtime = @b3time
 
 	cost = {
-		minerals = @b1cost
+		minerals = @b3cost
 	}
 
 	potential = {
@@ -379,19 +379,15 @@ building_cofh_se_betharian_mining_1 = {
 	}
 
 	required_resources = {
-		energy = @b1upkeep
+		energy = @b3upkeep
 	}
 
 	produced_resources = {
-		minerals = 4
+		minerals = 10
 	}
 
 	prerequisites = {
 		"tech_mine_betharian"
-	}
-
-	upgrades = {
-		building_cofh_se_betharian_mining_2
 	}
 
 	allow = {
@@ -413,135 +409,6 @@ building_cofh_se_betharian_mining_1 = {
 						type = sr_betharian
 						amount > 0
 					}
-				}
-			}
-		}
-	}
-}
-
-building_cofh_se_betharian_mining_2 = {
-	icon = "building_cofh_se_betharian_mining"
-	base_buildtime = @b2time
-	is_listed = no
-
-	cost = {
-		minerals = @b2cost
-	}
-
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
-	}
-
-	required_resources = {
-		energy = @b2upkeep
-	}
-
-	produced_resources = {
-		minerals = 6
-	}
-
-	prerequisites = {
-		"tech_mining_network_2"
-	}
-
-	upgrades = {
-		building_cofh_se_betharian_mining_3
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_1"
-			planet = {
-				OR = {
-					has_building = "building_capital_1"
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
-	}
-}
-
-building_cofh_se_betharian_mining_3 = {
-	icon = "building_cofh_se_betharian_mining"
-	base_buildtime = @b3time
-	is_listed = no
-
-	cost = {
-		minerals = @b3cost
-	}
-
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
-	}
-
-	required_resources = {
-		energy = @b3upkeep
-	}
-
-	produced_resources = {
-		minerals = 8
-	}
-
-	prerequisites = {
-		"tech_mining_network_3"
-	}
-
-	upgrades = {
-		building_cofh_se_betharian_mining_4
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
-	}
-}
-
-building_cofh_se_betharian_mining_4 = {
-	icon = "building_cofh_se_betharian_mining"
-	base_buildtime = @b4time
-	is_listed = no
-
-	cost = {
-		minerals = @b4cost
-	}
-
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
-	}
-
-	required_resources = {
-		energy = @b4upkeep
-	}
-
-	produced_resources = {
-		minerals = 10
-	}
-
-	prerequisites = {
-		"tech_mining_network_4"
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
 				}
 			}
 		}

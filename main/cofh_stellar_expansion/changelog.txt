@@ -1,6 +1,33 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2017-04-10:
+More post-1.5 adjustments.
+
+There is now only a single level of Betharian Mining Network.
+
+Some technology icons have been adjusted.
+
+New Technologies:
+	Multiphasic Scanning:
+		Field Manipulation
+		+15% Survey Speed
+		+15% Anomaly Research Speed
+
+Changed Technologies:
+	Intensive Ecological Engineering
+		New Worlds
+		+10% Terraforming Speed
+		-5% Tile Blocker Time
+		Repeatable (5x)
+
+	Shipyard Assembly Coordination:
+		Voidcraft
+		+10% Ship Build Speed
+		Repeatable (10x)
+
+--------------------------------------------------------------------------------
+
 2017-04-08:
 Updated for patch 1.5 [Banks].
 

@@ -46,6 +46,10 @@ tech_cofh_se_repeatable_sentient_ai_improved = {
 	}
 }
 
+################################################################################
+# Field Manipulation
+################################################################################
+
 # Harmonic Replenishment
 tech_cofh_se_repeatable_shield_regen = {
 	icon = "tech_cofh_se_repeatable_shield_regen"

@@ -29,6 +29,9 @@ tech_cofh_se_protocol_droids_desc:0 "Свободно владеют более 
 tech_cofh_se_deep_scan:0 "Алгоритмы глубинного сканирования"
 tech_cofh_se_deep_scan_desc:0 "Применение статистической информационной теории обработки данных позволяет найти образцы, которые могли бы быть пропущены."
 
+tech_cofh_se_fast_scan:0 "Multiphasic Scanning"
+tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analysis allow for scientific scans to be completed more rapidly."
+
 # Society
 
 # Ethos Buildings
