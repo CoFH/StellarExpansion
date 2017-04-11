@@ -32,6 +32,14 @@ building_cofh_se_betharian_mining_desc:0 "Betharian Mining Networks consume Beth
 
 # Ethos Buildings
 
+building_cofh_se_holo_arena:0 "Holosseum"
+building_cofh_se_holo_arena_desc:0 "The Holosseum serves as equal parts entertainment and military training, bringing communities together while tearing enemies apart."
+
+building_cofh_se_retail_center:0 "Grand Retail Center"
+building_cofh_se_retail_center_desc:0 "Home is the most important place in the galaxy. Provides convenient flat-pack consumer goods with simple instructions."
+
+# Old Ethos Buildings
+
 building_cofh_se_ministry_intelligence:0 "Ministry of Intelligence"
 building_cofh_se_ministry_intelligence_desc:0 "To defeat our enemies in battle, our citizens must first know the magnitude of the threats we face."
 

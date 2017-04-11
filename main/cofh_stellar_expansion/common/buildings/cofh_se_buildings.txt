@@ -64,6 +64,15 @@ building_cofh_se_diplomatic_hub = {
 		influence = 1
 	}
 
+	produced_resource_trigger = {
+		modifier = {
+			has_tradition = tr_diplomacy_the_federation
+			resources = {
+				unity = 2
+			}
+		}
+	}
+
 	country_modifier = {
 		max_influence = 100
 	}
@@ -108,6 +117,190 @@ building_cofh_se_diplomatic_hub = {
 	}
 }
 
+# Space Ikea
+building_cofh_se_retail_center = {
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		minerals = 200
+	}
+
+	potential = {
+		owner = {
+			has_tradition = tr_prosperity_trans_stellar_corporations
+		}
+	}
+
+	required_resources = {
+		energy = 2
+	}
+
+	produced_resources = {
+
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			AND = {
+				OR = {
+					has_ethic = ethic_egalitarian
+					has_ethic = ethic_fanatic_egalitarian
+				}
+				NOT = {
+					has_civic = civic_functional_architecture
+				}
+			}
+			resources = {
+				unity = 4
+			}
+		}
+		modifier = {
+			AND = {
+				OR = {
+					has_ethic = ethic_egalitarian
+					has_ethic = ethic_fanatic_egalitarian
+				}
+				has_civic = civic_functional_architecture
+			}
+			resources = {
+				engineering_research = 2
+				unity = 6
+			}
+		}
+		modifier = {
+			AND = {
+				NOR = {
+					has_ethic = ethic_egalitarian
+					has_ethic = ethic_fanatic_egalitarian
+				}
+				has_civic = civic_functional_architecture
+			}
+			resources = {
+				engineering_research = 2
+				unity = 2
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_building_cost_mult = -0.05
+		pop_consumer_goods_mult = -0.15
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1_or_hab"
+			planet = {
+				OR = {
+					has_building = "building_hab_capital"
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 200
+	}
+}
+
+# Holosseum
+building_cofh_se_holo_arena = {
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		minerals = 200
+	}
+
+	potential = {
+		owner = {
+			has_tradition = tr_supremacy_overwhelming_force
+		}
+	}
+
+	required_resources = {
+		energy = 3
+	}
+
+	produced_resources = {
+
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			AND = {
+				OR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+				}
+				NOT = {
+					has_civic = civic_warrior_culture
+				}
+			}
+			resources = {
+				unity = 4
+			}
+		}
+		modifier = {
+			AND = {
+				OR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+				}
+				has_civic = civic_warrior_culture
+			}
+			resources = {
+				society_research = 2
+				unity = 6
+			}
+		}
+		modifier = {
+			AND = {
+				NOR = {
+					has_ethic = ethic_militarist
+					has_ethic = ethic_fanatic_militarist
+				}
+				has_civic = civic_warrior_culture
+			}
+			resources = {
+				society_research = 2
+				unity = 2
+			}
+		}
+	}
+
+	army_modifier = {
+		army_damage_mult = 0.10
+	}
+
+	planet_modifier = {
+		pop_happiness = 0.05
+		pop_government_ethic_attraction = 0.05
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1_or_hab"
+			planet = {
+				OR = {
+					has_building = "building_hab_capital"
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+
+	ai_weight = {
+		weight = 200
+	}
+}
+
 # Robot Maintenance Facility
 building_cofh_se_robot_maintenance = {
 	icon = "building_cofh_se_robot_maintenance"
@@ -116,12 +309,6 @@ building_cofh_se_robot_maintenance = {
 
 	cost = {
 		minerals = 350
-	}
-
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
 	}
 
 	planet_modifier = {
@@ -133,11 +320,24 @@ building_cofh_se_robot_maintenance = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requirement_cofh_se_robot_maintenance"
-			planet = {
-				owner = {
-					NOT = { has_policy_flag = ai_outlawed }
+		AND = {
+			custom_tooltip = {
+				text = "requires_building_capital_1_or_hab"
+				planet = {
+					OR = {
+						has_building = "building_hab_capital"
+						has_building = "building_capital_1"
+						has_building = "building_capital_2"
+						has_building = "building_capital_3"
+					}
+				}
+			}
+			custom_tooltip = {
+				text = "requirement_cofh_se_robot_maintenance"
+				planet = {
+					owner = {
+						NOT = { has_policy_flag = ai_outlawed }
+					}
 				}
 			}
 		}
