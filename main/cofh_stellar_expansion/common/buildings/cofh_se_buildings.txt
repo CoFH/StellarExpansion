@@ -40,24 +40,19 @@
 # General
 ################################################################################
 
-# Diplomatic Hub
-building_cofh_se_diplomatic_hub = {
-	icon = "building_cofh_se_diplomatic_hub"
+# Diplomatic Embassy
+building_cofh_se_diplomatic_embassy = {
+	icon = "building_cofh_se_diplomatic_embassy"
 	base_buildtime = 720
 	planet_unique = yes
 
 	cost = {
-		minerals = 350
-	}
-
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+		minerals = 300
 	}
 
 	required_resources = {
-		energy = 5
+		energy = 3
+		sr_cofh_se_diplomatic_embassy = 1
 	}
 
 	produced_resources = {
@@ -74,11 +69,8 @@ building_cofh_se_diplomatic_hub = {
 	}
 
 	country_modifier = {
+		country_trust_growth = 0.05
 		max_influence = 100
-	}
-
-	planet_modifier = {
-		pop_government_ethic_attraction = -0.15
 	}
 
 	prerequisites = {
@@ -88,22 +80,112 @@ building_cofh_se_diplomatic_hub = {
 	allow = {
 		AND = {
 			custom_tooltip = {
-				fail_text = "requires_building_capital_2"
+				text = "requires_building_capital_1_or_hab"
 				planet = {
 					OR = {
+						has_building = "building_hab_capital"
+						has_building = "building_capital_1"
 						has_building = "building_capital_2"
 						has_building = "building_capital_3"
 					}
 				}
 			}
 			custom_tooltip = {
-				fail_text = "requires_pops_15"
+				fail_text = "requires_pops_5"
 				planet = {
 					count_pops = {
-						count > 14
+						count > 5
 						limit = {
 							is_colony_pop = yes
 						}
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requirement_cofh_se_diplomatic_embassy"
+				planet = {
+					NOR = {
+						has_building = "building_cofh_se_diplomatic_embassy"
+						has_building = "building_cofh_se_diplomatic_hub"
+					}
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+# Diplomatic Hub
+building_cofh_se_diplomatic_hub = {
+	icon = "building_cofh_se_diplomatic_hub"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 400
+	}
+
+	required_resources = {
+		energy = 5
+	}
+
+	produced_resources = {
+		influence = 2
+		sr_cofh_se_diplomatic_embassy = 3
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			has_tradition = tr_diplomacy_the_federation
+			resources = {
+				unity = 4
+			}
+		}
+	}
+
+	country_modifier = {
+		country_trust_growth = 0.10
+		max_influence = 200
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_prominence"
+	}
+
+	allow = {
+		AND = {
+			custom_tooltip = {
+				text = "requires_building_capital_1_or_hab"
+				planet = {
+					OR = {
+						has_building = "building_hab_capital"
+						has_building = "building_capital_1"
+						has_building = "building_capital_2"
+						has_building = "building_capital_3"
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requires_pops_10"
+				planet = {
+					count_pops = {
+						count > 10
+						limit = {
+							is_colony_pop = yes
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requirement_cofh_se_diplomatic_embassy"
+				planet = {
+					NOT = {
+						has_building = "building_cofh_se_diplomatic_embassy"
 					}
 				}
 			}
@@ -124,12 +206,6 @@ building_cofh_se_retail_center = {
 
 	cost = {
 		minerals = 200
-	}
-
-	potential = {
-		owner = {
-			has_tradition = tr_prosperity_trans_stellar_corporations
-		}
 	}
 
 	required_resources = {
@@ -188,6 +264,10 @@ building_cofh_se_retail_center = {
 		pop_consumer_goods_mult = -0.15
 	}
 
+	prerequisites = {
+		"tech_colonial_centralization"
+	}
+
 	allow = {
 		custom_tooltip = {
 			text = "requires_building_capital_1_or_hab"
@@ -214,12 +294,6 @@ building_cofh_se_holo_arena = {
 
 	cost = {
 		minerals = 200
-	}
-
-	potential = {
-		owner = {
-			has_tradition = tr_supremacy_overwhelming_force
-		}
 	}
 
 	required_resources = {
@@ -282,6 +356,10 @@ building_cofh_se_holo_arena = {
 		pop_government_ethic_attraction = 0.05
 	}
 
+	prerequisites = {
+		"tech_combat_training"
+	}
+
 	allow = {
 		custom_tooltip = {
 			text = "requires_building_capital_1_or_hab"
@@ -309,6 +387,10 @@ building_cofh_se_robot_maintenance = {
 
 	cost = {
 		minerals = 350
+	}
+
+	required_resources = {
+		energy = 1
 	}
 
 	planet_modifier = {
@@ -468,6 +550,163 @@ building_cofh_se_energy_silo_3 = {
 
 	prerequisites = {
 		"tech_power_hub_2"
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+}
+
+################################################################################
+# Food
+################################################################################
+
+# Agri-Repository I
+building_cofh_se_food_silo_1 = {
+	icon = "building_cofh_se_food_silo"
+	base_buildtime = @b1time
+	planet_unique = yes
+
+	cost = {
+		minerals = @b1cost
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			has_civic = civic_agrarian_idyll
+			resources = {
+				unity = 1
+			}
+		}
+	}
+
+	country_modifier = {
+		max_food = 50
+	}
+
+	adjacency_bonus = {
+		tile_building_resource_food_add = 1
+	}
+
+	upgrades = {
+		building_cofh_se_food_silo_2
+	}
+}
+
+# Agri-Repository II
+building_cofh_se_food_silo_2 = {
+	icon = "building_cofh_se_food_silo"
+	base_buildtime = @b2time
+	planet_unique = yes
+	is_listed = no
+
+	cost = {
+		minerals = @b2cost
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			has_civic = civic_agrarian_idyll
+			resources = {
+				unity = 1
+			}
+		}
+	}
+
+	planet_modifier = {
+		pop_growth_req_mult = -0.05
+	}
+
+	country_modifier = {
+		max_food = 75
+	}
+
+	adjacency_bonus = {
+		tile_building_resource_food_add = 1
+	}
+
+	prerequisites = {
+		"tech_hydroponics"
+	}
+
+	upgrades = {
+		building_cofh_se_food_silo_3
+	}
+
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+}
+
+# Agri-Repository III
+building_cofh_se_food_silo_3 = {
+	icon = "building_cofh_se_food_silo"
+	base_buildtime = @b3time
+	planet_unique = yes
+	is_listed = no
+
+	cost = {
+		minerals = @b3cost
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			has_civic = civic_agrarian_idyll
+			resources = {
+				unity = 1
+			}
+		}
+	}
+
+	planet_modifier = {
+		pop_growth_req_mult = -0.10
+	}
+
+	country_modifier = {
+		max_food = 100
+	}
+
+	adjacency_bonus = {
+		tile_building_resource_food_add = 1
+	}
+
+	prerequisites = {
+		"tech_gene_crops"
 	}
 
 	allow = {

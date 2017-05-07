@@ -44,7 +44,7 @@ building_cofh_se_concord_assembly = {
 				OR = {
 					has_building = "building_capital_3"
 					has_building = "building_hab_capital"
-				}		
+				}
 			}
 		}
 	}
@@ -100,7 +100,7 @@ building_cofh_se_frontier_institute = {
 				OR = {
 					has_building = "building_capital_3"
 					has_building = "building_hab_capital"
-				}		
+				}
 			}
 		}
 	}
@@ -154,7 +154,7 @@ building_cofh_se_ministry_intelligence = {
 				OR = {
 					has_building = "building_capital_3"
 					has_building = "building_hab_capital"
-				}		
+				}
 			}
 		}
 	}
@@ -208,7 +208,7 @@ building_cofh_se_ministry_vigilance = {
 				OR = {
 					has_building = "building_capital_3"
 					has_building = "building_hab_capital"
-				}		
+				}
 			}
 		}
 	}
@@ -258,7 +258,7 @@ building_cofh_se_monument_creation = {
 				OR = {
 					has_building = "building_capital_3"
 					has_building = "building_hab_capital"
-				}		
+				}
 			}
 		}
 	}
@@ -269,3 +269,21 @@ building_cofh_se_monument_creation = {
 		weight = 10000
 	}
 }
+
+
+# Old Ethos Buildings
+
+building_cofh_se_ministry_intelligence:0 "Ministry of Intelligence"
+building_cofh_se_ministry_intelligence_desc:0 "To defeat our enemies in battle, our citizens must first know the magnitude of the threats we face."
+
+building_cofh_se_ministry_vigilance:0 "Bureau of Vigilance"
+building_cofh_se_ministry_vigilance_desc:0 "The galaxy's aliens are numerous and threatening. Only through continued vigilance shall we maintain purity."
+
+building_cofh_se_frontier_institute:0 "Frontier Science Institute"
+building_cofh_se_frontier_institute_desc:0 "We are driven by curiosity - to explore strange new worlds, to seek out new life and new civilizations."
+
+building_cofh_se_concord_assembly:0 "Concord Assembly"
+building_cofh_se_concord_assembly_desc:0 "There is no path to peace - peace is the path. To follow it is to ensure the well-being of our citizens."
+
+building_cofh_se_monument_creation:0 "Monument to Creation"
+building_cofh_se_monument_creation_desc:0 "As we traverse the stars, we take heart in the knowledge that we are the universe experiencing itself."

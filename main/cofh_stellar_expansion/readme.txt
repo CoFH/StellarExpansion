@@ -18,36 +18,109 @@ then here you go:
 # Buildings
 ################################################################################
 
-General
+Diplomatic
 --------------------------------------------------------------------------------
-Diplomatic Hub:
+Diplomatic Embassy:
 	Planet-Unique
 	Build:
 		720 Days
-		350 Minerals
-		*15 Population on Planet
+		300 Minerals
+		*5 Population on Planet
 		*Planetary Capital (or better)
+
+	Requires:
+		3 Energy
+		1 Diplomatic Arm [1]
+
+	Produces:
+		1 Influence
+		2 Unity (with The Federation tradition)
+
+	Empire Modifier:
+		+100 Maximum Influence
+		+5% Trust Growth
+
+	Prerequisites:
+		Tech - Galactic Prominence
+
+Diplomatic Hub:
+	Empire-Unique
+	Build:
+		720 Days
+		400 Minerals
+		*10 Population on Planet
+		*Planetary Capital (or better)
+
+	Requires:
+		5 Energy
+
+	Produces:
+		2 Influence
+		3 Diplomatic Arm
+		4 Unity (with The Federation Tradition)
+
+	Empire Modifier:
+		+200 Maximum Influence
+		+10% Trust Growth
+
+	Prerequisites:
+		Tech - Galactic Prominence
+
+
+General
+--------------------------------------------------------------------------------
+Grand Retail Center:
+	Planet-Unique
+	Build:
+		360 Days
+		200 Minerals
+
+	Requires:
+		2 Energy
+
+	Produces:
+		4 Unity (if Egalitarian)
+		2 Unity (with Functional Architecture Civic)
+		2 Engineering Research (with Functional Architecture Civic)
+
+	Planet Modifier:
+		-5% Building Cost
+		-15% Consumer Goods Cost
+
+	Prerequisites:
+		Tech - Colonial Centralization
+
+
+Holosseum:
+Planet-Unique
+	Build:
+		360 Days
+		200 Minerals
 
 	Requires:
 		3 Energy
 
 	Produces:
-		0.5 Influence
+		4 Unity (if Militarist)
+		2 Unity (with Warrior Culture Civic)
+		2 Society Research (with Warrior Culture Civic)
 
 	Planet Modifier:
-		+10% Ethics Divergence [1]
-
-	Empire Modifier:
-		+100 Maximum Influence
+		+10% Army Damage
+		+5% Happiness
+		+5% Government Ethics Attraction
 
 	Prerequisites:
-		Tech - Galactic Prominence
+		Tech - Combat Training
 
 Robot Maintenance Facility:
 	Planet-Unique
 	Build:
 		720 Days
 		350 Minerals
+
+	Requires:
+		1 Energy
 
 	Planet Modifier:
 		+10% Robot Production Output
@@ -118,159 +191,71 @@ Capacitor Bank III:
 	Prerequisites:
 		Tech - Planetary Power Grid
 
-Minerals
+Food
 --------------------------------------------------------------------------------
-Betharian Mining Network I:
+Agri-Repository I:
 	Build:
 		210 Days
 		60 Minerals
-		*Planetary Administration (or better)
 
-	Requires:
-		1 Energy
+	Empire Modifier:
+		+50 Stored Food
 
-	Produces:
-		4 Minerals
+	Adjacency Bonus:
+		+1 Food
 
-	Prerequisites:
-		Tech - Betharian Refining
-
-Betharian Mining Network II:
+Agri-Repository II:
 	Build:
 		180 Days
 		90 Minerals
 		*Planetary Administration (or better)
 
-	Requires:
-		1.5 Energy
+	Planet Modifier:
+		-5% Growth Time
 
-	Produces:
-		6 Minerals
+	Empire Modifier:
+		+75 Stored Food
+
+	Adjacency Bonus:
+		+1 Food
 
 	Prerequisites:
-		Tech - Geothermal Fracking
+		Tech - Eco Simulation
 
-Betharian Mining Network III:
+Agri-Repository III:
 	Build:
 		180 Days
 		120 Minerals
 		*Planetary Capital (or better)
 
-	Requires:
-		2 Energy
+	Planet Modifier:
+		-10% Growth Time
 
-	Produces:
-		8 Minerals
+	Empire Modifier:
+		+100 Stored Food
+
+	Adjacency Bonus:
+		+1 Food
 
 	Prerequisites:
-		Tech - Deep Core Mining
+		Tech - Gene Crops
 
-Betharian Mining Network IV:
+Minerals
+--------------------------------------------------------------------------------
+Betharian Mining Network:
 	Build:
 		180 Days
-		150 Minerals
-		*Planetary Capital (or better)
+		120 Minerals
+		*Planetary Administration (or better)
 
 	Requires:
-		2.5 Energy
+		2 Energy
 
 	Produces:
 		10 Minerals
 
 	Prerequisites:
-		Tech - Mineral Isolation
-
-
-Ethos
---------------------------------------------------------------------------------
-Bureau of Vigilance:
-	Empire-Unique
-	Build:
-		720 Days
-		450 Minerals
-		35 Influence
-		*Empire-Capital Complex (Capital only)
-
-	Requires:
-		6 Energy
-
-	Empire Modifier:
-		+50% Rivalry Influence Gain
-
-	Prerequisites:
-		Tech - Eternal Vigilance
-		*Only available to Xenophobes and Fanatic Xenophobes.
-
-Concord Assembly:
-	Empire-Unique
-	Build:
-		720 Days
-		450 Minerals
-		30 Influence
-		*Planetary Capital (or better)
-
-	Empire Modifier:
-		-20% Population Growth Time
-
-	Prerequisites:
-		Tech - Galactic Concordance
-		*Only available to Pacifists and Fanatic Pacifists.
-
-Frontier Institute:
-	Empire-Unique
-	Build:
-		720 Days
-		550 Minerals
-		45 Influence
-		*Planetary Capital (or better)
-
-	Requires:
-		8 Energy
-
-	Produces:
-		2 Physics Research
-		8 Society Research
-		2 Engineering Research
-
-	Empire Modifier:
-		+10% Society Research Speed
-
-	Prerequisites:
-		Tech - The Final Frontier
-		*Only available to Xenophiles and Fanatic Xenophiles.
-
-Ministry of Intelligence:
-	Empire-Unique
-	Build:
-		720 Days
-		400 Minerals
-		40 Influence
-		*Empire-Capital Complex (Capital only)
-
-	Requires:
-		5 Energy
-
-	Empire Modifier:
-		+2 Max Rivalries
-
-	Prerequisites:
-		Tech - Central Intelligence
-		*Only available to Militarists and Fanatic Militarists.
-
-Monument to Creation:
-	Empire-Unique
-	Build:
-		720 Days
-		400 Minerals
-		35 Influence
-		*Planetary Capital (or better)
-
-	Empire Modifier:
-		+10% Happiness
-
-	Prerequisites:
-		Tech - Cosmic Reflection
-		*Only available to Spiritualists and Fanatic Spiritualists.
+		Tech - Betharian Refining
 
 ################################################################################
 # Spaceport Modules
@@ -374,7 +359,7 @@ Protocol Droids:
 
 Shipyard Assembly Coordination:
 	Voidcraft
-	Repeatable (5x)
+	Repeatable (10x)
 
 	Prerequisites:
 		Tech - Supersolid Materials
@@ -391,7 +376,8 @@ Deep Scanning Algorithms:
 		Tech - Administrative AI
 
 	Effects:
-		+25% Anomaly Discovery Chance
+		=5% Anomaly Fail Risk
+		+15% Anomaly Discovery Chance
 
 Harmonic Replenishment:
 	Field Manipulation
@@ -402,6 +388,16 @@ Harmonic Replenishment:
 
 	Effects:
 		+5% Shield Regeneration
+
+Multiphasic Scanning:
+		Field Manipulation
+
+	Prerequisites:
+		Tech - Subspace Sensors
+
+	Effects:
+		+15% Survey Speed
+		+15% Anomaly Research Speed
 
 Positronic Algorithms:
 	Computation
@@ -463,8 +459,7 @@ Intensive Ecological Engineering:
 		Tech - Terrestrial Sculpting
 
 	Effects:
-		-2% Terraforming Cost
-		-5% Clear Blocker Cost
+		+10% Terraforming Speed
 		-5% Clear Blocker Time
 
 Procurement Optimization:
@@ -506,58 +501,6 @@ Xeno Negotiation:
 	Effects:
 		+15% Trade Attractiveness
 
-Society (Building Technologies)
---------------------------------------------------------------------------------
-Central Intelligence:
-	Statecraft, Rare
-
-	Prerequisites:
-		Tech - Galactic Administration
-		Ethos - Militarist or Fanatic Militarist
-
-	Effects:
-		Unlocks - Building: Ministry of Intelligence
-
-Cosmic Reflection:
-	Statecraft, Rare
-
-	Prerequisites:
-		Tech - Colonial Centralization
-		Ethos - Spiritualist or Fanatic Spiritualist
-
-	Effects:
-		Unlocks - Building: Monument to Creation
-
-Eternal Vigilance:
-	Statecraft, Rare
-
-	Prerequisites:
-		Tech - Galactic Administration
-		Ethos - Xenophobe or Fanatic Xenophobe
-
-	Effects:
-		Unlocks - Building: Bureau of Vigilance
-
-Galactic Concordance:
-	Statecraft, Rare
-
-	Prerequisites:
-		Tech - Colonial Centralization
-		Ethos - Pacifist or Fanatic Pacifist
-
-	Effects:
-		Unlocks - Building: Concord Assembly
-
-The Final Frontier:
-	Statecraft, Rare
-
-	Prerequisites:
-		Tech - Colonial Centralization
-		Ethos - Materialist or Fanatic Materialist
-
-	Effects:
-		Unlocks - Building: Frontier Science Institute
-
 Countermeasure Technologies[2]
 --------------------------------------------------------------------------------
 Machine Consciousness Countermeasures:
@@ -588,9 +531,8 @@ Fallen Empire Countermeasures:
 # Notes
 ################################################################################
 
-[1]	This is intentional and not a bug. When you mark a world as prominent,
-	the local ethos may begin to become more relevant and disparate in the
-	context of your empire.
+[1] This is produced by the Diplomatic Hub and essentially limits all Empires to
+	a total of 1 Hub and 3 Embassies.
 
 [2] These technologies are unlocked via Special Projects which appear after the
 	respective fleets have been engaged in battle with your forces. Once

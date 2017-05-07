@@ -2,8 +2,11 @@
 
 # Buildings
 
+building_cofh_se_diplomatic_embassy:0 "Diplomatic Embassy"
+building_cofh_se_diplomatic_embassy_desc:0 "This massive complex of culture and bureaucracy elevates the importance of this world, and our empire in turn."
+
 building_cofh_se_diplomatic_hub:0 "Diplomatic Hub"
-building_cofh_se_diplomatic_hub_desc:0 "This massive complex of culture and bureaucracy elevates the importance of this world, and our empire in turn."
+building_cofh_se_diplomatic_hub_desc:0 "This facility serves as the center for the diplomatic arm of our empire."
 
 building_cofh_se_robot_maintenance:0 "Robot Maintenance Facility"
 building_cofh_se_robot_maintenance_desc:0 "This sprawling high-tech complex is used to maintain robot workers, improving their output."
@@ -24,6 +27,17 @@ building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
 building_cofh_se_energy_silo_3:0 "Capacitor Bank III"
 building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+# Food Buildings
+
+building_cofh_se_food_silo_1:0 "Agri-Repository I"
+building_cofh_se_food_silo_1_desc:0 "Agri-Repositories increase our Empire's maximum Food storage capacity."
+
+building_cofh_se_food_silo_2:0 "Agri-Repository II"
+building_cofh_se_food_silo_2_desc:0 "$building_cofh_se_food_silo_1_desc$"
+
+building_cofh_se_food_silo_3:0 "Agri-Repository III"
+building_cofh_se_food_silo_3_desc:0 "$building_cofh_se_food_silo_1_desc$"
 
 # Mineral Buildings
 
@@ -54,7 +68,3 @@ building_cofh_se_concord_assembly_desc:0 "There is no path to peace - peace is t
 
 building_cofh_se_monument_creation:0 "Monument to Creation"
 building_cofh_se_monument_creation_desc:0 "As we traverse the stars, we take heart in the knowledge that we are the universe experiencing itself."
-
-# Building Requirements
-
-requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"
