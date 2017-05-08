@@ -1,10 +1,9 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
-Howdy! So here's the deal with this particular addon. Paradox seems to be in
-the middle of a rebalance with FTL in this post-1.3 world, and given that FTL is
-a very foundational aspect of gameplay, I have decided to move any changes out
-of the main mod and into this submodule.
+Howdy! So here's the deal with this particular addon. Given that FTL is a very
+foundational aspect of gameplay, I will be isolating any changes to it in this
+submodule.
 
 The technologies added by this mod can be acquired once an empire possesses a
 form of FTL travel that incurs either a Windup (Hyperlane, Jump) or Winddown

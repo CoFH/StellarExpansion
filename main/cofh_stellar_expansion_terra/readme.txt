@@ -8,8 +8,9 @@ worlds to be terraformed.
 However, these worlds can only be terraformed directly into a limited subset of
 habitable types. They can of course be terraformed *again* if you desire.
 
-Note that some these techs will require either access to both Terraforming Gas
-and Terraforming Liquid, or a number of Capacitor Banks from Stellar Expansion.
+Given that these planets are not normally inhabitable, there is a penalty in the
+form of permanent negative modifiers which will always make them slightly less
+than optimal compared to a "normal" planet.
 
 ################################################################################
 # Technologies

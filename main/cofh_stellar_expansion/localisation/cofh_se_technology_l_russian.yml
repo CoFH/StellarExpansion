@@ -34,24 +34,8 @@ tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analys
 
 # Society
 
-# Ethos Buildings
-
-tech_cofh_se_central_intelligence:0 "Министерство разведки"
-tech_cofh_se_central_intelligence_desc:0 "$building_ministry_intelligence_desc$"
-
-tech_cofh_se_eternal_vigilance:0 "Бюро ксеноконтроля"
-tech_cofh_se_eternal_vigilance_desc:0 "$building_ministry_vigilance_desc$"
-
-tech_cofh_se_final_frontier:0 "Научный институт «Рубеж»"
-tech_cofh_se_final_frontier_desc:0 "$building_frontier_institute_desc$"
-
-tech_cofh_se_galactic_concordance:0 "Галактическое согласие"
-tech_cofh_se_galactic_concordance_desc:0 "$building_concord_assembly_desc$"
-
-tech_cofh_se_cosmic_reflection:0 "Космическое отражение"
-tech_cofh_se_cosmic_reflection_desc:0 "$building_monument_creation_desc$"
-
-# Diplomacy
+tech_cofh_se_battlefield_leadership:0 "Лидерство на поле боя"
+tech_cofh_se_battlefield_leadership_desc:0 "Наши полевые командиры не нуждаются в сопереживание, они должны знать, как сплотить своих солдат."
 
 tech_cofh_se_galactic_prominence:0 "Галактическое возвышение"
 tech_cofh_se_galactic_prominence_desc:0 "Наши самые крупные миры имеют собственную социополитическую динамику, они имеют большой вес на галактической сцене."
@@ -64,8 +48,3 @@ tech_cofh_se_xeno_confidence_desc:0 "Передача наших намерен�
 
 tech_cofh_se_xeno_negotiation:0 "Ксено-переговоры"
 tech_cofh_se_xeno_negotiation_desc:0 "В то время как специфика варьируются от вида к виду, ясно одно - каждый хочет получить выгоду."
-
-# Military
-
-tech_cofh_se_battlefield_leadership:0 "Лидерство на поле боя"
-tech_cofh_se_battlefield_leadership_desc:0 "Наши полевые командиры не нуждаются в сопереживание, они должны знать, как сплотить своих солдат."

@@ -38,6 +38,16 @@ damage_vs_country_type_extradimensional_3_mult:0 "Увеличеный урон 
 damage_vs_country_type_fallen_empire_mult:0 "Увеличеный урон по кораблям Угасших Империй"
 damage_vs_country_type_awakened_fallen_empire_mult:0 "Увеличеный урон по кораблям Пробудившихся Угасших Империй"
 
+# Requirements
+
+requirement_cofh_se_diplomatic_embassy:0 "§RNo other diplomatic building may be present.§!"
+requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"
+
+# Resources
+
+sr_cofh_se_diplomatic_embassy:0 "Diplomatic Corps"
+sr_cofh_se_diplomatic_embassy_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_diplomatic_embassy$§!."
+
 # Spaceport Modules
 
 sm_cofh_se_atmospheric_manipulator:0 "Атмосферный Манипулятор"
@@ -53,11 +63,3 @@ COFH_SE_INVESTIGATE_SWARM:0 "Биологический анализ: Прето
 COFH_SE_INVESTIGATE_SWARM_DESC:0 "Привлечь лучших ученых для изучения Преторианци, чтобы получить боевое преимущество."
 COFH_SE_INVESTIGATE_FE:0 "Анализ декора: Павшая Империя"
 COFH_SE_INVESTIGATE_FE_DESC:0 "Привлечь лучших ученых для изучения кораблей Угасшей Империи, чтобы получить боевое преимущество."
-
-# Tooltips
-
-COFH_SE_TECH_ANTI_EXD_TITLE:0 "Увеличен урон всем Вторженцам: §G+15%§!"
-COFH_SE_TECH_ANTI_EXD_DESC:0 "§H$tech_cofh_se_anti_extradimensional$§!\nМодификатор Империи\n$TECH_COFH_SE_ANTI_EXD_TITLE$"
-
-COFH_SE_TECH_ANTI_FE_TITLE:0 "Увеличен урон кораблям Падших Империй: §G+15%§!"
-COFH_SE_TECH_ANTI_FE_DESC:0 "§H$tech_cofh_se_anti_fallen_empire$§!\nМодификатор Империи\n$COFH_SE_TECH_ANTI_FE_TITLE$"

@@ -16,12 +16,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmospheric_purification"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_toxic
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_toxic
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_toxic_kelp
 				}
 			}
 		}
@@ -38,12 +59,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmospheric_purification"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_toxic
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_toxic
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_active_volcano
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_toxic_kelp
 				}
 			}
 		}
@@ -60,12 +102,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmospheric_purification"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_toxic
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_toxic
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_dense_jungle
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_noxious_swamp
 				}
 			}
 		}
@@ -86,17 +149,35 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_barren
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_barren
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_quicksand_basin
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_deep_sinkhole
 				}
 			}
-		}
-		NOT = {
-			from = { has_modifier = terraforming_candidate }
 		}
 	}
 }
@@ -111,17 +192,36 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+		cofh_se_not_terraforming_candidate = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_barren
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_barren
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_quicksand_basin
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_deep_sinkhole
 				}
 			}
-		}
-		NOT = {
-			from = { has_modifier = terraforming_candidate }
 		}
 	}
 }
@@ -136,17 +236,36 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+		cofh_se_not_terraforming_candidate = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_barren
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_barren
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_quicksand_basin
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_deep_sinkhole
 				}
 			}
-		}
-		NOT = {
-			from = { has_modifier = terraforming_candidate }
 		}
 	}
 }
@@ -165,17 +284,36 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+		cofh_se_not_terraforming_candidate = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_barren_cold
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_barren_cold
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_massive_glacier
 				}
 			}
-		}
-		NOT = {
-			from = { has_modifier = terraforming_candidate }
 		}
 	}
 }
@@ -190,17 +328,36 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+		cofh_se_not_terraforming_candidate = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_barren_cold
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_barren_cold
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_massive_glacier
 				}
 			}
-		}
-		NOT = {
-			from = { has_modifier = terraforming_candidate }
 		}
 	}
 }
@@ -215,17 +372,36 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_atmosphere_creation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+		cofh_se_not_terraforming_candidate = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_barren_cold
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_barren_cold
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_massive_glacier
 				}
 			}
-		}
-		NOT = {
-			from = { has_modifier = terraforming_candidate }
 		}
 	}
 }

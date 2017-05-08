@@ -18,55 +18,6 @@ then here you go:
 # Buildings
 ################################################################################
 
-Diplomatic
---------------------------------------------------------------------------------
-Diplomatic Embassy:
-	Planet-Unique
-	Build:
-		720 Days
-		300 Minerals
-		*5 Population on Planet
-		*Planetary Capital (or better)
-
-	Requires:
-		3 Energy
-		1 Diplomatic Arm [1]
-
-	Produces:
-		1 Influence
-		2 Unity (with The Federation tradition)
-
-	Empire Modifier:
-		+100 Maximum Influence
-		+5% Trust Growth
-
-	Prerequisites:
-		Tech - Galactic Prominence
-
-Diplomatic Hub:
-	Empire-Unique
-	Build:
-		720 Days
-		400 Minerals
-		*10 Population on Planet
-		*Planetary Capital (or better)
-
-	Requires:
-		5 Energy
-
-	Produces:
-		2 Influence
-		3 Diplomatic Arm
-		4 Unity (with The Federation Tradition)
-
-	Empire Modifier:
-		+200 Maximum Influence
-		+10% Trust Growth
-
-	Prerequisites:
-		Tech - Galactic Prominence
-
-
 General
 --------------------------------------------------------------------------------
 Grand Retail Center:
@@ -79,9 +30,9 @@ Grand Retail Center:
 		2 Energy
 
 	Produces:
-		4 Unity (if Egalitarian)
+		2 Unity (if Egalitarian)
 		2 Unity (with Functional Architecture Civic)
-		2 Engineering Research (with Functional Architecture Civic)
+		1 Engineering Research (with Functional Architecture Civic)
 
 	Planet Modifier:
 		-5% Building Cost
@@ -101,9 +52,9 @@ Planet-Unique
 		3 Energy
 
 	Produces:
-		4 Unity (if Militarist)
+		2 Unity (if Militarist)
 		2 Unity (with Warrior Culture Civic)
-		2 Society Research (with Warrior Culture Civic)
+		1 Society Research (with Warrior Culture Civic)
 
 	Planet Modifier:
 		+10% Army Damage
@@ -257,6 +208,60 @@ Betharian Mining Network:
 	Prerequisites:
 		Tech - Betharian Refining
 
+Influence
+--------------------------------------------------------------------------------
+Diplomatic Embassy:
+	Planet-Unique
+	Build:
+		720 Days
+		300 Minerals
+		*5 Population on Planet
+		*Planetary Capital (or better)
+
+	Requires:
+		3 Energy
+		1 Diplomatic Corps [1]
+
+	Produces:
+		1 Influence
+		2 Unity (with The Federation tradition)
+
+	Planet Modifier:
+		+15% Border Extrusion
+
+	Empire Modifier:
+		+100 Maximum Influence
+		+5% Trust Growth
+
+	Prerequisites:
+		Tech - Galactic Prominence
+
+Diplomatic Hub:
+	Empire-Unique
+	Build:
+		720 Days
+		400 Minerals
+		*10 Population on Planet
+		*Planetary Capital (or better)
+
+	Requires:
+		5 Energy
+
+	Produces:
+		2 Influence
+		3 Diplomatic Arm
+		4 Unity (with The Federation Tradition)
+
+	Planet Modifier:
+		+30% Border Extrusion
+
+	Empire Modifier:
+		+200 Maximum Influence
+		+10% Trust Growth
+
+	Prerequisites:
+		Tech - Galactic Prominence
+
 ################################################################################
 # Spaceport Modules
 ################################################################################
@@ -333,8 +338,17 @@ Applied Fleet Logistics:
 
 	Effects:
 		+10% Ship Repair Speed
-		-5% Ship Repair Cost
 		-5% Ship Upkeep
+
+Inertial Compensators:
+	Voidcraft
+	Repeatable (5x)
+
+	Prerequisites:
+		Tech - Carrier Operations
+
+	Effects:
+		+20% Strike Craft Speed
 
 Orbital Mineral Processing:
 	Industry
@@ -376,7 +390,7 @@ Deep Scanning Algorithms:
 		Tech - Administrative AI
 
 	Effects:
-		=5% Anomaly Fail Risk
+		-5% Anomaly Fail Risk
 		+15% Anomaly Discovery Chance
 
 Harmonic Replenishment:
@@ -525,7 +539,7 @@ Fallen Empire Countermeasures:
 	Engineering - Voidcraft
 
 	Effects:
-		+20% Damage to Fallen Empire Ships
+		+15% Damage to Fallen Empire Ships
 
 ################################################################################
 # Notes

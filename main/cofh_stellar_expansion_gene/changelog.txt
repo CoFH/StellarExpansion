@@ -1,6 +1,21 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
+2017-05-08:
+Gene Drive Architecting will again be available with Utopia.
+
+Additionally, there is a new technology which reduces the overall cost of genetic engineering.
+
+By default, both of these technologies are fairly infrequent draws, unless on the Biological Ascension path.
+
+New Technologies:
+	Biophysical Optimization:
+		Biology
+		+3% Society Research Speed
+		-3% Genetic Modification Cost
+
+--------------------------------------------------------------------------------
+
 2017-04-08:
 Updated for 1.5 [Banks].
 

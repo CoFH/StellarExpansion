@@ -1,0 +1,54 @@
+﻿l_russian:
+
+# Modifiers
+
+cofh_se_pm_toxic:0 "Residual Toxicity"
+cofh_se_pm_toxic_desc:0 "This planet's toxic past lingers in its ecosystem. Life has to struggle just a bit more here."
+
+cofh_se_pm_barren:0 "Thin Atmosphere"
+cofh_se_pm_barren_desc:0 "Although present, the atmosphere of this planet is incredibly thin, making life more difficult."
+
+cofh_se_pm_barren_cold:0 "Thin Atmosphere"
+cofh_se_pm_barren_cold_desc:0 "Although present, the atmosphere of this planet is incredibly thin, making life more difficult."
+
+cofh_se_pm_molten:0 "Restricted Tectonics"
+cofh_se_pm_molten_desc:0 "While habitable, significant seismic events still sweep across this world. Buildings require substantial reinforcement."
+
+cofh_se_pm_frozen:0 "Manipulated Dynamo"
+cofh_se_pm_frozen_desc:0 "While habitable, the magnetic field of this world is extremely weak, providing only minimal protection from cosmic radiation."
+
+# Requirements
+
+requirement_cofh_se_no_black_hole_neutron_star_pulsar:0 "§RStar may not be a black hole, neutron star or pulsar.§!"
+requirement_cofh_se_no_dyson_sphere:0 "§RStar may not have a Dyson Sphere around it.§!"
+requirement_cofh_se_no_megastructure:0 "§RNo megastructure may be present in orbit.§!"
+requirement_cofh_se_not_terraforming_candidate:0 "§RThis method is not necessary for Terraforming Candidates.§!"
+requirement_cofh_se_valid_planet_size:0 "§RPlanet size must be within allowable limits.§!"
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_atmospheric_purification:0 "Продвинутые системы отчистки атмосферы"
+tech_cofh_se_atmospheric_purification_desc:0 "Продвинутые системы отчистки атмосферы позволят терраформировать токсичные миры."
+
+tech_cofh_se_atmosphere_creation:0 "Искуственная атмосфера"
+tech_cofh_se_atmosphere_creation_desc:0 "Позволяют нам в короткие сроки создать атмосферы на мирах, на которых она не может появится естественным путем."
+
+tech_cofh_se_dynamo_manipulation:0 "Подрыв Ядра"
+tech_cofh_se_dynamo_manipulation_desc:0 "Особые методы воздействия на ядро планеты позволяет запустить там ядерный синтез, что способно растопить даже самую ледяную планету."
+
+tech_cofh_se_tectonic_restriction:0 "Управляемая Тектоника"
+tech_cofh_se_tectonic_restriction_desc:0 "Особые методы воздействия на ядро планеты позволяет остановить любую тектоническую активность, что способно остудить даже самую жаркую планету."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§HОткрывает доступ:§! Продвинутые системы отчистки атмосферы"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HПродвинутые системы отчистки атмосферы§!\nПозволяет терраформировать Токсичные миры в пригодные для жизни."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Искуственная атмосфера"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HИскуственная атмосфера§!\nПозволяет терраформировать Бесплодные миры в пригодные для жизни."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Подрыв Ядра"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HПодрыв Ядра§!\nПозволяет терраформировать Замерзшие миры в пригодные для жизни."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HОткрывает доступ:§! Управляемая Тектоника"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HУправляемая Тектоника§!\nПозволяет терраформировать Расплавленные миры в пригодные для жизни."

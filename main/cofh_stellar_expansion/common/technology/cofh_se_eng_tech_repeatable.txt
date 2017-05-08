@@ -159,7 +159,7 @@ tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
 	category = { voidcraft }
 	ai_update_type = military
 	levels = 5
-	prerequisites = { "tech_spaceport_5" }
+	prerequisites = { "tech_strike_craft_1" }
 	weight = @repeatableTechWeight
 
 	modifier = {

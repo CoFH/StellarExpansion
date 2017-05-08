@@ -1,6 +1,26 @@
 CoFH - Stellar Expansion - Terraforming (Extreme)
 Author: King Lemming
 
+2017-05-08:
+Rebalancing! In light of the changes that Utopia brings, and looking forward to 1.6 [Adams], some things are being adjusted with this mod for balance reasons.
+
+Upon terraformation, planets will now have a modifier added to them. These modifiers are generally negative, to emphasize that the planets were terraformed from once completely inhospitable climates. The planets will also have a number of Tile Blockers.
+
+Additionally, having the World Shaper Ascension Perk makes it much more likely that these technologies will be drawn.
+
+Finally, the conditions required to terraform planets have been updated. They may seem quite particular, but this is necessary to prevent certain loopholes that the base game would otherwise allow.
+
+Specifically:
+
+-Planet must be of acceptable size (8-30).
+-Stars may not be Black Holes, Neutron Stars, or Pulsars.
+-No Habitat or other megastructure may be present in orbit.
+-A Dyson Sphere cannot be present, in any stage of development.*
+
+*This gets around an exploit condition which would otherwise occur because the base game is not thorough in their megastructure triggers.
+
+--------------------------------------------------------------------------------
+
 2017-04-08:
 Updated for 1.5 [Banks].
 

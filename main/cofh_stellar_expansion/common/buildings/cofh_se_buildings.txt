@@ -68,6 +68,10 @@ building_cofh_se_diplomatic_embassy = {
 		}
 	}
 
+	planet_modifier = {
+		planet_border_mult = 0.15
+	}
+
 	country_modifier = {
 		country_trust_growth = 0.05
 		max_influence = 100
@@ -79,17 +83,8 @@ building_cofh_se_diplomatic_embassy = {
 
 	allow = {
 		AND = {
-			custom_tooltip = {
-				text = "requires_building_capital_1_or_hab"
-				planet = {
-					OR = {
-						has_building = "building_hab_capital"
-						has_building = "building_capital_1"
-						has_building = "building_capital_2"
-						has_building = "building_capital_3"
-					}
-				}
-			}
+			cofh_se_req_capital_1_or_hab = yes
+
 			custom_tooltip = {
 				fail_text = "requires_pops_5"
 				planet = {
@@ -148,6 +143,10 @@ building_cofh_se_diplomatic_hub = {
 		}
 	}
 
+	planet_modifier = {
+		planet_border_mult = 0.30
+	}
+
 	country_modifier = {
 		country_trust_growth = 0.10
 		max_influence = 200
@@ -159,17 +158,8 @@ building_cofh_se_diplomatic_hub = {
 
 	allow = {
 		AND = {
-			custom_tooltip = {
-				text = "requires_building_capital_1_or_hab"
-				planet = {
-					OR = {
-						has_building = "building_hab_capital"
-						has_building = "building_capital_1"
-						has_building = "building_capital_2"
-						has_building = "building_capital_3"
-					}
-				}
-			}
+			cofh_se_req_capital_1_or_hab = yes
+
 			custom_tooltip = {
 				fail_text = "requires_pops_10"
 				planet = {
@@ -228,7 +218,7 @@ building_cofh_se_retail_center = {
 				}
 			}
 			resources = {
-				unity = 4
+				unity = 2
 			}
 		}
 		modifier = {
@@ -240,8 +230,8 @@ building_cofh_se_retail_center = {
 				has_civic = civic_functional_architecture
 			}
 			resources = {
-				engineering_research = 2
-				unity = 6
+				engineering_research = 1
+				unity = 4
 			}
 		}
 		modifier = {
@@ -253,7 +243,7 @@ building_cofh_se_retail_center = {
 				has_civic = civic_functional_architecture
 			}
 			resources = {
-				engineering_research = 2
+				engineering_research = 1
 				unity = 2
 			}
 		}
@@ -269,17 +259,7 @@ building_cofh_se_retail_center = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_1_or_hab"
-			planet = {
-				OR = {
-					has_building = "building_hab_capital"
-					has_building = "building_capital_1"
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
+		cofh_se_req_capital_1_or_hab = yes
 	}
 
 	ai_weight = {
@@ -316,7 +296,7 @@ building_cofh_se_holo_arena = {
 				}
 			}
 			resources = {
-				unity = 4
+				unity = 2
 			}
 		}
 		modifier = {
@@ -328,8 +308,8 @@ building_cofh_se_holo_arena = {
 				has_civic = civic_warrior_culture
 			}
 			resources = {
-				society_research = 2
-				unity = 6
+				society_research = 1
+				unity = 4
 			}
 		}
 		modifier = {
@@ -341,7 +321,7 @@ building_cofh_se_holo_arena = {
 				has_civic = civic_warrior_culture
 			}
 			resources = {
-				society_research = 2
+				society_research = 1
 				unity = 2
 			}
 		}
@@ -361,17 +341,7 @@ building_cofh_se_holo_arena = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_1_or_hab"
-			planet = {
-				OR = {
-					has_building = "building_hab_capital"
-					has_building = "building_capital_1"
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
+		cofh_se_req_capital_1_or_hab = yes
 	}
 
 	ai_weight = {
@@ -403,17 +373,8 @@ building_cofh_se_robot_maintenance = {
 
 	allow = {
 		AND = {
-			custom_tooltip = {
-				text = "requires_building_capital_1_or_hab"
-				planet = {
-					OR = {
-						has_building = "building_hab_capital"
-						has_building = "building_capital_1"
-						has_building = "building_capital_2"
-						has_building = "building_capital_3"
-					}
-				}
-			}
+			cofh_se_req_capital_1_or_hab = yes
+
 			custom_tooltip = {
 				text = "requirement_cofh_se_robot_maintenance"
 				planet = {
@@ -510,16 +471,7 @@ building_cofh_se_energy_silo_2 = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_1"
-			planet = {
-				OR = {
-					has_building = "building_capital_1"
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
+		cofh_se_req_capital_1 = yes
 	}
 }
 
@@ -553,15 +505,7 @@ building_cofh_se_energy_silo_3 = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
+		cofh_se_req_capital_2 = yes
 	}
 }
 
@@ -654,16 +598,7 @@ building_cofh_se_food_silo_2 = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_1"
-			planet = {
-				OR = {
-					has_building = "building_capital_1"
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
+		cofh_se_req_capital_1 = yes
 	}
 }
 
@@ -710,15 +645,7 @@ building_cofh_se_food_silo_3 = {
 	}
 
 	allow = {
-		custom_tooltip = {
-			text = "requires_building_capital_2"
-			planet = {
-				OR = {
-					has_building = "building_capital_2"
-					has_building = "building_capital_3"
-				}
-			}
-		}
+		cofh_se_req_capital_2 = yes
 	}
 }
 
@@ -757,25 +684,8 @@ building_cofh_se_xeno_food = {
 
 	allow = {
 		AND = {
-			custom_tooltip = {
-				fail_text = "requires_building_capital_1"
-				planet = {
-					OR = {
-						has_building = "building_capital_1"
-						has_building = "building_capital_2"
-						has_building = "building_capital_3"
-					}
-				}
-			}
-			custom_tooltip = {
-				fail_text = "requires_alien_pets"
-				tile = {
-					has_resource = {
-						type = sr_alien_pets
-						amount > 0
-					}
-				}
-			}
+			cofh_se_req_capital_1 = yes
+			cofh_se_req_alien_pets = yes
 		}
 	}
 
@@ -831,25 +741,8 @@ building_cofh_se_betharian_mining = {
 
 	allow = {
 		AND = {
-			custom_tooltip = {
-				fail_text = "requires_building_capital_1"
-				planet = {
-					OR = {
-						has_building = "building_capital_1"
-						has_building = "building_capital_2"
-						has_building = "building_capital_3"
-					}
-				}
-			}
-			custom_tooltip = {
-				fail_text = "requires_betharian_stone"
-				tile = {
-					has_resource = {
-						type = sr_betharian
-						amount > 0
-					}
-				}
-			}
+			cofh_se_req_capital_1 = yes
+			cofh_se_req_betharian_stone = yes
 		}
 	}
 }

@@ -1,0 +1,54 @@
+﻿l_spanish:
+
+# Modifiers
+
+cofh_se_pm_toxic:0 "Residual Toxicity"
+cofh_se_pm_toxic_desc:0 "This planet's toxic past lingers in its ecosystem. Life has to struggle just a bit more here."
+
+cofh_se_pm_barren:0 "Thin Atmosphere"
+cofh_se_pm_barren_desc:0 "Although present, the atmosphere of this planet is incredibly thin, making life more difficult."
+
+cofh_se_pm_barren_cold:0 "Thin Atmosphere"
+cofh_se_pm_barren_cold_desc:0 "Although present, the atmosphere of this planet is incredibly thin, making life more difficult."
+
+cofh_se_pm_molten:0 "Restricted Tectonics"
+cofh_se_pm_molten_desc:0 "While habitable, significant seismic events still sweep across this world. Buildings require substantial reinforcement."
+
+cofh_se_pm_frozen:0 "Manipulated Dynamo"
+cofh_se_pm_frozen_desc:0 "While habitable, the magnetic field of this world is extremely weak, providing only minimal protection from cosmic radiation."
+
+# Requirements
+
+requirement_cofh_se_no_black_hole_neutron_star_pulsar:0 "§RStar may not be a black hole, neutron star or pulsar.§!"
+requirement_cofh_se_no_dyson_sphere:0 "§RStar may not have a Dyson Sphere around it.§!"
+requirement_cofh_se_no_megastructure:0 "§RNo megastructure may be present in orbit.§!"
+requirement_cofh_se_not_terraforming_candidate:0 "§RThis method is not necessary for Terraforming Candidates.§!"
+requirement_cofh_se_valid_planet_size:0 "§RPlanet size must be within allowable limits.§!"
+
+# Technology - Non-Repeatable
+
+# Society
+
+tech_cofh_se_atmospheric_purification:0 "Atmospheric Purification"
+tech_cofh_se_atmospheric_purification_desc:0 "Advanced filtration and purification systems allow for the removal of nearly all toxic waste within a planet's atmosphere."
+
+tech_cofh_se_atmosphere_creation:0 "Atmosphere Creation"
+tech_cofh_se_atmosphere_creation_desc:0 "Given enough time and resources, an atmosphere can be created on even the most desolate worlds."
+
+tech_cofh_se_dynamo_manipulation:0 "Dynamo Manipulation"
+tech_cofh_se_dynamo_manipulation_desc:0 "Manipulation of fundamental forces allows for even the most distant frozen worlds to harbor some life."
+
+tech_cofh_se_tectonic_restriction:0 "Tectonic Restriction"
+tech_cofh_se_tectonic_restriction_desc:0 "Control over fundamental forces allows for worlds with widespread volcanic activity to be tamed."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_TITLE:0 "§HUnlocks Feature:§! Atmospheric Purification"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_TOXIC_CHANGE_DESC:0 "§HAtmospheric Purification§!\nAllows us to terraform toxic worlds into specific habitable worlds."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Atmosphere Creation"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_BARREN_CHANGE_DESC:0 "§HAtmosphere Creation§!\nAllows us to terraform barren worlds into specific habitable worlds."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Dynamo Manipulation"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_FROZEN_CHANGE_DESC:0 "§HDynamo Manipulation§!\nAllows us to terraform frozen worlds into specific habitable worlds."
+
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_TITLE:0 "§HUnlocks Feature:§! Tectonic Restriction"
+COFH_SE_TECH_UNLOCK_TERRAFORMING_MOLTEN_CHANGE_DESC:0 "§HTectonic Restriction§!\nAllows us to terraform molten worlds into specific habitable worlds."

@@ -1,6 +1,45 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2017-05-08:
+Rebalanced some of the new ethos-advantaged buildings. Basically -2 Ethos-derived Unity and -1 Civic-derived Research.
+
+Also greatly improved the visuals of the Diplomatic Hub and Diplomatic Embassy.
+
+Changed Buildings:
+	Diplomatic Hub:
+		+2 Influence
+		+10% Trust Growth
+		+30% Planetary Border Extrusion
+		+200 Max Influence
+
+		*Allows for the construction of 3 Diplomatic Embassy buildings via a Strategic Resource.
+
+	Diplomatic Embassy:
+		+1 Influence
+		+5% Trust Growth
+		+15% Planetary Border Extrusion
+		+100 Max Influence
+
+		*Limited to 3 through Strategic Resources.
+
+	Grand Retail Complex (aka Space Ikea):
+		-5% Building Cost
+		-15% Consumer Goods Cost
+
+		*+2 Unity if Egalitarian
+		**+2 Unity and +1 Engineering Research with Functional Architecture Civic
+
+	Holosseum (aka Virtual Combat Arena 2.0):
+		+10% Army Damage
+		+5% Happiness
+		+5% Governing Ethics Attraction
+
+		*+2 Unity if Militarist
+		**+2 Unity and +1 Society Research with Warrior Culture Civic
+
+--------------------------------------------------------------------------------
+
 2017-05-07:
 More things! Updating this for a final "1.5" version.
 
@@ -12,16 +51,14 @@ New Buildings:
 		+2 Influence
 		+10% Trust Growth
 		+200 Max Influence
-		Requires Planetary Capital
-		Requires 10 Pops
+
 		*Allows for the construction of 3 Diplomatic Embassy buildings via a Strategic Resource.
 
 	Diplomatic Embassy:
 		+1 Influence
 		+5% Trust Growth
 		+100 Max Influence
-		Requires Planetary Capital
-		Requires 5 Pops
+
 		*Limited to 3 through Strategic Resources.
 
 	Agri-Repositories (I,II,III):
@@ -38,7 +75,7 @@ New Buildings:
 	Holosseum (aka Virtual Combat Arena 2.0):
 		+10% Army Damage
 		+5% Happiness
-		+5% Goverment Ethics Attraction
+		+5% Governing Ethics Attraction
 
 		*+4 Unity if Militarist
 		**+2 Unity and +2 Society Research with Warrior Culture Civic

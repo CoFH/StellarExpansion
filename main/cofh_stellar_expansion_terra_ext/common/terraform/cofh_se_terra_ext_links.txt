@@ -16,12 +16,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_tectonic_restriction"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_molten
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_molten
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_active_volcano
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_deep_sinkhole
 				}
 			}
 		}
@@ -38,12 +59,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_tectonic_restriction"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_molten
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_molten
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_active_volcano
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_deep_sinkhole
 				}
 			}
 		}
@@ -60,12 +102,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_tectonic_restriction"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_molten
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_molten
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_active_volcano
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_deep_sinkhole
 				}
 			}
 		}
@@ -86,12 +149,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_dynamo_manipulation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_frozen
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_frozen
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_massive_glacier
 				}
 			}
 		}
@@ -108,12 +192,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_dynamo_manipulation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_frozen
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_frozen
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_massive_glacier
 				}
 			}
 		}
@@ -130,12 +235,33 @@ terraform_link = {
 	condition = {
 		has_technology = "tech_cofh_se_dynamo_manipulation"
 
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_planet_size"
-			from = {
-				AND = {
-					planet_size > 7
-					planet_size < 26
+		cofh_se_normal_planet = yes
+		cofh_se_normal_star = yes
+		cofh_se_no_dyson_sphere = yes
+		cofh_se_no_habitat = yes
+	}
+
+	effect = {
+		from = {
+			add_modifier = {
+				modifier = cofh_se_pm_frozen
+				days = -1
+			}
+			set_planet_flag = cofh_se_was_frozen
+
+			while = {
+				count = 2
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_mountain_range
+				}
+				random_tile = {
+					limit = {
+						has_blocker = no
+					}
+					set_blocker = tb_massive_glacier
 				}
 			}
 		}

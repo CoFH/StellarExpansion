@@ -1,0 +1,65 @@
+# CoFH - Stellar Expansion - Terraforming
+# Scripted Triggers
+# Author: King Lemming
+
+cofh_se_normal_planet = {
+	custom_tooltip = {
+		fail_text = "requirement_cofh_se_valid_planet_size"
+		from = {
+			AND = {
+				planet_size > 7
+				planet_size < 30
+			}
+		}
+	}
+}
+
+cofh_se_normal_star = {
+	custom_tooltip = {
+		fail_text = "requirement_cofh_se_no_black_hole_neutron_star_pulsar"
+		from = {
+			solar_system = {
+				NOT = {
+					is_star_class = sc_black_hole
+					is_star_class = sc_neutron_star
+					is_star_class = sc_pulsar
+				}
+			}
+		}
+	}
+}
+
+cofh_se_not_terraforming_candidate = {
+	custom_tooltip = {
+		fail_text = "requirement_cofh_se_not_terraforming_candidate"
+		from = {
+			NOT = {
+				has_modifier = terraforming_candidate
+			}
+		}
+	}
+}
+
+cofh_se_no_dyson_sphere = {
+	custom_tooltip = {
+		fail_text = "requirement_cofh_se_no_dyson_sphere"
+		from = {
+			solar_system = {
+				NOT = {
+					has_star_flag = dyson_sphere_built
+				}
+			}
+		}
+	}
+}
+
+cofh_se_no_habitat = {
+	custom_tooltip = {
+		fail_text = "requirement_cofh_se_no_megastructure"
+		from = {
+			NOT = {
+				has_planet_flag = has_megastructure
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+# CoFH - Stellar Expansion - Terraforming
+# Static Modifiers
+# Author: King Lemming
+
+cofh_se_pm_toxic = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	pop_growth_req_mult = 0.05
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_atmospheric_hallucinogen.dds"
+	icon_frame = 3
+}
+
+cofh_se_pm_barren = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	tile_resource_food_mult = -0.10
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_bleak.dds"
+	icon_frame = 3
+}
+
+cofh_se_pm_barren_cold = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	tile_resource_food_mult = -0.10
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_bleak.dds"
+	icon_frame = 3
+}
+
+cofh_se_pm_molten = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	planet_building_cost_mult = 0.10
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_unstable_tectonics.dds"
+	icon_frame = 3
+}
+
+cofh_se_pm_frozen = {
+	pop_environment_tolerance = -0.10
+	pop_happiness = -0.05
+	pop_growth_req_mult = 0.05
+
+	icon = "gfx/interface/icons/planet_modifiers/pm_weak_magnetic_field.dds"
+	icon_frame = 3
+}
