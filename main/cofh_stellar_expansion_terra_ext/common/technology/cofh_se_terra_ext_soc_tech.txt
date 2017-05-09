@@ -71,15 +71,16 @@ tech_cofh_se_dynamo_manipulation = {
 					area = society
 					has_trait = "leader_trait_expertise_field_manipulation"
 				}
+				has_ascension_perk = ap_world_shaper
 			}
 		}
 		modifier = {
-			factor = 5
-			has_technology = tech_cofh_se_tectonic_restriction
+			factor = 3
+			has_ascension_perk = ap_world_shaper
 		}
 		modifier = {
-			factor = 5
-			has_ascension_perk = ap_world_shaper
+			factor = 2
+			has_technology = tech_cofh_se_tectonic_restriction
 		}
 	}
 
@@ -125,15 +126,16 @@ tech_cofh_se_tectonic_restriction = {
 					area = society
 					has_trait = "leader_trait_expertise_field_manipulation"
 				}
+				has_ascension_perk = ap_world_shaper
 			}
 		}
 		modifier = {
-			factor = 5
-			has_technology = tech_cofh_se_dynamo_manipulation
+			factor = 3
+			has_ascension_perk = ap_world_shaper
 		}
 		modifier = {
-			factor = 5
-			has_ascension_perk = ap_world_shaper
+			factor = 2
+			has_technology = tech_cofh_se_dynamo_manipulation
 		}
 	}
 

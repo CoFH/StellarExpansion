@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2017-05-09:
+Updated for 1.6 [Adams].
+
+Pop Growth Time has been changed to Pop Growth Speed where applicable.
+
+--------------------------------------------------------------------------------
+
 2017-05-08:
 Rebalanced some of the new ethos-advantaged buildings. Basically -2 Ethos-derived Unity and -1 Civic-derived Research.
 
@@ -8,6 +15,7 @@ Also greatly improved the visuals of the Diplomatic Hub and Diplomatic Embassy.
 
 Changed Buildings:
 	Diplomatic Hub:
+		Empire-Unique
 		+2 Influence
 		+10% Trust Growth
 		+30% Planetary Border Extrusion
@@ -16,6 +24,7 @@ Changed Buildings:
 		*Allows for the construction of 3 Diplomatic Embassy buildings via a Strategic Resource.
 
 	Diplomatic Embassy:
+		Planet-Unique
 		+1 Influence
 		+5% Trust Growth
 		+15% Planetary Border Extrusion
@@ -24,6 +33,7 @@ Changed Buildings:
 		*Limited to 3 through Strategic Resources.
 
 	Grand Retail Complex (aka Space Ikea):
+		Planet-Unique
 		-5% Building Cost
 		-15% Consumer Goods Cost
 
@@ -31,6 +41,7 @@ Changed Buildings:
 		**+2 Unity and +1 Engineering Research with Functional Architecture Civic
 
 	Holosseum (aka Virtual Combat Arena 2.0):
+		Planet-Unique
 		+10% Army Damage
 		+5% Happiness
 		+5% Governing Ethics Attraction
@@ -48,6 +59,7 @@ Essentially, this allows for a reasonable boost to the Influence game without dr
 
 New Buildings:
 	Diplomatic Hub:
+		Empire-Unique
 		+2 Influence
 		+10% Trust Growth
 		+200 Max Influence
@@ -55,6 +67,7 @@ New Buildings:
 		*Allows for the construction of 3 Diplomatic Embassy buildings via a Strategic Resource.
 
 	Diplomatic Embassy:
+		Planet-Unique*
 		+1 Influence
 		+5% Trust Growth
 		+100 Max Influence
@@ -62,10 +75,12 @@ New Buildings:
 		*Limited to 3 through Strategic Resources.
 
 	Agri-Repositories (I,II,III):
+		Planet-Unique
 		+50/75/100 Food Storage, +1 Food Adjacency Boost
 		Additionally, the level II and III versions reduce growth time by 5 and 10%, respectively.
 
 	Grand Retail Complex (aka Space Ikea):
+		Planet-Unique
 		-5% Building Cost
 		-15% Consumer Goods Cost
 
@@ -73,6 +88,7 @@ New Buildings:
 		**+2 Unity and +2 Engineering Research with Functional Architecture Civic
 
 	Holosseum (aka Virtual Combat Arena 2.0):
+		Planet-Unique
 		+10% Army Damage
 		+5% Happiness
 		+5% Governing Ethics Attraction

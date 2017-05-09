@@ -71,7 +71,7 @@ building_cofh_se_engos = {
 	}
 
 	country_modifier = {
-		pop_growth_req_mult = -0.10
+		pop_growth_speed = 0.20
 	}
 
 	allow = {

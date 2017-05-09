@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Terraforming
 Author: King Lemming
 
+2017-05-09:
+Updated for 1.6 [Adams].
+
+Pop Growth Time has been changed to Pop Growth Speed where applicable.
+
+--------------------------------------------------------------------------------
+
 2017-05-08:
 Rebalancing! In light of the changes that Utopia brings, and looking forward to 1.6 [Adams], some things are being adjusted with this mod for balance reasons.
 

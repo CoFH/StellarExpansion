@@ -578,7 +578,7 @@ building_cofh_se_food_silo_2 = {
 	}
 
 	planet_modifier = {
-		pop_growth_req_mult = -0.05
+		pop_growth_speed = 0.10
 	}
 
 	country_modifier = {
@@ -629,7 +629,7 @@ building_cofh_se_food_silo_3 = {
 	}
 
 	planet_modifier = {
-		pop_growth_req_mult = -0.10
+		pop_growth_speed = 0.20
 	}
 
 	country_modifier = {

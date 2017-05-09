@@ -5,7 +5,7 @@
 cofh_se_pm_toxic = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
-	pop_growth_req_mult = 0.05
+	pop_growth_speed = -0.10
 
 	icon = "gfx/interface/icons/planet_modifiers/pm_atmospheric_hallucinogen.dds"
 	icon_frame = 3
@@ -41,7 +41,7 @@ cofh_se_pm_molten = {
 cofh_se_pm_frozen = {
 	pop_environment_tolerance = -0.10
 	pop_happiness = -0.05
-	pop_growth_req_mult = 0.05
+	pop_growth_speed = -0.10
 
 	icon = "gfx/interface/icons/planet_modifiers/pm_weak_magnetic_field.dds"
 	icon_frame = 3

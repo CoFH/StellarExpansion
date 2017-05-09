@@ -60,8 +60,8 @@ tech_cofh_se_atmospheric_purification = {
 	weight_modifier = {
 		factor = 0.75
 		modifier = {
-			factor = 0.33
-			NOR = {
+			factor = 1.25
+			OR = {
 				research_leader = {
 					area = society
 					has_trait = "leader_trait_expertise_new_worlds"
@@ -73,12 +73,12 @@ tech_cofh_se_atmospheric_purification = {
 			}
 		}
 		modifier = {
-			factor = 5
-			has_technology = tech_cofh_se_atmosphere_creation
+			factor = 3
+			has_ascension_perk = ap_world_shaper
 		}
 		modifier = {
-			factor = 5
-			has_ascension_perk = ap_world_shaper
+			factor = 2
+			has_technology = tech_cofh_se_atmosphere_creation
 		}
 	}
 
@@ -113,8 +113,8 @@ tech_cofh_se_atmosphere_creation = {
 	weight_modifier = {
 		factor = 0.75
 		modifier = {
-			factor = 0.33
-			NOR = {
+			factor = 1.25
+			OR = {
 				research_leader = {
 					area = society
 					has_trait = "leader_trait_expertise_new_worlds"
@@ -126,12 +126,12 @@ tech_cofh_se_atmosphere_creation = {
 			}
 		}
 		modifier = {
-			factor = 5
-			has_technology = tech_cofh_se_atmospheric_purification
+			factor = 3
+			has_ascension_perk = ap_world_shaper
 		}
 		modifier = {
-			factor = 5
-			has_ascension_perk = ap_world_shaper
+			factor = 2
+			has_technology = tech_cofh_se_atmospheric_purification
 		}
 	}
 

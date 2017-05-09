@@ -8,4 +8,5 @@ tags={
 	"Gameplay"
 }
 picture="thumb.png"
-supported_version="1.5.*"
+remote_file_id="814211685"
+supported_version="1.6.*"

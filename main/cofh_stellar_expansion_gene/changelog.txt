@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
+2017-05-09:
+Updated for 1.6 [Adams].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2017-05-08:
 Gene Drive Architecting will again be available with Utopia.
 
