@@ -1,0 +1,80 @@
+# CoFH - Stellar Expansion - Cloning
+# Society Technologies
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+################################################################################
+# Biology
+################################################################################
+
+tech_cofh_se_mass_cloning = {
+	cost = @tier2cost3
+	area = society
+	tier = 2
+	category = { biology }
+	prerequisites = { "tech_cloning" }
+	weight = @tier2weight3
+
+	gateway = biological
+
+	prereqfor_desc = {
+		diplo_action = {
+			title = "COFH_SE_TECH_UNLOCK_CLONE_POP_TITLE"
+			desc = "COFH_SE_TECH_UNLOCK_CLONE_POP_DESC"
+		}
+	}
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+# CoFH - Stellar Expansion - Cloning
+# Static Modifiers
+# Author: King Lemming
+
+cofh_se_clone_adapting = {
+	pop_government_ethic_attraction = 0.5
+
+	tile_resource_physics_research_mult = -0.25
+	tile_resource_society_research_mult = -0.25
+	tile_resource_engineering_research_mult = -0.25
+	tile_resource_unity_mult = -0.50
+}
+
+cofh_se_clone_maturing = {
+	pop_government_ethic_attraction = 1.0
+	pop_growth_speed = 2.0
+}

@@ -1,0 +1,34 @@
+# CoFH - Stellar Expansion - Cloning
+# Buildable Pops
+# Author: King Lemming
+
+# Standard Clone
+cofh_se_clone_1 = {
+
+	cost = {
+		food = 25
+		minerals = 25
+		energy = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential = {
+		NOR = {
+			is_country_type = ai_empire
+			has_country_flag = synthetic_age
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	species = founder_species
+}

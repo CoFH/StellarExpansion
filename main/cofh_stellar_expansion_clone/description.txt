@@ -1,0 +1,29 @@
+[h1][b]Stellar Expansion is NOT required.[/b][/h1]
+It is simply compatible with this mod and designed to work alongside it.
+
+This is a simple addon mod which adds a method for the production of Clone Populations.
+
+There are a couple of caveats - there is a Mass Cloning policy for Empires.
+
+Spiritualist Empires cannot make use of the "Unrestricted" option and therefore cannot directly create Clone Populations.
+Fanatic Spiritualist Empires cannot make use of "Limited" or "Unrestricted" and therefore benefit very little from the technology.
+
+Spiritualist and Fanatic Spiritualist Empires will also react negatively to the use of Mass Cloning.
+
+WARNING: the AI will make excellent use of this mod, especially Xenophobic and Authoritarian Empires. :)
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]A technology which allows for Clone Populations to be produced: Mass Cloning
+	[*]A policy to allow/disallow various levels of Mass Cloning.
+	[*]A building which provides a large boost to population growth, if the policy is set appropriately (Limited or Unrestricted).
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_clone/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_clone/changelog.txt]Change Log[/url][/b]
+
+Localizations: English.
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

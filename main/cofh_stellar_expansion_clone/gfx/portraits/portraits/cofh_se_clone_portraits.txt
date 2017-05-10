@@ -1,0 +1,6 @@
+portraits = {
+	cofh_se_clone_1 = {
+		texturefile = "gfx/models/portraits/clone/cofh_se_clone_1.dds"
+		greeting_sound = "mammalian_01_greetings"
+	}
+}

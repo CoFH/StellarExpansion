@@ -42,6 +42,19 @@ building_cofh_se_dark_matter = {
 
 	ai_special_building = yes
 
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+
 	ai_weight = {
 		weight = 5000
 		modifier = {
@@ -79,6 +92,19 @@ building_cofh_se_engos = {
 	}
 
 	ai_special_building = yes
+
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
 
 	ai_weight = {
 		weight = 5000
@@ -119,6 +145,19 @@ building_cofh_se_garanthium = {
 
 	ai_special_building = yes
 
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+
 	ai_weight = {
 		weight = 5000
 		modifier = {
@@ -157,6 +196,19 @@ building_cofh_se_living_metal = {
 	}
 
 	ai_special_building = yes
+
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
 
 	ai_weight = {
 		weight = 5000
@@ -197,6 +249,19 @@ building_cofh_se_lythuric = {
 
 	ai_special_building = yes
 
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+
 	ai_weight = {
 		weight = 5000
 		modifier = {
@@ -235,6 +300,19 @@ building_cofh_se_neutronium = {
 	}
 
 	ai_special_building = yes
+
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
 
 	ai_weight = {
 		weight = 5000
@@ -275,6 +353,19 @@ building_cofh_se_orillium = {
 
 	ai_special_building = yes
 
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+
 	ai_weight = {
 		weight = 5000
 		modifier = {
@@ -313,6 +404,19 @@ building_cofh_se_pitharan = {
 	}
 
 	ai_special_building = yes
+
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
 
 	ai_weight = {
 		weight = 5000
@@ -354,6 +458,19 @@ building_cofh_se_satramene = {
 
 	ai_special_building = yes
 
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+
 	ai_weight = {
 		weight = 5000
 		modifier = {
@@ -393,6 +510,19 @@ building_cofh_se_teldar = {
 
 	ai_special_building = yes
 
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+
 	ai_weight = {
 		weight = 5000
 		modifier = {
@@ -430,6 +560,19 @@ building_cofh_se_yuranic= {
 	}
 
 	ai_special_building = yes
+
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
 
 	ai_weight = {
 		weight = 5000
@@ -469,6 +612,19 @@ building_cofh_se_zro = {
 	}
 
 	ai_special_building = yes
+
+	ai_allow = {
+		NOR = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
 
 	ai_weight = {
 		weight = 5000

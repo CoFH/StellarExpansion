@@ -1,0 +1,16 @@
+# CoFH - Stellar Expansion - Cloning
+# On Actions
+# Author: King Lemming
+
+on_buildable_pop_created = {
+	events = {
+		cofh_se_clone.1
+	}
+}
+
+on_pop_fully_grown = {
+	events = {
+		cofh_se_clone.2
+		cofh_se_clone.10
+	}
+}

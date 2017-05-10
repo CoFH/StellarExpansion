@@ -1,0 +1,99 @@
+# CoFH - Stellar Expansion
+# Buildings
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@b0time = 120
+@b0cost = 30
+@b0effect = 1
+@b0upkeep = 1
+
+@b1time = 210
+@b1cost = 60
+@b1effect = 2
+@b1upkeep = 1
+
+@b2time = 180
+@b2cost = 90
+@b2effect = 3
+@b2upkeep = 1.5
+
+@b3time = 180
+@b3cost = 120
+@b3effect = 4
+@b3upkeep = 2
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+################################################################################
+# Cloning
+################################################################################
+
+building_cofh_se_clone_facility = {
+	icon = "building_cofh_se_clone_facility"
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		minerals = 350
+	}
+
+	produced_resources = {
+		society_research = 4
+	}
+
+	required_resources = {
+		energy = 4
+	}
+
+	planet_modifier = {
+		pop_growth_speed = 0.15
+	}
+
+	triggered_planet_modifier = {
+		key = "cofh_se_mass_cloning_limited_name"
+		potential = {
+			owner = {
+				NOT = {
+					has_policy_flag = cofh_se_mass_cloning_none
+				}
+			}
+		}
+		modifier = {
+			pop_growth_speed = 0.50
+		}
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	prerequisites = {
+		"tech_cofh_se_mass_cloning"
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 1000
+		modifier = {
+			weight = 0
+			from = {
+				owner = {
+					has_policy_flag = cofh_se_mass_cloning_none
+				}
+			}
+		}
+	}
+}

@@ -359,8 +359,12 @@ building_cofh_se_robot_maintenance = {
 		minerals = 350
 	}
 
+	produced_resources = {
+		minerals = 2
+	}
+
 	required_resources = {
-		energy = 1
+		energy = 2
 	}
 
 	planet_modifier = {
@@ -379,7 +383,9 @@ building_cofh_se_robot_maintenance = {
 				text = "requirement_cofh_se_robot_maintenance"
 				planet = {
 					owner = {
-						NOT = { has_policy_flag = ai_outlawed }
+						NOT = {
+							has_policy_flag = ai_outlawed
+						}
 					}
 				}
 			}

@@ -1,0 +1,28 @@
+CoFH - Stellar Expansion - Cloning
+Author: King Lemming
+
+2017-05-10:
+Mod now exists. :)
+
+It's basically a single technology - Mass Cloning - and an associated Policy, which allow for a couple of avenues of drastically increasing biological population growth.
+
+New Technologies:
+	Mass Cloning:
+		Biology
+		Unlocks Building: Genomic Replication Facility
+		Unlocks Buildable Pop: Clone Population
+
+New Buildings:
+	Genomic Replication Facility:
+		Planet-Unique
+		+4 Society Produced
+		+15% Population Growth Speed
+		*+50% Population Growth Speed with Limited or Unrestricted Mass Cloning
+
+New Buildable Pops:
+	Clone Population:
+		Same as Primary Species
+		+200% Population Growth Speed
+		*-25% Research and -50% Unity produced for 5 years after completion
+
+--------------------------------------------------------------------------------

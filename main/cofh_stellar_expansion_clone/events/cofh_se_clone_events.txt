@@ -1,0 +1,112 @@
+# CoFH - Stellar Expansion - Cloning
+# Events
+# Author: King Lemming
+
+namespace = cofh_se_clone
+
+pop_event = {
+	id = cofh_se_clone.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_same_species = root
+
+		NOR = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			is_species = "ROBOT_POP_SPECIES_3"
+			has_trait = trait_mechanical
+		}
+	}
+
+	immediate = {
+		set_pop_flag = cofh_se_clone_maturing
+
+		add_modifier = {
+			modifier = cofh_se_clone_maturing
+		}
+	}
+}
+
+pop_event = {
+	id = cofh_se_clone.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_pop_flag = cofh_se_clone_maturing
+	}
+
+	immediate = {
+		remove_pop_flag = cofh_se_clone_maturing
+		remove_modifier = cofh_se_clone_maturing
+
+		add_modifier = {
+			modifier = cofh_se_clone_adapting
+			days = 1800
+		}
+
+		every_country  = {
+			limit = {
+				has_ethic = ethic_spiritualist
+			}
+			add_opinion_modifier = {
+				who = root.owner
+				modifier = opinion_cofh_se_cloning_full_spiritualist
+			}
+		}
+		every_country  = {
+			limit = {
+				has_ethic = ethic_fanatic_spiritualist
+			}
+			add_opinion_modifier = {
+				who = root.owner
+				modifier = opinion_cofh_se_cloning_full_fanatic_spiritualist
+			}
+		}
+	}
+}
+
+pop_event = {
+	id = cofh_se_clone.10
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		AND = {
+			planet = {
+				has_building = "building_cofh_se_clone_facility"
+			}
+			owner = {
+				NOT = {
+					has_policy_flag = cofh_se_mass_cloning_none
+				}
+			}
+			NOT = {
+				has_pop_flag = cofh_se_clone_maturing
+			}
+		}
+	}
+
+	immediate = {
+		every_country  = {
+			limit = {
+				has_ethic = ethic_spiritualist
+			}
+			add_opinion_modifier = {
+				who = root.owner
+				modifier = opinion_cofh_se_cloning_limited_spiritualist
+			}
+		}
+		every_country  = {
+			limit = {
+				has_ethic = ethic_fanatic_spiritualist
+			}
+			add_opinion_modifier = {
+				who = root.owner
+				modifier = opinion_cofh_se_cloning_limited_fanatic_spiritualist
+			}
+		}
+	}
+}

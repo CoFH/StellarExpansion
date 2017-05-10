@@ -1,0 +1,54 @@
+﻿l_german:
+
+# Buildable Pops
+
+cofh_se_clone_1:0 "Clone"
+cofh_se_clone_1_desc:0 "§LClone populations rapidly mature into our Empire's primary species. However, there is an adjustment period following maturation.§!"
+
+# Buildings
+
+building_cofh_se_clone_facility:0 "Genomics Replication Facility"
+building_cofh_se_clone_facility_desc:0 "An advanced bioindustrial complex which allows for cloning on a massive scale.\n\n§RDoes not allow for the creation of clone armies.§!"
+
+# Modifiers
+
+cofh_se_clone_adapting:0 "Societal Adaptation"
+cofh_se_clone_adapting_desc:0 "This population is adapting to our society and learning our culture."
+
+cofh_se_clone_maturing:0 "Maturing Clone"
+cofh_se_clone_maturing_desc:0 "This clone population is currently being grown."
+
+# Opinions
+
+opinion_cofh_se_cloning_limited_spiritualist:0 "Unnatural Reproduction"
+opinion_cofh_se_cloning_limited_fanatic_spiritualist:0 "Unnatural Reproduction"
+
+opinion_cofh_se_cloning_full_spiritualist:0 "Soulless Clones"
+opinion_cofh_se_cloning_full_fanatic_spiritualist:0 "Soulless Clones"
+
+# Policies
+
+policy_cofh_se_mass_cloning:0 "Mass Cloning"
+policy_cofh_se_mass_cloning_desc:0 "The advent of cloning technology raises questions concerning its use to create entire populations."
+
+cofh_se_mass_cloning_none:0 "Prohibited"
+cofh_se_mass_cloning_none_name:0 "Mass Cloning Prohibited"
+cofh_se_mass_cloning_none_desc:0 "While a useful technology, cloning should be restricted to small-scale applications.\n\n§E£building §H$building_cofh_se_clone_facility$§! has limited effect\n\nCannot create Clone Pops§!"
+
+cofh_se_mass_cloning_limited:0 "Limited"
+cofh_se_mass_cloning_limited_name:0 "Cloning Facility Augmentation"
+cofh_se_mass_cloning_limited_desc:0 "Our population will be bolstered with clones raised in specialized facilities.\n\n§E£building §H$building_cofh_se_clone_facility$§! greatly increases population growth\n\nCannot create Clone Pops§!"
+
+cofh_se_mass_cloning_full:0 "Unrestricted"
+cofh_se_mass_cloning_full_name:0 "Clone Populations Allowed"
+cofh_se_mass_cloning_full_desc:0 "Entire populations of clones may be created, allowing us to quickly boost our numbers.\n\n§E£building §H$building_cofh_se_clone_facility$§! greatly increases population growth\n\nCan create Clone Pops§!"
+
+# Technology
+
+# Society
+
+tech_cofh_se_mass_cloning:0 "Mass Cloning"
+tech_cofh_se_mass_cloning_desc:0 "Improvements in cloning technology allow for population growth on a previously unimaginable scale."
+
+COFH_SE_TECH_UNLOCK_CLONE_POP_TITLE:0 "§HUnlocks Buildable Pop:§! Clone Population"
+COFH_SE_TECH_UNLOCK_CLONE_POP_DESC:0 "§HClone Population§!\n$cofh_se_clone_1_desc$"

@@ -4,7 +4,7 @@ Author: King Lemming
 2017-05-09:
 Updated for 1.6 [Adams].
 
-No actual changes - just version incrementing.
+No actual changes - just version incrementing and compatibility adjustment.
 
 --------------------------------------------------------------------------------
 

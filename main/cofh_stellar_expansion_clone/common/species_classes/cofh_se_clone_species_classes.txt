@@ -1,0 +1,15 @@
+# CoFH - Stellar Expansion - Genetics
+# Species Classes
+# Author: King Lemming
+
+COFH_SE_CLONE = {
+	playable = { always = no }
+	randomized = no
+
+	portraits = {
+		"robot1"
+	}
+
+	graphical_culture = ai_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
