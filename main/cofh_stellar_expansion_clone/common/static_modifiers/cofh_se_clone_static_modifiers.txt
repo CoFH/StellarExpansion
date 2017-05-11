@@ -3,7 +3,9 @@
 # Author: King Lemming
 
 cofh_se_clone_adapting = {
-	pop_government_ethic_attraction = 0.5
+	pop_government_ethic_attraction = 1.0
+
+	pop_food_req_mult = 0.10
 
 	tile_resource_physics_research_mult = -0.25
 	tile_resource_society_research_mult = -0.25

@@ -30,6 +30,8 @@ cofh_se.410.desc:0 "Die Beobachtung der Flotten der gefallenen Reiche hat zur En
 
 # Modifiers
 
+cofh_se_xeno_food_species:0 "Supplemental Nutrition"
+
 damage_vs_country_type_ai_empire_mult:0 "Schaden an Schiffen des Maschinenbewusstseins"
 damage_vs_country_type_extradimensional_mult:0 "Schaden an den Ungebetenen Invasoren"
 damage_vs_country_type_extradimensional_2_mult:0 "Schaden an den Abweichlern Invasoren"
@@ -51,6 +53,7 @@ sr_cofh_se_diplomatic_embassy_desc:0 "Allows for the establishment and coordinat
 # Spaceport Modules
 
 sm_cofh_se_atmospheric_manipulator:0 "Atmosphärischer Manipulator"
+sm_cofh_se_dockyard:0 "Fleet Dockyard"
 sm_cofh_se_mining_terminal:0 "Bergbau-Terminal"
 
 # Special Projects

@@ -6,9 +6,9 @@
 cofh_se_clone_1 = {
 
 	cost = {
-		food = 25
+		energy = 50
 		minerals = 25
-		energy = 25
+		food = 25
 	}
 
 	allow = {

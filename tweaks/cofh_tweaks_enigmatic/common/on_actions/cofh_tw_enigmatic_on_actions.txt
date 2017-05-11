@@ -1,0 +1,13 @@
+# CoFH - Tweaks - Enigmatic Fortress
+# On Actions
+# Author: King Lemming
+
+on_tech_increased = {
+	events = {
+		cofh_tw_en.1
+		cofh_tw_en.2
+		cofh_tw_en.3
+		cofh_tw_en.4
+		cofh_tw_en.5
+	}
+}

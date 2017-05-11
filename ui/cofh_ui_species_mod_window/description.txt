@@ -1,0 +1,16 @@
+This is a simple mod to adjust the Species Modding Window and provide additional needed functionality.
+
+[h1][b]Features[/b][/h1]
+[list]
+[*] Expanded window to properly show all 9 Planet Preference types.
+[*] The 'Available Traits' box will now display a [b]scrollbar[/b] if a many additional traits are added.
+[*] Adjusted button position slightly for aesthetic balance.
+[/list]
+
+[h1][b]Overwitten Files[/b][/h1]
+[list]
+[*]interface/species_mod_window.gfx
+[*]interface/species_mod_window.gui
+[/list]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

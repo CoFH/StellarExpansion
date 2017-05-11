@@ -112,6 +112,13 @@ building_cofh_se_diplomatic_embassy = {
 
 	ai_weight = {
 		weight = 1000
+
+		modifier = {
+			weight = 0
+			from = {
+				sector_controlled = yes
+			}
+		}
 	}
 }
 
@@ -186,6 +193,13 @@ building_cofh_se_diplomatic_hub = {
 
 	ai_weight = {
 		weight = 1000
+
+		modifier = {
+			weight = 0
+			from = {
+				sector_controlled = yes
+			}
+		}
 	}
 }
 
@@ -263,7 +277,27 @@ building_cofh_se_retail_center = {
 	}
 
 	ai_weight = {
-		weight = 200
+		weight = 100
+
+		modifier = {
+			factor = 2
+			from = {
+				owner = {
+					OR = {
+						has_ethic = ethic_egalitarian
+						has_ethic = ethic_fanatic_egalitarian
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			from = {
+				owner = {
+					has_civic = civic_functional_architecture
+				}
+			}
+		}
 	}
 }
 
@@ -345,14 +379,34 @@ building_cofh_se_holo_arena = {
 	}
 
 	ai_weight = {
-		weight = 200
+		weight = 100
+
+		modifier = {
+			factor = 2
+			from = {
+				owner = {
+					OR = {
+						has_ethic = ethic_militarist
+						has_ethic = ethic_fanatic_militarist
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			from = {
+				owner = {
+					has_civic = civic_warrior_culture
+				}
+			}
+		}
 	}
 }
 
 # Robot Maintenance Facility
 building_cofh_se_robot_maintenance = {
 	icon = "building_cofh_se_robot_maintenance"
-	base_buildtime = 720
+	base_buildtime = 540
 	planet_unique = yes
 
 	cost = {
@@ -361,6 +415,7 @@ building_cofh_se_robot_maintenance = {
 
 	produced_resources = {
 		minerals = 2
+		engineering_research = 1
 	}
 
 	required_resources = {
@@ -376,26 +431,34 @@ building_cofh_se_robot_maintenance = {
 	}
 
 	allow = {
-		AND = {
-			cofh_se_req_capital_1_or_hab = yes
-
-			custom_tooltip = {
-				text = "requirement_cofh_se_robot_maintenance"
-				planet = {
-					owner = {
-						NOT = {
-							has_policy_flag = ai_outlawed
-						}
+		custom_tooltip = {
+			text = "requirement_cofh_se_robot_maintenance"
+			planet = {
+				owner = {
+					NOT = {
+						has_policy_flag = ai_outlawed
 					}
 				}
 			}
 		}
 	}
 
-	ai_special_building = yes
+	ai_allow = {
+		cofh_se_req_no_local = yes
+
+		planet = {
+			count_pops = {
+				limit = {
+					is_robot_pop = yes
+				}
+				count > 4
+			}
+		}
+	}
 
 	ai_weight = {
-		weight = 7000
+		weight = 500
+
 		modifier = {
 			weight = 0
 			from = {
@@ -404,6 +467,14 @@ building_cofh_se_robot_maintenance = {
 						has_ai_personality_behaviour = robot_exploiter
 						has_ai_personality_behaviour = robot_liberator
 					}
+				}
+			}
+		}
+		modifier = {
+			factor = 4
+			from = {
+				owner = {
+					has_civic = civic_mechanists
 				}
 			}
 		}
@@ -440,6 +511,16 @@ building_cofh_se_energy_silo_1 = {
 
 	upgrades = {
 		building_cofh_se_energy_silo_2
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+
+		is_slave_tile_or_planet = no
+	}
+
+	ai_weight = {
+		factor = 1
 	}
 }
 
@@ -554,6 +635,14 @@ building_cofh_se_food_silo_1 = {
 
 	upgrades = {
 		building_cofh_se_food_silo_2
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		factor = 1
 	}
 }
 
@@ -688,6 +777,23 @@ building_cofh_se_xeno_food = {
 		tile_resource_food_mult = 0.10
 	}
 
+	triggered_planet_modifier = {
+		key = "cofh_se_xeno_food_species"
+		potential = {
+			planet = {
+				any_pop = {
+					OR = {
+						has_modifier = pop_enslaved_livestock
+						has_modifier = pop_purging_processing
+					}
+				}
+			}
+		}
+		modifier = {
+			tile_resource_food_mult = 0.15
+		}
+	}
+
 	allow = {
 		AND = {
 			cofh_se_req_capital_1 = yes
@@ -702,19 +808,7 @@ building_cofh_se_xeno_food = {
 	ai_special_building = yes
 
 	ai_weight = {
-		weight = 1000
-		modifier = {
-			factor = 0
-			from = {
-				owner = {
-					NOR = {
-						has_ethic = ethic_xenophobe
-						has_ethic = ethic_fanatic_xenophobe
-					}
-				}
-				NOT = { has_building = building_cofh_se_xeno_food }
-			}
-		}
+		weight = 10
 	}
 }
 

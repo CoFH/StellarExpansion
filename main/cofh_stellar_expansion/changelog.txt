@@ -1,6 +1,25 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2017-05-11:
+Minor update.
+
+Building weights have been adjusted so that AI makes better use of them.
+
+Deep Scanning Algorithms artwork updated.
+Xeno Nutriment Factory artwork updated.
+
+Robot Maintenance Facility now takes 540 days to build (down from 720), and produces 2 Minerals and 1 Engineering Research.
+Xeno Nutriment Factory now provides an additional +15% Planet Food if any population is being Processed or is Livestock.
+
+New Technologies:
+	Robot Assembly Optimization:
+		Industry
+		+10% Robot Build Speed
+		Repeatable (10x)
+
+--------------------------------------------------------------------------------
+
 2017-05-09:
 Updated for 1.6 [Adams].
 

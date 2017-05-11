@@ -10,6 +10,9 @@ tech_cofh_se_repeatable_reduced_ship_cost_desc:0 "Flexible assembly techniques a
 tech_cofh_se_repeatable_reduced_station_cost:0 "Adaptive Offworld Construction"
 tech_cofh_se_repeatable_reduced_station_cost_desc:0 "The use of local materials and modular assembly allows for more efficient offworld construction."
 
+tech_cofh_se_repeatable_robot_build_speed:0 "Robot Assembly Optimization"
+tech_cofh_se_repeatable_robot_build_speed_desc:0 "Optimizing assembly techniques for robots allows them to be created more rapidly."
+
 tech_cofh_se_repeatable_ship_build_speed:0 "Shipyard Assembly Coordination"
 tech_cofh_se_repeatable_ship_build_speed_desc:0 "The application of modular assembly techniques and streamlined processes allow us to enhance the throughput of our shipyards."
 

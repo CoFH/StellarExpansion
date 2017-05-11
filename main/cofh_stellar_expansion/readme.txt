@@ -67,11 +67,15 @@ Planet-Unique
 Robot Maintenance Facility:
 	Planet-Unique
 	Build:
-		720 Days
+		540 Days
 		350 Minerals
 
 	Requires:
 		1 Energy
+
+	Produces:
+		2 Minerals
+		1 Engineering Research
 
 	Planet Modifier:
 		+10% Robot Production Output
@@ -95,6 +99,7 @@ Xeno Nutriment Factory:
 
 	Planet Modifier:
 		+10% Food
+		**+15% with Livestock or Processed Pop on planet
 
 	Prerequisites:
 		Tech - Alien Life Studies
@@ -267,7 +272,6 @@ Diplomatic Hub:
 ################################################################################
 
 Atmospheric Manipulator:
-
 	Build:
 		360 Days
 		200 Minerals
@@ -283,7 +287,6 @@ Atmospheric Manipulator:
 		Tech - Atmospheric Manipulation
 
 Mining Terminal:
-
 	Build:
 		180 Days
 		100 Minerals
@@ -370,6 +373,16 @@ Protocol Droids:
 		+1 Influence
 		+10% Trade Attractiveness
 		+10% Trust Growth
+
+Robot Assembly Optimization:
+	Industry
+	Repeatable (10x)
+
+	Prerequisites:
+		Tech - Robotic Workers
+
+	Effects:
+		+10% Robot Build Speed
 
 Shipyard Assembly Coordination:
 	Voidcraft

@@ -1,0 +1,9 @@
+This is a simple mod to adjust the max number of Traits to 9. This number was specifically chosen because it provides a reasonable balance point, while still conforming nicely to the UI.
+
+(Seriously, 9 traits is a lot.)
+
+Highly recommended for use with the following:
+[b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792538274]Stellar Expansion - Genetics[/url][/i][/b]
+[b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792136722]CoFH UI - Species Mod Window[/url][/i][/b]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

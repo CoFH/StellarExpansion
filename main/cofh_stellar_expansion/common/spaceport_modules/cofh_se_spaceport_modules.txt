@@ -5,7 +5,7 @@
 # Orbital Mineral Processing
 cofh_se_mining_terminal = {
 	icon = "GFX_spaceport_module_cofh_se_mining_terminal"
-	section = "SCIENCE_SPACEPORT_SECTION"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
 	construction_days = 180
 	prerequisites = { "tech_cofh_se_orbital_mineral_processing" }
 	spaceport_level = 1
@@ -26,6 +26,28 @@ cofh_se_mining_terminal = {
 		tile_resource_minerals_mult = 0.10
 	}
 }
+
+# Dockyard
+#cofh_se_dockyard = {
+#	icon = "GFX_spaceport_module_cofh_se_dockyard"
+#	section = "HANGARBAY_SPACEPORT_SECTION"
+#	construction_days = 180
+#	prerequisites = { "tech_doctrine_fleet_size_1" }
+#	spaceport_level = 1
+#
+#	cost = {
+#		minerals = 200
+#	}
+#
+#	required_resources = {
+#		energy = 1
+#	}
+#
+#	modifier = {
+#		navy_size_add = 5
+#	}
+#}
+
 
 # Atmospheric Manipulator
 cofh_se_atmospheric_manipulator = {

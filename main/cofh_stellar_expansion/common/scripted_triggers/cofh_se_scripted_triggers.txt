@@ -73,3 +73,16 @@ cofh_se_req_betharian_stone = {
 		}
 	}
 }
+
+cofh_se_req_no_local = {
+	NOR = {
+		has_resource = {
+			type = sr_betharian
+			amount > 0
+		}
+		has_resource = {
+			type = sr_alien_pets
+			amount > 0
+		}
+	}
+}

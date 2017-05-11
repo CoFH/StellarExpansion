@@ -1,0 +1,13 @@
+This is a simple mod which provides new Edicts to simulate "Easy" Modes.
+
+[h1][b]Features[/b][/h1]
+[list]
+[*] Three (3) new Player-Only Edicts which provide boosts to many different aspects of the empire.
+[*] Only one Edict can be activated at a time.
+[/list]
+
+Localizations: English.
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

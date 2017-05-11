@@ -1,6 +1,17 @@
 CoFH - Stellar Expansion - Cloning
 Author: King Lemming
 
+2017-05-11:
+Some minor balancing and polish.
+
+-Genomics Replication Facility artwork updated (small change).
+-Genomics Replication Facility now also increases Food Usage on the planet by 10%, with Limited or Unrestricted Mass Cloning
+
+-Clone Populations now consume 10% additional food for 5 years following their maturation.
+-Clone Populations now have +100% government ethics attraction for 5 years following maturation, up from 50%.
+
+--------------------------------------------------------------------------------
+
 2017-05-10:
 Mod now exists. :)
 

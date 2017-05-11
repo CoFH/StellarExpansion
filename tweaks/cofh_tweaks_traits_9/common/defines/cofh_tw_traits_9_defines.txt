@@ -1,0 +1,4 @@
+﻿NSpecies = {
+	MAX_TRAITS 							= 9
+	MUTATION_MAX_TRAITS					= 9
+}

@@ -36,6 +36,7 @@ Genomic Replication Facility:
 	Planet Modifier:
 		+15% Population Growth Speed
 		*+50% Population Growth Speed with Limited or Unrestricted Mass Cloning
+		*+10% Population Food Required with Limited or Unrestricted Mass Cloning
 
 	Prerequisites:
 		Tech - Mass Cloning

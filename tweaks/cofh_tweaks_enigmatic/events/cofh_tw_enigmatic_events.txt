@@ -1,0 +1,150 @@
+# CoFH - Stellar Expansion
+# Countermeasure Events
+# Author: King Lemming
+
+namespace = cofh_tw_enigmatic
+
+country_event = {
+	id = cofh_tw_enigmatic.1
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		last_increased_tech = "tech_enigmatic_deflector"
+	}
+	immediate = {
+		add_tech_progress = {
+			tech = tech_enigmatic_power_core
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_encoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_decoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_disruption_field
+			progress = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = cofh_tw_enigmatic.2
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		last_increased_tech = "tech_enigmatic_power_core"
+	}
+	immediate = {
+		add_tech_progress = {
+			tech = tech_enigmatic_deflector
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_encoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_decoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_disruption_field
+			progress = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = cofh_tw_enigmatic.3
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		last_increased_tech = "tech_enigmatic_encoder"
+	}
+	immediate = {
+		add_tech_progress = {
+			tech = tech_enigmatic_deflector
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_power_core
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_decoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_disruption_field
+			progress = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = cofh_tw_enigmatic.4
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		last_increased_tech = "tech_enigmatic_decoder"
+	}
+	immediate = {
+		add_tech_progress = {
+			tech = tech_enigmatic_deflector
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_power_core
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_encoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_disruption_field
+			progress = 0.05
+		}
+	}
+}
+
+country_event = {
+	id = cofh_tw_enigmatic.5
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		last_increased_tech = "tech_enigmatic_disruption_field"
+	}
+	immediate = {
+		add_tech_progress = {
+			tech = tech_enigmatic_deflector
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_power_core
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_encoder
+			progress = 0.05
+		}
+		add_tech_progress = {
+			tech = tech_enigmatic_decoder
+			progress = 0.05
+		}
+	}
+}

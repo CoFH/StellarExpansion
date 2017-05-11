@@ -1,0 +1,52 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Ship Sizes - Auxiliary
+# Author: King Lemming
+
+################################################################################
+# Ship Variables
+################################################################################
+
+@auxiliary_combat_speed = 1.25
+@auxiliary_combat_rotation = 0.05
+@auxiliary_collision_radius = 3
+@auxiliary_formation_priority = 3
+
+################################################################################
+# AUXILIARIES
+################################################################################
+
+# Tender
+
+cofh_se_auxiliary_tender = {
+	formation_priority = @auxiliary_formation_priority
+	max_speed = 3.75
+	acceleration = 0.3
+	rotation_speed = 0.2
+	combat_max_speed = @auxiliary_combat_speed
+	combat_rotation_speed = @auxiliary_combat_rotation
+	collision_radius = @auxiliary_collision_radius
+	modifier = {
+		ship_armor_add = 12
+		ship_evasion_add = 50
+	}
+	max_hitpoints = 600
+	size_multiplier = 2
+	fleet_slot_size = 2
+	section_slots = { "mid" = { locator = "part1" } }
+	num_target_locators = 0
+	is_space_station = no
+	icon_frame = 3
+	base_buildtime = 150
+	required_spaceport_level = 2
+	can_have_federation_design = yes
+	enable_default_design = yes
+
+	prerequisites = { "tech_cofh_se_auxiliary_ships" }
+
+	class = shipclass_military
+	required_component_set = "ftl_components"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+
+	required_component_set = "cofh_se_ship_tender_aura_components"
+}
