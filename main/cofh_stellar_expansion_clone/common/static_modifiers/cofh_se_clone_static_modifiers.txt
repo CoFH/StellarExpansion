@@ -15,5 +15,7 @@ cofh_se_clone_adapting = {
 
 cofh_se_clone_maturing = {
 	pop_government_ethic_attraction = 1.0
+
 	pop_growth_speed = 2.0
+	pop_environment_tolerance = 1.0
 }

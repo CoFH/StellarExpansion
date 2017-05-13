@@ -11,6 +11,12 @@ building_cofh_se_diplomatic_hub_desc:0 "This bureaucratic complex serves as the 
 building_cofh_se_holo_arena:0 "Holosseum"
 building_cofh_se_holo_arena_desc:0 "The Holosseum serves as equal parts entertainment and military training, bringing communities together while tearing enemies apart."
 
+building_cofh_se_fleet_command:0 "Fleet Support Command"
+building_cofh_se_fleet_command_desc:0 "This sprawling military facility serves as the planetside center for naval support operations throughout our empire."
+
+building_cofh_se_fleet_complex:0 "Fleet Support Complex"
+building_cofh_se_fleet_complex_desc:0 "This large military base acts as a logistical hub for our empire's fleet, improving naval capability and efficiency."
+
 building_cofh_se_retail_center:0 "Grand Retail Center"
 building_cofh_se_retail_center_desc:0 "Home is the most important place in the galaxy. Provides convenient flat-pack consumer goods with simple instructions."
 

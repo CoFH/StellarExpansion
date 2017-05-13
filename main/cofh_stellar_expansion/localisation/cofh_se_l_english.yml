@@ -43,12 +43,16 @@ damage_vs_country_type_awakened_fallen_empire_mult:0 "Damage to Awakened Fallen 
 # Requirements
 
 requirement_cofh_se_diplomatic_embassy:0 "§RNo other diplomatic building may be present.§!"
+requirement_cofh_se_fleet_support:0 "§RNo other fleet support building may be present.§!"
 requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"
 
 # Resources
 
 sr_cofh_se_diplomatic_embassy:0 "Diplomatic Corps"
 sr_cofh_se_diplomatic_embassy_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_diplomatic_embassy$§!."
+
+sr_cofh_se_fleet_complex:0 "Fleet Support Corps"
+sr_cofh_se_fleet_complex_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_fleet_complex$§!."
 
 # Spaceport Modules
 

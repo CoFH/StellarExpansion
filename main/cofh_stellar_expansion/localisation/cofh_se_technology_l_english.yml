@@ -37,6 +37,9 @@ tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analys
 tech_cofh_se_battlefield_leadership:0 "Battlefield Leadership"
 tech_cofh_se_battlefield_leadership_desc:0 "Our field commanders have no need of empathy, but they should know how to rally their soldiers."
 
+tech_cofh_se_fleet_support:0 "Planetside Support Operations"
+tech_cofh_se_fleet_support_desc:0 "Although our fleets operate in deep space, a planetside support network will allow for more efficient deployment."
+
 tech_cofh_se_galactic_prominence:0 "Galactic Prominence"
 tech_cofh_se_galactic_prominence_desc:0 "The largest of our worlds have a complex sociopolitical dynamic all their own, and they too are relevant on the galactic stage."
 

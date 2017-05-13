@@ -1,0 +1,132 @@
+# CoFH - Stellar Expansion - Cloning
+# War Demands
+# Author: King Lemming
+
+cofh_se_abolish_mass_cloning = {
+	execution_order = 1
+
+	parameters = {
+		country = {
+			type = country
+		}
+	}
+
+	warscore_cost = {
+		base = 50
+	}
+
+	potential = {
+		OR = {
+			is_subject = no
+			NOT = {
+				overlord = {
+					is_same_value = from
+				}
+			}
+		}
+		OR = {
+			has_policy_flag = cofh_se_mass_cloning_none
+			NOT = { has_technology = tech_cofh_se_mass_cloning }
+		}
+		parameter:country = {
+			has_technology = tech_cofh_se_mass_cloning
+
+			NOT = {
+				has_policy_flag = cofh_se_mass_cloning_none
+			}
+			NOT = {
+				has_country_flag = synthetic_empire
+			}
+		}
+		custom_tooltip = {
+			fail_text = "war_demand_protectorate_country_not_opponent"
+			parameter:country = {
+				OR = {
+					AND = {
+						exists = fromfrom
+						from = {
+							from = {
+								is_war_participant = {
+									who = prevprev
+									side = prev
+								}
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = fromfrom }
+						would_join_war = {
+							attacker = root
+							defender = from
+							side = from
+						}
+					}
+
+				}
+			}
+		}
+	}
+
+	possible = {
+		hidden:parameter:country = {
+			custom_tooltip = {
+				fail_text = "war_demand_policy_no_planets"
+				war_demand_counter = {
+					type = num_owned_planets
+					value > 0
+				}
+			}
+		}
+	}
+
+	proposable = {
+		always = yes
+	}
+
+	effect = {
+		fromfromfrom = {
+			add_influence = 100
+		}
+		parameter:country = {
+			hidden_effect = {
+				set_policy = {
+					policy = cofh_se_mass_cloning
+					option = cofh_se_mass_cloning_none
+					cooldown = yes
+				}
+				every_subject = {
+					set_policy = {
+						policy = cofh_se_mass_cloning
+						option = cofh_se_mass_cloning_none
+						cooldown = yes
+					}
+				}
+			}
+		}
+	}
+
+	counters = {
+		num_country_wargoals = {
+			context = parameter:country
+			value = {
+				base = 1
+			}
+		}
+	}
+
+	ai_weight = {
+		base = 10
+
+		modifier = {
+			factor = 0
+			NOR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		modifier = {
+			factor = 100
+			has_ai_personality = fallen_empire_spiritualist
+		}
+	}
+}

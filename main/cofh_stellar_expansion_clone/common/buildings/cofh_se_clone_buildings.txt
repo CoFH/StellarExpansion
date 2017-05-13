@@ -1,4 +1,4 @@
-# CoFH - Stellar Expansion
+# CoFH - Stellar Expansion - Cloning
 # Buildings
 # Author: King Lemming
 

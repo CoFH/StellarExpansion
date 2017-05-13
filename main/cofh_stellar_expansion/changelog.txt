@@ -1,6 +1,40 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2017-05-13:
+New buildings. :)
+
+New Buildings:
+	Fleet Support Command:
+		Empire-Unique
+		+30 Naval Capacity
+		-4% Ship Upkeep Cost
+		+100% Planetary Fortification
+
+		*Allows for the construction of 3 Fleet Support Complex buildings via a Strategic Resource.
+
+	Fleet Support Complex:
+		Planet-Unique
+		+15 Naval Capacity
+		-2% Ship Upkeep Cost
+		+50% Planetary Fortification
+
+		*Limited to 3 through Strategic Resources.
+
+New Technologies:
+	Planetside Support Operations:
+		Military Theory
+		Allows for the Construction of Fleet Support Command and Fleet Support Complexes.
+
+Changed Technologies:
+	Applied Fleet Logistics:
+		Materials
+		+10% Ship Repair Speed
+		-3% Ship Upkeep Cost
+		Repeatable (5x)
+
+--------------------------------------------------------------------------------
+
 2017-05-11:
 Minor update.
 

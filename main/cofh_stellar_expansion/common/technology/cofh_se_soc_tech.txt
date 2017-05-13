@@ -56,14 +56,6 @@ tech_cofh_se_battlefield_leadership = {
 
 	weight_modifier = {
 		modifier = {
-			factor = 0.65
-			has_ethic = ethic_fanatic_pacifist
-		}
-		modifier = {
-			factor = 0.8
-			has_ethic = ethic_pacifist
-		}
-		modifier = {
 			factor = 1.25
 			has_ethic = ethic_militarist
 		}
@@ -82,14 +74,6 @@ tech_cofh_se_battlefield_leadership = {
 
 	ai_weight = {
 		modifier = {
-			factor = 0.65
-			has_ethic = ethic_fanatic_pacifist
-		}
-		modifier = {
-			factor = 0.8
-			has_ethic = ethic_pacifist
-		}
-		modifier = {
 			factor = 1.25
 			has_ethic = ethic_militarist
 		}
@@ -97,6 +81,39 @@ tech_cofh_se_battlefield_leadership = {
 			factor = 1.5
 			has_ethic = ethic_fanatic_militarist
 		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
+# Planetside Support Operations
+tech_cofh_se_fleet_support = {
+	icon = "tech_cofh_se_fleet_support"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { military_theory }
+	prerequisites = { tech_doctrine_fleet_size_3 }
+	weight = @tier2weight2
+
+	weight_modifier = {
+		factor = 3
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 10
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -144,7 +161,7 @@ tech_cofh_se_galactic_prominence = {
 	}
 }
 
-#Psi Diplomatic Corps
+# Psi Diplomatic Corps
 tech_cofh_se_psi_diplomatic_corps = {
 	icon = "tech_cofh_se_psi_diplomatic_corps"
 	area = society

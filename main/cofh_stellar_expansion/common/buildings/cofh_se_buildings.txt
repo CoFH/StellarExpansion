@@ -40,169 +40,6 @@
 # General
 ################################################################################
 
-# Diplomatic Embassy
-building_cofh_se_diplomatic_embassy = {
-	icon = "building_cofh_se_diplomatic_embassy"
-	base_buildtime = 720
-	planet_unique = yes
-
-	cost = {
-		minerals = 300
-	}
-
-	required_resources = {
-		energy = 3
-		sr_cofh_se_diplomatic_embassy = 1
-	}
-
-	produced_resources = {
-		influence = 1
-	}
-
-	produced_resource_trigger = {
-		modifier = {
-			has_tradition = tr_diplomacy_the_federation
-			resources = {
-				unity = 2
-			}
-		}
-	}
-
-	planet_modifier = {
-		planet_border_mult = 0.15
-	}
-
-	country_modifier = {
-		country_trust_growth = 0.05
-		max_influence = 100
-	}
-
-	prerequisites = {
-		"tech_cofh_se_galactic_prominence"
-	}
-
-	allow = {
-		AND = {
-			cofh_se_req_capital_1_or_hab = yes
-
-			custom_tooltip = {
-				fail_text = "requires_pops_5"
-				planet = {
-					count_pops = {
-						count > 5
-						limit = {
-							is_colony_pop = yes
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				fail_text = "requirement_cofh_se_diplomatic_embassy"
-				planet = {
-					NOR = {
-						has_building = "building_cofh_se_diplomatic_embassy"
-						has_building = "building_cofh_se_diplomatic_hub"
-					}
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 1000
-
-		modifier = {
-			weight = 0
-			from = {
-				sector_controlled = yes
-			}
-		}
-	}
-}
-
-# Diplomatic Hub
-building_cofh_se_diplomatic_hub = {
-	icon = "building_cofh_se_diplomatic_hub"
-	base_buildtime = 720
-	empire_unique = yes
-
-	cost = {
-		minerals = 400
-	}
-
-	required_resources = {
-		energy = 5
-	}
-
-	produced_resources = {
-		influence = 2
-		sr_cofh_se_diplomatic_embassy = 3
-	}
-
-	produced_resource_trigger = {
-		modifier = {
-			has_tradition = tr_diplomacy_the_federation
-			resources = {
-				unity = 4
-			}
-		}
-	}
-
-	planet_modifier = {
-		planet_border_mult = 0.30
-	}
-
-	country_modifier = {
-		country_trust_growth = 0.10
-		max_influence = 200
-	}
-
-	prerequisites = {
-		"tech_cofh_se_galactic_prominence"
-	}
-
-	allow = {
-		AND = {
-			cofh_se_req_capital_1_or_hab = yes
-
-			custom_tooltip = {
-				fail_text = "requires_pops_10"
-				planet = {
-					count_pops = {
-						count > 10
-						limit = {
-							is_colony_pop = yes
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				fail_text = "requirement_cofh_se_diplomatic_embassy"
-				planet = {
-					NOT = {
-						has_building = "building_cofh_se_diplomatic_embassy"
-					}
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-
-	ai_weight = {
-		weight = 1000
-
-		modifier = {
-			weight = 0
-			from = {
-				sector_controlled = yes
-			}
-		}
-	}
-}
-
 # Space Ikea
 building_cofh_se_retail_center = {
 	base_buildtime = 360
@@ -843,6 +680,357 @@ building_cofh_se_betharian_mining = {
 		AND = {
 			cofh_se_req_capital_1 = yes
 			cofh_se_req_betharian_stone = yes
+		}
+	}
+}
+
+################################################################################
+# Diplomatic Hub / Embassy
+################################################################################
+
+
+# Diplomatic Hub
+building_cofh_se_diplomatic_hub = {
+	icon = "building_cofh_se_diplomatic_hub"
+	base_buildtime = 720
+	empire_unique = yes
+
+	cost = {
+		minerals = 400
+	}
+
+	required_resources = {
+		energy = 5
+	}
+
+	produced_resources = {
+		influence = 2
+		sr_cofh_se_diplomatic_embassy = 3
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			has_tradition = tr_diplomacy_the_federation
+			resources = {
+				unity = 4
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_border_mult = 0.30
+	}
+
+	country_modifier = {
+		country_trust_growth = 0.10
+		max_influence = 200
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_prominence"
+	}
+
+	allow = {
+		AND = {
+			cofh_se_req_capital_1_or_hab = yes
+
+			custom_tooltip = {
+				fail_text = "requires_pops_10"
+				planet = {
+					count_pops = {
+						count > 10
+						limit = {
+							is_colony_pop = yes
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requirement_cofh_se_diplomatic_embassy"
+				planet = {
+					NOT = {
+						has_building = "building_cofh_se_diplomatic_embassy"
+					}
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 1000
+
+		modifier = {
+			weight = 0
+			from = {
+				sector_controlled = yes
+			}
+		}
+	}
+}
+
+# Diplomatic Embassy
+building_cofh_se_diplomatic_embassy = {
+	icon = "building_cofh_se_diplomatic_embassy"
+	base_buildtime = 540
+	planet_unique = yes
+
+	cost = {
+		minerals = 300
+	}
+
+	required_resources = {
+		energy = 3
+		sr_cofh_se_diplomatic_embassy = 1
+	}
+
+	produced_resources = {
+		influence = 1
+	}
+
+	produced_resource_trigger = {
+		modifier = {
+			has_tradition = tr_diplomacy_the_federation
+			resources = {
+				unity = 2
+			}
+		}
+	}
+
+	planet_modifier = {
+		planet_border_mult = 0.15
+	}
+
+	country_modifier = {
+		country_trust_growth = 0.05
+		max_influence = 100
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_prominence"
+	}
+
+	allow = {
+		AND = {
+			cofh_se_req_capital_1_or_hab = yes
+
+			custom_tooltip = {
+				fail_text = "requires_pops_5"
+				planet = {
+					count_pops = {
+						count > 5
+						limit = {
+							is_colony_pop = yes
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requirement_cofh_se_diplomatic_embassy"
+				planet = {
+					NOR = {
+						has_building = "building_cofh_se_diplomatic_embassy"
+						has_building = "building_cofh_se_diplomatic_hub"
+					}
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 1000
+
+		modifier = {
+			weight = 0
+			from = {
+				sector_controlled = yes
+			}
+		}
+	}
+}
+
+################################################################################
+# Fleet Support Command / Complex
+################################################################################
+
+building_cofh_se_fleet_command = {
+	base_buildtime = 540
+	empire_unique = yes
+
+	cost = {
+		minerals = 350
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
+	required_resources = {
+		energy = 5
+	}
+
+	produced_resources = {
+		engineering_research = 4
+		society_research = 4
+		sr_cofh_se_fleet_complex = 3
+	}
+
+	planet_modifier = {
+		planet_fortification_strength = 1.0
+	}
+
+	country_modifier = {
+		navy_size_add = 30
+		ship_upkeep_mult = -0.04
+	}
+
+	prerequisites = {
+		"tech_cofh_se_fleet_support"
+	}
+
+	allow = {
+		AND = {
+			cofh_se_req_capital_1 = yes
+
+			custom_tooltip = {
+				fail_text = "requires_pops_10"
+				planet = {
+					count_pops = {
+						count > 10
+						limit = {
+							is_colony_pop = yes
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requirement_cofh_se_fleet_support"
+				planet = {
+					NOR = {
+						has_building = "building_cofh_se_fleet_complex"
+						has_building = "building_cofh_se_fleet_command"
+					}
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 1000
+
+		modifier = {
+			factor = 2
+			from = {
+				owner = {
+					OR = {
+						has_ethic = ethic_militarist
+						has_ethic = ethic_fanatic_militarist
+					}
+				}
+			}
+		}
+		modifier = {
+			weight = 0
+			from = {
+				sector_controlled = yes
+			}
+		}
+	}
+}
+
+
+building_cofh_se_fleet_complex = {
+	base_buildtime = 360
+	planet_unique = yes
+
+	cost = {
+		minerals = 250
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
+	required_resources = {
+		energy = 3
+		sr_cofh_se_fleet_complex = 1
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		society_research = 2
+	}
+
+	planet_modifier = {
+		planet_fortification_strength = 0.5
+	}
+
+	country_modifier = {
+		navy_size_add = 15
+		ship_upkeep_mult = -0.02
+	}
+
+	prerequisites = {
+		"tech_cofh_se_fleet_support"
+	}
+
+	allow = {
+		AND = {
+			cofh_se_req_capital_1 = yes
+
+			custom_tooltip = {
+				fail_text = "requires_pops_5"
+				planet = {
+					count_pops = {
+						count > 5
+						limit = {
+							is_colony_pop = yes
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				fail_text = "requirement_cofh_se_fleet_support"
+				planet = {
+					NOR = {
+						has_building = "building_cofh_se_fleet_complex"
+						has_building = "building_cofh_se_fleet_command"
+					}
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 1000
+
+		modifier = {
+			factor = 2
+			from = {
+				owner = {
+					OR = {
+						has_ethic = ethic_militarist
+						has_ethic = ethic_fanatic_militarist
+					}
+				}
+			}
+		}
+		modifier = {
+			weight = 0
+			from = {
+				sector_controlled = yes
+			}
 		}
 	}
 }

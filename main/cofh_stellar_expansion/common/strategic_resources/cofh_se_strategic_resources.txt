@@ -10,6 +10,18 @@ sr_cofh_se_diplomatic_embassy = {
 	is_global = yes
 
 	modifier = {
-		# Allows for Diplomatic Embassies to be established.
+		# Allows for Diplomatic Embassies to be constructed.
+	}
+}
+
+sr_cofh_se_fleet_complex = {
+	AI_category = strategic_resource
+	prerequisites = { "tech_cofh_se_fleet_support" }
+	tradable = no
+	is_rare = yes
+	is_global = yes
+
+	modifier = {
+		# Allows for Fleet Support Complexes to be constructed.
 	}
 }

@@ -6,17 +6,17 @@ So basically, this is not a full overhaul mod - it just adds a lot of stuff that
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]Nine (9) Buildings which add functionality and flexibility to your worlds.
+	[*]Eleven (11) Buildings which add functionality and flexibility to your worlds.
 	[*]Two (2) Spaceport Modules which provide new features.
-	[*]Nine (9) Non-repeatable and eleven (11) Repeatable technologies to add more variety and depth to the midgame.
+	[*]Ten (10) Non-repeatable and twelve (12) Repeatable technologies to add more variety and depth to the midgame.
 	[*]Four (4) Countermeasure technologies which are made available when fighting specific foes (Endgame Crises or Fallen Empires).
 [/list]
 To keep things from becoming too overwhelming and/or unbalanced, potentially game-changing mods are split into addon modules. They may be used standalone unless indicated through Steam requirements.
 
 [h1][b]Addon Modules[/b][/h1]
 [list]
-[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=787237639]Stellar Expansion - FTL Enhanced[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=923156642]Stellar Expansion - Cloning[/url][/i][/b]
+[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=787237639]Stellar Expansion - FTL Enhanced[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792538274]Stellar Expansion - Genetics[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=794390514]Stellar Expansion - Geoengineering[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=814211685]Stellar Expansion - Strategic Resources[/url][/i][/b]

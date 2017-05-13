@@ -52,3 +52,12 @@ tech_cofh_se_mass_cloning_desc:0 "Improvements in cloning technology allow for p
 
 COFH_SE_TECH_UNLOCK_CLONE_POP_TITLE:0 "§HUnlocks Buildable Pop:§! Clone Population"
 COFH_SE_TECH_UNLOCK_CLONE_POP_DESC:0 "§HClone Population§!\n$cofh_se_clone_1_desc$"
+
+# War Demands
+
+war_demand_cofh_se_abolish_mass_cloning_header:1 "§HMass Cloning Ban§!"
+war_demand_cofh_se_abolish_mass_cloning_subtext:0 "[parameter:country.GetName]"
+war_demand_cofh_se_abolish_mass_cloning_tooltip_header:0 "$war_demand_cofh_se_abolish_mass_cloning_header$"
+war_demand_cofh_se_abolish_mass_cloning_tooltip_content:0 "[parameter:country.GetName] will be forced to ban Mass Cloning."
+war_demand_cofh_se_abolish_mass_cloning_tooltip_proper_header:0 "$war_demand_cofh_se_abolish_mass_cloning_header$"
+war_demand_cofh_se_abolish_mass_cloning_tooltip_proper_content:1 "[parameter:country.GetName] will be forced to ban Mass Cloning. We will also gain §G100§! £influence ."

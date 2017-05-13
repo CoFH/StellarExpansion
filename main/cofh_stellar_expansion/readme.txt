@@ -20,6 +20,58 @@ then here you go:
 
 General
 --------------------------------------------------------------------------------
+Fleet Support Complex:
+	Planet-Unique
+	Build:
+		360 Days
+		250 Minerals
+		*5 Population on Planet
+		*Planetary Capital (or better)
+
+	Requires:
+		3 Energy
+		1 Support Corps [1]
+
+	Produces:
+		2 Society Research
+		2 Engineering Research
+
+	Planet Modifier:
+		+50% Planetary Fortification
+
+	Empire Modifier:
+		+15 Naval Capacity
+		-2% Ship Upkeep Cost
+
+	Prerequisites:
+		Tech - Planetside Support Operations
+
+Fleet Support Command:
+	Empire-Unique
+	Build:
+		540 Days
+		350 Minerals
+		*10 Population on Planet
+		*Planetary Capital (or better)
+
+	Requires:
+		5 Energy
+
+	Produces:
+		4 Society Research
+		4 Engineering Research
+		3 Support Corps
+
+	Planet Modifier:
+		+100% Planetary Fortification
+
+	Empire Modifier:
+		+30 Naval Capacity
+		-4% Ship Upkeep Cost
+
+	Prerequisites:
+		Tech - Planetside Support Operations
+
 Grand Retail Center:
 	Planet-Unique
 	Build:
@@ -225,7 +277,7 @@ Diplomatic Embassy:
 
 	Requires:
 		3 Energy
-		1 Diplomatic Corps [1]
+		1 Diplomatic Corps [2]
 
 	Produces:
 		1 Influence
@@ -254,7 +306,7 @@ Diplomatic Hub:
 
 	Produces:
 		2 Influence
-		3 Diplomatic Arm
+		3 Diplomatic Corps
 		4 Unity (with The Federation Tradition)
 
 	Planet Modifier:
@@ -341,7 +393,7 @@ Applied Fleet Logistics:
 
 	Effects:
 		+10% Ship Repair Speed
-		-5% Ship Upkeep
+		-3% Ship Upkeep
 
 Inertial Compensators:
 	Voidcraft
@@ -475,8 +527,8 @@ Galactic Prominence:
 		Tech - Galactic Administration
 
 	Effects:
-		+1 Influence
 		Unlocks - Building: Diplomatic Hub
+		Unlocks - Building: Diplomatic Embassy
 
 Intensive Ecological Engineering:
 	New Worlds
@@ -488,6 +540,16 @@ Intensive Ecological Engineering:
 	Effects:
 		+10% Terraforming Speed
 		-5% Clear Blocker Time
+
+Planetside Support Operations:
+	Military Theory
+
+	Prerequisites:
+		Tech - Doctrine: Interstellar Warfare
+
+	Effects:
+		Unlocks - Building: Fleet Support Command
+		Unlocks - Building: Fleet Support Complex
 
 Procurement Optimization:
 	Military Theory
@@ -528,7 +590,7 @@ Xeno Negotiation:
 	Effects:
 		+15% Trade Attractiveness
 
-Countermeasure Technologies[2]
+Countermeasure Technologies[3]
 --------------------------------------------------------------------------------
 Machine Consciousness Countermeasures:
 	Engineering - Voidcraft
@@ -558,10 +620,13 @@ Fallen Empire Countermeasures:
 # Notes
 ################################################################################
 
-[1] This is produced by the Diplomatic Hub and essentially limits all Empires to
+[1] This is produced by the Fleet Support Command and essentially limits all
+	Empires to a total of 1 Command and 3 Complexes.
+
+[2] This is produced by the Diplomatic Hub and essentially limits all Empires to
 	a total of 1 Hub and 3 Embassies.
 
-[2] These technologies are unlocked via Special Projects which appear after the
+[3] These technologies are unlocked via Special Projects which appear after the
 	respective fleets have been engaged in battle with your forces. Once
 	unlocked, the technologies can be researched normally and/or completed by
 	destroying those ships in combat.

@@ -37,6 +37,9 @@ tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analys
 tech_cofh_se_battlefield_leadership:0 "Лидерство на поле боя"
 tech_cofh_se_battlefield_leadership_desc:0 "Наши полевые командиры не нуждаются в сопереживание, они должны знать, как сплотить своих солдат."
 
+tech_cofh_se_fleet_support:0 "Planetside Support Operations"
+tech_cofh_se_fleet_support_desc:0 "Although our fleets operate in deep space, a planetside support network will allow for more efficient deployment."
+
 tech_cofh_se_galactic_prominence:0 "Галактическое возвышение"
 tech_cofh_se_galactic_prominence_desc:0 "Наши самые крупные миры имеют собственную социополитическую динамику, они имеют большой вес на галактической сцене."
 
