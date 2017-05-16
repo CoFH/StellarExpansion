@@ -8,6 +8,8 @@ There are a couple of caveats - there is a Mass Cloning policy for Empires.
 Spiritualist Empires cannot make use of the "Unrestricted" option and therefore cannot directly create Clone Populations.
 Fanatic Spiritualist Empires cannot make use of "Limited" or "Unrestricted" and therefore benefit very little from the technology.
 
+These restrictions are mitigated if following the Biological Ascension path.
+
 Spiritualist and Fanatic Spiritualist Empires will also react negatively to the use of Mass Cloning.
 
 There is also a War Demand to force an Empire to halt the use of this new technology.
@@ -24,8 +26,10 @@ WARNING: the AI will make excellent use of this mod, especially Xenophobic and A
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_clone/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_clone/changelog.txt]Change Log[/url][/b]
 
-Localizations: English.
+Localizations: English, Russian.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
 
 If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

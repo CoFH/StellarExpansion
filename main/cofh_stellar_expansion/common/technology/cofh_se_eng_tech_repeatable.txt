@@ -90,7 +90,7 @@ tech_cofh_se_repeatable_robot_build_speed = {
 	cost_per_level = @repeatableTechLevelCost
 	tier = 3
 	category = { industry }
-	levels = 10
+	levels = 5
 	prerequisites = { "tech_robotic_workers" }
 	weight = @repeatableTechWeight
 

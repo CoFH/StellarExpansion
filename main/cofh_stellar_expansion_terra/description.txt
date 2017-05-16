@@ -19,4 +19,6 @@ Localizations: English, Brazilian Portuguese, German, Russian.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
 
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
+
 If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

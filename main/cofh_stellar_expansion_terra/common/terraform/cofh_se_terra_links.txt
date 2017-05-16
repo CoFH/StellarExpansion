@@ -26,7 +26,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_toxic
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_toxic
 
@@ -69,7 +69,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_toxic
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_toxic
 
@@ -112,7 +112,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_toxic
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_toxic
 
@@ -153,13 +153,14 @@ terraform_link = {
 		cofh_se_normal_star = yes
 		cofh_se_no_dyson_sphere = yes
 		cofh_se_no_habitat = yes
+		cofh_se_not_terraforming_candidate = yes
 	}
 
 	effect = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_barren
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_barren
 
@@ -203,7 +204,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_barren
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_barren
 
@@ -247,7 +248,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_barren
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_barren
 
@@ -295,7 +296,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_barren_cold
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_barren_cold
 
@@ -339,7 +340,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_barren_cold
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_barren_cold
 
@@ -383,7 +384,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_barren_cold
-				days = -1
+				days = 3600
 			}
 			set_planet_flag = cofh_se_was_barren_cold
 

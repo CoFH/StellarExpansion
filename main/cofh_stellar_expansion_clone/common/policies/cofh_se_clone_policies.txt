@@ -43,8 +43,12 @@ cofh_se_mass_cloning = {
 		}
 
 		valid = {
-			NOT = {
-				has_ethic = "ethic_fanatic_spiritualist"
+			OR = {
+				has_ascension_perk = ap_engineered_evolution
+
+				NOT = {
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
 			}
 		}
 
@@ -69,9 +73,13 @@ cofh_se_mass_cloning = {
 		}
 
 		valid = {
-			NOR = {
-				has_ethic = "ethic_spiritualist"
-				has_ethic = "ethic_fanatic_spiritualist"
+			OR = {
+				has_ascension_perk = ap_evolutionary_mastery
+
+				NOR = {
+					has_ethic = "ethic_spiritualist"
+					has_ethic = "ethic_fanatic_spiritualist"
+				}
 			}
 		}
 

@@ -2,62 +2,62 @@
 
 # Buildable Pops
 
-cofh_se_clone_1:0 "Clone"
-cofh_se_clone_1_desc:0 "§LClone populations rapidly mature into our Empire's primary species. However, there is an adjustment period following maturation.§!"
+cofh_se_clone_1:0 "§RКлонированная популяция§"   # возможны проблемы с отображением строки, с тегами цветности или без них - все равно
+cofh_se_clone_1_desc:0 "§LПопуляция клонов быстро вливается в ряды наших граждан, но необходимо некоторое время для полной адаптации.§!"
 
 # Buildings
 
-building_cofh_se_clone_facility:0 "Genomics Replication Facility"
-building_cofh_se_clone_facility_desc:0 "An advanced bioindustrial complex which allows for cloning on a massive scale.\n\n§RDoes not allow for the creation of clone armies.§!"
+building_cofh_se_clone_facility:0 "Станция репликации генома"
+building_cofh_se_clone_facility_desc:0 "Передовой биоиндустриальный комплекс, позволяющий клонирование в планетарных масштабах.\n\n§RНе для создания армий.§!"
 
 # Modifiers
 
-cofh_se_clone_adapting:0 "Societal Adaptation"
-cofh_se_clone_adapting_desc:0 "This population is adapting to our society and learning our culture."
+cofh_se_clone_adapting:0 "Социальная адаптация"
+cofh_se_clone_adapting_desc:0 "Эта популяция проходит адаптационный период."
 
-cofh_se_clone_maturing:0 "Maturing Clone"
-cofh_se_clone_maturing_desc:0 "This clone population is currently being grown."
+cofh_se_clone_maturing:0 "Созревающие клоны"
+cofh_se_clone_maturing_desc:0 "Популяция клонов в стадии выращивания."
 
 # Opinions
 
-opinion_cofh_se_cloning_limited_spiritualist:0 "Unnatural Reproduction"
-opinion_cofh_se_cloning_limited_fanatic_spiritualist:0 "Unnatural Reproduction"
+opinion_cofh_se_cloning_limited_spiritualist:0 "Извращенная репродукция"
+opinion_cofh_se_cloning_limited_fanatic_spiritualist:0 "Извращенная репродукция"
 
-opinion_cofh_se_cloning_full_spiritualist:0 "Soulless Clones"
-opinion_cofh_se_cloning_full_fanatic_spiritualist:0 "Soulless Clones"
+opinion_cofh_se_cloning_full_spiritualist:0 "Бездушные клоны"
+opinion_cofh_se_cloning_full_fanatic_spiritualist:0 "Бездушные клоны"
 
 # Policies
 
-policy_cofh_se_mass_cloning:0 "Mass Cloning"
-policy_cofh_se_mass_cloning_desc:0 "The advent of cloning technology raises questions concerning its use to create entire populations."
+policy_cofh_se_mass_cloning:0 "Массовое клонирование"
+policy_cofh_se_mass_cloning_desc:0 "Появление технологии клонирования вызывает вопросы относительно ее использования для создания целых групп населения."
 
-cofh_se_mass_cloning_none:0 "Prohibited"
-cofh_se_mass_cloning_none_name:0 "Mass Cloning Prohibited"
-cofh_se_mass_cloning_none_desc:0 "While a useful technology, cloning should be restricted to small-scale applications.\n\n§E£building §H$building_cofh_se_clone_facility$§! has limited effect\n\nCannot create Clone Pops§!"
+cofh_se_mass_cloning_none:0 "Запрещено"
+cofh_se_mass_cloning_none_name:0 "Массовое клонирование запрещено"
+cofh_se_mass_cloning_none_desc:0 "Будучи полезной технологией, клонирование должно ограничиваться небольшими приложениями.\n\n§E£ Постройка §H$building_cofh_se_clone_facility$§! имеет ограниченную эффективность\n\nНевозможно создание клона§!"
 
-cofh_se_mass_cloning_limited:0 "Limited"
-cofh_se_mass_cloning_limited_name:0 "Cloning Facility Augmentation"
-cofh_se_mass_cloning_limited_desc:0 "Our population will be bolstered with clones raised in specialized facilities.\n\n§E£building §H$building_cofh_se_clone_facility$§! greatly increases population growth\n\nCannot create Clone Pops§!"
+cofh_se_mass_cloning_limited:0 "Ограничено"
+cofh_se_mass_cloning_limited_name:0 "Дополняющее клонирование"
+cofh_se_mass_cloning_limited_desc:0 "Население будет дополняться клонами, выросшими в специализированных учреждениях.\n\n§E£ Постройка §H$building_cofh_se_clone_facility$§! значительно увеличивает прирост населения\n\nНевозможно создание клона§!"
 
-cofh_se_mass_cloning_full:0 "Unrestricted"
-cofh_se_mass_cloning_full_name:0 "Clone Populations Allowed"
-cofh_se_mass_cloning_full_desc:0 "Entire populations of clones may be created, allowing us to quickly boost our numbers.\n\n§E£building §H$building_cofh_se_clone_facility$§! greatly increases population growth\n\nCan create Clone Pops§!"
+cofh_se_mass_cloning_full:0 "Без ограничений"
+cofh_se_mass_cloning_full_name:0 "Массовое клонирование разрешено"
+cofh_se_mass_cloning_full_desc:0 "Можно создавать целые популяции клонов, что позволит нам быстро увеличить нашу численность.\n\n§E£ Постройка §H$building_cofh_se_clone_facility$§! значительно увеличивает прирост населения\n\nМожно создать клон§!"
 
 # Technology
 
 # Society
 
-tech_cofh_se_mass_cloning:0 "Mass Cloning"
-tech_cofh_se_mass_cloning_desc:0 "Improvements in cloning technology allow for population growth on a previously unimaginable scale."
+tech_cofh_se_mass_cloning:0 "Массовое клонирование"
+tech_cofh_se_mass_cloning_desc:0 "Усовершенствование в технологии клонирования позволяет увеличивать население в ранее невообразимых масштабах."
 
-COFH_SE_TECH_UNLOCK_CLONE_POP_TITLE:0 "§HUnlocks Buildable Pop:§! Clone Population"
-COFH_SE_TECH_UNLOCK_CLONE_POP_DESC:0 "§HClone Population§!\n$cofh_se_clone_1_desc$"
+COFH_SE_TECH_UNLOCK_CLONE_POP_TITLE:0 "§HПоселение:§! Клонированная популяция"
+COFH_SE_TECH_UNLOCK_CLONE_POP_DESC:0 "§HКлонированная популяция§!\n$cofh_se_clone_1_desc$"
 
 # War Demands
 
-war_demand_cofh_se_abolish_mass_cloning_header:0 "§HMass Cloning Ban§!"
+war_demand_cofh_se_abolish_mass_cloning_header:0 "§H Запретить массовое клонирование§!"
 war_demand_cofh_se_abolish_mass_cloning_subtext:0 "[parameter:country.GetName]"
 war_demand_cofh_se_abolish_mass_cloning_tooltip_header:0 "$war_demand_cofh_se_abolish_mass_cloning_header$"
-war_demand_cofh_se_abolish_mass_cloning_tooltip_content:0 "[parameter:country.GetName] will be forced to ban Mass Cloning."
+war_demand_cofh_se_abolish_mass_cloning_tooltip_content:0 "[parameter:country.GetName] будут вынуждены остановить массовое клонирование."
 war_demand_cofh_se_abolish_mass_cloning_tooltip_proper_header:0 "$war_demand_cofh_se_abolish_mass_cloning_header$"
-war_demand_cofh_se_abolish_mass_cloning_tooltip_proper_content:0 "[parameter:country.GetName] will be forced to ban Mass Cloning. We will also gain §G100§! £influence ."
+war_demand_cofh_se_abolish_mass_cloning_tooltip_proper_content:0 "[parameter:country.GetName] будут вынуждены остановить массовое клонирование, а мы получим §G100§! £ влияния."

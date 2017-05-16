@@ -1,6 +1,14 @@
 CoFH - Stellar Expansion - Cloning
 Author: King Lemming
 
+2017-05-16:
+Added Russian Localization.
+
+-Fanatic Spiritualist Empires can now use Limited Mass Cloning if they possess the Engineered Evolution Ascension Perk.
+-Spiritualist and Fanatic Spiritualist Empires can now use Unrestricted Mass Cloning if they possess the Evolutionary Mastery Ascension Perk.
+
+--------------------------------------------------------------------------------
+
 2017-05-13:
 Added a new War Demand: Abolish Mass Cloning. Works just like the AI Ban except Fallen Empires will not currently offer a "task," although I will look into adding one in the future.
 

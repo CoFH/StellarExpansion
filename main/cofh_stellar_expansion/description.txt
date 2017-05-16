@@ -18,7 +18,6 @@ To keep things from becoming too overwhelming and/or unbalanced, potentially gam
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=923156642]Stellar Expansion - Cloning[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=787237639]Stellar Expansion - FTL Enhanced[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792538274]Stellar Expansion - Genetics[/url][/i][/b]
-[*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=794390514]Stellar Expansion - Geoengineering[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=814211685]Stellar Expansion - Strategic Resources[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=719802418]Stellar Expansion - Terraforming[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=733386004]Stellar Expansion - Terraforming (Extreme)[/url][/i][/b]
@@ -42,6 +41,8 @@ Additionally, here are some other mods I have made which are various quality of 
 Localizations: English, German, Russian.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
 
 If you would like to use older versions of any of the Stellar Expansion mods, you may find them here:
 [b][url=https://github.com/CoFH/StellarExpansion/tree/master/archive]Archives[/url][/b]

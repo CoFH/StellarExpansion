@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion - Terraforming (Extreme)
 Author: King Lemming
 
+2017-05-16:
+Planets now only have their negative modifiers for 20 years following terraforming. To convert the permanent modifiers into these 20 year versions, open the console (`) and run the following:
+
+event cofh_se_terra.999
+
+which will convert every existing permanent modifier into a 20-year one.
+
+--------------------------------------------------------------------------------
+
 2017-05-09:
 Updated for 1.6 [Adams].
 

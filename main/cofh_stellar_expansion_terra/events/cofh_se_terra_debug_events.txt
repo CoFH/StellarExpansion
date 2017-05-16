@@ -1,0 +1,68 @@
+# CoFH - Stellar Expansion - Terraforming
+# Debug Events
+# Author: King Lemming
+
+namespace = cofh_se_terra
+
+event = {
+	id = cofh_se_terra.999
+	hide_window = yes
+ 	is_triggered_only = yes
+
+	immediate = {
+		every_planet = {
+			limit = { has_modifier = cofh_se_pm_toxic }
+
+			remove_modifier = cofh_se_pm_toxic
+
+			add_modifier = {
+				modifier = cofh_se_pm_toxic
+				days = 3600
+			}
+		}
+
+		every_planet = {
+			limit = { has_modifier = cofh_se_pm_barren }
+
+			remove_modifier = cofh_se_pm_barren
+
+			add_modifier = {
+				modifier = cofh_se_pm_barren
+				days = 3600
+			}
+		}
+
+		every_planet = {
+			limit = { has_modifier = cofh_se_pm_barren_cold }
+
+			remove_modifier = cofh_se_pm_barren_cold
+
+			add_modifier = {
+				modifier = cofh_se_pm_barren_cold
+				days = 3600
+			}
+		}
+
+		every_planet = {
+			limit = { has_modifier = cofh_se_pm_molten }
+
+			remove_modifier = cofh_se_pm_molten
+
+			add_modifier = {
+				modifier = cofh_se_pm_molten
+				days = 7200
+			}
+		}
+
+		every_planet = {
+			limit = { has_modifier = cofh_se_pm_frozen }
+
+			remove_modifier = cofh_se_pm_frozen
+
+			add_modifier = {
+				modifier = cofh_se_pm_frozen
+				days = 7200
+			}
+		}
+	}
+}

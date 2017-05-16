@@ -3,19 +3,19 @@
 # Modifiers
 
 cofh_se_pm_toxic:0 "Residual Toxicity"
-cofh_se_pm_toxic_desc:0 "This planet's toxic past lingers in its ecosystem. Life has to struggle just a bit more here."
+cofh_se_pm_toxic_desc:0 "This planet's toxic past lingers in its ecosystem for. Life has to struggle just a bit more here for now."
 
 cofh_se_pm_barren:0 "Thin Atmosphere"
-cofh_se_pm_barren_desc:0 "Although present, the atmosphere of this planet is incredibly thin, making life more difficult."
+cofh_se_pm_barren_desc:0 "Although present, the atmosphere of this planet is still incredibly thin, making life more difficult."
 
 cofh_se_pm_barren_cold:0 "Thin Atmosphere"
-cofh_se_pm_barren_cold_desc:0 "Although present, the atmosphere of this planet is incredibly thin, making life more difficult."
+cofh_se_pm_barren_cold_desc:0 "Although present, the atmosphere of this planet is still incredibly thin, making life more difficult."
 
 cofh_se_pm_molten:0 "Restricted Tectonics"
 cofh_se_pm_molten_desc:0 "While habitable, significant seismic events still sweep across this world. Buildings require substantial reinforcement."
 
 cofh_se_pm_frozen:0 "Manipulated Dynamo"
-cofh_se_pm_frozen_desc:0 "While habitable, the magnetic field of this world is extremely weak, providing only minimal protection from cosmic radiation."
+cofh_se_pm_frozen_desc:0 "While habitable, the magnetic field of this world is still extremely weak, providing only minimal protection from cosmic radiation."
 
 # Requirements
 

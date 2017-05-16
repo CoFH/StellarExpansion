@@ -1,6 +1,19 @@
 CoFH - Stellar Expansion - Terraforming
 Author: King Lemming
 
+2017-05-16:
+Planets now only have their negative modifiers for 10 years following terraforming. To convert the permanent modifiers into these 10 year versions, open the console (`) and run the following:
+
+event cofh_se_terra.999
+
+which will convert every existing permanent modifier into a 10-year one.
+
+Additional Terraforming Links have been added for Cold Barren planets which have the Terraforming Candidate modifier. These links are done *exactly* as the base game and are not as particular / correct as Stellar Expansion's. Consider this a bugfix for the base game not including these links.
+
+The Barren -> Desert link provided by this mod now correctly requires the absence of the Terraforming Candidate modifier.
+
+--------------------------------------------------------------------------------
+
 2017-05-09:
 Updated for 1.6 [Adams].
 

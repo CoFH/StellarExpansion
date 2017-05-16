@@ -26,7 +26,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_molten
-				days = -1
+				days = 7200
 			}
 			set_planet_flag = cofh_se_was_molten
 
@@ -69,7 +69,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_molten
-				days = -1
+				days = 7200
 			}
 			set_planet_flag = cofh_se_was_molten
 
@@ -112,7 +112,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_molten
-				days = -1
+				days = 7200
 			}
 			set_planet_flag = cofh_se_was_molten
 
@@ -159,7 +159,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_frozen
-				days = -1
+				days = 7200
 			}
 			set_planet_flag = cofh_se_was_frozen
 
@@ -202,7 +202,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_frozen
-				days = -1
+				days = 7200
 			}
 			set_planet_flag = cofh_se_was_frozen
 
@@ -245,7 +245,7 @@ terraform_link = {
 		from = {
 			add_modifier = {
 				modifier = cofh_se_pm_frozen
-				days = -1
+				days = 7200
 			}
 			set_planet_flag = cofh_se_was_frozen
 
