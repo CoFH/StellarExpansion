@@ -1,20 +1,19 @@
 [h1][b]Stellar Expansion is NOT required.[/b][/h1]
 It is simply compatible with this mod and designed to work alongside it.
 
-This mod unlocks a technology and a gameplay mechanic - Geoengineering! Basically, it allows you to use Buildings and Special Projects to terraform already inhabited worlds.
+This mod has recently received an overhaul. It *used* to provide a really clever mechanic to allow for terraformation of already inhabited worlds. However, since 1.6 [Adams] went and added that, it's no longer quite as relevant.
 
-To do so, a Geoengineering Complex must first be constructed. Then, it can be upgraded to include a Terraformation Reactor. This is where all of the resource cost occurs - energy, minerals, and influence. Once the reactor is built, you'll have the option to terraform the planet into the types allowed by that reactor. It will still take roughly as long as orbital terraforming. In addition, there will occasionally be minor geoclimatic disturbances which make the planet slightly less habitable.
+So, what it now does is add a couple of buildings which provide some research, habitability, and negate the 20% penalty that pops normally get when living on a world which is being terraformed.
 
-Don't worry though, buildings won't get destroyed, and people won't be killed.
+There's more to come in the future - this is just the first stage of the rework!
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]One (1) new technology - Geoengineering, which unlocks the mechanic of the same name.
-	[*]Six (6) new buildings to make use of the technology!
-	[*]Terraformation of already inhabited worlds, and an alternate terraforming path in general (building-based).
+	[*]One (1) new technology - Geoengineering, which unlocks a pair of buildings.
+	[*]Two (2) new buildings which provide some research and negate the terraforming unhappiness penalty!
 [/list]
 
-This mod doesn't allow you to terraform things that you can't already colonize or inhabit, or planets which by default are uninhabitable. If you're looking to do that, try these instead:
+This mod doesn't allow you to terraform things that you can't already colonize or inhabit, it just helps out with planets you're already on. If you're looking terraform new things, try these instead:
 [list]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=719802418]Stellar Expansion - Terraforming[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=733386004]Stellar Expansion - Terraforming (Extreme)[/url][/i][/b]
@@ -23,8 +22,10 @@ This mod doesn't allow you to terraform things that you can't already colonize o
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_geo/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_geo/changelog.txt]Change Log[/url][/b]
 
-Localizations: English, German, Russian.
+Localizations: English.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
 
 If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

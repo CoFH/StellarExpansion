@@ -44,18 +44,11 @@
 tech_cofh_se_geoengineering = {
 	icon = "tech_cofh_se_geoengineering"
 	area = society
-	cost = @tier2cost2
+	cost = @tier2cost1
 	tier = 2
 	category = { new_worlds }
-	prerequisites = { "tech_colonization_2" }
-	weight = @tier2weight2
-
-	prereqfor_desc = {
-		diplo_action = {
-			title = "COFH_SE_TECH_UNLOCK_GEOENGINEERING_TITLE"
-			desc = "COFH_SE_TECH_UNLOCK_GEOENGINEERING_DESC"
-		}
-	}
+	prerequisites = { "tech_terrestrial_sculpting" }
+	weight = @tier2weight1
 
 	weight_modifier = {
 		modifier = {
@@ -64,6 +57,10 @@ tech_cofh_se_geoengineering = {
 				area = society
 				has_trait = "leader_trait_expertise_new_worlds"
 			}
+		}
+		modifier = {
+			factor = 3
+			has_ascension_perk = ap_world_shaper
 		}
 	}
 

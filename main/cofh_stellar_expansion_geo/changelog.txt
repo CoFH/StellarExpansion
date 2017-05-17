@@ -1,6 +1,36 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2017-05-17:
+Updated for 1.6 [Adams].
+
+Okay, so the Ecological Adaptation tech introduced with the 1.6 update basically obsoleted most of this mod. So it's been repurposed.
+
+I will be adding more to it, but to get *something* out relatively quickly, I'm releasing an update which contains 2 buildings and the Geoengineering tech.
+
+Plans at the moment include adding modifiers to planets and Special Projects and Event Chains which will assist in terraformation.
+
+Buildings:
+	Geoengineering Institute:
+		Empire-Unique
+		+4 Physics Produced
+		+4 Society Produced
+		+4 Engineering Produced
+		+5% Habitability on Planet
+
+		+50% Terraforming Speed
+		-15% Tile Blocker Clear Cost
+		-15% Tile Blocker Clear Time
+
+	Geoengineering Complex:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Society Produced
+		+2 Engineering Produced
+		+5% Habitability on Planet
+
+--------------------------------------------------------------------------------
+
 2017-04-08:
 Updated for 1.5 [Banks].
 

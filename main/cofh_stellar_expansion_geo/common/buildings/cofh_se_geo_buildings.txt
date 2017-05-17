@@ -37,17 +37,106 @@
 @b5upkeep = 3
 
 ################################################################################
-# General
+# Geoengineering Institute / Complex
 ################################################################################
 
+# Geoengineering Institute
+building_cofh_se_geo_institute = {
+	icon = "building_cofh_se_geo_institute"
+	base_buildtime = 540
+	empire_unique = yes
+
+	cost = {
+		minerals = 450
+		influence = 50
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
+	required_resources = {
+		energy = 8
+	}
+
+	produced_resources = {
+		engineering_research = 4
+		physics_research = 4
+		society_research = 4
+	}
+
+	prerequisites = {
+		"tech_cofh_se_geoengineering"
+	}
+
+	planet_modifier = {
+		pop_environment_tolerance = 0.05
+	}
+
+	country_modifier = {
+		terraform_speed_mult = 0.5
+		planet_clear_blocker_cost_mult = -0.15
+		planet_clear_blocker_time_mult = -0.15
+	}
+
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			planet = {
+				is_terraforming = yes
+			}
+		}
+		modifier = {
+			pop_happiness = 0.20
+		}
+	}
+
+	allow = {
+		cofh_se_req_capital_2 = yes
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_geo_building"
+			planet = {
+				NOR = {
+					has_building = "building_cofh_se_geo_complex"
+					has_building = "building_cofh_se_geo_institute"
+				}
+			}
+		}
+	}
+
+	ai_special_building = yes
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			weight = 0
+			from = {
+				OR = {
+					is_planet_class = pc_habitat
+					is_planet_class = pc_ringworld_habitable
+				}
+			}
+		}
+	}
+}
+
 # Geoengineering Complex
-building_cofh_se_geo_complex_1 = {
-	icon = "building_cofh_se_geo_complex_1"
+building_cofh_se_geo_complex = {
+	icon = "building_cofh_se_geo_complex"
 	base_buildtime = 360
 	planet_unique = yes
 
 	cost = {
 		minerals = 200
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	required_resources = {
@@ -64,282 +153,52 @@ building_cofh_se_geo_complex_1 = {
 		"tech_cofh_se_geoengineering"
 	}
 
-	upgrades = {
-		building_cofh_se_geo_complex_2
-		building_cofh_se_georeactor_basic
-		building_cofh_se_georeactor_adv
-		building_cofh_se_georeactor_tomb
-		building_cofh_se_georeactor_gaia
-	}
-
-	ai_special_building = yes
-	ai_replace = no
-
-	ai_weight = {
-		weight = 10
-		modifier = {
-			weight = 0
-			from = {
-				OR = {
-					is_planet_class = pc_gaia
-					is_planet_class = pc_habitat
-					is_planet_class = pc_ringworld_habitable
-				}
-			}
-		}
-	}
-}
-
-building_cofh_se_geo_complex_2 = {
-	icon = "building_cofh_se_geo_complex_2"
-	base_buildtime = 180
-	planet_unique = yes
-	is_listed = no
-
-	cost = {
-		minerals = 250
-	}
-
-	required_resources = {
-		energy = 2
-	}
-
-	produced_resources = {
-		engineering_research = 2
-		physics_research = 2
-		society_research = 2
-	}
-
 	planet_modifier = {
-		pop_environment_tolerance = 0.10
+		pop_environment_tolerance = 0.05
 	}
 
-	prerequisites = {
-		"tech_atmospheric_manipulation"
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			planet = {
+				is_terraforming = yes
+			}
+		}
+		modifier = {
+			pop_happiness = 0.20
+		}
+	}
+
+	upgrades = {
+
+	}
+
+	allow = {
+		cofh_se_req_capital_1 = yes
+
+		custom_tooltip = {
+			fail_text = "requirement_cofh_se_geo_building"
+			planet = {
+				NOR = {
+					has_building = "building_cofh_se_geo_complex"
+					has_building = "building_cofh_se_geo_institute"
+				}
+			}
+		}
 	}
 
 	ai_special_building = yes
-	ai_replace = no
 
 	ai_weight = {
-		weight = 10
+		weight = 500
 		modifier = {
 			weight = 0
 			from = {
 				OR = {
-					is_planet_class = pc_gaia
 					is_planet_class = pc_habitat
 					is_planet_class = pc_ringworld_habitable
 				}
 			}
 		}
-	}
-}
-
-building_cofh_se_georeactor_basic = {
-	icon = "building_cofh_se_georeactor_basic"
-	base_buildtime = 360
-	planet_unique = yes
-	is_listed = no
-
-	cost = {
-		energy = 1000
-		minerals = 1000
-		influence = 10
-	}
-
-	required_resources = {
-		energy = 2
-	}
-
-	produced_resources = {
-		engineering_research = 2
-		physics_research = 2
-		society_research = 2
-	}
-
-	prerequisites = {
-		"tech_terrestrial_sculpting"
-	}
-
-	allow = {
-		custom_tooltip_fail = {
-			text = "requirement_cofh_se_geo_not_gaia"
-			planet = {
-				NOR = {
-					is_planet_class = pc_gaia
-					is_planet_class = pc_habitat
-					is_planet_class = pc_ringworld_habitable
-				}
-			}
-		}
-		custom_tooltip_fail = {
-			text = "requirement_cofh_se_geo_not_tomb"
-			planet = {
-				NOT = {
-				is_planet_class = pc_nuked
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-	ai_replace = no
-
-	ai_weight = {
-		weight = 0
-	}
-}
-
-building_cofh_se_georeactor_adv = {
-	icon = "building_cofh_se_georeactor_adv"
-	base_buildtime = 540
-	planet_unique = yes
-	is_listed = no
-
-	cost = {
-		energy = 2500
-		minerals = 2500
-		influence = 25
-	}
-
-	required_resources = {
-		energy = 2
-	}
-
-	produced_resources = {
-		engineering_research = 2
-		physics_research = 2
-		society_research = 2
-	}
-
-	prerequisites = {
-		"tech_atmospheric_manipulation"
-	}
-
-	allow = {
-		custom_tooltip_fail = {
-			text = "requirement_cofh_se_geo_not_gaia"
-			planet = {
-				NOR = {
-					is_planet_class = pc_gaia
-					is_planet_class = pc_habitat
-					is_planet_class = pc_ringworld_habitable
-				}
-			}
-		}
-		custom_tooltip_fail = {
-			text = "requirement_cofh_se_geo_not_tomb"
-			planet = {
-				NOT = {
-				is_planet_class = pc_nuked
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-	ai_replace = no
-
-	ai_weight = {
-		weight = 0
-	}
-}
-
-building_cofh_se_georeactor_tomb = {
-	icon = "building_cofh_se_georeactor_tomb"
-	base_buildtime = 720
-	planet_unique = yes
-	is_listed = no
-
-	cost = {
-		energy = 5000
-		minerals = 5000
-		influence = 10
-	}
-
-	required_resources = {
-		energy = 2
-	}
-
-	produced_resources = {
-		engineering_research = 2
-		physics_research = 2
-		society_research = 2
-	}
-
-	prerequisites = {
-		"tech_climate_restoration"
-	}
-
-	allow = {
-		custom_tooltip = {
-			text = "requirement_cofh_se_geo_is_tomb"
-			planet = {
-				is_planet_class = pc_nuked
-			}
-		}
-	}
-
-	ai_special_building = yes
-	ai_replace = no
-
-	ai_weight = {
-		weight = 0
-	}
-}
-
-building_cofh_se_georeactor_gaia = {
-	icon = "building_cofh_se_georeactor_gaia"
-	base_buildtime = 1080
-	planet_unique = yes
-	is_listed = no
-
-	cost = {
-		energy = 10000
-		minerals = 10000
-		influence = 25
-	}
-
-	required_resources = {
-		energy = 2
-	}
-
-	produced_resources = {
-		engineering_research = 2
-		physics_research = 2
-		society_research = 2
-	}
-
-	prerequisites = {
-		"tech_gaia_creation"
-	}
-
-	allow = {
-		custom_tooltip_fail = {
-			text = "requirement_cofh_se_geo_not_gaia"
-			planet = {
-				NOR = {
-					is_planet_class = pc_gaia
-					is_planet_class = pc_habitat
-					is_planet_class = pc_ringworld_habitable
-				}
-			}
-		}
-		custom_tooltip_fail = {
-			text = "requirement_cofh_se_geo_not_tomb"
-			planet = {
-				NOT = {
-				is_planet_class = pc_nuked
-				}
-			}
-		}
-	}
-
-	ai_special_building = yes
-	ai_replace = no
-
-	ai_weight = {
-		weight = 0
 	}
 }

@@ -1,18 +1,47 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
-This mod is deceptively simple, but there's a fair bit of event stuff behind the
-scenes. Don't worry though, it's well optimized.
+Alright, so this mod just got a complete reimagining due to 1.6 [Adams].
+Basically, the primary need for the mod as it existed - terraformation of
+inhabited worlds - is no longer a thing.
 
-The single technology - Planetary Geoengineering - allows for construction of a
-Geoengineering Complex on a planet. By itself, it acts only as a slightly better
-basic science lab. However, it can be upgraded with Terraformation Reactors that
-allow for the planet to be terraformed. This process takes a considerable amount
-of resources and time, but works on already inhabited planets.
+So what it does now is add a tech and a couple of buildings. I'll be adding more
+to it as I am able.
+
+At the moment, these buildings boost terraforming and tile blocker clearing,
+provide a little bit of habitability, and also negate the happiness penalty from
+terraforming an already inhabitated world.
 
 ################################################################################
 # Buildings
 ################################################################################
+
+Geoengineering Institute
+	Planet-Unique
+	Build:
+		540 Days
+		450 Minerals
+		50 Influence
+
+	Requires:
+		8 Energy
+
+	Produces:
+		4 Physics Research
+		4 Society Research
+		4 Engineering Research
+
+	Planet Modifier:
+		+5% Habitability
+		*Negates Terraforming Happiness Penalty
+
+	Empire Modifier:
+		+50% Terraforming Speed
+		-15% Tile Blocker Clear Cost
+		-15% Tile Blocker Clear Time
+
+	Prerequisites:
+		Tech - Planetary Geoengineering
 
 Geoengineering Complex
 	Planet-Unique
@@ -28,122 +57,13 @@ Geoengineering Complex
 		2 Society Research
 		2 Engineering Research
 
+	Planet Modifier:
+		+5% Habitability
+		*Negates Terraforming Happiness Penalty
+
 	Prerequisites:
 		Tech - Planetary Geoengineering
 
-Climate Moderation Complex:
-	Planet-Unique
-	Build:
-		180 Days
-		250 Minerals
-		*Upgrade from Geoengineering Complex
-
-	Requires:
-		2 Energy
-
-	Produces:
-		2 Physics Research
-		2 Society Research
-		2 Engineering Research
-
-	Planet Modifier:
-		+10% Habitability
-
-	Prerequisites:
-		Tech - Atmospheric Manipulation
-
-Terrestrial Reformation Reactor:
-	Planet-Unique
-	Build:
-		360 Days
-		1000 Energy
-		1000 Minerals
-		50 Influence
-		*Upgrade from Geoengineering Complex
-
-	Requires:
-		2 Energy
-
-	Produces:
-		2 Physics Research
-		2 Society Research
-		2 Engineering Research
-
-	Planet Modifier:
-		Enables Special Projects: Terrestrial Sculpting
-
-	Prerequisites:
-		Tech - Terrestrial Sculpting
-
-
-Atmospheric Variation Reactor:
-	Planet-Unique
-	Build:
-		540 Days
-		2500 Energy
-		2500 Minerals
-		50 Influence
-		*Upgrade from Geoengineering Complex
-
-	Requires:
-		2 Energy
-
-	Produces:
-		2 Physics Research
-		2 Society Research
-		2 Engineering Research
-
-	Planet Modifier:
-		Enables Special Projects: Atmospheric Manipulation
-
-	Prerequisites:
-		Tech - Atmospheric Manipulation
-
-Climate Restoration Reactor:
-	Planet-Unique
-	Build:
-		720 Days
-		5000 Energy
-		5000 Minerals
-		25 Influence
-		*Upgrade from Geoengineering Complex
-
-	Requires:
-		2 Energy
-
-	Produces:
-		2 Physics Research
-		2 Society Research
-		2 Engineering Research
-
-	Planet Modifier:
-		Enables Special Projects: Climate Restoration
-
-	Prerequisites:
-		Tech - Climate Restoration
-
-Gaiaformation Reactor:
-	Planet-Unique
-	Build:
-		1080 Days
-		10000 Energy
-		10000 Minerals
-		100 Influence
-		*Upgrade from Geoengineering Complex
-
-	Requires:
-		2 Energy
-
-	Produces:
-		2 Physics Research
-		2 Society Research
-		2 Engineering Research
-
-	Planet Modifier:
-		Enables Special Project: Gaia Creation
-
-	Prerequisites:
-		Tech - Gaia Creation
 
 ################################################################################
 # Technologies
@@ -158,8 +78,5 @@ Planetary Geoengineering:
 		Tech - Atmospheric Filtering
 
 	Effects:
-		Unlocks Mechanic: Planetary Geoengineering
-			Allows terraforming of inhabited worlds.
-			The required terraforming technology must also be unlocked.
-
+		Unlocks Building: Geoengineering Institute
 		Unlocks Building: Geoengineering Complex

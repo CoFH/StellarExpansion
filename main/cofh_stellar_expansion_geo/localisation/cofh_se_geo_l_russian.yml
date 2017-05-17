@@ -1,174 +1,20 @@
 ﻿l_russian:
 
+# Buildings
+
+building_cofh_se_geo_complex:0 "Geoengineering Complex"
+building_cofh_se_geo_complex_desc:0 "A research complex devoted to the study and manipulation of geoplanetary physics. It mitigates unhappiness from ongoing terraformation."
+
+building_cofh_se_geo_institute:0 "Geoengineering Institute"
+building_cofh_se_geo_institute_desc:0 "A massive research facility devoted to the study and manipulation of geoplanetary physics. It greatly assists with our terraforming efforts and mitigates unhappiness from ongoing terraformation."
+
 # Modifiers
 
-cofh_se_geo_pm_reactor:0 "Реактор Терраформирования"
-cofh_se_geo_pm_reactor_desc:0 "Процесс геоинженеринга вызывает случайные геоклиматические бетствия."
+cofh_se_geo_terraforming_adaptation:0 "Adaptive Terraformation Process"
 
-cofh_se_geo_pm_storms:0 "Электрический шторм"
-cofh_se_geo_pm_storms_desc:0 "Этот реактор вызывает электрические шторма в атмосфере планеты."
+# Technology - Non-Repeatable
 
-cofh_se_geo_pm_tectonics:0 "Нестабильная тектоника"
-cofh_se_geo_pm_tectonics_desc:0 "Этот реактор вызывает усиленное движение тектонических плит планеты."
+# Society
 
-cofh_se_geo_pm_weather:0 "Опасная погода"
-cofh_se_geo_pm_weather_desc:0 "Этот реактор вызывает серьезные погодые изменения."
-
-# Events
-
-cofh_se_geo.10.name:0 "$building_cofh_se_georeactor_basic$ запущен"
-cofh_se_geo.10.desc:0 "Строительство закончено. §Y$building_cofh_se_georeactor_basic$§! на планете §Y[Root.GetName]§! приступил к работе. Это сильно повлияло на климат этого мира.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.20.name:0 "$building_cofh_se_georeactor_adv$ запущен"
-cofh_se_geo.20.desc:0 "Строительство закончено. §Y$building_cofh_se_georeactor_adv$§! на планете §Y[Root.GetName]§! приступил к работе. Это сильно повлияло на климат этого мира.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.30.name:0 "$building_cofh_se_georeactor_tomb$ запущен"
-cofh_se_geo.30.desc:0 "Строительство закончено. §Y$building_cofh_se_georeactor_tomb$§! на планете §Y[Root.GetName]§! приступил к работе. Это сильно повлияло на климат этого разрушенного мира.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.40.name:0 "$building_cofh_se_georeactor_gaia$ запущен"
-cofh_se_geo.40.desc:0 "Строительство закончено. §Y$building_cofh_se_georeactor_gaia$§! на планете §Y[Root.GetName]§! приступил к работе. Это сильно повлияло на климат этого мира.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.100.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_continental$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.101.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_ocean$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.102.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_tropical$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.103.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_desert$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.104.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_arid$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.105.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_savannah$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.106.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_arctic$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.107.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_tundra$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.108.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_alpine$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-cofh_se_geo.109.desc:0 "$COFH_SE_GEO_PROCESS_FINISHED$ §Y$pc_gaia$§!.\n\n$COFH_SE_GEO_REACTOR_DISMANTLED$"
-
-cofh_se_geo.110.desc:0 "§Y$building_cofh_se_georeactor_basic$§! на §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
-cofh_se_geo.120.desc:0 "§Y$building_cofh_se_georeactor_adv$§! на §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
-cofh_se_geo.130.desc:0 "§Y$building_cofh_se_georeactor_tomb$§! на §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
-cofh_se_geo.140.desc:0 "§Y$building_cofh_se_georeactor_gaia$§! на §Y[Root.GetName]§! $COFH_SE_GEO_UPDATE_DISTURBANCE$"
-
-cofh_se_geo.210.name:0 "$building_cofh_se_georeactor_basic$ Idle"
-cofh_se_geo.210.desc:0 "§Y$building_cofh_se_georeactor_basic$§! на §Y[Root.GetName]§! бездействует.\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.220.name:0 "$building_cofh_se_georeactor_adv$ Idle"
-cofh_se_geo.220.desc:0 "§Y$building_cofh_se_georeactor_adv$§! на §Y[Root.GetName]§! бездействует.\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.230.name:0 "$building_cofh_se_georeactor_tomb$ Idle"
-cofh_se_geo.230.desc:0 "§Y$building_cofh_se_georeactor_tomb$§! на §Y[Root.GetName]§! бездействует.\n\n$COFH_SE_GEO_WORLD_ALT_CHOICE$\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.240.name:0 "$building_cofh_se_georeactor_gaia$ Idle"
-cofh_se_geo.240.desc:0 "§Y$building_cofh_se_georeactor_gaia$§! на §Y[Root.GetName]§! ждет подтверждения, прежде чем начать процесс терраформинга.\n\n$COFH_SE_GEO_INITIAL_DISTURBANCE$"
-
-cofh_se_geo.a:0 "Подтверждаю."
-
-COFH_SE_GEO_WORLD_CHOICE:0 "Выберите тип мира для терраформирования. Команда геоинженеров приступит к работе с началом нового месяца."
-COFH_SE_GEO_WORLD_ALT_CHOICE:0 "За время простоя, команде геоинженеров удалось привести реактор в исходное состояние. Он в состоянии возобновить процесс. Выберите тип мира для терраформирования"
-COFH_SE_GEO_INITIAL_DISTURBANCE:0 "Реактор дестабилизировал климат, явный признак начавшегося процесса терраформинга."
-COFH_SE_GEO_UPDATE_DISTURBANCE_TITLE:0 "Управляемая климатическая дестабилизация"
-COFH_SE_GEO_UPDATE_DISTURBANCE:0 "Процесс управляемой дестабилизации климота продолжается, мир стал менее гостеприимным."
-COFH_SE_GEO_PROJECT_COMPLETE:0 "Терраформирование закончено"
-COFH_SE_GEO_PROCESS_FINISHED:0 "Процесс планетарного геоинженерингана на §Y[Root.GetName]§! завершился. Планета имеет класс"
-COFH_SE_GEO_REACTOR_DISMANTLED:0 "По завершению процесса реактор был демонтирован."
-
-cofh_se_geo.continental:0 "$pc_continental$"
-cofh_se_geo.ocean:0 "$pc_ocean$"
-cofh_se_geo.tropical:0 "$pc_tropical$"
-cofh_se_geo.desert:0 "$pc_desert$"
-cofh_se_geo.arid:0 "$pc_arid$"
-cofh_se_geo.savanna:0 "$pc_savannah$"
-cofh_se_geo.arctic:0 "$pc_arctic$"
-cofh_se_geo.tundra:0 "$pc_tundra$"
-cofh_se_geo.alpine:0 "$pc_alpine$"
-cofh_se_geo.tomb:0 "$pc_nuked$"
-cofh_se_geo.gaia:0 "$pc_gaia$"
-
-# Special Projects
-
-# Basic
-
-COFH_SE_GEO_CONTINENTAL_BAS:0 "Корекция коры: Континентальный мир"
-COFH_SE_GEO_CONTINENTAL_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_continental$§!."
-
-COFH_SE_GEO_OCEAN_BAS:0 "Корекция коры: Океанический мир"
-COFH_SE_GEO_OCEAN_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_ocean$§!."
-
-COFH_SE_GEO_TROPICAL_BAS:0 "Корекция коры: Тропический мир"
-COFH_SE_GEO_TROPICAL_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_tropical$§!."
-
-COFH_SE_GEO_DESERT_BAS:0 "Корекция коры: Пустынный мир"
-COFH_SE_GEO_DESERT_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_desert$§!."
-
-COFH_SE_GEO_ARID_BAS:0 "Корекция коры: Засушливый мир"
-COFH_SE_GEO_ARID_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_arid$§!."
-
-COFH_SE_GEO_SAVANNA_BAS:0 "Корекция коры: Мир саванны"
-COFH_SE_GEO_SAVANNA_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_savannah$§!."
-
-COFH_SE_GEO_ARCTIC_BAS:0 "Корекция коры: Арктический мир"
-COFH_SE_GEO_ARCTIC_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_arctic$§!."
-
-COFH_SE_GEO_TUNDRA_BAS:0 "Корекция коры: Тундровый мир"
-COFH_SE_GEO_TUNDRA_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_tundra$§!."
-
-COFH_SE_GEO_ALPINE_BAS:0 "Корекция коры: Высокогорный мир"
-COFH_SE_GEO_ALPINE_BAS_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_basic$§!, планета §Y[Root.GetName]§!  может быть приобразованна в §Y$pc_alpine$§!."
-
-# Advanced
-
-COFH_SE_GEO_CONTINENTAL_ADV:0 "Атмосферная манипуляция: Континентальный мир"
-COFH_SE_GEO_CONTINENTAL_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_continental$§!."
-
-COFH_SE_GEO_OCEAN_ADV:0 "Атмосферная манипуляция: Океанический мир"
-COFH_SE_GEO_OCEAN_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_ocean$§!."
-
-COFH_SE_GEO_TROPICAL_ADV:0 "Атмосферная манипуляция: Тропический мир"
-COFH_SE_GEO_TROPICAL_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_tropical$§!."
-
-COFH_SE_GEO_DESERT_ADV:0 "Атмосферная манипуляция: Пустынный мир"
-COFH_SE_GEO_DESERT_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_desert$§!."
-
-COFH_SE_GEO_ARID_ADV:0 "Атмосферная манипуляция: Засушливый мир"
-COFH_SE_GEO_ARID_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_arid$§!."
-
-COFH_SE_GEO_SAVANNA_ADV:0 "Атмосферная манипуляция: Мир саванны"
-COFH_SE_GEO_SAVANNA_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_savannah$§!."
-
-COFH_SE_GEO_ARCTIC_ADV:0 "Атмосферная манипуляция: Арктический мир"
-COFH_SE_GEO_ARCTIC_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_arctic$§!."
-
-COFH_SE_GEO_TUNDRA_ADV:0 "Атмосферная манипуляция: Тундровый мир"
-COFH_SE_GEO_TUNDRA_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_tundra$§!."
-
-COFH_SE_GEO_ALPINE_ADV:0 "Атмосферная манипуляция: Высокогорный мир"
-COFH_SE_GEO_ALPINE_ADV_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_adv$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_alpine$§!."
-
-# Tomb
-
-COFH_SE_GEO_CONTINENTAL_TOMB:0 "Восстановление климата: Континентальный мир"
-COFH_SE_GEO_CONTINENTAL_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_continental$§!."
-
-COFH_SE_GEO_OCEAN_TOMB:0 "Восстановление климата: Океанический мир"
-COFH_SE_GEO_OCEAN_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_ocean$§!."
-
-COFH_SE_GEO_TROPICAL_TOMB:0 "Восстановление климата: Тропический мир"
-COFH_SE_GEO_TROPICAL_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_tropical$§!."
-
-COFH_SE_GEO_DESERT_TOMB:0 "Восстановление климата: Пустынный мир"
-COFH_SE_GEO_DESERT_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_desert$§!."
-
-COFH_SE_GEO_ARID_TOMB:0 "Восстановление климата: Засушливый мир"
-COFH_SE_GEO_ARID_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_arid$§!."
-
-COFH_SE_GEO_SAVANNA_TOMB:0 "Восстановление климата: Мир саванны"
-COFH_SE_GEO_SAVANNA_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_savannah$§!."
-
-COFH_SE_GEO_ARCTIC_TOMB:0 "Восстановление климата: Арктический мир"
-COFH_SE_GEO_ARCTIC_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_arctic$§!."
-
-COFH_SE_GEO_TUNDRA_TOMB:0 "Восстановление климата: Тундровый мир"
-COFH_SE_GEO_TUNDRA_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_tundra$§!."
-
-COFH_SE_GEO_ALPINE_TOMB:0 "Восстановление климата: Высокогорный мир"
-COFH_SE_GEO_ALPINE_TOMB_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_tomb$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_alpine$§!."
-
-# Gaia
-
-COFH_SE_GEO_GAIA:0 "Идеальный мир"
-COFH_SE_GEO_GAIA_DESC:0 "Задействовав §Y$building_cofh_se_georeactor_gaia$§!, планета §Y[Root.GetName]§! может быть приобразованна в §Y$pc_gaia$§!."
+tech_cofh_se_geoengineering:0 "Planetary Geoengineering"
+tech_cofh_se_geoengineering_desc:0 "By studying geoplanetary physics, we can more carefully terraform already inhabited worlds, preventing disruption to the population living on them."

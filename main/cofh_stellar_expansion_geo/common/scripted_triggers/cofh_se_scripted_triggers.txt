@@ -1,0 +1,88 @@
+# CoFH - Stellar Expansion
+# Scripted Triggers
+# Author: King Lemming
+
+cofh_se_req_capital_1_or_hab = {
+	custom_tooltip = {
+		text = "requires_building_capital_1_or_hab"
+		planet = {
+			OR = {
+				has_building = "building_hab_capital"
+				has_building = "building_capital_1"
+				has_building = "building_capital_2"
+				has_building = "building_capital_3"
+			}
+		}
+	}
+}
+
+cofh_se_req_capital_1 = {
+	custom_tooltip = {
+		fail_text = "requires_building_capital_1"
+		planet = {
+			OR = {
+				has_building = "building_capital_1"
+				has_building = "building_capital_2"
+				has_building = "building_capital_3"
+			}
+		}
+	}
+}
+
+cofh_se_req_capital_2 = {
+	custom_tooltip = {
+		fail_text = "requires_building_capital_2"
+		planet = {
+			OR = {
+				has_building = "building_capital_2"
+				has_building = "building_capital_3"
+			}
+		}
+	}
+}
+
+cofh_se_req_capital_3 = {
+	custom_tooltip = {
+		fail_text = "requires_building_capital_3"
+		planet = {
+			has_building = "building_capital_3"
+		}
+	}
+}
+
+cofh_se_req_alien_pets = {
+	custom_tooltip = {
+		fail_text = "requires_alien_pets"
+		tile = {
+			has_resource = {
+				type = sr_alien_pets
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_betharian_stone = {
+	custom_tooltip = {
+		fail_text = "requires_betharian_stone"
+		tile = {
+			has_resource = {
+				type = sr_betharian
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_no_local = {
+	NOR = {
+		has_resource = {
+			type = sr_betharian
+			amount > 0
+		}
+		has_resource = {
+			type = sr_alien_pets
+			amount > 0
+		}
+	}
+}
