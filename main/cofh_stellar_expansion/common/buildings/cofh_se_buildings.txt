@@ -746,10 +746,11 @@ building_cofh_se_diplomatic_hub = {
 				}
 			}
 			custom_tooltip = {
-				fail_text = "requirement_cofh_se_diplomatic_embassy"
+				fail_text = "requirement_cofh_se_diplomatic_building"
 				planet = {
-					NOT = {
+					NOR = {
 						has_building = "building_cofh_se_diplomatic_embassy"
+						has_building = "building_cofh_se_diplomatic_hub"
 					}
 				}
 			}
@@ -827,7 +828,7 @@ building_cofh_se_diplomatic_embassy = {
 				}
 			}
 			custom_tooltip = {
-				fail_text = "requirement_cofh_se_diplomatic_embassy"
+				fail_text = "requirement_cofh_se_diplomatic_building"
 				planet = {
 					NOR = {
 						has_building = "building_cofh_se_diplomatic_embassy"
@@ -895,21 +896,10 @@ building_cofh_se_fleet_command = {
 
 	allow = {
 		AND = {
-			cofh_se_req_capital_1 = yes
+			cofh_se_req_capital_2 = yes
 
 			custom_tooltip = {
-				fail_text = "requires_pops_10"
-				planet = {
-					count_pops = {
-						count > 10
-						limit = {
-							is_colony_pop = yes
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				fail_text = "requirement_cofh_se_fleet_support"
+				fail_text = "requirement_cofh_se_fleet_building"
 				planet = {
 					NOR = {
 						has_building = "building_cofh_se_fleet_complex"
@@ -988,18 +978,7 @@ building_cofh_se_fleet_complex = {
 			cofh_se_req_capital_1 = yes
 
 			custom_tooltip = {
-				fail_text = "requires_pops_5"
-				planet = {
-					count_pops = {
-						count > 5
-						limit = {
-							is_colony_pop = yes
-						}
-					}
-				}
-			}
-			custom_tooltip = {
-				fail_text = "requirement_cofh_se_fleet_support"
+				fail_text = "requirement_cofh_se_fleet_building"
 				planet = {
 					NOR = {
 						has_building = "building_cofh_se_fleet_complex"

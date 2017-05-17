@@ -71,12 +71,8 @@ building_cofh_se_geo_institute = {
 		"tech_cofh_se_geoengineering"
 	}
 
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
-	}
-
 	country_modifier = {
-		terraform_speed_mult = 0.5
+		terraform_speed_mult = 0.25
 		planet_clear_blocker_cost_mult = -0.15
 		planet_clear_blocker_time_mult = -0.15
 	}
@@ -95,31 +91,13 @@ building_cofh_se_geo_institute = {
 
 	allow = {
 		cofh_se_req_capital_2 = yes
-
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_geo_building"
-			planet = {
-				NOR = {
-					has_building = "building_cofh_se_geo_complex"
-					has_building = "building_cofh_se_geo_institute"
-				}
-			}
-		}
 	}
 
 	ai_special_building = yes
+	ai_replace = no
 
 	ai_weight = {
-		weight = 5000
-		modifier = {
-			weight = 0
-			from = {
-				OR = {
-					is_planet_class = pc_habitat
-					is_planet_class = pc_ringworld_habitable
-				}
-			}
-		}
+		weight = 7000
 	}
 }
 
@@ -153,15 +131,15 @@ building_cofh_se_geo_complex = {
 		"tech_cofh_se_geoengineering"
 	}
 
-	planet_modifier = {
-		pop_environment_tolerance = 0.05
-	}
-
 	triggered_planet_modifier = {
 		key = "cofh_se_geo_terraforming_adaptation"
 		potential = {
 			planet = {
 				is_terraforming = yes
+
+				NOT = {
+					has_building = "building_cofh_se_geo_institute"
+				}
 			}
 		}
 		modifier = {
@@ -170,35 +148,160 @@ building_cofh_se_geo_complex = {
 	}
 
 	upgrades = {
-
+		building_cofh_se_geo_reactor_engineering
+		building_cofh_se_geo_reactor_physics
+		building_cofh_se_geo_reactor_society
 	}
 
 	allow = {
 		cofh_se_req_capital_1 = yes
-
-		custom_tooltip = {
-			fail_text = "requirement_cofh_se_geo_building"
-			planet = {
-				NOR = {
-					has_building = "building_cofh_se_geo_complex"
-					has_building = "building_cofh_se_geo_institute"
-				}
-			}
-		}
 	}
 
 	ai_special_building = yes
+	ai_replace = no
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
 
 	ai_weight = {
 		weight = 500
+	}
+}
+
+################################################################################
+# Geoengineering Reactors
+################################################################################
+
+building_cofh_se_geo_reactor_engineering = {
+	icon = "building_cofh_se_geo_reactor_engineering"
+	base_buildtime = 180
+	planet_unique = yes
+	is_listed = no
+
+	cost = {
+		minerals = 200
+	}
+
+	required_resources = {
+		energy = 4
+	}
+
+	produced_resources = {
+		engineering_research = 4
+		physics_research = 2
+		society_research = 2
+	}
+
+	planet_modifier = {
+		tile_resource_engineering_research_mult = 0.10
+		tile_resource_minerals_mult = 0.10
+	}
+
+	prerequisites = {
+		"tech_engineering_lab_2"
+	}
+
+	ai_special_building = yes
+	ai_replace = no
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 500
+
 		modifier = {
-			weight = 0
-			from = {
-				OR = {
-					is_planet_class = pc_habitat
-					is_planet_class = pc_ringworld_habitable
-				}
-			}
+			factor = 2
+			is_slave_tile_or_planet = yes
 		}
+	}
+}
+
+building_cofh_se_geo_reactor_physics = {
+	icon = "building_cofh_se_geo_reactor_physics"
+	base_buildtime = 180
+	planet_unique = yes
+	is_listed = no
+
+	cost = {
+		minerals = 200
+	}
+
+	required_resources = {
+		energy = 4
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 4
+		society_research = 2
+	}
+
+	planet_modifier = {
+		tile_resource_physics_research_mult = 0.10
+		tile_resource_energy_mult = 0.10
+	}
+
+	prerequisites = {
+		"tech_physics_lab_2"
+	}
+
+	ai_special_building = yes
+	ai_replace = no
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 500
+
+		modifier = {
+			factor = 0.25
+			is_slave_tile_or_planet = yes
+		}
+	}
+}
+
+building_cofh_se_geo_reactor_society = {
+	icon = "building_cofh_se_geo_reactor_society"
+	base_buildtime = 180
+	planet_unique = yes
+	is_listed = no
+
+	cost = {
+		minerals = 200
+	}
+
+	required_resources = {
+		energy = 4
+	}
+
+	produced_resources = {
+		engineering_research = 2
+		physics_research = 2
+		society_research = 4
+	}
+
+	planet_modifier = {
+		tile_resource_society_research_mult = 0.10
+		tile_resource_food_mult = 0.10
+	}
+
+	prerequisites = {
+		"tech_biolab_2"
+	}
+
+	ai_special_building = yes
+	ai_replace = no
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 500
 	}
 }

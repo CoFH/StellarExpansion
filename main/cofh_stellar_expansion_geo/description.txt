@@ -3,14 +3,15 @@ It is simply compatible with this mod and designed to work alongside it.
 
 This mod has recently received an overhaul. It *used* to provide a really clever mechanic to allow for terraformation of already inhabited worlds. However, since 1.6 [Adams] went and added that, it's no longer quite as relevant.
 
-So, what it now does is add a couple of buildings which provide some research, habitability, and negate the 20% penalty that pops normally get when living on a world which is being terraformed.
+So, what it now does is add a series of buildings which provide some research, planet boosts, and negate the 20% penalty that pops normally get when living on a world which is being terraformed.
 
-There's more to come in the future - this is just the first stage of the rework!
+There's more to come in the future. I'm still reworking it. :)
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]One (1) new technology - Geoengineering, which unlocks a pair of buildings.
+	[*]One (1) new technology - Geoengineering, which unlocks a set of buildings.
 	[*]Two (2) new buildings which provide some research and negate the terraforming unhappiness penalty!
+	[*]Three (3) building upgrades which provide some planet boosting and resource specialization.
 [/list]
 
 This mod doesn't allow you to terraform things that you can't already colonize or inhabit, it just helps out with planets you're already on. If you're looking terraform new things, try these instead:

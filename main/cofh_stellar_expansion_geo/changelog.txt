@@ -1,6 +1,40 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2017-05-17b:
+Added new buildings. I don't usually do two updates in the same day, but this was easy enough.
+
+Habitability bonuses for the Institute and the Complex have been removed, and the Terraforming Speed bonus has been reduced to 25%.
+
+These buildings are upgrade paths for the Geoengineering Complex. Additionally, the Institute and Complex can now exist on the same world.
+
+New Buildings:
+	Energetic Modulation Reactor:
+		Planet-Unique
+		+4 Physics Produced
+		+2 Society Produced
+		+2 Engineering Produced
+		+10% Physics Research on Planet
+		+10% Energy on Planet
+
+	Phytogenic Infusion Reactor:
+		Planet-Unique
+		+2 Physics Produced
+		+4 Society Produced
+		+2 Engineering Produced
+		+10% Society Research on Planet
+		+10% Food on Planet
+
+	Tectonic Stabilization Reactor:
+		Planet-Unique
+		+2 Physics Produced
+		+2 Society Produced
+		+4 Engineering Produced
+		+10% Engineering Research on Planet
+		+10% Minerals on Planet
+
+--------------------------------------------------------------------------------
+
 2017-05-17:
 Updated for 1.6 [Adams].
 
@@ -10,7 +44,7 @@ I will be adding more to it, but to get *something* out relatively quickly, I'm 
 
 Plans at the moment include adding modifiers to planets and Special Projects and Event Chains which will assist in terraformation.
 
-Buildings:
+New Buildings:
 	Geoengineering Institute:
 		Empire-Unique
 		+4 Physics Produced

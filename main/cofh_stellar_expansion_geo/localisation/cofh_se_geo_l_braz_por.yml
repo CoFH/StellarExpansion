@@ -3,10 +3,19 @@
 # Buildings
 
 building_cofh_se_geo_complex:0 "Geoengineering Complex"
-building_cofh_se_geo_complex_desc:0 "A research complex devoted to the study and manipulation of geoplanetary physics. It mitigates unhappiness from ongoing terraformation."
+building_cofh_se_geo_complex_desc:0 "A research complex devoted to the study and manipulation of geoplanetary physics. Can be upgraded into specialized Reactor facilities.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
 
 building_cofh_se_geo_institute:0 "Geoengineering Institute"
-building_cofh_se_geo_institute_desc:0 "A massive research facility devoted to the study and manipulation of geoplanetary physics. It greatly assists with our terraforming efforts and mitigates unhappiness from ongoing terraformation."
+building_cofh_se_geo_institute_desc:0 "A massive research facility devoted to the study and manipulation of geoplanetary physics, greatly assisting our terraforming efforts.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
+
+building_cofh_se_geo_reactor_engineering:0 "Tectonic Stabilization Reactor"
+building_cofh_se_geo_reactor_engineering_desc:0 "An engineering research facility which investigates and manipulates tectonic conditions, improving planetary mineral yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
+
+building_cofh_se_geo_reactor_physics:0 "Energetic Modulation Reactor"
+building_cofh_se_geo_reactor_physics_desc:0 "A physics research facility which investigates and manipulates atmospheric energy conditions, improving planetary energy yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
+
+building_cofh_se_geo_reactor_society:0 "Phytogenic Infusion Reactor"
+building_cofh_se_geo_reactor_society_desc:0 "A societal research facility which investigates and manipulates conditions necessary for plant life, improving planetary food yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
 
 # Modifiers
 
@@ -17,4 +26,4 @@ cofh_se_geo_terraforming_adaptation:0 "Adaptive Terraformation Process"
 # Society
 
 tech_cofh_se_geoengineering:0 "Planetary Geoengineering"
-tech_cofh_se_geoengineering_desc:0 "By studying geoplanetary physics, we can more carefully terraform already inhabited worlds, preventing disruption to the population living on them."
+tech_cofh_se_geoengineering_desc:0 "By studying geophysical processes, we can more carefully terraform already inhabited worlds, preventing disruption to the population living on them."

@@ -42,8 +42,8 @@ damage_vs_country_type_awakened_fallen_empire_mult:0 "Zugefügter Schaden an Sch
 
 # Requirements
 
-requirement_cofh_se_diplomatic_embassy:0 "§RNo other diplomatic building may be present.§!"
-requirement_cofh_se_fleet_complex:0 "§RNo other fleet logistics building may be present.§!"
+requirement_cofh_se_diplomatic_building:0 "§RNo other diplomatic building may be present.§!"
+requirement_cofh_se_fleet_building:0 "§RNo other fleet support building may be present.§!"
 requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"
 
 # Resources
