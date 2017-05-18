@@ -1,6 +1,21 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2017-05-18:
+New technology! Rounding out the terraformation boosting.
+
+New Technologies:
+	Applied Geophysics:
+		New Worlds
+		+25% Terraformation Speed
+		Unlocks Feature: Geophysical Analytics
+
+**Geophysical Analytics: Gain Research when terraforming a planet or clearing a tile blocker.
+
+This feature provides much more Society Research than the other types, but it does provide some of each. Amount scales with overall Research produced by an empire.
+
+--------------------------------------------------------------------------------
+
 2017-05-17b:
 Added new buildings. I don't usually do two updates in the same day, but this was easy enough.
 

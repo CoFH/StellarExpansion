@@ -1,0 +1,19 @@
+# CoFH - Stellar Expansion - Geoengineering
+# On Actions
+# Author: King Lemming
+
+# From = Tile
+# This = Planet
+on_blocker_cleared = {
+	events = {
+		cofh_se_geo.10
+	}
+}
+
+# This = Planet
+# From = Country
+on_terraforming_complete = {
+	events = {
+		cofh_se_geo.100
+	}
+}

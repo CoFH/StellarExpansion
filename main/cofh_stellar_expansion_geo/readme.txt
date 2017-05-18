@@ -35,7 +35,7 @@ Geoengineering Institute
 		*Negates Terraforming Happiness Penalty
 
 	Empire Modifier:
-		+50% Terraforming Speed
+		+25% Terraforming Speed
 		-15% Tile Blocker Clear Cost
 		-15% Tile Blocker Clear Time
 
@@ -143,3 +143,13 @@ Planetary Geoengineering:
 	Effects:
 		Unlocks Building: Geoengineering Institute
 		Unlocks Building: Geoengineering Complex
+
+Applied Geophysics:
+	New Worlds, Rare
+
+	Prerequisites:
+		Tech - Planetary Geoengineering
+
+	Effects:
+		+25% Terraforming Speed
+		**Provides Research (All Types) when a planet is terraformed or a tile blocker is cleared.

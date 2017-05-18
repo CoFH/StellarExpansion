@@ -1,0 +1,71 @@
+# CoFH - Stellar Expansion - Geoengineering
+# Events
+# Author: King Lemming
+
+namespace = cofh_se_geo
+
+planet_event = {
+	id = cofh_se_geo.10
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = {
+			has_technology = "tech_cofh_se_geophysics"
+		}
+	}
+
+	immediate = {
+		owner = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = 2
+				min = 50
+				max = 250
+			}
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = 0.5
+				min = 10
+				max = 50
+			}
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = 0.5
+				min = 10
+				max = 50
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se_geo.100
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_technology = "tech_cofh_se_geophysics"
+	}
+
+	immediate = {
+		add_monthly_resource_mult = {
+			resource = society_research
+			value = 4
+			min = 500
+			max = 5000
+		}
+		add_monthly_resource_mult = {
+			resource = physics_research
+			value = 1
+			min = 100
+			max = 1000
+		}
+		add_monthly_resource_mult = {
+			resource = engineering_research
+			value = 1
+			min = 100
+			max = 1000
+		}
+	}
+}

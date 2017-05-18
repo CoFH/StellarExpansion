@@ -20,7 +20,7 @@ guiTypes = {
 			scale = 0.32
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "title"
 			font = "malgun_goth_24"
 			position = { x = 10 y = 2 }
@@ -31,7 +31,7 @@ guiTypes = {
 			alwaysTransparent = yes
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "species_name"
 			font = "cg_16b"
 			position = { x = 120 y = 40 }
@@ -42,7 +42,7 @@ guiTypes = {
 			pdx_tooltip = "SPECIES_NAME_TOOLTIP"
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "species_class"
 			font = "cg_16b"
 			position = { x = 120 y = 60 }
@@ -54,7 +54,7 @@ guiTypes = {
 			pdx_tooltip = "SPECIES_CLASS_TOOLTIP"
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "ideal_planet_class"
 			font = "cg_16b"
 			position = { x = 120 y = 80 }
@@ -82,7 +82,6 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			position = { x = 20 y = 136}
 
-			#TEST
 			background = {
 				name = "current_traits_background"
 				quadTextureSprite = "GFX_species_mod_window_bg"
@@ -95,6 +94,7 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 		}
+
 		instantTextBoxType = {
 			name = "planet_traits_header"
 			font = "cg_16b"
@@ -105,6 +105,7 @@ guiTypes = {
 			format = left
 			text = "PLANET_CLASS_PREFERENCE_TRAITS"
 		}
+
 		containerWindowType = {
 			name = "planet_class_traits_frame_box"
 			size = { width = 395 height = 50 }
@@ -115,13 +116,13 @@ guiTypes = {
 					spriteType = "GFX_clean_frame_area"
 				}
 		}
+
 		containerWindowType = {
 			name = "planet_class_traits_container"
 			size = { width = 395 height = 45 }
 			verticalScrollbar = "right_vertical_slider"
 			position = { x = 20 y = 211}
 
-			#TEST
 			background = {
 				name = "current_traits_background"
 				quadTextureSprite = "GFX_species_mod_window_bg"
@@ -134,6 +135,7 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 		}
+
 		instantTextBoxType = {
 			name = "points"
 			font = "cg_16b"
@@ -143,6 +145,7 @@ guiTypes = {
 			fixedSize = yes
 			format = left
 		}
+
 		instantTextBoxType = {
 			name = "picks"
 			font = "cg_16b"
@@ -170,7 +173,6 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			position = { x = 20 y = 286 }
 
-			#TEST
 			background = {
 				name = "available_traits_background"
 				spriteType = "GFX_species_mod_window_bg"
@@ -196,7 +198,7 @@ guiTypes = {
 			alwaysTransparent = no
 		}
 
-		instantTextBoxType={
+		instantTextBoxType = {
 			name = "num_pops"
 			font = "cg_16b"
 			position = { x = -300 y = -85 }
@@ -208,7 +210,8 @@ guiTypes = {
 			#text_color_code = "E"
 			pdx_tooltip = "NUM_AFFECTED_POPS_TOOLTIP"
 		}
-		instantTextBoxType={
+
+		instantTextBoxType = {
 			name = "cost"
 			font = "cg_16b"
 			position = { x = -370 y = -40 }
@@ -257,6 +260,7 @@ guiTypes = {
 			text = "CLEAR_SELECTION"
 			font = "cg_16b"
 		}
+
 		smoothListBoxType = {
 			name = "planets_list"
 			position = { x = 423 y = 60 }
@@ -311,12 +315,14 @@ guiTypes = {
 			orientation = "UPPER_RIGHT"
 			scale = 0.19
 		}
+
 		buttonType = {
 			name = "planet_icon"
-			quadTextureSprite = "GFX_dummy_species_mod_planet"
+			quadTextureSprite = "GFX_dummy_3d_home_world"
 			position = { x = 30 y = 2 }
 			size = { x = 60 y = 60 }
 		}
+
 		instantTextBoxType = {
 			name = "planet_name"
 			font = "cg_16b"
@@ -328,6 +334,7 @@ guiTypes = {
 			text_color_code = "E"
 			text = "NAME_HERE"
 		}
+
 		instantTextBoxType = {
 			name = "planet_class"
 			font = "cg_16b"
@@ -338,6 +345,7 @@ guiTypes = {
 			format = left
 			text = "CLASS_HERE"
 		}
+
 		instantTextBoxType = {
 			name = "sector_name"
 			font = "cg_16b"
@@ -348,6 +356,7 @@ guiTypes = {
 			format = left
 			text = ""
 		}
+
 		instantTextBoxType = {
 			name = "num_pops"
 			font = "cg_16b"
@@ -360,5 +369,6 @@ guiTypes = {
 			text_color_code = "H"
 			text = "12345"
 		}
+
 	}
 }

@@ -3,18 +3,21 @@ It is simply compatible with this mod and designed to work alongside it.
 
 This mod has recently received an overhaul. It *used* to provide a really clever mechanic to allow for terraformation of already inhabited worlds. However, since 1.6 [Adams] went and added that, it's no longer quite as relevant.
 
-So, what it now does is add a series of buildings which provide some research, planet boosts, and negate the 20% penalty that pops normally get when living on a world which is being terraformed.
+For now, it adds two technologies, Planetary Geoengineering and Applied Geophysics
+
+Planetary Geoengineering adds a series of buildings which provide some research, planet boosts, and negate the 20% penalty that pops normally get when living on a world which is being terraformed.
+Applied Geophysics makes terraforming a bit faster and more rewarding - providing research points whenever a planet is terraformed or a tile blocker is cleared.
 
 There's more to come in the future. I'm still reworking it. :)
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]One (1) new technology - Geoengineering, which unlocks a set of buildings.
+	[*]Two (2) new technologies to enhance terraforming and planetary gameplay without directly adding new terraforming capabilities.
 	[*]Two (2) new buildings which provide some research and negate the terraforming unhappiness penalty!
 	[*]Three (3) building upgrades which provide some planet boosting and resource specialization.
 [/list]
 
-This mod doesn't allow you to terraform things that you can't already colonize or inhabit, it just helps out with planets you're already on. If you're looking terraform new things, try these instead:
+This mod doesn't allow you to terraform things that you can't already colonize or inhabit, it just boosts planets you're already on. If you're looking terraform new things, try these instead:
 [list]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=719802418]Stellar Expansion - Terraforming[/url][/i][/b]
 [*][b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=733386004]Stellar Expansion - Terraforming (Extreme)[/url][/i][/b]
