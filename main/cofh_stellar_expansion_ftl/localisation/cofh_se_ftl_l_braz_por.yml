@@ -4,8 +4,14 @@
 
 # Physics
 
-tech_cofh_se_repeatable_reduced_ftl_windup:0 "Calibração de Hipernavigação"
-tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Melhorias em nossos sensores de hipernavigação devem permitir reduzir o tempo necessário para iniciar viagens FTL."
+tech_cofh_se_reduced_energency_ftl_damage:0 "Structural Integrity Fields"
+tech_cofh_se_reduced_energency_ftl_damage_desc:0 "Modified shielding technology should allow for ship hulls to be directly reinforced."
 
-tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Amortecimento de Ressonância Espacial"
-tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Melhorias em nossas bobinas de drive devem nos permitir reduzir o período de ressonância do espaço-tempo que persiste após viagens FTL."
+tech_cofh_se_reduced_energency_ftl_time:0 "Exigent Sensor Calibration"
+tech_cofh_se_reduced_energency_ftl_time_desc:0 "Improved sensor calibration techniques should allow for faster responses in emergency situations."
+
+tech_cofh_se_reduced_ftl_windup:0 "Calibração de Hipernavigação"
+tech_cofh_se_reduced_ftl_windup_desc:0 "Melhorias em nossos sensores de hipernavigação devem permitir reduzir o tempo necessário para iniciar viagens FTL."
+
+tech_cofh_se_reduced_ftl_winddown:0 "Amortecimento de Ressonância Espacial"
+tech_cofh_se_reduced_ftl_winddown_desc:0 "Melhorias em nossas bobinas de drive devem nos permitir reduzir o período de ressonância do espaço-tempo que persiste após viagens FTL."

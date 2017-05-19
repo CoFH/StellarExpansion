@@ -1,6 +1,35 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
+2017-05-18:
+Okay, so basically the entire mod has been rewritten. Here's why:
+
+The purpose of this mod was to boost mid-game for Warp and Hyperlane. When repeatable tech costs changed, these shifted to a point in the tech tree where they were only slightly in front of Jump Drive. They also ended up costing a ton of research for what they did. So, they're no longer repeatable, and they're tier 2 technologies now.
+
+They are Rare, but don't worry - having better FTL tech will significantly increase your chances of drawing them.
+
+New Technologies:
+	Exigent Sensor Calibration:
+		Voidcraft
+		+25% Ship Sensor Range
+		-25% Emergency FTL Jump Cooldown
+
+	Structural Integrity Fields
+		Field Manipulation
+		+10% Ship Hull Points
+		-25% Emergency FTL Damage
+
+Changed Technologies:
+	Hypernavigation Calibration:
+		Particles
+		-25% FTL Jump Charge Time
+
+	Spacetime Resonance Damping
+		Field Manipulation
+		-25% FTL Jump Cooldown
+
+--------------------------------------------------------------------------------
+
 2017-05-09:
 Updated for 1.6 [Adams].
 

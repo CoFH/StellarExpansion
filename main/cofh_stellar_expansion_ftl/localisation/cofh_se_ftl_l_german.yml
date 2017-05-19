@@ -4,8 +4,14 @@
 
 # Physics
 
-tech_cofh_se_repeatable_reduced_ftl_windup:0 "Hyper-Navigation Kalibrierung"
-tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Verbesserungen unserer Hyper-Navigations Sensoren sollte es uns erlauben, die Zeit, die für die Einleitung des FTL Sprunges nötig ist, zu reduzieren."
+tech_cofh_se_reduced_energency_ftl_damage:0 "Structural Integrity Fields"
+tech_cofh_se_reduced_energency_ftl_damage_desc:0 "Modified shielding technology should allow for ship hulls to be directly reinforced."
 
-tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Raumzeit Resonanz Dämpfung"
-tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Verbesserungen unserer Antriebsspulen sollte es uns ermöglichen, die Raumzeitresonanzperiode nach einem FTL Sprung zu reduzieren."
+tech_cofh_se_reduced_energency_ftl_time:0 "Exigent Sensor Calibration"
+tech_cofh_se_reduced_energency_ftl_time_desc:0 "Improved sensor calibration techniques should allow for faster responses in emergency situations."
+
+tech_cofh_se_reduced_ftl_windup:0 "Hyper-Navigation Kalibrierung"
+tech_cofh_se_reduced_ftl_windup_desc:0 "Verbesserungen unserer Hyper-Navigations Sensoren sollte es uns erlauben, die Zeit, die für die Einleitung des FTL Sprunges nötig ist, zu reduzieren."
+
+tech_cofh_se_reduced_ftl_winddown:0 "Raumzeit Resonanz Dämpfung"
+tech_cofh_se_reduced_ftl_winddown_desc:0 "Verbesserungen unserer Antriebsspulen sollte es uns ermöglichen, die Raumzeitresonanzperiode nach einem FTL Sprung zu reduzieren."

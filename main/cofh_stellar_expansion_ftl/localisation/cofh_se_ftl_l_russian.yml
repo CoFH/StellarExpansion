@@ -4,8 +4,14 @@
 
 # Physics
 
-tech_cofh_se_repeatable_reduced_ftl_windup:0 "Продвинутая Подпространственная Калибровка"
-tech_cofh_se_repeatable_reduced_ftl_windup_desc:0 "Улучшение наших подпространственных датчиков должено позволить нам уменьшать время, требуемое для Сверхсветовых путешествий."
+tech_cofh_se_reduced_energency_ftl_damage:0 "Structural Integrity Fields"
+tech_cofh_se_reduced_energency_ftl_damage_desc:0 "Modified shielding technology should allow for ship hulls to be directly reinforced."
 
-tech_cofh_se_repeatable_reduced_ftl_winddown:0 "Демфирование Пространственно-временного Резонанса"
-tech_cofh_se_repeatable_reduced_ftl_winddown_desc:0 "Управление пространственно-временными калебаниями, образующимися после сверхсветового прыжка, уменьшит время задержки после сверхсветового прыжка."
+tech_cofh_se_reduced_energency_ftl_time:0 "Exigent Sensor Calibration"
+tech_cofh_se_reduced_energency_ftl_time_desc:0 "Improved sensor calibration techniques should allow for faster responses in emergency situations."
+
+tech_cofh_se_reduced_ftl_windup:0 "Продвинутая Подпространственная Калибровка"
+tech_cofh_se_reduced_ftl_windup_desc:0 "Улучшение наших подпространственных датчиков должено позволить нам уменьшать время, требуемое для Сверхсветовых путешествий."
+
+tech_cofh_se_reduced_ftl_winddown:0 "Демфирование Пространственно-временного Резонанса"
+tech_cofh_se_reduced_ftl_winddown_desc:0 "Управление пространственно-временными калебаниями, образующимися после сверхсветового прыжка, уменьшит время задержки после сверхсветового прыжка."

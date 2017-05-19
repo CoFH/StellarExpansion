@@ -96,7 +96,7 @@ tech_cofh_se_fast_scan = {
 			factor = 1.25
 			research_leader = {
 				area = physics
-				has_trait = "leader_trait_expertise_computing"
+				has_trait = "leader_trait_expertise_field_manipulation"
 			}
 		}
 	}
@@ -106,7 +106,7 @@ tech_cofh_se_fast_scan = {
 			factor = 1.25
 			research_leader = {
 				area = physics
-				has_trait = "leader_trait_expertise_computing"
+				has_trait = "leader_trait_expertise_field_manipulation"
 			}
 		}
 	}
