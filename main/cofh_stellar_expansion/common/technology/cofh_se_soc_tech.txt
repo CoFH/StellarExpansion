@@ -91,6 +91,58 @@ tech_cofh_se_battlefield_leadership = {
 	}
 }
 
+# Interplanetary Military Logistics
+tech_cofh_se_military_logistics = {
+	icon = "tech_cofh_se_military_logistics"
+	area = society
+	cost = @tier2cost2
+	tier = 2
+	category = { military_theory }
+	prerequisites = { tech_centralized_command }
+	weight = @tier2weight2
+
+	modifier = {
+		planet_army_build_cost_mult = -0.15
+		army_upkeep_mult = -0.15
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_military_theory"
+			}
+		}
+	}
+}
+
 # Planetside Support Operations
 tech_cofh_se_fleet_support = {
 	icon = "tech_cofh_se_fleet_support"
@@ -175,8 +227,8 @@ tech_cofh_se_psi_diplomatic_corps = {
 
 	modifier = {
 		country_resource_influence_add = 2
-		country_trade_attractiveness = 0.20
-		country_trust_growth = 0.20
+		country_trade_attractiveness = 0.15
+		country_trust_growth = 0.15
 	}
 
 	weight_modifier = {

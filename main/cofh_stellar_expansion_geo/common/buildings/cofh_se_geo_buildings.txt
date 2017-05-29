@@ -53,7 +53,10 @@ building_cofh_se_geo_institute = {
 
 	potential = {
 		planet = {
-			NOT = { is_planet_class = pc_habitat }
+			NOR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_ringworld_habitable
+			}
 		}
 	}
 
@@ -113,7 +116,10 @@ building_cofh_se_geo_complex = {
 
 	potential = {
 		planet = {
-			NOT = { is_planet_class = pc_habitat }
+			NOR = {
+				is_planet_class = pc_habitat
+				is_planet_class = pc_ringworld_habitable
+			}
 		}
 	}
 

@@ -9,80 +9,10 @@
 @repeatableTechFactor = 0.5
 
 ################################################################################
-# Starships
+# Robotics
 ################################################################################
 
-# Adaptive Fleet Construction
-tech_cofh_se_repeatable_reduced_ship_cost = {
-	icon = "tech_cofh_se_repeatable_reduced_ship_cost"
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = 3
-	category = { voidcraft }
-	levels = 5
-	prerequisites = { "tech_engineering_lab_2" }
-	weight = @repeatableTechWeight
-
-	modifier = {
-		spaceport_ship_build_cost_mult = -0.03
-		country_ship_upgrade_cost_mult = -0.03
-	}
-
-	weight_modifier = {
-		factor = @repeatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
-
-# Adaptive Offworld Construction
-tech_cofh_se_repeatable_reduced_station_cost = {
-	icon = "tech_cofh_se_repeatable_reduced_station_cost"
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = 3
-	category = { voidcraft }
-	levels = 5
-	prerequisites = { "tech_space_defense_station_2" }
-	weight = @repeatableTechWeight
-
-	modifier = {
-		spaceport_module_cost_mult = -0.05
-		shipsize_orbital_station_build_cost_mult = -0.05
-		shipsize_outpost_station_build_cost_mult = -0.05
-		shipsize_mining_station_build_cost_mult = -0.05
-		shipclass_military_station_build_cost_mult = -0.05
-	}
-
-	weight_modifier = {
-		factor = @repeatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
-
+# Robot Assembly Optimization
 tech_cofh_se_repeatable_robot_build_speed = {
 	icon = "tech_cofh_se_repeatable_robot_build_speed"
 	area = engineering
@@ -115,6 +45,10 @@ tech_cofh_se_repeatable_robot_build_speed = {
 	}
 }
 
+################################################################################
+# Ships
+################################################################################
+
 # Shipyard Assembly Coordination
 tech_cofh_se_repeatable_ship_build_speed = {
 	icon = "tech_cofh_se_repeatable_ship_build_speed"
@@ -123,7 +57,7 @@ tech_cofh_se_repeatable_ship_build_speed = {
 	cost_per_level = @repeatableTechLevelCost
 	tier = 3
 	category = { voidcraft }
-	levels = 10
+	levels = 5
 	prerequisites = { "tech_engineering_lab_2" }
 	weight = @repeatableTechWeight
 
@@ -177,38 +111,6 @@ tech_cofh_se_repeatable_ship_repair_upkeep = {
 		repeatable
 	}
 
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
-
-# Inertial Compensators
-tech_cofh_se_repeatable_weapon_type_strike_craft_speed = {
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = 3
-	category = { voidcraft }
-	ai_update_type = military
-	levels = 5
-	prerequisites = { "tech_strike_craft_1" }
-	weight = @repeatableTechWeight
-
-	modifier = {
-		weapon_type_strike_craft_speed_mult = 0.20
-	}
-
-	weight_modifier = {
-		factor = @repeatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
 	mod_weight_if_group_picked = {
 		repeatable = 0.01
 	}

@@ -1,6 +1,12 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
+2017-05-21:
+
+Updated Russian localization.
+
+--------------------------------------------------------------------------------
+
 2017-05-18:
 Okay, so basically the entire mod has been rewritten. Here's why:
 

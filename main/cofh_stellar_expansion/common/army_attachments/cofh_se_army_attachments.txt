@@ -1,0 +1,26 @@
+# CoFH - Stellar Expansion
+# Army Attachments
+# Author: King Lemming
+
+# Sentient Battle Tank
+attach_cofh_se_sentient_tanks = {
+	icon = "gfx/interface/icons/army_attachments/attachment_sentient_ai.dds"
+	cost = { minerals = 50 energy = 25 }
+
+	modifier = {
+		army_damage_mult = 0.15
+		army_health = 0.10
+	}
+
+	prerequisites = { "tech_sentient_ai" }
+
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_sentient_ai
+			}
+		}
+	}
+}

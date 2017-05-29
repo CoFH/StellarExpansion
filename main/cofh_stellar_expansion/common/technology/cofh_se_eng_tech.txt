@@ -71,15 +71,50 @@ tech_cofh_se_orbital_mineral_processing = {
 	}
 }
 
+# Research Consortiums
+tech_cofh_se_research_consortiums = {
+	icon = "tech_cofh_se_research_consortiums"
+	area = engineering
+	tier = 2
+	cost = @tier2cost1
+	category = { industry }
+	prerequisites = { "tech_engineering_lab_1" }
+	weight = @tier2weight1
+
+	modifier = {
+		num_tech_alternatives_add = 1
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+}
+
 # Protocol Droids
 tech_cofh_se_protocol_droids = {
 	icon = "tech_cofh_se_protocol_droids"
 	area = engineering
-	cost = @tier3cost1
-	tier = 3
-	category = { industry }
+	cost = @tier2cost4
+	tier = 2
+	category = { statecraft }
 	prerequisites = { "tech_droid_workers" "tech_sentient_ai" }
-	weight = @tier3weight1
+	weight = @tier2weight4
 	is_rare = yes
 
 	modifier = {
@@ -90,12 +125,20 @@ tech_cofh_se_protocol_droids = {
 
 	weight_modifier = {
 		modifier = {
-			factor = 0.2
-			has_ethic = "ethic_spiritualist"
+			factor = 0
+			OR = {
+				has_ethic = "ethic_spiritualist"
+				has_ethic = "ethic_fanatic_spiritualist"
+				has_ethic = "ethic_hive_mind"
+			}
 		}
 		modifier = {
-			factor = 0.1
-			has_ethic = "ethic_fanatic_spiritualist"
+			factor = 2
+			has_valid_civic = civic_mechanists
+		}
+		modifier = {
+			factor = 4
+			has_ascension_perk = ap_the_flesh_is_weak
 		}
 		modifier = {
 			factor = 1.10
@@ -108,21 +151,21 @@ tech_cofh_se_protocol_droids = {
 		modifier = {
 			factor = 1.10
 			research_leader = {
-				area = society
+				area = engineering
 				has_trait = "leader_trait_maniacal"
 			}
 		}
 		modifier = {
 			factor = 1.20
 			research_leader = {
-				area = society
+				area = engineering
 				has_trait = "leader_trait_spark_of_genius"
 			}
 		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = society
+				area = engineering
 				has_trait = "leader_trait_expertise_statecraft"
 				has_level > 2
 			}
@@ -137,11 +180,93 @@ tech_cofh_se_protocol_droids = {
 			NOT = { has_ai_personality_behaviour = robot_liberator }
 		}
 		modifier = {
+			factor = 2
+			has_valid_civic = civic_mechanists
+		}
+		modifier = {
+			factor = 2
+			has_ascension_perk = ap_the_flesh_is_weak
+		}
+		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = society
+				area = engineering
 				has_trait = "leader_trait_expertise_statecraft"
 				has_level > 2
+			}
+		}
+	}
+}
+
+################################################################################
+# Voidcraft
+################################################################################
+
+# Orbital Drop Pods
+tech_cofh_se_orbital_drop_pods = {
+	icon = "tech_cofh_se_orbital_drop_pods"
+	area = engineering
+	cost = @tier2cost1
+	tier = 2
+	category = { voidcraft }
+	prerequisites = { "tech_ship_armor_2" }
+	weight = @tier2weight1
+
+	modifier = {
+		ship_landing_time_mult = -0.50
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+# Inertial Compensators
+tech_cofh_se_inertial_compensators = {
+	icon = "tech_cofh_se_inertial_compensators"
+	area = engineering
+	cost = @tier2cost2
+	tier = 2
+	category = { voidcraft }
+	prerequisites = { "tech_strike_craft_1" }
+	weight = @tier2weight2
+
+	modifier = {
+		weapon_type_strike_craft_speed_mult = 0.50
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
 			}
 		}
 	}

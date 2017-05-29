@@ -1,6 +1,12 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2017-05-21:
+
+Buildings can no longer be constructed on Habitats or Ringworlds. Just doesn't make sense. :P
+
+--------------------------------------------------------------------------------
+
 2017-05-18:
 New technology! Rounding out the terraformation boosting.
 
