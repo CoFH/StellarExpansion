@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2017-05-09:
 Updated for 1.6 [Adams].
 

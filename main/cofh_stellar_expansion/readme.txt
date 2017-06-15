@@ -5,9 +5,6 @@ Hey there! So the purpose of Stellar Expansion is to add onto the vanilla
 Stellaris experience while not introducing things which are too terribly
 imbalanced or out of place.
 
-So for now, just Buildings, Spaceport Modules, and Technologies. Some of the
-techs are unlocked via Special Projects, but the mod is otherwise event-free.
-
 For features which change the game in a large way, I'll be putting those into
 their own separate modules.
 
@@ -362,28 +359,6 @@ Mining Terminal:
 
 Engineering
 --------------------------------------------------------------------------------
-Adaptive Fleet Construction:
-	Voidcraft
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Supersolid Materials
-
-	Effects:
-		-5% Ship Cost
-		-5% Ship Upgrade Cost
-
-Adaptive Offworld Construction:
-	Voidcraft
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Deep Space Stations
-
-	Effects:
-		-5% Spaceport Module Cost
-		-5% Station Build Cost
-
 Applied Fleet Logistics:
 	Voidcraft
 	Repeatable (5x)
@@ -397,13 +372,21 @@ Applied Fleet Logistics:
 
 Inertial Compensators:
 	Voidcraft
-	Repeatable (5x)
 
 	Prerequisites:
 		Tech - Carrier Operations
 
 	Effects:
-		+20% Strike Craft Speed
+		+50% Strike Craft Speed
+
+Orbital Drop Pods:
+	Voidcraft
+
+	Prerequisites:
+		Tech - Ceramo-Metal Materials
+
+	Effects:
+		+50% Army Landing Speed
 
 Orbital Mineral Processing:
 	Industry
@@ -426,9 +409,18 @@ Protocol Droids:
 		+10% Trade Attractiveness
 		+10% Trust Growth
 
+Research Consortiums:
+	Industry
+
+	Prerequisites:
+		Tech - Nanomechanics
+
+	Effects:
+		+1 Research Alternative
+
 Robot Assembly Optimization:
 	Industry
-	Repeatable (10x)
+	Repeatable (5x)
 
 	Prerequisites:
 		Tech - Robotic Workers
@@ -438,7 +430,7 @@ Robot Assembly Optimization:
 
 Shipyard Assembly Coordination:
 	Voidcraft
-	Repeatable (10x)
+	Repeatable (5x)
 
 	Prerequisites:
 		Tech - Supersolid Materials
@@ -491,26 +483,6 @@ Positronic Algorithms:
 
 Society
 --------------------------------------------------------------------------------
-Adaptive Training Regimen:
-	Military Theory
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Combat Training
-
-	Effects:
-		+10% Army Build Speed
-
-Applied Military Logistics:
-	Military Theory
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Centralized Command
-
-	Effects:
-		-5% Army Upkeep
-
 Battlefield Leadership:
 	Military Theory
 
@@ -541,6 +513,16 @@ Intensive Ecological Engineering:
 		+10% Terraforming Speed
 		-5% Clear Blocker Time
 
+Interplanetary Military Logistics:
+	Military Theory
+
+	Prerequisites:
+		Tech - Centralized Command
+
+	Effects:
+		-15% Army Cost
+		-15% Army Upkeep
+
 Planetside Support Operations:
 	Military Theory
 
@@ -550,16 +532,6 @@ Planetside Support Operations:
 	Effects:
 		Unlocks - Building: Fleet Support Command
 		Unlocks - Building: Fleet Support Complex
-
-Procurement Optimization:
-	Military Theory
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Centralized Command
-
-	Effects:
-		-5% Army Cost
 
 Psi Diplomatic Corps:
 	Psionics

@@ -3,8 +3,8 @@
 # Author: King Lemming
 
 # Sentient Battle Tank
-attach_cofh_se_sentient_tanks = {
-	icon = "gfx/interface/icons/army_attachments/attachment_sentient_ai.dds"
+cofh_se_sentient_tanks = {
+	icon = "gfx/interface/icons/army_attachments/attachment_cofh_se_sentient_ai.dds"
 	cost = { minerals = 50 energy = 25 }
 
 	modifier = {

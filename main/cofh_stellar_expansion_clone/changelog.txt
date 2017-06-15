@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Cloning
 Author: King Lemming
 
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
+
+Clone populations will now only show up in the build menu if the technology has been researched.
+
+--------------------------------------------------------------------------------
+
 2017-05-16:
 Added Russian Localization.
 

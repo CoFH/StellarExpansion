@@ -1,15 +1,11 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
-2017-05-17:
-Changed a technology because it stepped on the toes of the Ascension Perk too
-much. May end up making a "Robotics" module for 1.7.
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
 
-Changed Technologies:
-	Robot Assembly Optimization:
-		Industry
-		+10% Robot Build Speed
-		Repeatable (5x)
+There are lots of changes - a new army attachment, new civics, technologies, rebalances, and some removed technologies.
+This will be retroactively updated when I have the chance to do so. :)
 
 --------------------------------------------------------------------------------
 

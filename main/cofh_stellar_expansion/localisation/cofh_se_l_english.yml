@@ -2,8 +2,8 @@
 
 # Army Attachments
 
-attach_cofh_se_sentient_tanks:0 "Sentient Battle Tanks"
-attach_cofh_se_sentient_tanks_desc:0 "<TEMP>"
+army_attachment_cofh_se_sentient_tanks:0 "Sentient Battle Tanks"
+army_attachment_cofh_se_sentient_tanks_desc:0 "§LGiant self-aware artillery platforms. These hulking robots are capable of turning the tide of a given battle by providing significant firepower and armor support.§!"
 
 # Buildings
 

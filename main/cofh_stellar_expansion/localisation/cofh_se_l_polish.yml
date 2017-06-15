@@ -1,5 +1,69 @@
 ﻿l_polish:
 
+# Army Attachments
+
+army_attachment_cofh_se_sentient_tanks:0 "Sentient Battle Tanks"
+army_attachment_cofh_se_sentient_tanks_desc:0 "§LGiant self-aware artillery platforms. These hulking robots are capable of turning the tide of a given battle by providing significant firepower and armor support.§!"
+
+# Buildings
+
+building_cofh_se_betharian_mining:0 "Betharian Mining Network"
+building_cofh_se_betharian_mining_desc:0 "Betharian Mining Networks consume Betharian Stone to power specialized Mineral extraction equipment."
+
+building_cofh_se_diplomatic_embassy:0 "Diplomatic Embassy"
+building_cofh_se_diplomatic_embassy_desc:0 "This massive complex of culture and bureaucracy elevates the importance of this world, and our empire in turn."
+
+building_cofh_se_diplomatic_hub:0 "Diplomatic Hub"
+building_cofh_se_diplomatic_hub_desc:0 "This bureaucratic complex serves as the center for the diplomatic arm of our empire."
+
+# Energy Buildings
+
+building_cofh_se_energy_silo_1:0 "Capacitor Bank I"
+building_cofh_se_energy_silo_1_desc:0 "Capacitor Banks increase our Empire's maximum Energy storage capacity."
+
+building_cofh_se_energy_silo_2:0 "Capacitor Bank II"
+building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+building_cofh_se_energy_silo_3:0 "Capacitor Bank III"
+building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
+
+# Food Buildings
+
+building_cofh_se_food_silo_1:0 "Agri-Repository I"
+building_cofh_se_food_silo_1_desc:0 "Agri-Repositories increase our Empire's maximum Food storage capacity."
+
+building_cofh_se_food_silo_2:0 "Agri-Repository II"
+building_cofh_se_food_silo_2_desc:0 "$building_cofh_se_food_silo_1_desc$"
+
+building_cofh_se_food_silo_3:0 "Agri-Repository III"
+building_cofh_se_food_silo_3_desc:0 "$building_cofh_se_food_silo_1_desc$"
+
+building_cofh_se_holo_arena:0 "Holosseum"
+building_cofh_se_holo_arena_desc:0 "The Holosseum serves as equal parts entertainment and military training, bringing communities together while tearing enemies apart."
+
+building_cofh_se_fleet_command:0 "Fleet Support Command"
+building_cofh_se_fleet_command_desc:0 "This sprawling military facility serves as the planetside center for naval support operations throughout our empire."
+
+building_cofh_se_fleet_complex:0 "Fleet Support Complex"
+building_cofh_se_fleet_complex_desc:0 "This large military base acts as a logistical hub for our empire's fleet, improving naval capability and efficiency."
+
+building_cofh_se_retail_center:0 "Grand Retail Center"
+building_cofh_se_retail_center_desc:0 "Home is the most important place in the galaxy. Provides convenient flat-pack consumer goods with simple instructions."
+
+building_cofh_se_robot_maintenance:0 "Robot Maintenance Facility"
+building_cofh_se_robot_maintenance_desc:0 "This sprawling high-tech complex is used to maintain robot workers, improving their output."
+
+building_cofh_se_xeno_food:0 "Xeno Nutriment Factory"
+building_cofh_se_xeno_food_desc:0 "Alien fauna are far too dangerous to keep in captivity, but we can make their acquisition a more palatable endeavor."
+
+# Civics
+
+civic_cofh_se_research_speed:0 "Research Institutions"
+civic_cofh_se_research_speed_desc:0 "This society has a history of prominent research institutions and scientific excellence."
+
+civic_cofh_se_hive_research_speed:0 "Insatiable Curiosity"
+civic_cofh_se_hive_research_speed_desc:0 "The Hive Mind is driven by knowledge and introspection, and revels in scientific discovery."
+
 # Events
 
 COFH_SE_FURTHER_RESEARCH:0 "Further research and remote observation can confirm these theories.\n\nEmpirical testing, also referred to as "combat," may assist with research efforts."
@@ -30,15 +94,7 @@ cofh_se.410.desc:0 "Observation of Fallen Empire fleets has resulted in the disc
 
 # Modifiers
 
-cofh_se_xeno_food_species:0 "Supplemental Nutrition"
-
-damage_vs_country_type_ai_empire_mult:0 "Damage to Machine Consciousness Vessels"
-damage_vs_country_type_extradimensional_mult:0 "Damage to Unbidden Invaders"
-damage_vs_country_type_extradimensional_2_mult:0 "Damage to Aberrant Invaders"
-damage_vs_country_type_extradimensional_3_mult:0 "Damage to Vehement Invaders"
-
-damage_vs_country_type_fallen_empire_mult:0 "Damage to Fallen Empire Ships"
-damage_vs_country_type_awakened_fallen_empire_mult:0 "Damage to Awakened Fallen Empire Ships"
+mod_cofh_se_xeno_food_species:0 "Supplemental Nutrition"
 
 # Requirements
 
@@ -51,7 +107,7 @@ requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be o
 sr_cofh_se_diplomatic_embassy:0 "Diplomatic Corps"
 sr_cofh_se_diplomatic_embassy_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_diplomatic_embassy$§!."
 
-sr_cofh_se_fleet_complex:0 "Logistics Corps"
+sr_cofh_se_fleet_complex:0 "Fleet Support Corps"
 sr_cofh_se_fleet_complex_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_fleet_complex$§!."
 
 # Spaceport Modules
@@ -70,3 +126,99 @@ COFH_SE_INVESTIGATE_SWARM:0 "Field Study: Prethoryn Creatures"
 COFH_SE_INVESTIGATE_SWARM_DESC:0 "Task a science department with study of Prethoryn creatures in an effort to gain a combat advantage for our forces."
 COFH_SE_INVESTIGATE_FE:0 "Fleet Observation: Fallen Empire"
 COFH_SE_INVESTIGATE_FE_DESC:0 "Task a science department with study of Fallen Empire ships in an effort to gain a combat advantage for our forces."
+
+# Technology - Non-Repeatable
+
+# Anti-Crisis
+
+tech_cofh_se_anti_ai_empire:0 "Machine Consciousness Countermeasures"
+tech_cofh_se_anti_ai_empire_desc:0 "Engineering analysis of Machine Consciousness vessels provides us with knowledge of their structural weaknesses."
+
+tech_cofh_se_anti_fallen_empire:0 "Fallen Empire Countermeasures"
+tech_cofh_se_anti_fallen_empire_desc:0 "Observation of Fallen Empire ship construction and fleet composition provides us with knowledge of their weaknesses."
+
+tech_cofh_se_anti_exd:0 "Extradimensional Invader Countermeasures"
+tech_cofh_se_anti_exd_desc:0 "Multispectral observation of Extradimensional forces reveals exploitable flaws in their energy fields."
+
+tech_cofh_se_anti_swarm:0 "Prethoryn Scourge Countermeasures"
+tech_cofh_se_anti_swarm_desc:0 "Field study of Prethoryn anatomy and physiology illuminates weaknesses that our forces can exploit."
+
+# Engineering
+
+tech_cofh_se_inertial_compensators:0 "Inertial Compensators"
+tech_cofh_se_inertial_compensators_desc:0 "Insulating our fighter pilots from g-forces allows for strike craft to reach much higher speeds."
+
+tech_cofh_se_orbital_drop_pods:0 "Orbital Drop Pods"
+tech_cofh_se_orbital_drop_pods_desc:0 "Armored and optimized for swift atmospheric descent, these pods significantly decrease the time spent between orbit and planetfall during planetary invasions."
+
+tech_cofh_se_orbital_mineral_processing:0 "Orbital Mineral Processing"
+tech_cofh_se_orbital_mineral_processing_desc:0 "Orbital mineral processing facilities can augment deep space and terrestrial yields."
+
+tech_cofh_se_protocol_droids:0 "Protocol Droids"
+tech_cofh_se_protocol_droids_desc:0 "Fluent in over six million forms of communication, and possessing limitless tolerance for bureaucracy."
+
+tech_cofh_se_research_consortiums:0 "Research Consortiums"
+tech_cofh_se_research_consortiums_desc:0 "Alliances formed in the industrial sector can often bring about new ideas."
+
+# Physics
+
+tech_cofh_se_deep_scan:0 "Deep Scanning Algorithms"
+tech_cofh_se_deep_scan_desc:0 "The application of statistical information theory to survey data reveals patterns and insights which might otherwise be overlooked."
+
+tech_cofh_se_fast_scan:0 "Multiphasic Scanning"
+tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analysis allow for scientific scans to be completed more rapidly."
+
+# Society
+
+tech_cofh_se_battlefield_leadership:0 "Battlefield Leadership"
+tech_cofh_se_battlefield_leadership_desc:0 "Our field commanders have no need of empathy, but they should know how to rally their soldiers."
+
+tech_cofh_se_fleet_support:0 "Planetside Support Operations"
+tech_cofh_se_fleet_support_desc:0 "Although our fleets operate in deep space, a planetside support network will allow for more efficient deployment."
+
+tech_cofh_se_galactic_prominence:0 "Galactic Prominence"
+tech_cofh_se_galactic_prominence_desc:0 "The largest of our worlds have a complex sociopolitical dynamic all their own, and they too are relevant on the galactic stage."
+
+tech_cofh_se_military_logistics:0 "Interplanetary Military Logistics"
+tech_cofh_se_military_logistics_desc:0 "Tactics wins battles, strategy wins wars, but logistics builds empires."
+
+tech_cofh_se_psi_diplomatic_corps:0 "Psi Diplomatic Corps"
+tech_cofh_se_psi_diplomatic_corps_desc:0 "Diplomacy is the complex art of negotiation, posturing, and projection. It is a far simpler affair when one can read minds."
+
+tech_cofh_se_xeno_confidence:0 "Xeno Confidence"
+tech_cofh_se_xeno_confidence_desc:0 "Conveying our intentions in a straightforward manner - whatever they may be - helps to create deeper relationships with our galactic neighbors."
+
+tech_cofh_se_xeno_negotiation:0 "Xeno Negotiation"
+tech_cofh_se_xeno_negotiation_desc:0 "While the specifics vary from species to species, one thing is certain - everyone wants to believe they are getting a good deal."
+
+# Technology - Repeatable
+
+# Engineering
+
+tech_cofh_se_repeatable_reduced_ship_cost:0 "Adaptive Fleet Construction"
+tech_cofh_se_repeatable_reduced_ship_cost_desc:0 "Flexible assembly techniques allow for ship construction with minimal retooling and material waste."
+
+tech_cofh_se_repeatable_reduced_station_cost:0 "Adaptive Offworld Construction"
+tech_cofh_se_repeatable_reduced_station_cost_desc:0 "The use of local materials and modular assembly allows for more efficient offworld construction."
+
+tech_cofh_se_repeatable_robot_build_speed:0 "Robot Assembly Optimization"
+tech_cofh_se_repeatable_robot_build_speed_desc:0 "Optimizing assembly techniques for robots allows them to be created more rapidly."
+
+tech_cofh_se_repeatable_ship_build_speed:0 "Shipyard Assembly Coordination"
+tech_cofh_se_repeatable_ship_build_speed_desc:0 "The application of modular assembly techniques and streamlined processes allow us to enhance the throughput of our shipyards."
+
+tech_cofh_se_repeatable_ship_repair_upkeep:0 "Applied Fleet Logistics"
+tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Advances in material science and transport allow for our fleets to be more easily maintained."
+
+# Physics
+
+tech_cofh_se_repeatable_sentient_ai_improved:0 "Positronic Algorithms"
+tech_cofh_se_repeatable_sentient_ai_improved_desc:0 "Algorithms optimized for positronic computers will improve their capabilities beyond anything once thought possible."
+
+tech_cofh_se_repeatable_shield_regen:0 "Harmonic Replenishment"
+tech_cofh_se_repeatable_shield_regen_desc:0 "Tuning shields to create constructive interference in their harmonics allows them to recharge more rapidly."
+
+# Society
+
+tech_cofh_se_repeatable_terraforming_improved:0 "Intensive Ecological Engineering"
+tech_cofh_se_repeatable_terraforming_improved_desc:0 "Study of local ecological interactions combined with terraforming technologies allows us to transform worlds rapidly and efficiently."

@@ -5,6 +5,10 @@
 # Standard Clone
 cofh_se_clone_1 = {
 
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
 	cost = {
 		energy = 50
 		minerals = 25

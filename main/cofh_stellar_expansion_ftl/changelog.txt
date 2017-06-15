@@ -1,8 +1,14 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
-2017-05-21:
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
 
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
+2017-05-21:
 Updated Russian localization.
 
 --------------------------------------------------------------------------------

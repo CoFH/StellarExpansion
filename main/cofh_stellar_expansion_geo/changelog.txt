@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2017-05-21:
 
 Buildings can no longer be constructed on Habitats or Ringworlds. Just doesn't make sense. :P
