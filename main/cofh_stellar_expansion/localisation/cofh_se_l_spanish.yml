@@ -2,223 +2,223 @@
 
 # Army Attachments
 
-army_attachment_cofh_se_sentient_tanks:0 "Sentient Battle Tanks"
-army_attachment_cofh_se_sentient_tanks_desc:0 "§LGiant self-aware artillery platforms. These hulking robots are capable of turning the tide of a given battle by providing significant firepower and armor support.§!"
+army_attachment_cofh_se_sentient_tanks:0 "Sentinela de batalla"
+army_attachment_cofh_se_sentient_tanks_desc:0 "§LPlataformas gigantes de artillería autoconsciente. Estos robustos robots son capaces de dar la vuelta una batalla dada la proporción de su poder de fuego y soporte de armadura.§!"
 
 # Buildings
 
-building_cofh_se_betharian_mining:0 "Betharian Mining Network"
-building_cofh_se_betharian_mining_desc:0 "Betharian Mining Networks consume Betharian Stone to power specialized Mineral extraction equipment."
+building_cofh_se_betharian_mining:0 "Red de Minería Betharian"
+building_cofh_se_betharian_mining_desc:0 "Red de Minería Betharian consume piedra Betharian para suministrar energía a equipos de extracción de minerales especializados."
 
-building_cofh_se_diplomatic_embassy:0 "Diplomatic Embassy"
-building_cofh_se_diplomatic_embassy_desc:0 "This massive complex of culture and bureaucracy elevates the importance of this world, and our empire in turn."
+building_cofh_se_diplomatic_embassy:0 "Embajada Diplomática"
+building_cofh_se_diplomatic_embassy_desc:0 "Este complejo masivo de cultura y burocracia eleva la importancia de este mundo, y nuestro imperio a su vez."
 
-building_cofh_se_diplomatic_hub:0 "Diplomatic Hub"
-building_cofh_se_diplomatic_hub_desc:0 "This bureaucratic complex serves as the center for the diplomatic arm of our empire."
+building_cofh_se_diplomatic_hub:0 "Eje Diplomático"
+building_cofh_se_diplomatic_hub_desc:0 "Este complejo burocrático sirve de centro para la diplomácia de nuestro imperio."
 
 # Energy Buildings
 
-building_cofh_se_energy_silo_1:0 "Capacitor Bank I"
-building_cofh_se_energy_silo_1_desc:0 "Capacitor Banks increase our Empire's maximum Energy storage capacity."
+building_cofh_se_energy_silo_1:0 "Batería de condensadores I"
+building_cofh_se_energy_silo_1_desc:0 "Los bancos de condensadores aumentan la capacidad máxima de almacenamiento de energía de nuestro Imperio."
 
-building_cofh_se_energy_silo_2:0 "Capacitor Bank II"
+building_cofh_se_energy_silo_2:0 "Batería de condensadores II"
 building_cofh_se_energy_silo_2_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
-building_cofh_se_energy_silo_3:0 "Capacitor Bank III"
+building_cofh_se_energy_silo_3:0 "Batería de condensadores III"
 building_cofh_se_energy_silo_3_desc:0 "$building_cofh_se_energy_silo_1_desc$"
 
 # Food Buildings
 
-building_cofh_se_food_silo_1:0 "Agri-Repository I"
-building_cofh_se_food_silo_1_desc:0 "Agri-Repositories increase our Empire's maximum Food storage capacity."
+building_cofh_se_food_silo_1:0 "Silos I"
+building_cofh_se_food_silo_1_desc:0 "Los silos aumentan la capacidad máxima de almacenamiento de alimentos de nuestro Imperio."
 
-building_cofh_se_food_silo_2:0 "Agri-Repository II"
+building_cofh_se_food_silo_2:0 "Silos II"
 building_cofh_se_food_silo_2_desc:0 "$building_cofh_se_food_silo_1_desc$"
 
-building_cofh_se_food_silo_3:0 "Agri-Repository III"
+building_cofh_se_food_silo_3:0 "Silos III"
 building_cofh_se_food_silo_3_desc:0 "$building_cofh_se_food_silo_1_desc$"
 
 building_cofh_se_holo_arena:0 "Holosseum"
-building_cofh_se_holo_arena_desc:0 "The Holosseum serves as equal parts entertainment and military training, bringing communities together while tearing enemies apart."
+building_cofh_se_holo_arena_desc:0 "Los Holosseum sirven de entretenimiento y entrenamiento militar, uniendo a las comunidades y desgarrando a los enemigos."
 
-building_cofh_se_fleet_command:0 "Fleet Support Command"
-building_cofh_se_fleet_command_desc:0 "This sprawling military facility serves as the planetside center for naval support operations throughout our empire."
+building_cofh_se_fleet_command:0 "Comando de Apoyo a la Flota"
+building_cofh_se_fleet_command_desc:0 "Esta instalación militar extensa sirve como el centro del planeta para operaciones de apoyo navales a través de nuestro imperio."
 
-building_cofh_se_fleet_complex:0 "Fleet Support Complex"
-building_cofh_se_fleet_complex_desc:0 "This large military base acts as a logistical hub for our empire's fleet, improving naval capability and efficiency."
+building_cofh_se_fleet_complex:0 "Complejo de soporte de flota"
+building_cofh_se_fleet_complex_desc:0 "Esta gran base militar actúa como un centro logístico para la flota de nuestro imperio, mejorando la capacidad naval y la eficiencia."
 
-building_cofh_se_retail_center:0 "Grand Retail Center"
-building_cofh_se_retail_center_desc:0 "Home is the most important place in the galaxy. Provides convenient flat-pack consumer goods with simple instructions."
+building_cofh_se_retail_center:0 "Centro comercial"
+building_cofh_se_retail_center_desc:0 "El hogar es el lugar más importante de la galaxia. Proporciona productos de consumo convenientes y de gran variedad para los habitantes."
 
-building_cofh_se_robot_maintenance:0 "Robot Maintenance Facility"
-building_cofh_se_robot_maintenance_desc:0 "This sprawling high-tech complex is used to maintain robot workers, improving their output."
+building_cofh_se_robot_maintenance:0 "Instalación de Mantenimiento de Robots"
+building_cofh_se_robot_maintenance_desc:0 "Este extenso complejo de alta tecnología se utiliza para mantener a los trabajadores de robots, mejorando su producción."
 
-building_cofh_se_xeno_food:0 "Xeno Nutriment Factory"
-building_cofh_se_xeno_food_desc:0 "Alien fauna are far too dangerous to keep in captivity, but we can make their acquisition a more palatable endeavor."
+building_cofh_se_xeno_food:0 "Fábrica de la nutrición de Xeno"
+building_cofh_se_xeno_food_desc:0 "La fauna exótica es demasiado peligrosa para mantenerla en cautiverio, pero podemos hacer que su adquisición sea un esfuerzo más aceptable."
 
 # Civics
 
-civic_cofh_se_research_speed:0 "Research Institutions"
-civic_cofh_se_research_speed_desc:0 "This society has a history of prominent research institutions and scientific excellence."
+civic_cofh_se_research_speed:0 "instituciones de investigación"
+civic_cofh_se_research_speed_desc:0 "Esta sociedad tiene una historia de destacadas instituciones de investigación y excelencia científica."
 
-civic_cofh_se_hive_research_speed:0 "Insatiable Curiosity"
-civic_cofh_se_hive_research_speed_desc:0 "The Hive Mind is driven by knowledge and introspection, and revels in scientific discovery."
+civic_cofh_se_hive_research_speed:0 "Curiosidad insaciable"
+civic_cofh_se_hive_research_speed_desc:0 "La Mente de la Colmena es impulsada por el conocimiento y la introspección, y revela en el descubrimiento científico."
 
 # Events
 
-COFH_SE_FURTHER_RESEARCH:0 "Further research and remote observation can confirm these theories.\n\nEmpirical testing, also referred to as "combat," may assist with research efforts."
+COFH_SE_FURTHER_RESEARCH:0 "Investigaciones adicionales y observación remota pueden confirmar estas teorías.\n\nLas pruebas empíricas, también conocidas como "combate", pueden ayudar con los esfuerzos de investigación."
 
-cofh_se.101.name:0 "Prethoryn Scourge Study"
-cofh_se.101.desc:0 "The Prethoryn creatures encountered by our fleets some time ago are indeed space-faring organic lifeforms. Despite their considerable numbers, they are still biological creatures with anatomical limitations.\n\nAssigning a task force of scientists to perform a study of the creatures may reveal their weaknesses."
-cofh_se.101.a:0 "Acknowledged."
-cofh_se.110.name:0 "Prethoryn Weaknesses Discovered"
-cofh_se.110.desc:0 "Study of Prethoryn creatures has resulted in the discovery of a number of potential weaknesses in their anatomy. $COFH_SE_FURTHER_RESEARCH$"
+cofh_se.101.name:0 "Estudio de la Plaga de Prethoryn"
+cofh_se.101.desc:0 "Las criaturas Prethoryn encontradas por nuestras flotas hace algún tiempo son en realidad formas de vida orgánicas espaciales. A pesar de su considerable número, siguen siendo criaturas biológicas con limitaciones anatómicas.\n\nAsignar un grupo de trabajo de científicos para realizar un estudio de las criaturas puede revelar sus debilidades."
+cofh_se.101.a:0 "Admitido."
+cofh_se.110.name:0 "Desventajas de Prethoryn"
+cofh_se.110.desc:0 "El estudio de criaturas de Prethoryn ha dado lugar al descubrimiento de un número de debilidades potenciales en su anatomía. $COFH_SE_FURTHER_RESEARCH$"
 
-cofh_se.201.name:0 "Extradimensional Observation"
-cofh_se.201.desc:0 "The Extradimensional forces encountered by our fleets some time ago seem to be made entirely of energy. With our knowledge of fundamental forces, we may be able to find weaknesses that our forces can exploit.\n\nAssigning a task force of scientists to perform multispectral observation of the invaders may prove fruitful."
-cofh_se.201.a:0 "Acknowledged."
-cofh_se.210.name:0 "Extradimensional Weaknesses Discovered"
-cofh_se.210.desc:0 "Observation of Extradimensional forces has resulted in the discovery of a number of potential weaknesses in their energy fields. $COFH_SE_FURTHER_RESEARCH$"
+cofh_se.201.name:0 "Observación Extradimensional"
+cofh_se.201.desc:0 "Las fuerzas extradimensionales encontradas por nuestras flotas hace algún tiempo parecen estar hechas enteramente de energía. Con nuestro conocimiento de las fuerzas fundamentales, podemos ser capaces de encontrar las debilidades para que nuestras fuerzas puedan aprovechar.\n\nAsignar un grupo de trabajo de científicos para realizar la observación multiespectral de los invasores puede resultar provechoso."
+cofh_se.201.a:0 "Admitido."
+cofh_se.210.name:0 "Desventajas Extradimensionales Descubiertas"
+cofh_se.210.desc:0 "La observación de las fuerzas extradimensionales ha resultado en el descubrimiento de una serie de debilidades potenciales en sus campos de energía. $COFH_SE_FURTHER_RESEARCH$"
 
-cofh_se.301.name:0 "Machine Consciousness Analysis"
-cofh_se.301.desc:0 "The Machine Consciousness vessels encountered by our fleets some time ago are of a completely unknown design. However, the uniformity of their construction may work against them - their vessels may have weaknesses that our forces can exploit.\n\nAssigning a task force of scientists to perform an engineering analysis of the vessels may provide some insight."
-cofh_se.301.a:0 "Acknowledged."
-cofh_se.310.name:0 "Machine Consciousness Weaknesses Discovered"
-cofh_se.310.desc:0 "Analysis of Machine Consciousness vessels has resulted in the discovery of a number of potential weaknesses in their structure. $COFH_SE_FURTHER_RESEARCH$"
+cofh_se.301.name:0 "Análisis de Conciencia de la Máquina"
+cofh_se.301.desc:0 "Los vasos de Conciencia de la Máquina encontrados por nuestras flotas hace algún tiempo son de un diseño completamente desconocido. Sin embargo, la uniformidad de su construcción puede trabajar en contra de ellos - sus naves pueden tener debilidades que nuestras fuerzas puedan aprovechar.\n\nLa asignación de un grupo de trabajo de científicos para realizar un análisis de ingeniería de las naves puede proporcionar una cierta visión."
+cofh_se.301.a:0 "Admitido."
+cofh_se.310.name:0 "Descubrimiento de la Conciencia de la Máquina"
+cofh_se.310.desc:0 "El análisis de los vasos de Conciencia de la Máquina ha resultado en el descubrimiento de una serie de debilidades potenciales en su estructura. $COFH_SE_FURTHER_RESEARCH$"
 
-cofh_se.401.name:0 "Fallen Empire Observation"
-cofh_se.401.desc:0 "The Fallen Empire ships encountered by our fleets some time ago are far more advanced than our own. Nevertheless, they have a rigid fleet structure and minimal variation in ship design.\n\nAssigning a task force of scientists to study their ships and technology may reveal their weaknesses."
-cofh_se.401.a:0 "Acknowledged."
-cofh_se.410.name:0 "Fallen Empire Weaknesses Discovered"
-cofh_se.410.desc:0 "Observation of Fallen Empire fleets has resulted in the discovery of a number of potential weaknesses owing to their hubris and ship designs rooted in presumably ancient traditions. $COFH_SE_FURTHER_RESEARCH$"
+cofh_se.401.name:0 "Observación de Imperios Caídos"
+cofh_se.401.desc:0 "Las naves de los Imperios Caídos encontrados por nuestras flotas hace algún tiempo son mucho más avanzados que los nuestros. Sin embargo, tienen una estructura de flota rígida y una variación mínima en el diseño de naves.\n\nAsignar un grupo de trabajo de científicos para estudiar sus naves y tecnología puede revelar sus debilidades."
+cofh_se.401.a:0 "Admitido."
+cofh_se.410.name:0 "Descubrimiento de debilidades de los Imperios caídos"
+cofh_se.410.desc:0 "La observación de las flotas de los Imperios Caídos ha resultado en el descubrimiento de una serie de debilidades potenciales debido a su arrogancia y diseños de buques arraigados en tradiciones presumiblemente antiguas. $COFH_SE_FURTHER_RESEARCH$"
 
 # Modifiers
 
-mod_cofh_se_xeno_food_species:0 "Supplemental Nutrition"
+mod_cofh_se_xeno_food_species:0 "Nutrición Suplementaria"
 
 # Requirements
 
-requirement_cofh_se_diplomatic_building:0 "§RNo other diplomatic building may be present.§!"
-requirement_cofh_se_fleet_building:0 "§RNo other fleet support building may be present.§!"
-requirement_cofh_se_robot_maintenance:0 "§RArtificial Intelligence may not be outlawed.§!"
+requirement_cofh_se_diplomatic_building:0 "§RNingún otro edificio diplomático puede estar presente.§!"
+requirement_cofh_se_fleet_building:0 "§RNingún otro edificio de apoyo a la flota puede estar presente.§!"
+requirement_cofh_se_robot_maintenance:0 "§RLa Inteligencia Artificial no puede ser proscrita.§!"
 
 # Resources
 
-sr_cofh_se_diplomatic_embassy:0 "Diplomatic Corps"
-sr_cofh_se_diplomatic_embassy_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_diplomatic_embassy$§!."
+sr_cofh_se_diplomatic_embassy:0 "Cuerpo diplomático"
+sr_cofh_se_diplomatic_embassy_desc:0 "Permite el establecimiento y coordinación de un £edificio §H$building_cofh_se_diplomatic_embassy$§!."
 
-sr_cofh_se_fleet_complex:0 "Fleet Support Corps"
-sr_cofh_se_fleet_complex_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_fleet_complex$§!."
+sr_cofh_se_fleet_complex:0 "Cuerpo de Apoyo a la Flota"
+sr_cofh_se_fleet_complex_desc:0 "Permite el establecimiento y coordinación de un £edificio §H$building_cofh_se_fleet_complex$§!."
 
 # Spaceport Modules
 
-sm_cofh_se_atmospheric_manipulator:0 "Atmospheric Manipulator"
-sm_cofh_se_dockyard:0 "Fleet Dockyard"
-sm_cofh_se_mining_terminal:0 "Mining Terminal"
+sm_cofh_se_atmospheric_manipulator:0 "Manipulador atmosférico"
+sm_cofh_se_dockyard:0 "Astillero de la flota"
+sm_cofh_se_mining_terminal:0 "Terminal de Minería"
 
 # Special Projects
 
-COFH_SE_INVESTIGATE_AI:0 "Engineering Analysis: Machine Consciousness"
-COFH_SE_INVESTIGATE_AI_DESC:0 "Task a science department with analysis of Machine Consciousness vessels in an effort to gain a combat advantage for our forces."
-COFH_SE_INVESTIGATE_EXD:0 "Multispectral Observation: Extradimensional Forces"
-COFH_SE_INVESTIGATE_EXD_DESC:0 "Task a science department with observation of Extradimensional forces in an effort to gain a combat advantage for our forces."
-COFH_SE_INVESTIGATE_SWARM:0 "Field Study: Prethoryn Creatures"
-COFH_SE_INVESTIGATE_SWARM_DESC:0 "Task a science department with study of Prethoryn creatures in an effort to gain a combat advantage for our forces."
-COFH_SE_INVESTIGATE_FE:0 "Fleet Observation: Fallen Empire"
-COFH_SE_INVESTIGATE_FE_DESC:0 "Task a science department with study of Fallen Empire ships in an effort to gain a combat advantage for our forces."
+COFH_SE_INVESTIGATE_AI:0 "Análisis de ingeniería: Conciencia de la máquina"
+COFH_SE_INVESTIGATE_AI_DESC:0 "Tarea de un departamento de ciencia con el análisis de conceptos de la conciencia de la máquina en un esfuerzo para ganar una ventaja de combate para nuestras fuerzas."
+COFH_SE_INVESTIGATE_EXD:0 "Observación Multiespectral: Fuerzas Extradimensionales"
+COFH_SE_INVESTIGATE_EXD_DESC:0 "Tarea un departamento de la ciencia con la observación de las fuerzas extradimensionales en un esfuerzo para ganar una ventaja del combate para nuestras fuerzas."
+COFH_SE_INVESTIGATE_SWARM:0 "Estudio de campo: Prethoryn Creatures"
+COFH_SE_INVESTIGATE_SWARM_DESC:0 "Tarea de un departamento de ciencia con el estudio de las criaturas Prethoryn en un esfuerzo por obtener una ventaja de combate para nuestras fuerzas."
+COFH_SE_INVESTIGATE_FE:0 "Observación de la flota: Imperios Caídos"
+COFH_SE_INVESTIGATE_FE_DESC:0 "Tarea de un departamento de ciencia con el estudio de las naves de los Imperios Caídos en un esfuerzo por obtener una ventaja de combate para nuestras fuerzas."
 
 # Technology - Non-Repeatable
 
 # Anti-Crisis
 
-tech_cofh_se_anti_ai_empire:0 "Machine Consciousness Countermeasures"
-tech_cofh_se_anti_ai_empire_desc:0 "Engineering analysis of Machine Consciousness vessels provides us with knowledge of their structural weaknesses."
+tech_cofh_se_anti_ai_empire:0 "Contramedidas de Consciencia de Máquina"
+tech_cofh_se_anti_ai_empire_desc:0 "El análisis de ingeniería de recipientes de Conciencia de la Máquina nos proporciona conocimiento de sus debilidades estructurales."
 
-tech_cofh_se_anti_fallen_empire:0 "Fallen Empire Countermeasures"
-tech_cofh_se_anti_fallen_empire_desc:0 "Observation of Fallen Empire ship construction and fleet composition provides us with knowledge of their weaknesses."
+tech_cofh_se_anti_fallen_empire:0 "Contramedidas de Imperios Caídos"
+tech_cofh_se_anti_fallen_empire_desc:0 "La observación de la construcción de naves de los Imperios caídos y la composición de la flota nos proporciona un conocimiento de sus debilidades."
 
-tech_cofh_se_anti_exd:0 "Extradimensional Invader Countermeasures"
-tech_cofh_se_anti_exd_desc:0 "Multispectral observation of Extradimensional forces reveals exploitable flaws in their energy fields."
+tech_cofh_se_anti_exd:0 "Contramedidas invasoras extradimensionales"
+tech_cofh_se_anti_exd_desc:0 "La observación multiespectral de las fuerzas extradimensionales revela fallas criticas en sus campos energéticos."
 
-tech_cofh_se_anti_swarm:0 "Prethoryn Scourge Countermeasures"
-tech_cofh_se_anti_swarm_desc:0 "Field study of Prethoryn anatomy and physiology illuminates weaknesses that our forces can exploit."
+tech_cofh_se_anti_swarm:0 "Prethoryn Contra las Plagas"
+tech_cofh_se_anti_swarm_desc:0 "El estudio de campo de la anatomía y fisiología de Prethoryn ilumina las debilidades que nuestras fuerzas pueden aprovechar."
 
 # Engineering
 
-tech_cofh_se_inertial_compensators:0 "Inertial Compensators"
-tech_cofh_se_inertial_compensators_desc:0 "Insulating our fighter pilots from g-forces allows for strike craft to reach much higher speeds."
+tech_cofh_se_inertial_compensators:0 "Compensadores Inerciales"
+tech_cofh_se_inertial_compensators_desc:0 "El aislamiento de nuestros pilotos de combate de las fuerzas g permite que las embarcaciones de ataque alcancen velocidades mucho más altas."
 
-tech_cofh_se_orbital_drop_pods:0 "Orbital Drop Pods"
-tech_cofh_se_orbital_drop_pods_desc:0 "Armored and optimized for swift atmospheric descent, these pods significantly decrease the time spent between orbit and planetfall during planetary invasions."
+tech_cofh_se_orbital_drop_pods:0 "Cápsulas de desembarco Orbital"
+tech_cofh_se_orbital_drop_pods_desc:0 "Armadas y optimizadas para el rápido descenso atmosférico, estas capsulas disminuyen significativamente el tiempo transcurrido entre la órbita y la caída del planeta durante las invasiones planetarias."
 
-tech_cofh_se_orbital_mineral_processing:0 "Orbital Mineral Processing"
-tech_cofh_se_orbital_mineral_processing_desc:0 "Orbital mineral processing facilities can augment deep space and terrestrial yields."
+tech_cofh_se_orbital_mineral_processing:0 "Procesamiento de minerales orbitales"
+tech_cofh_se_orbital_mineral_processing_desc:0 "Las instalaciones orbitales de procesamiento de minerales pueden aumentar el espacio profundo y los rendimientos del planeta."
 
-tech_cofh_se_protocol_droids:0 "Protocol Droids"
-tech_cofh_se_protocol_droids_desc:0 "Fluent in over six million forms of communication, and possessing limitless tolerance for bureaucracy."
+tech_cofh_se_protocol_droids:0 "Droides del protocolo"
+tech_cofh_se_protocol_droids_desc:0 "Con fluidez en más de seis millones de formas de comunicación, y poseer una tolerancia ilimitada para la burocracia."
 
-tech_cofh_se_research_consortiums:0 "Research Consortiums"
-tech_cofh_se_research_consortiums_desc:0 "Alliances formed in the industrial sector can often bring about new ideas."
+tech_cofh_se_research_consortiums:0 "Consorcios de investigación"
+tech_cofh_se_research_consortiums_desc:0 "Las alianzas formadas en el sector industrial a menudo pueden generar nuevas ideas."
 
 # Physics
 
-tech_cofh_se_deep_scan:0 "Deep Scanning Algorithms"
-tech_cofh_se_deep_scan_desc:0 "The application of statistical information theory to survey data reveals patterns and insights which might otherwise be overlooked."
+tech_cofh_se_deep_scan:0 "Algoritmos de exploración profunda"
+tech_cofh_se_deep_scan_desc:0 "La aplicación de la teoría de la información estadística a los datos de nano investigación revela patrones e ideas que de otra manera podrían pasar por alto."
 
-tech_cofh_se_fast_scan:0 "Multiphasic Scanning"
-tech_cofh_se_fast_scan_desc:0 "Improvements in sensor resolution and data analysis allow for scientific scans to be completed more rapidly."
+tech_cofh_se_fast_scan:0 "Exploración multifásica"
+tech_cofh_se_fast_scan_desc:0 "Las mejoras en la resolución de los sensores y el análisis de los datos permiten que las exploraciones científicas se completen más rápidamente."
 
 # Society
 
-tech_cofh_se_battlefield_leadership:0 "Battlefield Leadership"
-tech_cofh_se_battlefield_leadership_desc:0 "Our field commanders have no need of empathy, but they should know how to rally their soldiers."
+tech_cofh_se_battlefield_leadership:0 "Liderazgo del campo de batalla"
+tech_cofh_se_battlefield_leadership_desc:0 "Nuestros comandantes de campo no tienen necesidad de empatía, pero deben saber cómo reunir a sus soldados."
 
-tech_cofh_se_fleet_support:0 "Planetside Support Operations"
-tech_cofh_se_fleet_support_desc:0 "Although our fleets operate in deep space, a planetside support network will allow for more efficient deployment."
+tech_cofh_se_fleet_support:0 "Operaciones de Apoyo del Planeta"
+tech_cofh_se_fleet_support_desc:0 "Aunque nuestras flotas operan en el espacio profundo, una red de apoyo de planetas permitirá un despliegue más eficiente."
 
-tech_cofh_se_galactic_prominence:0 "Galactic Prominence"
-tech_cofh_se_galactic_prominence_desc:0 "The largest of our worlds have a complex sociopolitical dynamic all their own, and they too are relevant on the galactic stage."
+tech_cofh_se_galactic_prominence:0 "Prominencia galáctica"
+tech_cofh_se_galactic_prominence_desc:0 "Los más grandes de nuestros mundos tienen una compleja dinámica sociopolítica propia, y también son relevantes en la etapa galáctica."
 
-tech_cofh_se_military_logistics:0 "Interplanetary Military Logistics"
-tech_cofh_se_military_logistics_desc:0 "Tactics wins battles, strategy wins wars, but logistics builds empires."
+tech_cofh_se_military_logistics:0 "Logística Militar Interplanetaria"
+tech_cofh_se_military_logistics_desc:0 "La táctica gana batallas, la estrategia gana guerras, pero la logística construye imperios."
 
-tech_cofh_se_psi_diplomatic_corps:0 "Psi Diplomatic Corps"
-tech_cofh_se_psi_diplomatic_corps_desc:0 "Diplomacy is the complex art of negotiation, posturing, and projection. It is a far simpler affair when one can read minds."
+tech_cofh_se_psi_diplomatic_corps:0 "Corporación Diplomatica PSI"
+tech_cofh_se_psi_diplomatic_corps_desc:0 "La diplomacia es el arte complejo de negociación, postura y proyección. Es un asunto mucho más simple cuando uno puede leer mentes."
 
-tech_cofh_se_xeno_confidence:0 "Xeno Confidence"
-tech_cofh_se_xeno_confidence_desc:0 "Conveying our intentions in a straightforward manner - whatever they may be - helps to create deeper relationships with our galactic neighbors."
+tech_cofh_se_xeno_confidence:0 "Xeno Confianza"
+tech_cofh_se_xeno_confidence_desc:0 "Transmitir nuestras intenciones de una manera directa - cualesquiera que sean - ayuda a crear relaciones más profundas con nuestros vecinos galácticos."
 
-tech_cofh_se_xeno_negotiation:0 "Xeno Negotiation"
-tech_cofh_se_xeno_negotiation_desc:0 "While the specifics vary from species to species, one thing is certain - everyone wants to believe they are getting a good deal."
+tech_cofh_se_xeno_negotiation:0 "Negociación Xeno"
+tech_cofh_se_xeno_negotiation_desc:0 "Si bien los detalles varían de una especie a otra, una cosa es cierta: todo el mundo quiere creer que está consiguiendo un buen negocio."
 
 # Technology - Repeatable
 
 # Engineering
 
-tech_cofh_se_repeatable_reduced_ship_cost:0 "Adaptive Fleet Construction"
-tech_cofh_se_repeatable_reduced_ship_cost_desc:0 "Flexible assembly techniques allow for ship construction with minimal retooling and material waste."
+tech_cofh_se_repeatable_reduced_ship_cost:0 "Construcción adaptable de la flota"
+tech_cofh_se_repeatable_reduced_ship_cost_desc:0 "Las técnicas de ensamblaje flexibles permiten la construcción de naves con un mínimo de reequipamiento y desecho de materiales."
 
-tech_cofh_se_repeatable_reduced_station_cost:0 "Adaptive Offworld Construction"
-tech_cofh_se_repeatable_reduced_station_cost_desc:0 "The use of local materials and modular assembly allows for more efficient offworld construction."
+tech_cofh_se_repeatable_reduced_station_cost:0 "Construcción adaptable universal"
+tech_cofh_se_repeatable_reduced_station_cost_desc:0 "El uso de materiales locales y el ensamblaje modular permiten una construcción más eficiente del mundo."
 
-tech_cofh_se_repeatable_robot_build_speed:0 "Robot Assembly Optimization"
-tech_cofh_se_repeatable_robot_build_speed_desc:0 "Optimizing assembly techniques for robots allows them to be created more rapidly."
+tech_cofh_se_repeatable_robot_build_speed:0 "Optimización de ensamblaje de robots"
+tech_cofh_se_repeatable_robot_build_speed_desc:0 "La optimización de las técnicas de ensamblaje de robots permite su creación más rápida."
 
-tech_cofh_se_repeatable_ship_build_speed:0 "Shipyard Assembly Coordination"
-tech_cofh_se_repeatable_ship_build_speed_desc:0 "The application of modular assembly techniques and streamlined processes allow us to enhance the throughput of our shipyards."
+tech_cofh_se_repeatable_ship_build_speed:0 "Coordinación de Astilleros"
+tech_cofh_se_repeatable_ship_build_speed_desc:0 "La aplicación de técnicas de ensamblaje modular y procesos simplificados nos permite mejorar el rendimiento de nuestros astilleros."
 
-tech_cofh_se_repeatable_ship_repair_upkeep:0 "Applied Fleet Logistics"
-tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Advances in material science and transport allow for our fleets to be more easily maintained."
+tech_cofh_se_repeatable_ship_repair_upkeep:0 "Logística de Flota Aplicada"
+tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Los avances en la ciencia de los materiales y el transporte permiten que nuestras flotas sean más fáciles de mantener."
 
 # Physics
 
-tech_cofh_se_repeatable_sentient_ai_improved:0 "Positronic Algorithms"
-tech_cofh_se_repeatable_sentient_ai_improved_desc:0 "Algorithms optimized for positronic computers will improve their capabilities beyond anything once thought possible."
+tech_cofh_se_repeatable_sentient_ai_improved:0 "Algoritmos Positrónicos"
+tech_cofh_se_repeatable_sentient_ai_improved_desc:0 "Los algoritmos optimizados para los ordenadores positrónicos mejorarán sus capacidades más allá de lo que se creía posible."
 
-tech_cofh_se_repeatable_shield_regen:0 "Harmonic Replenishment"
-tech_cofh_se_repeatable_shield_regen_desc:0 "Tuning shields to create constructive interference in their harmonics allows them to recharge more rapidly."
+tech_cofh_se_repeatable_shield_regen:0 "Reabastecimiento armónico"
+tech_cofh_se_repeatable_shield_regen_desc:0 "Ajustar escudos para crear interferencia constructiva en sus armónicos les permite recargar más rápidamente."
 
 # Society
 
-tech_cofh_se_repeatable_terraforming_improved:0 "Intensive Ecological Engineering"
-tech_cofh_se_repeatable_terraforming_improved_desc:0 "Study of local ecological interactions combined with terraforming technologies allows us to transform worlds rapidly and efficiently."
+tech_cofh_se_repeatable_terraforming_improved:0 "Ingeniería Ecológica Intensiva"
+tech_cofh_se_repeatable_terraforming_improved_desc:0 "El estudio de las interacciones ecológicas locales combinadas con las tecnologías de terraformación nos permite transformar mundos de forma rápida y eficiente."
