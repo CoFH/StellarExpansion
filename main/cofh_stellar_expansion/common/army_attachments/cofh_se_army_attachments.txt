@@ -3,8 +3,8 @@
 # Author: King Lemming
 
 # Sentient Battle Tank
-cofh_se_sentient_tanks = {
-	icon = "gfx/interface/icons/army_attachments/attachment_cofh_se_sentient_ai.dds"
+cofh_se_sapient_tanks = {
+	icon = "gfx/interface/icons/army_attachments/attachment_cofh_se_sapient_ai.dds"
 	cost = { minerals = 50 energy = 25 }
 
 	modifier = {
@@ -12,14 +12,14 @@ cofh_se_sentient_tanks = {
 		army_health = 0.10
 	}
 
-	prerequisites = { "tech_sentient_ai" }
+	prerequisites = { "tech_sapient_ai" }
 
 	ai_weight = {
 		weight = 300
 		modifier = {
 			weight = 0
 			NOT = {
-				has_technology = tech_sentient_ai
+				has_technology = tech_sapient_ai
 			}
 		}
 	}

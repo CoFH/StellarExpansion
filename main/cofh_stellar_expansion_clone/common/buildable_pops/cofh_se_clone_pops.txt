@@ -19,7 +19,7 @@ cofh_se_clone_1 = {
 		has_policy_flag = cofh_se_mass_cloning_full
 	}
 
-	potential = {
+	potential_build = {
 		NOR = {
 			is_country_type = ai_empire
 			has_country_flag = synthetic_age

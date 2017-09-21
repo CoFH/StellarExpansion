@@ -2,7 +2,7 @@
 # Engineering Technologies (Repeatable)
 # Author: King Lemming
 
-@repeatableTechBaseCost = 3000
+@repeatableTechBaseCost = 5000
 @repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
@@ -18,14 +18,14 @@ tech_cofh_se_repeatable_robot_build_speed = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { industry }
 	levels = 5
 	prerequisites = { "tech_robotic_workers" }
 	weight = @repeatableTechWeight
 
 	modifier = {
-		country_robot_build_speed_mult = 0.10
+		pop_robot_build_speed_mult = 0.10
 	}
 
 	weight_modifier = {
@@ -55,7 +55,7 @@ tech_cofh_se_repeatable_ship_build_speed = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { voidcraft }
 	levels = 5
 	prerequisites = { "tech_engineering_lab_2" }
@@ -88,7 +88,7 @@ tech_cofh_se_repeatable_ship_repair_upkeep = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { materials }
 	levels = 5
 	prerequisites = { "tech_engineering_lab_2" }

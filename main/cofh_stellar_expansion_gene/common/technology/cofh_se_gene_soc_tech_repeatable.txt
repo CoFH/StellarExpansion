@@ -6,7 +6,7 @@
 # Tier Variables
 ################################################################################
 
-@repeatableTechBaseCost = 3000
+@repeatableTechBaseCost = 5000
 @repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
@@ -16,20 +16,29 @@
 # Genetics
 ################################################################################
 
+@tech_gene_drive_POINTS = 1
+
 # Gene Drive Architecting
 tech_cofh_se_repeatable_increased_trait_points = {
 	icon = "tech_cofh_se_repeatable_increased_trait_points"
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { biology }
 	levels = 5
 	prerequisites = { "tech_gene_expressions" }
 	weight = @repeatableTechWeight
 
 	modifier = {
-		trait_points = 1
+		HUM_species_trait_points_add = @tech_gene_drive_POINTS
+		MAM_species_trait_points_add = @tech_gene_drive_POINTS
+		REP_species_trait_points_add = @tech_gene_drive_POINTS
+		AVI_species_trait_points_add = @tech_gene_drive_POINTS
+		ART_species_trait_points_add = @tech_gene_drive_POINTS
+		MOL_species_trait_points_add = @tech_gene_drive_POINTS
+		FUN_species_trait_points_add = @tech_gene_drive_POINTS
+		PLANT_species_trait_points_add = @tech_gene_drive_POINTS
 	}
 
 	weight_modifier = {
@@ -79,7 +88,7 @@ tech_cofh_se_repeatable_reduced_modification_cost = {
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { biology }
 	levels = 5
 	prerequisites = { "tech_gene_expressions" }

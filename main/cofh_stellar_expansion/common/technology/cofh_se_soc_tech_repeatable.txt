@@ -2,7 +2,7 @@
 # Society Technologies (Repeatable)
 # Author: King Lemming
 
-@repeatableTechBaseCost = 3000
+@repeatableTechBaseCost = 5000
 @repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
@@ -18,7 +18,7 @@ tech_cofh_se_repeatable_terraforming_improved = {
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { new_worlds }
 	levels = 5
 	prerequisites = { "tech_terrestrial_sculpting" }

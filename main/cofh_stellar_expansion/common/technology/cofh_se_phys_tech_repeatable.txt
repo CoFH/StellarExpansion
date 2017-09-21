@@ -2,7 +2,7 @@
 # Engineering Technologies (Repeatable)
 # Author: King Lemming
 
-@repeatableTechBaseCost = 3000
+@repeatableTechBaseCost = 5000
 @repeatableTechLevelCost = 1000
 
 @repeatableTechWeight = 25
@@ -12,16 +12,16 @@
 # Computing
 ################################################################################
 
-# Positronic Algorithms
-tech_cofh_se_repeatable_sentient_ai_improved = {
-	icon = "tech_cofh_se_repeatable_sentient_ai_improved"
+# Advanced Positronic Algorithms
+tech_cofh_se_repeatable_sapient_ai_improved = {
+	icon = "tech_cofh_se_repeatable_sapient_ai_improved"
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { computing }
 	levels = 5
-	prerequisites = { "tech_sentient_ai" }
+	prerequisites = { "tech_sapient_ai" }
 	weight = @repeatableTechWeight
 
 	modifier = {
@@ -56,7 +56,7 @@ tech_cofh_se_repeatable_shield_regen = {
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 3
+	tier = 4
 	category = { field_manipulation }
 	levels = 5
 	prerequisites = { "tech_shield_rechargers_1" }

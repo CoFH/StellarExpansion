@@ -113,7 +113,7 @@ tech_cofh_se_protocol_droids = {
 	cost = @tier2cost4
 	tier = 2
 	category = { statecraft }
-	prerequisites = { "tech_droid_workers" "tech_sentient_ai" }
+	prerequisites = { "tech_droid_workers" "tech_sapient_ai" }
 	weight = @tier2weight4
 	is_rare = yes
 
@@ -125,11 +125,10 @@ tech_cofh_se_protocol_droids = {
 
 	weight_modifier = {
 		modifier = {
-			factor = 0
+			factor = 0.5
 			OR = {
 				has_ethic = "ethic_spiritualist"
 				has_ethic = "ethic_fanatic_spiritualist"
-				has_ethic = "ethic_hive_mind"
 			}
 		}
 		modifier = {
