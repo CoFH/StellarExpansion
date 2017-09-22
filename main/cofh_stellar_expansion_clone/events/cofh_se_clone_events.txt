@@ -12,10 +12,16 @@ pop_event = {
 	trigger = {
 		is_same_species = root
 
+		owner = {
+			NOT = {
+				has_authority = auth_machine_intelligence
+			}
+		}
 		NOR = {
 			is_species = "ROBOT_POP_SPECIES_1"
 			is_species = "ROBOT_POP_SPECIES_2"
 			is_species = "ROBOT_POP_SPECIES_3"
+			has_trait = trait_machine_unit
 			has_trait = trait_mechanical
 		}
 	}

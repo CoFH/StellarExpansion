@@ -14,7 +14,6 @@
 
 # Robot Assembly Optimization
 tech_cofh_se_repeatable_robot_build_speed = {
-	icon = "tech_cofh_se_repeatable_robot_build_speed"
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -51,7 +50,6 @@ tech_cofh_se_repeatable_robot_build_speed = {
 
 # Shipyard Assembly Coordination
 tech_cofh_se_repeatable_ship_build_speed = {
-	icon = "tech_cofh_se_repeatable_ship_build_speed"
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -84,7 +82,6 @@ tech_cofh_se_repeatable_ship_build_speed = {
 
 # Applied Fleet Logistics
 tech_cofh_se_repeatable_ship_repair_upkeep = {
-	icon = "tech_cofh_se_repeatable_ship_repair_upkeep"
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost

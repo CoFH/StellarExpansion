@@ -4,30 +4,18 @@
 
 opinion_cofh_se_cloning_limited_spiritualist = {
 	opinion = {
-		base = -5
+		base = -2
 	}
 	decay = {
 		base = 1
 	}
 	accumulative = yes
 
-	min = -25
+	min = -10
 }
 
 opinion_cofh_se_cloning_limited_fanatic_spiritualist = {
 	opinion = {
-		base = -10
-	}
-	decay = {
-		base = 1
-	}
-	accumulative = yes
-
-	min = -50
-}
-
-opinion_cofh_se_cloning_full_spiritualist = {
-	opinion = {
 		base = -5
 	}
 	decay = {
@@ -38,14 +26,26 @@ opinion_cofh_se_cloning_full_spiritualist = {
 	min = -25
 }
 
-opinion_cofh_se_cloning_full_fanatic_spiritualist = {
+opinion_cofh_se_cloning_full_spiritualist = {
 	opinion = {
-		base = -10
+		base = -2
 	}
 	decay = {
 		base = 1
 	}
 	accumulative = yes
 
-	min = -50
+	min = -10
+}
+
+opinion_cofh_se_cloning_full_fanatic_spiritualist = {
+	opinion = {
+		base = -5
+	}
+	decay = {
+		base = 1
+	}
+	accumulative = yes
+
+	min = -25
 }

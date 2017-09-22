@@ -21,6 +21,8 @@
 @tier3cost3 = 5000
 @tier3cost4 = 6000
 
+@tier4cost1 = 10000
+
 @tier1weight1 = 100
 @tier1weight2 = 95
 @tier1weight3 = 90
@@ -36,13 +38,14 @@
 @tier3weight3 = 40
 @tier3weight4 = 35
 
+@tier4weight1 = 30
+
 ################################################################################
 # Industry
 ################################################################################
 
 # Orbital Mineral Processing
 tech_cofh_se_orbital_mineral_processing = {
-	icon = "tech_cofh_se_orbital_mineral_processing"
 	area = engineering
 	cost = @tier1cost2
 	tier = 1
@@ -54,8 +57,8 @@ tech_cofh_se_orbital_mineral_processing = {
 
 	weight_modifier = {
 		modifier = {
-			is_ai = yes
 			factor = 10
+			is_ai = yes
 		}
 		modifier = {
 			factor = 2
@@ -73,7 +76,6 @@ tech_cofh_se_orbital_mineral_processing = {
 
 # Research Consortiums
 tech_cofh_se_research_consortiums = {
-	icon = "tech_cofh_se_research_consortiums"
 	area = engineering
 	tier = 2
 	cost = @tier2cost1
@@ -86,6 +88,10 @@ tech_cofh_se_research_consortiums = {
 	}
 
 	weight_modifier = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
 		modifier = {
 			factor = 1.25
 			research_leader = {
@@ -108,7 +114,6 @@ tech_cofh_se_research_consortiums = {
 
 # Protocol Droids
 tech_cofh_se_protocol_droids = {
-	icon = "tech_cofh_se_protocol_droids"
 	area = engineering
 	cost = @tier2cost4
 	tier = 2
@@ -124,6 +129,10 @@ tech_cofh_se_protocol_droids = {
 	}
 
 	weight_modifier = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
 		modifier = {
 			factor = 0.5
 			OR = {
@@ -175,8 +184,10 @@ tech_cofh_se_protocol_droids = {
 		weight = 2
 		modifier = {
 			factor = 0
-			NOT = { has_ai_personality_behaviour = robot_exploiter }
-			NOT = { has_ai_personality_behaviour = robot_liberator }
+			NOR = {
+				has_ai_personality_behaviour = robot_exploiter
+				has_ai_personality_behaviour = robot_liberator
+			}
 		}
 		modifier = {
 			factor = 2
@@ -203,7 +214,6 @@ tech_cofh_se_protocol_droids = {
 
 # Orbital Drop Pods
 tech_cofh_se_orbital_drop_pods = {
-	icon = "tech_cofh_se_orbital_drop_pods"
 	area = engineering
 	cost = @tier2cost1
 	tier = 2
@@ -238,7 +248,6 @@ tech_cofh_se_orbital_drop_pods = {
 
 # Inertial Compensators
 tech_cofh_se_inertial_compensators = {
-	icon = "tech_cofh_se_inertial_compensators"
 	area = engineering
 	cost = @tier2cost2
 	tier = 2

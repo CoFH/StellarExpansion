@@ -14,7 +14,6 @@
 
 # Advanced Positronic Algorithms
 tech_cofh_se_repeatable_sapient_ai_improved = {
-	icon = "tech_cofh_se_repeatable_sapient_ai_improved"
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -52,7 +51,6 @@ tech_cofh_se_repeatable_sapient_ai_improved = {
 
 # Harmonic Replenishment
 tech_cofh_se_repeatable_shield_regen = {
-	icon = "tech_cofh_se_repeatable_shield_regen"
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost

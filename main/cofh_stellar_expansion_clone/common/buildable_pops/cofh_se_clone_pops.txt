@@ -21,8 +21,9 @@ cofh_se_clone_1 = {
 
 	potential_build = {
 		NOR = {
-			is_country_type = ai_empire
+			has_authority = auth_machine_intelligence
 			has_country_flag = synthetic_age
+			is_country_type = ai_empire
 		}
 	}
 

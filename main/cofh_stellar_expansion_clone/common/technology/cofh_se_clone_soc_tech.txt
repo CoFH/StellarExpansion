@@ -60,6 +60,14 @@ tech_cofh_se_mass_cloning = {
 	weight_modifier = {
 		factor = 1.25
 		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+		modifier = {
+			factor = 1.25
+			has_authority = auth_hive_mind
+		}
+		modifier = {
 			factor = 1.25
 			research_leader = {
 				area = society

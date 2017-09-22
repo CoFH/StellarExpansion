@@ -21,6 +21,8 @@
 @tier3cost3 = 5000
 @tier3cost4 = 6000
 
+@tier4cost1 = 10000
+
 @tier1weight1 = 100
 @tier1weight2 = 95
 @tier1weight3 = 90
@@ -36,13 +38,14 @@
 @tier3weight3 = 40
 @tier3weight4 = 35
 
+@tier4weight1 = 30
+
 ################################################################################
 # Surveying
 ################################################################################
 
 # Deep Scanning Algorithms
 tech_cofh_se_deep_scan = {
-	icon = "tech_cofh_se_deep_scan"
 	area = physics
 	cost = @tier2cost1
 	tier = 2
@@ -78,7 +81,6 @@ tech_cofh_se_deep_scan = {
 
 # Multiphasic Scanning
 tech_cofh_se_fast_scan = {
-	icon = "tech_cofh_se_fast_scan"
 	area = physics
 	cost = @tier2cost2
 	tier = 2

@@ -7,9 +7,8 @@ cofh_se_mass_cloning = {
 	potential = {
 		has_technology = tech_cofh_se_mass_cloning
 
-		NOR = {
+		NOT = {
 			is_country_type = ai_empire
-			has_country_flag = synthetic_age
 		}
 	}
 
@@ -90,6 +89,10 @@ cofh_se_mass_cloning = {
 					has_ethic = "ethic_spiritualist"
 					has_ethic = "ethic_fanatic_spiritualist"
 				}
+			}
+			NOT = {
+				has_authority = auth_machine_intelligence
+				has_country_flag = synthetic_age
 			}
 		}
 

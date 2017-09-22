@@ -2,8 +2,8 @@
 
 # Army Attachments
 
-army_attachment_cofh_se_sentient_tanks:0 "Sentient Battle Tanks"
-army_attachment_cofh_se_sentient_tanks_desc:0 "§LGiant self-aware artillery platforms. These hulking robots are capable of turning the tide of a given battle by providing significant firepower and armor support.§!"
+army_attachment_cofh_se_sapient_artillery:0 "Sapient Artillery"
+army_attachment_cofh_se_sapient_artillery_desc:0 "§LGiant self-aware artillery platforms. These hulking robots are capable of turning the tide of a given battle by providing significant firepower and armor support.§!"
 
 # Buildings
 
@@ -63,6 +63,9 @@ civic_cofh_se_research_speed_desc:0 "This society has a history of prominent res
 
 civic_cofh_se_hive_research_speed:0 "Insatiable Curiosity"
 civic_cofh_se_hive_research_speed_desc:0 "The Hive Mind is driven by knowledge and introspection, and revels in scientific discovery."
+
+civic_cofh_se_machine_research_speed:0 "Inquisitive Processing"
+civic_cofh_se_machine_research_speed_desc:0 "One of the Machine Intelligence's precursor systems was tasked with assisting scientific research and discovery."
 
 # Events
 
@@ -212,8 +215,8 @@ tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Достижения в об�
 
 # Physics
 
-tech_cofh_se_repeatable_sentient_ai_improved:0 "Улучшенные позитронные алгоритмы"
-tech_cofh_se_repeatable_sentient_ai_improved_desc:1 "Алгоритмы, написанные для позитронных компьютерных систем улучшит свои возможности во всем, и даже том, что когда-то считалось возможным для искуственного разума."
+tech_cofh_se_repeatable_sapient_ai_improved:0 "Улучшенные позитронные алгоритмы"
+tech_cofh_se_repeatable_sapient_ai_improved_desc:1 "Алгоритмы, написанные для позитронных компьютерных систем улучшит свои возможности во всем, и даже том, что когда-то считалось возможным для искуственного разума."
 
 tech_cofh_se_repeatable_shield_regen:0 "Настройка гармонических колебаний"
 tech_cofh_se_repeatable_shield_regen_desc:0 "Более тонкая настройка гармонического колебания регенераторов щитов позволяет повысить их производительность."

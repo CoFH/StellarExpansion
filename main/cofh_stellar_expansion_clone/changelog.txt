@@ -1,6 +1,17 @@
 CoFH - Stellar Expansion - Cloning
 Author: King Lemming
 
+2017-09-21:
+Updated for 1.8.0 [Capek].
+
+For the most part, this is a straight port.
+
+Opinion penalties have been greatly reduced.
+
+Synthetically Ascended Empires can still make use of "limited" Mass Cloning, for non-Synthetic species.
+
+--------------------------------------------------------------------------------
+
 2017-06-15:
 Updated for 1.7.2 [Bradbury].
 

@@ -1,6 +1,17 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2017-09-21:
+Updated for 1.8.0 [Capek].
+
+For the most part, this is a straight port.
+
+Machine Empires have been disallowed from accessing theme-inappropriate buildings and techs.
+
+A new, theme-appropriate research speed civic has been added for Machine Empires.
+
+--------------------------------------------------------------------------------
+
 2017-06-15:
 Updated for 1.7.2 [Bradbury].
 

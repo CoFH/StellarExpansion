@@ -3,7 +3,7 @@
 # Author: King Lemming
 
 civic_cofh_se_research_speed = {
-	potential = { authority = { NOT = { value = auth_hive_mind } } }
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
 	random_weight = { base = 1 }
 	modifier = {
 		all_technology_research_speed = 0.05
@@ -12,6 +12,14 @@ civic_cofh_se_research_speed = {
 
 civic_cofh_se_hive_research_speed = {
 	potential = { authority = { value = auth_hive_mind } }
+	random_weight = { base = 1 }
+	modifier = {
+		all_technology_research_speed = 0.05
+	}
+}
+
+civic_cofh_se_machine_research_speed = {
+	potential = { authority = { value = auth_machine_intelligence } }
 	random_weight = { base = 1 }
 	modifier = {
 		all_technology_research_speed = 0.05

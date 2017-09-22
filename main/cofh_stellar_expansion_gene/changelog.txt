@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - Genetics
 Author: King Lemming
 
+2017-09-21:
+Updated for 1.8.0 [Capek].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2017-06-15:
 Updated for 1.7.2 [Bradbury].
 

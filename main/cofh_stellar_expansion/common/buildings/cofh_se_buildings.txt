@@ -49,6 +49,10 @@ building_cofh_se_retail_center = {
 		minerals = 200
 	}
 
+	prerequisites = {
+		"tech_colonial_centralization"
+	}
+
 	required_resources = {
 		energy = 2
 	}
@@ -72,6 +76,7 @@ building_cofh_se_retail_center = {
 				unity = 2
 			}
 		}
+
 		modifier = {
 			AND = {
 				OR = {
@@ -85,6 +90,7 @@ building_cofh_se_retail_center = {
 				unity = 4
 			}
 		}
+
 		modifier = {
 			AND = {
 				NOR = {
@@ -105,12 +111,19 @@ building_cofh_se_retail_center = {
 		pop_consumer_goods_mult = -0.15
 	}
 
-	prerequisites = {
-		"tech_colonial_centralization"
-	}
-
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
 	}
 
 	ai_weight = {
@@ -127,6 +140,7 @@ building_cofh_se_retail_center = {
 				}
 			}
 		}
+
 		modifier = {
 			factor = 2
 			from = {
@@ -145,6 +159,10 @@ building_cofh_se_holo_arena = {
 
 	cost = {
 		minerals = 200
+	}
+
+	prerequisites = {
+		"tech_combat_training"
 	}
 
 	required_resources = {
@@ -170,6 +188,7 @@ building_cofh_se_holo_arena = {
 				unity = 2
 			}
 		}
+
 		modifier = {
 			AND = {
 				OR = {
@@ -183,6 +202,7 @@ building_cofh_se_holo_arena = {
 				unity = 4
 			}
 		}
+
 		modifier = {
 			AND = {
 				NOR = {
@@ -207,12 +227,19 @@ building_cofh_se_holo_arena = {
 		pop_government_ethic_attraction = 0.05
 	}
 
-	prerequisites = {
-		"tech_combat_training"
-	}
-
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
 	}
 
 	ai_weight = {
@@ -229,6 +256,7 @@ building_cofh_se_holo_arena = {
 				}
 			}
 		}
+
 		modifier = {
 			factor = 2
 			from = {
@@ -242,7 +270,6 @@ building_cofh_se_holo_arena = {
 
 # Robot Maintenance Facility
 building_cofh_se_robot_maintenance = {
-	icon = "building_cofh_se_robot_maintenance"
 	base_buildtime = 540
 	planet_unique = yes
 
@@ -250,21 +277,21 @@ building_cofh_se_robot_maintenance = {
 		minerals = 350
 	}
 
-	produced_resources = {
-		minerals = 2
-		engineering_research = 1
+	prerequisites = {
+		"tech_robotic_workers"
 	}
 
 	required_resources = {
 		energy = 2
 	}
 
-	planet_modifier = {
-		pop_robot_production_output = 0.10
+	produced_resources = {
+		minerals = 2
+		engineering_research = 1
 	}
 
-	prerequisites = {
-		"tech_robotic_workers"
+	planet_modifier = {
+		pop_robot_production_output = 0.10
 	}
 
 	allow = {
@@ -277,6 +304,17 @@ building_cofh_se_robot_maintenance = {
 					}
 				}
 			}
+		}
+	}
+
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
 		}
 	}
 
@@ -307,6 +345,7 @@ building_cofh_se_robot_maintenance = {
 				}
 			}
 		}
+
 		modifier = {
 			factor = 4
 			from = {
@@ -332,10 +371,8 @@ building_cofh_se_energy_silo_1 = {
 		minerals = @b1cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	upgrades = {
+		building_cofh_se_energy_silo_2
 	}
 
 	produced_resource_trigger = {
@@ -347,16 +384,18 @@ building_cofh_se_energy_silo_1 = {
 		}
 	}
 
-	country_modifier = {
-		max_energy = 1000
-	}
-
 	adjacency_bonus = {
 		tile_building_resource_energy_add = 1
 	}
 
-	upgrades = {
-		building_cofh_se_energy_silo_2
+	country_modifier = {
+		max_energy = 1000
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	ai_allow = {
@@ -381,10 +420,12 @@ building_cofh_se_energy_silo_2 = {
 		minerals = @b2cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_power_hub_1"
+	}
+
+	upgrades = {
+		building_cofh_se_energy_silo_3
 	}
 
 	produced_resource_trigger = {
@@ -396,24 +437,22 @@ building_cofh_se_energy_silo_2 = {
 		}
 	}
 
-	country_modifier = {
-		max_energy = 1500
-	}
-
 	adjacency_bonus = {
 		tile_building_resource_energy_add = 1
 	}
 
-	prerequisites = {
-		"tech_power_hub_1"
-	}
-
-	upgrades = {
-		building_cofh_se_energy_silo_3
+	country_modifier = {
+		max_energy = 1500
 	}
 
 	allow = {
 		cofh_se_req_capital_1 = yes
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 }
 
@@ -428,14 +467,8 @@ building_cofh_se_energy_silo_3 = {
 		minerals = @b3cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
-	}
-
-	country_modifier = {
-		max_energy = 2000
+	prerequisites = {
+		"tech_power_hub_2"
 	}
 
 	produced_resource_trigger = {
@@ -451,12 +484,18 @@ building_cofh_se_energy_silo_3 = {
 		tile_building_resource_energy_add = 1
 	}
 
-	prerequisites = {
-		"tech_power_hub_2"
+	country_modifier = {
+		max_energy = 2000
 	}
 
 	allow = {
 		cofh_se_req_capital_2 = yes
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 }
 
@@ -474,10 +513,8 @@ building_cofh_se_food_silo_1 = {
 		minerals = @b1cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	upgrades = {
+		building_cofh_se_food_silo_2
 	}
 
 	produced_resource_trigger = {
@@ -489,16 +526,26 @@ building_cofh_se_food_silo_1 = {
 		}
 	}
 
-	country_modifier = {
-		max_food = 50
-	}
-
 	adjacency_bonus = {
 		tile_building_resource_food_add = 1
 	}
 
-	upgrades = {
-		building_cofh_se_food_silo_2
+	country_modifier = {
+		max_food = 50
+	}
+
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	ai_allow = {
@@ -521,10 +568,12 @@ building_cofh_se_food_silo_2 = {
 		minerals = @b2cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_hydroponics"
+	}
+
+	upgrades = {
+		building_cofh_se_food_silo_3
 	}
 
 	produced_resource_trigger = {
@@ -536,28 +585,34 @@ building_cofh_se_food_silo_2 = {
 		}
 	}
 
-	planet_modifier = {
-		pop_growth_speed = 0.10
+	adjacency_bonus = {
+		tile_building_resource_food_add = 1
 	}
 
 	country_modifier = {
 		max_food = 75
 	}
 
-	adjacency_bonus = {
-		tile_building_resource_food_add = 1
-	}
-
-	prerequisites = {
-		"tech_hydroponics"
-	}
-
-	upgrades = {
-		building_cofh_se_food_silo_3
+	planet_modifier = {
+		pop_growth_speed = 0.10
 	}
 
 	allow = {
 		cofh_se_req_capital_1 = yes
+	}
+
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 }
 
@@ -572,10 +627,8 @@ building_cofh_se_food_silo_3 = {
 		minerals = @b3cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_gene_crops"
 	}
 
 	produced_resource_trigger = {
@@ -587,24 +640,34 @@ building_cofh_se_food_silo_3 = {
 		}
 	}
 
-	planet_modifier = {
-		pop_growth_speed = 0.20
+	adjacency_bonus = {
+		tile_building_resource_food_add = 1
 	}
 
 	country_modifier = {
 		max_food = 100
 	}
 
-	adjacency_bonus = {
-		tile_building_resource_food_add = 1
-	}
-
-	prerequisites = {
-		"tech_gene_crops"
+	planet_modifier = {
+		pop_growth_speed = 0.20
 	}
 
 	allow = {
 		cofh_se_req_capital_2 = yes
+	}
+
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 }
 
@@ -614,7 +677,6 @@ building_cofh_se_food_silo_3 = {
 
 # Xeno Nutriment Factory
 building_cofh_se_xeno_food = {
-	icon = "building_cofh_se_xeno_food"
 	base_buildtime = 360
 	planet_unique = yes
 
@@ -622,10 +684,8 @@ building_cofh_se_xeno_food = {
 		minerals = 200
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_alien_life_studies"
 	}
 
 	required_resources = {
@@ -643,6 +703,7 @@ building_cofh_se_xeno_food = {
 
 	triggered_planet_modifier = {
 		key = "mod_cofh_se_xeno_food_species"
+
 		potential = {
 			planet = {
 				any_pop = {
@@ -653,6 +714,7 @@ building_cofh_se_xeno_food = {
 				}
 			}
 		}
+
 		modifier = {
 			tile_resource_food_mult = 0.15
 		}
@@ -665,8 +727,18 @@ building_cofh_se_xeno_food = {
 		}
 	}
 
-	prerequisites = {
-		"tech_alien_life_studies"
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
 	}
 
 	ai_special_building = yes
@@ -678,17 +750,14 @@ building_cofh_se_xeno_food = {
 
 # Betharian Mining Network
 building_cofh_se_betharian_mining = {
-	icon = "building_cofh_se_betharian_mining"
 	base_buildtime = @b3time
 
 	cost = {
 		minerals = @b3cost
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_mine_betharian"
 	}
 
 	required_resources = {
@@ -699,14 +768,16 @@ building_cofh_se_betharian_mining = {
 		minerals = 10
 	}
 
-	prerequisites = {
-		"tech_mine_betharian"
-	}
-
 	allow = {
 		AND = {
 			cofh_se_req_capital_1 = yes
 			cofh_se_req_betharian_stone = yes
+		}
+	}
+
+	potential = {
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
 		}
 	}
 }
@@ -715,15 +786,17 @@ building_cofh_se_betharian_mining = {
 # Diplomatic Hub / Embassy
 ################################################################################
 
-
 # Diplomatic Hub
 building_cofh_se_diplomatic_hub = {
-	icon = "building_cofh_se_diplomatic_hub"
 	base_buildtime = 720
 	empire_unique = yes
 
 	cost = {
 		minerals = 400
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_prominence"
 	}
 
 	required_resources = {
@@ -744,17 +817,13 @@ building_cofh_se_diplomatic_hub = {
 		}
 	}
 
-	planet_modifier = {
-		planet_border_mult = 0.30
-	}
-
 	country_modifier = {
 		country_trust_growth = 0.10
 		max_influence = 200
 	}
 
-	prerequisites = {
-		"tech_cofh_se_galactic_prominence"
+	planet_modifier = {
+		planet_border_mult = 0.30
 	}
 
 	allow = {
@@ -784,6 +853,17 @@ building_cofh_se_diplomatic_hub = {
 		}
 	}
 
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -800,12 +880,15 @@ building_cofh_se_diplomatic_hub = {
 
 # Diplomatic Embassy
 building_cofh_se_diplomatic_embassy = {
-	icon = "building_cofh_se_diplomatic_embassy"
 	base_buildtime = 540
 	planet_unique = yes
 
 	cost = {
 		minerals = 300
+	}
+
+	prerequisites = {
+		"tech_cofh_se_galactic_prominence"
 	}
 
 	required_resources = {
@@ -826,17 +909,13 @@ building_cofh_se_diplomatic_embassy = {
 		}
 	}
 
-	planet_modifier = {
-		planet_border_mult = 0.15
-	}
-
 	country_modifier = {
 		country_trust_growth = 0.05
 		max_influence = 100
 	}
 
-	prerequisites = {
-		"tech_cofh_se_galactic_prominence"
+	planet_modifier = {
+		planet_border_mult = 0.15
 	}
 
 	allow = {
@@ -866,6 +945,17 @@ building_cofh_se_diplomatic_embassy = {
 		}
 	}
 
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -880,10 +970,12 @@ building_cofh_se_diplomatic_embassy = {
 	}
 }
 
+
 ################################################################################
 # Fleet Support Command / Complex
 ################################################################################
 
+# Fleet Support Command
 building_cofh_se_fleet_command = {
 	base_buildtime = 540
 	empire_unique = yes
@@ -892,10 +984,8 @@ building_cofh_se_fleet_command = {
 		minerals = 350
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_cofh_se_fleet_support"
 	}
 
 	required_resources = {
@@ -908,17 +998,13 @@ building_cofh_se_fleet_command = {
 		sr_cofh_se_fleet_complex = 3
 	}
 
-	planet_modifier = {
-		planet_fortification_strength = 1.0
-	}
-
 	country_modifier = {
 		navy_size_add = 30
 		ship_upkeep_mult = -0.04
 	}
 
-	prerequisites = {
-		"tech_cofh_se_fleet_support"
+	planet_modifier = {
+		planet_fortification_strength = 1.0
 	}
 
 	allow = {
@@ -937,6 +1023,20 @@ building_cofh_se_fleet_command = {
 		}
 	}
 
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -953,6 +1053,7 @@ building_cofh_se_fleet_command = {
 				}
 			}
 		}
+
 		modifier = {
 			weight = 0
 			from = {
@@ -962,7 +1063,7 @@ building_cofh_se_fleet_command = {
 	}
 }
 
-
+# Fleet Support Complex
 building_cofh_se_fleet_complex = {
 	base_buildtime = 360
 	planet_unique = yes
@@ -971,10 +1072,8 @@ building_cofh_se_fleet_complex = {
 		minerals = 250
 	}
 
-	potential = {
-		planet = {
-			NOT = { is_planet_class = pc_habitat }
-		}
+	prerequisites = {
+		"tech_cofh_se_fleet_support"
 	}
 
 	required_resources = {
@@ -987,17 +1086,13 @@ building_cofh_se_fleet_complex = {
 		society_research = 2
 	}
 
-	planet_modifier = {
-		planet_fortification_strength = 0.5
-	}
-
 	country_modifier = {
 		navy_size_add = 15
 		ship_upkeep_mult = -0.02
 	}
 
-	prerequisites = {
-		"tech_cofh_se_fleet_support"
+	planet_modifier = {
+		planet_fortification_strength = 0.5
 	}
 
 	allow = {
@@ -1016,6 +1111,20 @@ building_cofh_se_fleet_complex = {
 		}
 	}
 
+	destroy_if = {
+		exists = owner
+		owner = { has_authority = auth_machine_intelligence }
+	}
+
+	potential = {
+		NOT = {
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		planet = {
+			NOT = { is_planet_class = pc_habitat }
+		}
+	}
+
 	ai_special_building = yes
 
 	ai_weight = {
@@ -1032,6 +1141,7 @@ building_cofh_se_fleet_complex = {
 				}
 			}
 		}
+
 		modifier = {
 			weight = 0
 			from = {

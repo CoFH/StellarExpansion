@@ -41,7 +41,6 @@
 ################################################################################
 
 building_cofh_se_clone_facility = {
-	icon = "building_cofh_se_clone_facility"
 	base_buildtime = 360
 	planet_unique = yes
 
@@ -49,16 +48,20 @@ building_cofh_se_clone_facility = {
 		minerals = 350
 	}
 
-	produced_resources = {
-		society_research = 4
+	prerequisites = {
+		"tech_cofh_se_mass_cloning"
 	}
 
 	required_resources = {
 		energy = 4
 	}
 
+	produced_resources = {
+		society_research = 4
+	}
+
 	planet_modifier = {
-		pop_growth_speed = 0.15
+		pop_growth_speed = 0.20
 	}
 
 	triggered_planet_modifier = {
@@ -78,10 +81,6 @@ building_cofh_se_clone_facility = {
 
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	prerequisites = {
-		"tech_cofh_se_mass_cloning"
 	}
 
 	ai_special_building = yes

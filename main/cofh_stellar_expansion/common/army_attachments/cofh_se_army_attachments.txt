@@ -2,9 +2,9 @@
 # Army Attachments
 # Author: King Lemming
 
-# Sentient Battle Tank
-cofh_se_sapient_tanks = {
-	icon = "gfx/interface/icons/army_attachments/attachment_cofh_se_sapient_ai.dds"
+# Sapient Artillery
+cofh_se_sapient_artillery = {
+	icon = "gfx/interface/icons/army_attachments/attachment_cofh_se_sapient_artillery.dds"
 	cost = { minerals = 50 energy = 25 }
 
 	modifier = {
@@ -14,8 +14,15 @@ cofh_se_sapient_tanks = {
 
 	prerequisites = { "tech_sapient_ai" }
 
+	potential = {
+		owner = {
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}
+
 	ai_weight = {
 		weight = 300
+
 		modifier = {
 			weight = 0
 			NOT = {
