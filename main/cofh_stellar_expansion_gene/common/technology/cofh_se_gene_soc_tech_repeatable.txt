@@ -31,14 +31,7 @@ tech_cofh_se_repeatable_increased_trait_points = {
 	weight = @repeatableTechWeight
 
 	modifier = {
-		HUM_species_trait_points_add = @tech_gene_drive_POINTS
-		MAM_species_trait_points_add = @tech_gene_drive_POINTS
-		REP_species_trait_points_add = @tech_gene_drive_POINTS
-		AVI_species_trait_points_add = @tech_gene_drive_POINTS
-		ART_species_trait_points_add = @tech_gene_drive_POINTS
-		MOL_species_trait_points_add = @tech_gene_drive_POINTS
-		FUN_species_trait_points_add = @tech_gene_drive_POINTS
-		PLANT_species_trait_points_add = @tech_gene_drive_POINTS
+		BIOLOGICAL_species_trait_points_add = @tech_gene_drive_POINTS
 	}
 
 	weight_modifier = {
