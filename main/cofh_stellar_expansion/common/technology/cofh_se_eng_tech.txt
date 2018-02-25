@@ -6,73 +6,49 @@
 # Tier Variables
 ################################################################################
 
-@tier1cost1 = 360
-@tier1cost2 = 480
-@tier1cost3 = 600
-@tier1cost4 = 720
+@tier1cost1 = 500
+@tier1cost2 = 640
+@tier1cost3 = 780
 
 @tier2cost1 = 1000
-@tier2cost2 = 1400
-@tier2cost3 = 1800
-@tier2cost4 = 2200
+@tier2cost2 = 1500
+@tier2cost3 = 2000
 
 @tier3cost1 = 3000
 @tier3cost2 = 4000
 @tier3cost3 = 5000
-@tier3cost4 = 6000
 
-@tier4cost1 = 10000
+@tier4cost1 = 6000
+@tier4cost2 = 8000
+@tier4cost3 = 10000
+
+@tier5cost1 = 14000
+@tier5cost2 = 17000
+@tier5cost3 = 20000
 
 @tier1weight1 = 100
 @tier1weight2 = 95
 @tier1weight3 = 90
-@tier1weight4 = 85
 
-@tier2weight1 = 75
-@tier2weight2 = 70
-@tier2weight3 = 65
-@tier2weight4 = 60
+@tier2weight1 = 85
+@tier2weight2 = 75
+@tier2weight3 = 70
 
-@tier3weight1 = 50
-@tier3weight2 = 45
-@tier3weight3 = 40
-@tier3weight4 = 35
+@tier3weight1 = 65
+@tier3weight2 = 60
+@tier3weight3 = 50
 
-@tier4weight1 = 30
+@tier4weight1 = 45
+@tier4weight2 = 40
+@tier4weight3 = 35
+
+@tier5weight1 = 30
+@tier5weight2 = 25
+@tier5weight3 = 20
 
 ################################################################################
 # Industry
 ################################################################################
-
-# Orbital Mineral Processing
-tech_cofh_se_orbital_mineral_processing = {
-	area = engineering
-	cost = @tier1cost2
-	tier = 1
-	category = { industry }
-	prerequisites = { "tech_mineral_processing_1" "tech_space_construction" }
-	weight = @tier1weight2
-
-	# Unlock Spaceport Module - Orbital Mineral Processing
-
-	weight_modifier = {
-		modifier = {
-			factor = 10
-			is_ai = yes
-		}
-		modifier = {
-			factor = 2
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_industry"
-			}
-		}
-	}
-
-	ai_weight = {
-		factor = 10
-	}
-}
 
 # Research Consortiums
 tech_cofh_se_research_consortiums = {
@@ -115,11 +91,11 @@ tech_cofh_se_research_consortiums = {
 # Protocol Droids
 tech_cofh_se_protocol_droids = {
 	area = engineering
-	cost = @tier2cost4
+	cost = @tier3cost1
 	tier = 2
 	category = { statecraft }
 	prerequisites = { "tech_droid_workers" "tech_sapient_ai" }
-	weight = @tier2weight4
+	weight = @tier3weight1
 	is_rare = yes
 
 	modifier = {

@@ -32,7 +32,6 @@ building_cofh_se_dark_matter = {
 
 	country_modifier = {
 		ship_speed_mult = 0.10
-		ship_combat_speed_mult = 0.10
 		ship_evasion_add = 5
 	}
 
@@ -40,19 +39,8 @@ building_cofh_se_dark_matter = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -91,19 +79,8 @@ building_cofh_se_engos = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -135,27 +112,16 @@ building_cofh_se_garanthium = {
 	}
 
 	country_modifier = {
-		spaceport_ship_build_cost_mult = -0.05
-		spaceport_ship_build_time_mult = -0.05
+		starbase_shipyard_build_speed_mult = 0.10
+		starbase_shipyard_build_cost_mult = -0.05
 	}
 
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -188,26 +154,14 @@ building_cofh_se_living_metal = {
 
 	country_modifier = {
 		ship_upkeep_mult = -0.10
-		ship_reparation_speed_mult = 0.25
 	}
 
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -239,27 +193,15 @@ building_cofh_se_lythuric = {
 	}
 
 	country_modifier = {
-		tile_resource_energy_mult = 0.05
-		planet_fortification_strength = 0.25
+		tile_resource_energy_mult = 0.10
 	}
 
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -299,19 +241,8 @@ building_cofh_se_neutronium = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -351,19 +282,8 @@ building_cofh_se_orillium = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -403,19 +323,8 @@ building_cofh_se_pitharan = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -456,19 +365,8 @@ building_cofh_se_satramene = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -508,19 +406,8 @@ building_cofh_se_teldar = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -559,19 +446,8 @@ building_cofh_se_yuranic= {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {
@@ -603,27 +479,15 @@ building_cofh_se_zro = {
 	}
 
 	country_modifier = {
-		planet_border_mult = 0.1
-		planet_sensor_range_mult = 0.5
+		planet_sensor_range_add = 1
 	}
 
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
 
-	ai_special_building = yes
-
 	ai_allow = {
-		NOR = {
-			has_resource = {
-				type = sr_betharian
-				amount > 0
-			}
-			has_resource = {
-				type = sr_alien_pets
-				amount > 0
-			}
-		}
+		cofh_se_req_no_local = yes
 	}
 
 	ai_weight = {

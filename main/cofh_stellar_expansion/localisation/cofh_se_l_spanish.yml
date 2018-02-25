@@ -1,10 +1,5 @@
 ﻿l_spanish:
 
-# Army Attachments
-
-army_attachment_cofh_se_sapient_artillery:0 "Sentinela de batalla"
-army_attachment_cofh_se_sapient_artillery_desc:0 "§LPlataformas gigantes de artillería autoconsciente. Estos robustos robots son capaces de dar la vuelta una batalla dada la proporción de su poder de fuego y soporte de armadura.§!"
-
 # Buildings
 
 building_cofh_se_betharian_mining:0 "Red de Minería Betharian"
@@ -112,12 +107,6 @@ sr_cofh_se_diplomatic_embassy_desc:0 "Permite el establecimiento y coordinación
 
 sr_cofh_se_fleet_complex:0 "Cuerpo de Apoyo a la Flota"
 sr_cofh_se_fleet_complex_desc:0 "Permite el establecimiento y coordinación de un £edificio §H$building_cofh_se_fleet_complex$§!."
-
-# Spaceport Modules
-
-sm_cofh_se_atmospheric_manipulator:0 "Manipulador atmosférico"
-sm_cofh_se_dockyard:0 "Astillero de la flota"
-sm_cofh_se_mining_terminal:0 "Terminal de Minería"
 
 # Special Projects
 

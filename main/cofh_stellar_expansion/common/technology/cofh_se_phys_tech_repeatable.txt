@@ -2,8 +2,9 @@
 # Engineering Technologies (Repeatable)
 # Author: King Lemming
 
-@repeatableTechBaseCost = 5000
-@repeatableTechLevelCost = 1000
+@repeatableTechBaseCost = 20000
+@repeatableTechLevelCost = 5000
+@repeatableTechTier = 5
 
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5
@@ -17,51 +18,15 @@ tech_cofh_se_repeatable_sapient_ai_improved = {
 	area = physics
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 4
+	tier = @repeatableTechTier
 	category = { computing }
 	levels = 5
 	prerequisites = { "tech_sapient_ai" }
 	weight = @repeatableTechWeight
 
 	modifier = {
-		all_technology_research_speed = 0.01
+		all_technology_research_speed = 0.02
 		pop_robot_production_output = 0.03
-	}
-
-	weight_modifier = {
-		factor = @repeatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
-
-################################################################################
-# Field Manipulation
-################################################################################
-
-# Harmonic Replenishment
-tech_cofh_se_repeatable_shield_regen = {
-	area = physics
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = 4
-	category = { field_manipulation }
-	levels = 5
-	prerequisites = { "tech_shield_rechargers_1" }
-	weight = @repeatableTechWeight
-
-	modifier = {
-		ship_shield_regen_mult = 0.10
 	}
 
 	weight_modifier = {

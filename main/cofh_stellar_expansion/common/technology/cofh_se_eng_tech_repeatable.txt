@@ -2,8 +2,9 @@
 # Engineering Technologies (Repeatable)
 # Author: King Lemming
 
-@repeatableTechBaseCost = 5000
-@repeatableTechLevelCost = 1000
+@repeatableTechBaseCost = 20000
+@repeatableTechLevelCost = 5000
+@repeatableTechTier = 5
 
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5
@@ -17,7 +18,7 @@ tech_cofh_se_repeatable_robot_build_speed = {
 	area = engineering
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 4
+	tier = @repeatableTechTier
 	category = { industry }
 	levels = 5
 	prerequisites = { "tech_robotic_workers" }
@@ -25,75 +26,6 @@ tech_cofh_se_repeatable_robot_build_speed = {
 
 	modifier = {
 		pop_robot_build_speed_mult = 0.10
-	}
-
-	weight_modifier = {
-		factor = @repeatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
-
-################################################################################
-# Ships
-################################################################################
-
-# Shipyard Assembly Coordination
-tech_cofh_se_repeatable_ship_build_speed = {
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = 4
-	category = { voidcraft }
-	levels = 5
-	prerequisites = { "tech_engineering_lab_2" }
-	weight = @repeatableTechWeight
-
-	modifier = {
-		spaceport_ship_build_speed_mult = 0.10
-	}
-
-	weight_modifier = {
-		factor = @repeatableTechFactor
-	}
-
-	ai_weight = {
-		factor = 1.0
-	}
-
-	weight_groups = {
-		repeatable
-	}
-
-	mod_weight_if_group_picked = {
-		repeatable = 0.01
-	}
-}
-
-# Applied Fleet Logistics
-tech_cofh_se_repeatable_ship_repair_upkeep = {
-	area = engineering
-	cost = @repeatableTechBaseCost
-	cost_per_level = @repeatableTechLevelCost
-	tier = 4
-	category = { materials }
-	levels = 5
-	prerequisites = { "tech_engineering_lab_2" }
-	weight = @repeatableTechWeight
-
-	modifier = {
-		ship_reparation_speed_mult = 0.10
-		ship_upkeep_mult = -0.03
 	}
 
 	weight_modifier = {

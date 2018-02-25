@@ -9,7 +9,7 @@
 @b0time = 120
 @b0cost = 30
 @b0effect = 1
-@b0upkeep = 1
+@b0upkeep = 0.5
 
 @b1time = 210
 @b1cost = 60
@@ -35,6 +35,14 @@
 @b5cost = 180
 @b5effect = 8
 @b5upkeep = 3
+
+@science1 = 1
+@science2 = 2
+@science3 = 3
+@science4 = 4
+@science5 = 6
+
+@natural_equilibrium_happiness = 0.02
 
 ################################################################################
 # Geoengineering Institute / Complex
@@ -80,23 +88,20 @@ building_cofh_se_geo_institute = {
 		planet_clear_blocker_time_mult = -0.15
 	}
 
-	triggered_planet_modifier = {
-		key = "cofh_se_geo_terraforming_adaptation"
-		potential = {
-			planet = {
-				is_terraforming = yes
-			}
-		}
-		modifier = {
-			pop_happiness = 0.20
-		}
-	}
+	#triggered_planet_modifier = {
+	#	key = "cofh_se_geo_terraforming_adaptation"
+	#	potential = {
+	#		is_terraforming = yes
+	#	}
+	#	modifier = {
+	#		pop_happiness = 0.20
+	#	}
+	#}
 
 	allow = {
 		cofh_se_req_capital_2 = yes
 	}
 
-	ai_special_building = yes
 	ai_replace = no
 
 	ai_weight = {
@@ -137,21 +142,19 @@ building_cofh_se_geo_complex = {
 		"tech_cofh_se_geoengineering"
 	}
 
-	triggered_planet_modifier = {
-		key = "cofh_se_geo_terraforming_adaptation"
-		potential = {
-			planet = {
-				is_terraforming = yes
-
-				NOT = {
-					has_building = "building_cofh_se_geo_institute"
-				}
-			}
-		}
-		modifier = {
-			pop_happiness = 0.20
-		}
-	}
+	#triggered_planet_modifier = {
+	#	key = "cofh_se_geo_terraforming_adaptation"
+	#	potential = {
+	#		is_terraforming = yes
+	#		
+	#		NOT = {
+	#			has_building = "building_cofh_se_geo_institute"
+	#		}
+	#	}
+	#	modifier = {
+	#		pop_happiness = 0.20
+	#	}
+	#}
 
 	upgrades = {
 		building_cofh_se_geo_reactor_engineering
@@ -163,7 +166,6 @@ building_cofh_se_geo_complex = {
 		cofh_se_req_capital_1 = yes
 	}
 
-	ai_special_building = yes
 	ai_replace = no
 
 	ai_allow = {
@@ -204,27 +206,24 @@ building_cofh_se_geo_reactor_engineering = {
 		tile_resource_minerals_mult = 0.10
 	}
 
-	triggered_planet_modifier = {
-		key = "cofh_se_geo_terraforming_adaptation"
-		potential = {
-			planet = {
-				is_terraforming = yes
-
-				NOT = {
-					has_building = "building_cofh_se_geo_institute"
-				}
-			}
-		}
-		modifier = {
-			pop_happiness = 0.20
-		}
-	}
+	#triggered_planet_modifier = {
+	#	key = "cofh_se_geo_terraforming_adaptation"
+	#	potential = {
+	#		is_terraforming = yes
+	#		
+	#		NOT = {
+	#			has_building = "building_cofh_se_geo_institute"
+	#		}
+	#	}
+	#	modifier = {
+	#		pop_happiness = 0.20
+	#	}
+	#}
 
 	prerequisites = {
 		"tech_engineering_lab_2"
 	}
 
-	ai_special_building = yes
 	ai_replace = no
 
 	ai_allow = {
@@ -266,27 +265,24 @@ building_cofh_se_geo_reactor_physics = {
 		tile_resource_energy_mult = 0.10
 	}
 
-	triggered_planet_modifier = {
-		key = "cofh_se_geo_terraforming_adaptation"
-		potential = {
-			planet = {
-				is_terraforming = yes
-
-				NOT = {
-					has_building = "building_cofh_se_geo_institute"
-				}
-			}
-		}
-		modifier = {
-			pop_happiness = 0.20
-		}
-	}
+	#triggered_planet_modifier = {
+	#	key = "cofh_se_geo_terraforming_adaptation"
+	#	potential = {
+	#		is_terraforming = yes
+	#		
+	#		NOT = {
+	#			has_building = "building_cofh_se_geo_institute"
+	#		}
+	#	}
+	#	modifier = {
+	#		pop_happiness = 0.20
+	#	}
+	#}
 
 	prerequisites = {
 		"tech_physics_lab_2"
 	}
 
-	ai_special_building = yes
 	ai_replace = no
 
 	ai_allow = {
@@ -328,27 +324,24 @@ building_cofh_se_geo_reactor_society = {
 		tile_resource_food_mult = 0.10
 	}
 
-	triggered_planet_modifier = {
-		key = "cofh_se_geo_terraforming_adaptation"
-		potential = {
-			planet = {
-				is_terraforming = yes
-
-				NOT = {
-					has_building = "building_cofh_se_geo_institute"
-				}
-			}
-		}
-		modifier = {
-			pop_happiness = 0.20
-		}
-	}
+	#triggered_planet_modifier = {
+	#	key = "cofh_se_geo_terraforming_adaptation"
+	#	potential = {
+	#		is_terraforming = yes
+	#		
+	#		NOT = {
+	#			has_building = "building_cofh_se_geo_institute"
+	#		}
+	#	}
+	#	modifier = {
+	#		pop_happiness = 0.20
+	#	}
+	#}
 
 	prerequisites = {
 		"tech_biolab_2"
 	}
 
-	ai_special_building = yes
 	ai_replace = no
 
 	ai_allow = {

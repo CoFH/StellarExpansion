@@ -1,6 +1,22 @@
 CoFH - Stellar Expansion - Terraforming (Extreme)
 Author: King Lemming
 
+2018-02-24
+Updated for 2.0.0 [Cherryh].
+
+This is basically a straight port, but with the 2.0 changes in place.
+
+Tech costs have been adjusted (stuff all seems way more expensive, there may be rebalancing).
+
+--------------------------------------------------------------------------------
+
+2017-12-11:
+Updated for 1.9.0 [Boulle].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2017-09-21:
 Updated for 1.8.0 [Capek].
 

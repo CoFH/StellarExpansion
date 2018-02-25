@@ -9,8 +9,8 @@ However, these worlds can only be terraformed directly into a limited subset of
 habitable types. They can of course be terraformed *again* if you desire.
 
 Given that these planets are not normally inhabitable, there is a penalty in the
-form of permanent negative modifiers which will always make them slightly less
-than optimal compared to a "normal" planet.
+form of negative modifiers which will make them slightly less than optimal
+compared to a "normal" planet for quite some time.
 
 ################################################################################
 # Technologies

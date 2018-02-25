@@ -1,10 +1,5 @@
 ﻿l_german:
 
-# Army Attachments
-
-army_attachment_cofh_se_sapient_artillery:0 "Sapient Artillery"
-army_attachment_cofh_se_sapient_artillery_desc:0 "§LGiant self-aware artillery platforms. These hulking robots are capable of turning the tide of a given battle by providing significant firepower and armor support.§!"
-
 # Buildings
 
 building_cofh_se_betharian_mining:0 "Betharian-Bergbaunetzwerk"
@@ -112,12 +107,6 @@ sr_cofh_se_diplomatic_embassy_desc:0 "Allows for the establishment and coordinat
 
 sr_cofh_se_fleet_complex:0 "Logistics Corps"
 sr_cofh_se_fleet_complex_desc:0 "Allows for the establishment and coordination of a £building §H$building_cofh_se_fleet_complex$§!."
-
-# Spaceport Modules
-
-sm_cofh_se_atmospheric_manipulator:0 "Atmosphärischer Manipulator"
-sm_cofh_se_dockyard:0 "Fleet Dockyard"
-sm_cofh_se_mining_terminal:0 "Bergbau-Terminal"
 
 # Special Projects
 

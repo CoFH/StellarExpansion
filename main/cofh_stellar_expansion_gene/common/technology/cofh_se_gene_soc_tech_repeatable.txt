@@ -6,8 +6,9 @@
 # Tier Variables
 ################################################################################
 
-@repeatableTechBaseCost = 5000
-@repeatableTechLevelCost = 1000
+@repeatableTechBaseCost = 20000
+@repeatableTechLevelCost = 5000
+@repeatableTechTier = 5
 
 @repeatableTechWeight = 25
 @repeatableTechFactor = 0.5
@@ -24,7 +25,7 @@ tech_cofh_se_repeatable_increased_trait_points = {
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 4
+	tier = @repeatableTechTier
 	category = { biology }
 	levels = 5
 	prerequisites = { "tech_gene_expressions" }
@@ -81,7 +82,7 @@ tech_cofh_se_repeatable_reduced_modification_cost = {
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
-	tier = 4
+	tier = @repeatableTechTier
 	category = { biology }
 	levels = 5
 	prerequisites = { "tech_gene_expressions" }

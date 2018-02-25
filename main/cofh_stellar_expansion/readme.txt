@@ -17,58 +17,6 @@ then here you go:
 
 General
 --------------------------------------------------------------------------------
-Fleet Support Complex:
-	Planet-Unique
-	Build:
-		360 Days
-		250 Minerals
-		*5 Population on Planet
-		*Planetary Capital (or better)
-
-	Requires:
-		3 Energy
-		1 Support Corps [1]
-
-	Produces:
-		2 Society Research
-		2 Engineering Research
-
-	Planet Modifier:
-		+50% Planetary Fortification
-
-	Empire Modifier:
-		+15 Naval Capacity
-		-2% Ship Upkeep Cost
-
-	Prerequisites:
-		Tech - Planetside Support Operations
-
-Fleet Support Command:
-	Empire-Unique
-	Build:
-		540 Days
-		350 Minerals
-		*10 Population on Planet
-		*Planetary Capital (or better)
-
-	Requires:
-		5 Energy
-
-	Produces:
-		4 Society Research
-		4 Engineering Research
-		3 Support Corps
-
-	Planet Modifier:
-		+100% Planetary Fortification
-
-	Empire Modifier:
-		+30 Naval Capacity
-		-4% Ship Upkeep Cost
-
-	Prerequisites:
-		Tech - Planetside Support Operations
-
 Grand Retail Center:
 	Planet-Unique
 	Build:
@@ -262,114 +210,12 @@ Betharian Mining Network:
 	Prerequisites:
 		Tech - Betharian Refining
 
-Influence
---------------------------------------------------------------------------------
-Diplomatic Embassy:
-	Planet-Unique
-	Build:
-		720 Days
-		300 Minerals
-		*5 Population on Planet
-		*Planetary Capital (or better)
-
-	Requires:
-		3 Energy
-		1 Diplomatic Corps [2]
-
-	Produces:
-		1 Influence
-		2 Unity (with The Federation tradition)
-
-	Planet Modifier:
-		+15% Border Extrusion
-
-	Empire Modifier:
-		+100 Maximum Influence
-		+5% Trust Growth
-
-	Prerequisites:
-		Tech - Galactic Prominence
-
-Diplomatic Hub:
-	Empire-Unique
-	Build:
-		720 Days
-		400 Minerals
-		*10 Population on Planet
-		*Planetary Capital (or better)
-
-	Requires:
-		5 Energy
-
-	Produces:
-		2 Influence
-		3 Diplomatic Corps
-		4 Unity (with The Federation Tradition)
-
-	Planet Modifier:
-		+30% Border Extrusion
-
-	Empire Modifier:
-		+200 Maximum Influence
-		+10% Trust Growth
-
-	Prerequisites:
-		Tech - Galactic Prominence
-
-################################################################################
-# Spaceport Modules
-################################################################################
-
-Atmospheric Manipulator:
-	Build:
-		360 Days
-		200 Minerals
-		*Level 2 Spaceport (or better)
-
-	Requires:
-		2 Energy
-
-	Planet Modifier:
-		+10% Habitability on Planet
-
-	Prerequisites:
-		Tech - Atmospheric Manipulation
-
-Mining Terminal:
-	Build:
-		180 Days
-		100 Minerals
-		*Level 1 Spaceport (or better)
-
-	Requires:
-		1 Energy
-
-	Produces:
-		+3 Minerals
-
-	Planet Modifier:
-		+10% Minerals on Planet
-
-	Prerequisites:
-		Tech - Orbital Mineral Processing
-
 ################################################################################
 # Technologies
 ################################################################################
 
 Engineering
 --------------------------------------------------------------------------------
-Applied Fleet Logistics:
-	Voidcraft
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Supersolid Materials
-
-	Effects:
-		+10% Ship Repair Speed
-		-3% Ship Upkeep
-
 Inertial Compensators:
 	Voidcraft
 
@@ -387,15 +233,6 @@ Orbital Drop Pods:
 
 	Effects:
 		+50% Army Landing Speed
-
-Orbital Mineral Processing:
-	Industry
-
-	Prerequisites:
-		Tech - Space Construction
-
-	Effects:
-		Unlocks Spaceport Module - Mining Terminal
 
 Protocol Droids:
 	Industry
@@ -428,16 +265,6 @@ Robot Assembly Optimization:
 	Effects:
 		+10% Robot Build Speed
 
-Shipyard Assembly Coordination:
-	Voidcraft
-	Repeatable (5x)
-
-	Prerequisites:
-		Tech - Supersolid Materials
-
-	Effects:
-		+10% Ship Build Speed
-
 Physics
 --------------------------------------------------------------------------------
 Deep Scanning Algorithms:
@@ -449,16 +276,6 @@ Deep Scanning Algorithms:
 	Effects:
 		-5% Anomaly Fail Risk
 		+15% Anomaly Discovery Chance
-
-Harmonic Replenishment:
-	Field Manipulation
-	Repeatable (5x)
-
-	Prerequisites:
-		Shield Capacitors
-
-	Effects:
-		+5% Shield Regeneration
 
 Multiphasic Scanning:
 		Field Manipulation
@@ -478,7 +295,7 @@ Positronic Algorithms:
 		Tech - Sentient AI
 
 	Effects:
-		+1% Research Speed
+		+2% Research Speed
 		+3% Robot Production Output
 
 Society
@@ -491,16 +308,6 @@ Battlefield Leadership:
 
 	Effects:
 		+15% Army Morale
-
-Galactic Prominence:
-	Statecraft
-
-	Prerequisites:
-		Tech - Galactic Administration
-
-	Effects:
-		Unlocks - Building: Diplomatic Hub
-		Unlocks - Building: Diplomatic Embassy
 
 Intensive Ecological Engineering:
 	New Worlds
@@ -522,16 +329,6 @@ Interplanetary Military Logistics:
 	Effects:
 		-15% Army Cost
 		-15% Army Upkeep
-
-Planetside Support Operations:
-	Military Theory
-
-	Prerequisites:
-		Tech - Doctrine: Interstellar Warfare
-
-	Effects:
-		Unlocks - Building: Fleet Support Command
-		Unlocks - Building: Fleet Support Complex
 
 Psi Diplomatic Corps:
 	Psionics
