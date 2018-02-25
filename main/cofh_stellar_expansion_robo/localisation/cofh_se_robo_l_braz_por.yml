@@ -4,8 +4,8 @@
 
 # Society
 
-tech_cofh_se_repeatable_increased_biological_trait_points:0 "Arquitetando de Controle Gene"
-tech_cofh_se_repeatable_increased_biological_trait_points_desc:0 "Avanços em técnicas flexíveis de condução genética nos permitem desenvolver praticamente qualquer característica genética."
+tech_cofh_se_repeatable_increased_trait_points:0 "Arquitetando de Controle Gene"
+tech_cofh_se_repeatable_increased_trait_points_desc:0 "Avanços em técnicas flexíveis de condução genética nos permitem desenvolver praticamente qualquer característica genética."
 
 tech_cofh_se_repeatable_reduced_modification_cost:0 "Biophysical Optimization"
 tech_cofh_se_repeatable_reduced_modification_cost_desc:0 "Further optimization of biophysical processes allows for faster and more efficient genetic engineering."

@@ -1,0 +1,161 @@
+# CoFH - Stellar Expansion - Robotics
+# Technologies
+# Author: King Lemming
+
+################################################################################
+# Tier Variables
+################################################################################
+
+@repeatableTechBaseCost = 20000
+@repeatableTechLevelCost = 5000
+@repeatableTechTier = 5
+
+@repeatableTechWeight = 25
+@repeatableTechFactor = 0.5
+
+################################################################################
+# Robotics
+################################################################################
+
+@species_trait_POINTS = 1
+
+# Gene Drive Architecting
+tech_cofh_se_repeatable_increased_robot_trait_points = {
+	icon = "tech_cofh_se_repeatable_increased_robot_trait_points"
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = 5
+	prerequisites = { "tech_robomodding_points_2" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		ROBOT_species_trait_points_add = @species_trait_POINTS
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+
+		modifier = {
+			factor = 0.5
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_industry"
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_mechanists
+		}
+		modifier = {
+			factor = 5
+			has_ascension_perk = ap_the_flesh_is_weak
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 0
+			NOT = { has_ai_personality_behaviour = robot_exploiter }
+			NOT = { has_ai_personality_behaviour = robot_liberator }
+		}
+		modifier = {
+			factor = 2
+			has_valid_civic = civic_mechanists
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}
+
+################################################################################
+# Machine Empires
+################################################################################
+
+# Gene Drive Architecting
+tech_cofh_se_repeatable_increased_machine_trait_points = {
+	icon = "tech_cofh_se_repeatable_increased_machine_trait_points"
+	area = engineering
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = @repeatableTechTier
+	category = { industry }
+	levels = 5
+	prerequisites = { "tech_nanite_assemblers" }
+	weight = @repeatableTechWeight
+
+	modifier = {
+		MACHINE_species_trait_points_add = @species_trait_POINTS
+	}
+	
+	potential = {
+		has_authority = auth_machine_intelligence
+	}
+
+	weight_modifier = {
+		factor = @repeatableTechFactor
+
+		modifier = {
+			factor = 0.5
+			NOR = {
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_maniacal"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_curator"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_expertise_industry"
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			has_ascension_perk = ap_synthetic_age
+		}
+	}
+
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_industry"
+			}
+		}
+	}
+
+	weight_groups = {
+		repeatable
+	}
+
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+}

@@ -17,11 +17,11 @@
 # Genetics
 ################################################################################
 
-@tech_gene_drive_POINTS = 1
+@species_trait_POINTS = 1
 
 # Gene Drive Architecting
-tech_cofh_se_repeatable_increased_trait_points = {
-	icon = "tech_cofh_se_repeatable_increased_trait_points"
+tech_cofh_se_repeatable_increased_biological_trait_points = {
+	icon = "tech_cofh_se_repeatable_increased_biological_trait_points"
 	area = society
 	cost = @repeatableTechBaseCost
 	cost_per_level = @repeatableTechLevelCost
@@ -32,7 +32,7 @@ tech_cofh_se_repeatable_increased_trait_points = {
 	weight = @repeatableTechWeight
 
 	modifier = {
-		BIOLOGICAL_species_trait_points_add = @tech_gene_drive_POINTS
+		BIOLOGICAL_species_trait_points_add = @species_trait_POINTS
 	}
 
 	weight_modifier = {
@@ -51,15 +51,11 @@ tech_cofh_se_repeatable_increased_trait_points = {
 			factor = 5
 			has_ascension_perk = ap_engineered_evolution
 		}
-		modifier = {
-			factor = 5
-			has_ascension_perk = ap_evolutionary_mastery
-		}
 	}
 
 	ai_weight = {
 		modifier = {
-			factor = 2.5
+			factor = 1.25
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_biology"
@@ -109,15 +105,11 @@ tech_cofh_se_repeatable_reduced_modification_cost = {
 			factor = 5
 			has_ascension_perk = ap_engineered_evolution
 		}
-		modifier = {
-			factor = 5
-			has_ascension_perk = ap_evolutionary_mastery
-		}
 	}
 
 	ai_weight = {
 		modifier = {
-			factor = 2.5
+			factor = 1.25
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_biology"

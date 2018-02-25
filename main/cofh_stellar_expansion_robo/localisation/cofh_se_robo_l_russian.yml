@@ -4,8 +4,8 @@
 
 # Society
 
-tech_cofh_se_repeatable_increased_biological_trait_points:0 "Генетический драйвер"
-tech_cofh_se_repeatable_increased_biological_trait_points_desc:0 "Продвинутые технологии манипулирования генами позволят придать нашим гражданам любые генетические черты."
+tech_cofh_se_repeatable_increased_trait_points:0 "Генетический драйвер"
+tech_cofh_se_repeatable_increased_trait_points_desc:0 "Продвинутые технологии манипулирования генами позволят придать нашим гражданам любые генетические черты."
 
 tech_cofh_se_repeatable_reduced_modification_cost:0 "Биофизическая оптимизация"
 tech_cofh_se_repeatable_reduced_modification_cost_desc:0 "Дальнейшая оптимизация биофизических процессов позволяет ускорить и повысить эффективность генной инженерии."
