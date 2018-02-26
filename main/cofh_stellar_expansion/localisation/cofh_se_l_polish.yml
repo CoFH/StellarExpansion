@@ -78,11 +78,11 @@ cofh_se.201.a:0 "Acknowledged."
 cofh_se.210.name:0 "Extradimensional Weaknesses Discovered"
 cofh_se.210.desc:0 "Observation of Extradimensional forces has resulted in the discovery of a number of potential weaknesses in their energy fields. $COFH_SE_FURTHER_RESEARCH$"
 
-cofh_se.301.name:0 "Machine Consciousness Analysis"
-cofh_se.301.desc:0 "The Machine Consciousness vessels encountered by our fleets some time ago are of a completely unknown design. However, the uniformity of their construction may work against them - their vessels may have weaknesses that our forces can exploit.\n\nAssigning a task force of scientists to perform an engineering analysis of the vessels may provide some insight."
+cofh_se.301.name:0 "Contingency Analysis"
+cofh_se.301.desc:0 "The Contingency vessels encountered by our fleets some time ago are of a completely unknown design. However, the uniformity of their construction may work against them - their vessels may have weaknesses that our forces can exploit.\n\nAssigning a task force of scientists to perform an engineering analysis of the vessels may provide some insight."
 cofh_se.301.a:0 "Acknowledged."
-cofh_se.310.name:0 "Machine Consciousness Weaknesses Discovered"
-cofh_se.310.desc:0 "Analysis of Machine Consciousness vessels has resulted in the discovery of a number of potential weaknesses in their structure. $COFH_SE_FURTHER_RESEARCH$"
+cofh_se.310.name:0 "Contingency Weaknesses Discovered"
+cofh_se.310.desc:0 "Analysis of Contingency vessels has resulted in the discovery of a number of potential weaknesses in their structure. $COFH_SE_FURTHER_RESEARCH$"
 
 cofh_se.401.name:0 "Fallen Empire Observation"
 cofh_se.401.desc:0 "The Fallen Empire ships encountered by our fleets some time ago are far more advanced than our own. Nevertheless, they have a rigid fleet structure and minimal variation in ship design.\n\nAssigning a task force of scientists to study their ships and technology may reveal their weaknesses."
@@ -110,8 +110,8 @@ sr_cofh_se_fleet_complex_desc:0 "Allows for the establishment and coordination o
 
 # Special Projects
 
-COFH_SE_INVESTIGATE_AI:0 "Engineering Analysis: Machine Consciousness"
-COFH_SE_INVESTIGATE_AI_DESC:0 "Task a science department with analysis of Machine Consciousness vessels in an effort to gain a combat advantage for our forces."
+COFH_SE_INVESTIGATE_AI:0 "Engineering Analysis: Contingency"
+COFH_SE_INVESTIGATE_AI_DESC:0 "Task a science department with analysis of Contingency vessels in an effort to gain a combat advantage for our forces."
 COFH_SE_INVESTIGATE_EXD:0 "Multispectral Observation: Extradimensional Forces"
 COFH_SE_INVESTIGATE_EXD_DESC:0 "Task a science department with observation of Extradimensional forces in an effort to gain a combat advantage for our forces."
 COFH_SE_INVESTIGATE_SWARM:0 "Field Study: Prethoryn Creatures"
@@ -123,8 +123,8 @@ COFH_SE_INVESTIGATE_FE_DESC:0 "Task a science department with study of Fallen Em
 
 # Anti-Crisis
 
-tech_cofh_se_anti_ai_empire:0 "Machine Consciousness Countermeasures"
-tech_cofh_se_anti_ai_empire_desc:0 "Engineering analysis of Machine Consciousness vessels provides us with knowledge of their structural weaknesses."
+tech_cofh_se_anti_ai_empire:0 "Contingency Countermeasures"
+tech_cofh_se_anti_ai_empire_desc:0 "Engineering analysis of Contingency vessels provides us with knowledge of their structural weaknesses."
 
 tech_cofh_se_anti_fallen_empire:0 "Fallen Empire Countermeasures"
 tech_cofh_se_anti_fallen_empire_desc:0 "Observation of Fallen Empire ship construction and fleet composition provides us with knowledge of their weaknesses."
@@ -199,8 +199,8 @@ tech_cofh_se_repeatable_robot_build_speed_desc:0 "Optimizing assembly techniques
 tech_cofh_se_repeatable_ship_build_speed:0 "Shipyard Assembly Coordination"
 tech_cofh_se_repeatable_ship_build_speed_desc:0 "The application of modular assembly techniques and streamlined processes allow us to enhance the throughput of our shipyards."
 
-tech_cofh_se_repeatable_ship_repair_upkeep:0 "Applied Fleet Logistics"
-tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Advances in material science and transport allow for our fleets to be more easily maintained."
+tech_cofh_se_repeatable_ship_upgrade_upkeep:0 "Applied Fleet Logistics"
+tech_cofh_se_repeatable_ship_upgrade_upkeep_desc:0 "Advances in material science and transport allow for our fleets to be more easily maintained."
 
 # Physics
 

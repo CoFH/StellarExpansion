@@ -1,14 +1,17 @@
 ﻿l_spanish:
 
-# Technology - Repeatable
+# Technology
 
 # Physics
 
-tech_cofh_se_reduced_energency_ftl_damage:0 "Structural Integrity Fields"
-tech_cofh_se_reduced_energency_ftl_damage_desc:0 "Modified shielding technology should allow for ship hulls to be directly reinforced."
+tech_cofh_se_improved_disengage_chance:0 "Exigent Sensor Calibration"
+tech_cofh_se_improved_disengage_chance_desc:0 "Improved sensor calibration techniques should allow for faster responses in emergency situations."
 
-tech_cofh_se_reduced_energency_ftl_time:0 "Exigent Sensor Calibration"
-tech_cofh_se_reduced_energency_ftl_time_desc:0 "Improved sensor calibration techniques should allow for faster responses in emergency situations."
+tech_cofh_se_improved_jumpdrive_range:0 "Spacetime Projection Optimization"
+tech_cofh_se_improved_jumpdrive_range_desc:0 "Improved quantum initiation methods should allow for increases in FTL range."
+
+tech_cofh_se_reduced_emergency_ftl_damage:0 "Structural Integrity Fields"
+tech_cofh_se_reduced_emergency_ftl_damage_desc:0 "Modified shielding technology should allow for ship hulls to be directly reinforced."
 
 tech_cofh_se_reduced_ftl_windup:0 "Hypernavigation Calibration"
 tech_cofh_se_reduced_ftl_windup_desc:0 "Improvements to our hypernavigation sensors should allow us to reduce the time required to initiate FTL travel."

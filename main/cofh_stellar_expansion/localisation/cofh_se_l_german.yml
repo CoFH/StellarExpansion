@@ -199,8 +199,8 @@ tech_cofh_se_repeatable_robot_build_speed_desc:0 "Optimizing assembly techniques
 tech_cofh_se_repeatable_ship_build_speed:0 "Werft Montagekoordinierung"
 tech_cofh_se_repeatable_ship_build_speed_desc:0 "Die Anwendung von modularen Montagetechniken und organisierten Prozessen erlaubt uns den Durchsatz unserer Werften zu verbessern."
 
-tech_cofh_se_repeatable_ship_repair_upkeep:0 "Angewandte Flottenlogistik"
-tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Vortschritte der Materialwissenschft und im Transport ermöglichen uns unsere Flotten leichter zu versorgen."
+tech_cofh_se_repeatable_ship_upgrade_upkeep:0 "Angewandte Flottenlogistik"
+tech_cofh_se_repeatable_ship_upgrade_upkeep_desc:0 "Vortschritte der Materialwissenschft und im Transport ermöglichen uns unsere Flotten leichter zu versorgen."
 
 # Physics
 

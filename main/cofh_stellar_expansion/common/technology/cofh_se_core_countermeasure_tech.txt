@@ -50,7 +50,7 @@
 # Anti-Crisis Technology
 ################################################################################
 
-# Machine Consciousness Countermeasures
+# Contingency Countermeasures
 tech_cofh_se_anti_ai_empire = {
 	area = engineering
 	cost = @tier4cost1

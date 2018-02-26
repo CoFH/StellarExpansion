@@ -199,8 +199,8 @@ tech_cofh_se_repeatable_robot_build_speed_desc:0 "Optimizing assembly techniques
 tech_cofh_se_repeatable_ship_build_speed:0 "Эффективное судопроизводство"
 tech_cofh_se_repeatable_ship_build_speed_desc:0 "Применение модульных технологий строительства и оптимизирование производства позволяют нам увеличивать пропускную способность наших верфей."
 
-tech_cofh_se_repeatable_ship_repair_upkeep:0 "Прикладная логистика"
-tech_cofh_se_repeatable_ship_repair_upkeep_desc:0 "Достижения в области материаловедения и транспорта позволяют снизит наши затраты на обслуживание флота."
+tech_cofh_se_repeatable_ship_upgrade_upkeep:0 "Прикладная логистика"
+tech_cofh_se_repeatable_ship_upgrade_upkeep_desc:0 "Достижения в области материаловедения и транспорта позволяют снизит наши затраты на обслуживание флота."
 
 # Physics
 

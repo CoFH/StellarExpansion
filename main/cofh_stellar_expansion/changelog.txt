@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2018-02-25
+Removed Energy and Food Silos to match the vanilla game. I'm going to be evaluating the balance of this. There's a chance that they will return in some form.
+
+Readded a couple of engineering repeatable techs, with minor modifications.
+
+--------------------------------------------------------------------------------
+
 2018-02-24
 Updated for 2.0.0 [Cherryh].
 
