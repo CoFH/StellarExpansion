@@ -1,6 +1,13 @@
 CoFH - Stellar Expansion - FTL Enhanced
 Author: King Lemming
 
+2018-05-22
+Updated for 2.1.0 [Niven].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2018-02-25
 Minor hotfix to fix some typos and organize things under the hood.
 

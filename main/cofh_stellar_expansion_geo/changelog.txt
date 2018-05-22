@@ -1,6 +1,20 @@
 CoFH - Stellar Expansion - Geoengineering
 Author: King Lemming
 
+2018-05-22
+Updated for 2.1.0 [Niven].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
+2018-03-03
+Figured out how to restore a triggered condition that I was unable to during the initial port.
+
+Happiness offset is now 15%, not the entire 20%.
+
+--------------------------------------------------------------------------------
+
 2018-02-24
 Updated for 2.0.0 [Cherryh].
 

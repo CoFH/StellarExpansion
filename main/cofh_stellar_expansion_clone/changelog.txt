@@ -1,6 +1,29 @@
 CoFH - Stellar Expansion - Cloning
 Author: King Lemming
 
+2018-05-22
+Updated for 2.1.0 [Niven].
+
+Clones can now be created of any biological species in your Empire. Enjoy. :)
+
+You can even apply templates. Thanks "TheFirstPaige" for this!
+
+--------------------------------------------------------------------------------
+
+2018-03-04
+Updated for 2.0.0 [Cherryh].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
+2017-12-11:
+Updated for 1.9.0 [Boulle].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
 2017-09-21:
 Updated for 1.8.0 [Capek].
 

@@ -32,8 +32,8 @@ building_cofh_se_satramene_desc:0 "This industrial research complex creates and 
 building_cofh_se_teldar:0 "Teldar Purification Plant"
 building_cofh_se_teldar_desc:0 "This industrial research complex produces industrial equipment using §Y$sr_teldar$§!, enhancing our mineral processing and construction productivity."
 
-building_cofh_se_yuranic:0 "Yurantic Deposition Plant"
-building_cofh_se_yuranic_desc:0 "This industrial research complex produces advanced computational circuitry using §Y$sr_yuranic$§!, enhancing our research efforts."
+building_cofh_se_yurantic:0 "Yurantic Deposition Plant"
+building_cofh_se_yurantic_desc:0 "This industrial research complex produces advanced computational circuitry using §Y$sr_yuranic$§!, enhancing our research efforts."
 
 building_cofh_se_zro:0 "Zro Diffusion Station"
 building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, awakening and enhancing latent psionic abilities in our populace."

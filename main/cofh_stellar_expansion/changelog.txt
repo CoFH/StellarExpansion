@@ -1,6 +1,15 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2018-05-22
+Updated for 2.1.0 [Niven].
+
+This is basically a straight port.
+
+One minor bugfix to a tech check and there's been a couple of small files added to assist with cross-mod scripting.
+
+--------------------------------------------------------------------------------
+
 2018-02-25
 Removed Energy and Food Silos to match the vanilla game. I'm going to be evaluating the balance of this. There's a chance that they will return in some form.
 

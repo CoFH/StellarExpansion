@@ -60,7 +60,6 @@ tech_cofh_se_deep_scan = {
 	weight = @tier2weight1
 
 	modifier = {
-		ship_anomaly_fail_risk = -0.05
 		ship_anomaly_generation_chance_mult = 0.15
 	}
 

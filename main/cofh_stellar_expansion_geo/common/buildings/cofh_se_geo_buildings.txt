@@ -88,15 +88,17 @@ building_cofh_se_geo_institute = {
 		planet_clear_blocker_time_mult = -0.15
 	}
 
-	#triggered_planet_modifier = {
-	#	key = "cofh_se_geo_terraforming_adaptation"
-	#	potential = {
-	#		is_terraforming = yes
-	#	}
-	#	modifier = {
-	#		pop_happiness = 0.20
-	#	}
-	#}
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			this = {
+				is_terraforming = yes
+			}
+		}
+		modifier = {
+			pop_happiness = 0.15
+		}
+	}
 
 	allow = {
 		cofh_se_req_capital_2 = yes
@@ -142,19 +144,23 @@ building_cofh_se_geo_complex = {
 		"tech_cofh_se_geoengineering"
 	}
 
-	#triggered_planet_modifier = {
-	#	key = "cofh_se_geo_terraforming_adaptation"
-	#	potential = {
-	#		is_terraforming = yes
-	#		
-	#		NOT = {
-	#			has_building = "building_cofh_se_geo_institute"
-	#		}
-	#	}
-	#	modifier = {
-	#		pop_happiness = 0.20
-	#	}
-	#}
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			this = {
+				AND = {
+					is_terraforming = yes
+			
+					NOT = {
+						has_building = "building_cofh_se_geo_institute"
+					}
+				}
+			}			
+		}
+		modifier = {
+			pop_happiness = 0.15
+		}
+	}
 
 	upgrades = {
 		building_cofh_se_geo_reactor_engineering
@@ -206,19 +212,23 @@ building_cofh_se_geo_reactor_engineering = {
 		tile_resource_minerals_mult = 0.10
 	}
 
-	#triggered_planet_modifier = {
-	#	key = "cofh_se_geo_terraforming_adaptation"
-	#	potential = {
-	#		is_terraforming = yes
-	#		
-	#		NOT = {
-	#			has_building = "building_cofh_se_geo_institute"
-	#		}
-	#	}
-	#	modifier = {
-	#		pop_happiness = 0.20
-	#	}
-	#}
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			this = {
+				AND = {
+					is_terraforming = yes
+			
+					NOT = {
+						has_building = "building_cofh_se_geo_institute"
+					}
+				}
+			}			
+		}
+		modifier = {
+			pop_happiness = 0.15
+		}
+	}
 
 	prerequisites = {
 		"tech_engineering_lab_2"
@@ -265,19 +275,23 @@ building_cofh_se_geo_reactor_physics = {
 		tile_resource_energy_mult = 0.10
 	}
 
-	#triggered_planet_modifier = {
-	#	key = "cofh_se_geo_terraforming_adaptation"
-	#	potential = {
-	#		is_terraforming = yes
-	#		
-	#		NOT = {
-	#			has_building = "building_cofh_se_geo_institute"
-	#		}
-	#	}
-	#	modifier = {
-	#		pop_happiness = 0.20
-	#	}
-	#}
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			this = {
+				AND = {
+					is_terraforming = yes
+			
+					NOT = {
+						has_building = "building_cofh_se_geo_institute"
+					}
+				}
+			}			
+		}
+		modifier = {
+			pop_happiness = 0.15
+		}
+	}
 
 	prerequisites = {
 		"tech_physics_lab_2"
@@ -324,19 +338,23 @@ building_cofh_se_geo_reactor_society = {
 		tile_resource_food_mult = 0.10
 	}
 
-	#triggered_planet_modifier = {
-	#	key = "cofh_se_geo_terraforming_adaptation"
-	#	potential = {
-	#		is_terraforming = yes
-	#		
-	#		NOT = {
-	#			has_building = "building_cofh_se_geo_institute"
-	#		}
-	#	}
-	#	modifier = {
-	#		pop_happiness = 0.20
-	#	}
-	#}
+	triggered_planet_modifier = {
+		key = "cofh_se_geo_terraforming_adaptation"
+		potential = {
+			this = {
+				AND = {
+					is_terraforming = yes
+			
+					NOT = {
+						has_building = "building_cofh_se_geo_institute"
+					}
+				}
+			}			
+		}
+		modifier = {
+			pop_happiness = 0.15
+		}
+	}
 
 	prerequisites = {
 		"tech_biolab_2"

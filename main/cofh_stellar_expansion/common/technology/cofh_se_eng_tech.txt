@@ -71,7 +71,7 @@ tech_cofh_se_research_consortiums = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
+				area = engineering
 				has_trait = "leader_trait_expertise_industry"
 			}
 		}
@@ -81,7 +81,7 @@ tech_cofh_se_research_consortiums = {
 		modifier = {
 			factor = 1.25
 			research_leader = {
-				area = physics
+				area = engineering
 				has_trait = "leader_trait_expertise_industry"
 			}
 		}

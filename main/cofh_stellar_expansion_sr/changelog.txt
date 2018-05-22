@@ -1,8 +1,12 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
-CoFH - Stellar Expansion - Terraforming
-Author: King Lemming
+2018-05-22
+Updated for 2.1.0 [Niven].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
 
 2018-02-24
 Updated for 2.0.0 [Cherryh].

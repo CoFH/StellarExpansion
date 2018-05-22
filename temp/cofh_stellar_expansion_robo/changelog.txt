@@ -1,7 +1,17 @@
 CoFH - Stellar Expansion - Robotics
 Author: King Lemming
 
-2016-12-07:
+2018-02-24:
 Mod now exists. :)
+
+I plan on adding some more things to it, such as expanding on cloning a bit. Probably traits as well.
+
+For now though, just a single (much-requested) technology.
+
+New Technologies:
+	Gene Drive Architecting:
+		Biology
+		+1 Trait Point
+		Repeatable (5x)
 
 --------------------------------------------------------------------------------

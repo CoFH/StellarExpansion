@@ -3,7 +3,7 @@
 # Author: King Lemming
 
 # Standard Clone
-cofh_se_clone_1 = {
+cofh_se_clone_HUM = {
 
 	prerequisites = {
 		tech_cofh_se_mass_cloning
@@ -35,5 +35,282 @@ cofh_se_clone_1 = {
 		always = yes
 	}
 
-	species = founder_species
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = HUM
+}
+
+cofh_se_clone_MAM = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = MAM
+}
+
+cofh_se_clone_REP = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = REP
+}
+
+cofh_se_clone_AVI = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = AVI
+}
+
+cofh_se_clone_ART = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = ART
+}
+
+cofh_se_clone_MOL = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = MOL
+}
+
+cofh_se_clone_FUN = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = FUN
+}
+
+cofh_se_clone_PLANT = {
+
+	prerequisites = {
+		tech_cofh_se_mass_cloning
+	}
+
+	cost = {
+		energy = 50
+		minerals = 25
+		food = 25
+	}
+
+	allow = {
+		has_policy_flag = cofh_se_mass_cloning_full
+	}
+
+	potential_build = {
+		NOR = {
+			has_authority = auth_machine_intelligence
+			has_country_flag = synthetic_age
+			is_country_type = ai_empire
+		}
+	}
+
+	tile_potential = {
+		always = yes
+	}
+
+	tile_allow = {
+		always = yes
+	}
+
+	show_tech_unlock_if = {
+		always = no
+	}
+
+	species_class = PLANT
 }

@@ -1,18 +1,25 @@
 [h1][b]Stellar Expansion is NOT required.[/b][/h1]
 It is simply compatible with this mod and designed to work alongside it.
 
-<insert>
+This is a simple addon mod which adds a couple of technologies that play with Genetic Modification, adding some trait points, and reducing genetic modification cost.
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]<insert>.
+	[*]Repeatable technology which adds Trait Points for the purposes of Genetic Modification. (Up to 5 total.)
+	[*]Repeatable technology which reduces the cost of Genetic Modification and increases Society Research Speed.
 [/list]
 
-[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_robo/readme.txt]Feature List[/url][/b]
-[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_robo/changelog.txt]Change Log[/url][/b]
+While not REQUIRED, theses mods are highly recommended:
+[b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792136722]CoFH UI - Species Mod Window[/url][/i][/b]
+[b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=922079942]CoFH Tweaks - Increased Maximum Traits (9)[/url][/i][/b]
 
-Localizations: English, German, Russian.
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_gene/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_gene/changelog.txt]Change Log[/url][/b]
+
+Localizations: English, Brazilian Portuguese, German, Russian.
 
 [h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
 
 If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

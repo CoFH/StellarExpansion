@@ -9,7 +9,7 @@
 @b0time = 120
 @b0cost = 30
 @b0effect = 1
-@b0upkeep = 1
+@b0upkeep = 0.5
 
 @b1time = 210
 @b1cost = 60
@@ -35,6 +35,14 @@
 @b5cost = 180
 @b5effect = 8
 @b5upkeep = 3
+
+@science1 = 1
+@science2 = 2
+@science3 = 3
+@science4 = 4
+@science5 = 6
+
+@natural_equilibrium_happiness = 0.02
 
 ################################################################################
 # Cloning
@@ -67,9 +75,11 @@ building_cofh_se_clone_facility = {
 	triggered_planet_modifier = {
 		key = "cofh_se_mass_cloning_limited_name"
 		potential = {
-			owner = {
-				NOT = {
-					has_policy_flag = cofh_se_mass_cloning_none
+			this = {
+				owner = {
+					NOT = {
+						has_policy_flag = cofh_se_mass_cloning_none
+					}
 				}
 			}
 		}
@@ -82,8 +92,6 @@ building_cofh_se_clone_facility = {
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
-
-	ai_special_building = yes
 
 	ai_weight = {
 		weight = 1000

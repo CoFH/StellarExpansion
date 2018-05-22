@@ -419,8 +419,8 @@ building_cofh_se_teldar = {
 	}
 }
 
-building_cofh_se_yuranic= {
-	icon = "building_cofh_se_yuranic"
+building_cofh_se_yurantic= {
+	icon = "building_cofh_se_yurantic"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -430,12 +430,12 @@ building_cofh_se_yuranic= {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_yuranic = 1
+		sr_yurantic = 1
 	}
 
 	produced_resources = {
 		physics_research = @beffect
-		sr_yuranic = 1
+		sr_yurantic = 1
 	}
 
 	country_modifier = {
