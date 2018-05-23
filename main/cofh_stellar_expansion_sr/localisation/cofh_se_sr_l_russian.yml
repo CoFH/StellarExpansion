@@ -2,6 +2,9 @@
 
 # Buildings
 
+building_cofh_se_aldar:0 "Aldar Integration Factory"
+building_cofh_se_aldar_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_aldar$§!, enhancing our mineral processing and spaceship hulls."
+
 building_cofh_se_dark_matter:0 "Концентратор тёмной материи"
 building_cofh_se_dark_matter_desc:0 "Этот промышленный комплекс использует §Y$sr_dark_matter$§! для производства корабельных устройств управления гравитацией."
 
@@ -30,10 +33,10 @@ building_cofh_se_satramene:0 "Сатраминовый распылитель"
 building_cofh_se_satramene_desc:0 "Этот промышленный комплекс производит и распространяет аэрозольный §Y$sr_satramene$§!, который может незаметно использоваться на переговорах."
 
 building_cofh_se_teldar:0 "Фабрика по очистке тельдара"
-building_cofh_se_teldar_desc:0 "Этот промышленный комплекс производит фабричное оборудование с использованием §Y$sr_teldar$§!, повышая добычу минералов и эффективность процессов строительства."
+building_cofh_se_teldar_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_teldar$§!, enhancing our mineral processing and spaceship armor."
 
 building_cofh_se_yurantic:0 "Фабрика по осаждению юрантика"
-building_cofh_se_yurantic_desc:0 "Этот промышленный комплекс производит продвинутые вычислительнын схемы с использованием §Y$sr_yuranic$§!, повышая эффективность наших исследований."
+building_cofh_se_yurantic_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_yurantic$§!, enhancing our mineral processing and spaceship shields."
 
 building_cofh_se_zro:0 "Станция распыления зро"
-building_cofh_se_zro_desc:0 "Этот промышленный комплекс занимается распространением микроаэрозольных систем §Y$sr_zro$§!, пробуждая и усиливая спящие псионические способности жителей нашей империи."
+building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, enhancing our perception of the universe and its underlying mechanisms."

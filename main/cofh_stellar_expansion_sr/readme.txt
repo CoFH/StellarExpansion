@@ -22,6 +22,22 @@ working.
 NOTE: All buildings require their respective Strategic Resource to construct and
 maintain, but also "produce" that resource, so it is not actually consumed.
 
+Aldar Integration Factory:
+	Empire-Unique
+	Build:
+		360 Days
+		350 Minerals
+
+	Requires:
+		3 Energy
+
+	Produces:
+		8 Engineering Research
+
+	Empire Modifier:
+		+10% Ship Hull
+		+5% Tile Minerals
+
 Dark Matter Concentrator:
 	Empire-Unique
 	Build:
@@ -35,7 +51,6 @@ Dark Matter Concentrator:
 		8 Physics Research
 
 	Empire Modifier:
-		+10% Ship Combat Speed
 		+10% Ship Speed
 		+5 Ship Evasion
 
@@ -52,7 +67,7 @@ Engos Dispersal Station:
 		8 Society Research
 
 	Empire Modifier:
-		-10% Population Growth Time
+		+20% Population Growth Speed
 
 Garanthium Manufactory:
 	Empire-Unique
@@ -70,21 +85,6 @@ Garanthium Manufactory:
 		-5% Ship Build Time
 		-5% Ship Cost
 
-Ixrybun Deposition Plant:
-	Empire-Unique
-	Build:
-		360 Days
-		350 Minerals
-
-	Requires:
-		3 Energy
-
-	Produces:
-		8 Physics Research
-
-	Empire Modifier:
-		+5% Research Speed
-
 Living Metal Depot:
 	Empire-Unique
 	Build:
@@ -95,11 +95,10 @@ Living Metal Depot:
 		3 Energy
 
 	Produces:
-		8 Society Research
+		8 Engineering Research
 
 	Empire Modifier:
 		-10% Ship Upkeep Cost
-		+25% Ship Repair Speed
 
 Lythuric Stabilization Plant:
 	Empire-Unique
@@ -114,8 +113,8 @@ Lythuric Stabilization Plant:
 		8 Physics Research
 
 	Empire Modifier:
-		+5% Energy Credits
-		+25% Planetary Fortification Strength
+		-10% Planetary Bombardment Damage
+		+5% Tile Energy Credits
 
 Neutronium Armory:
 	Empire-Unique
@@ -127,7 +126,7 @@ Neutronium Armory:
 		3 Energy
 
 	Produces:
-		8 Engineering Research
+		8 Physics Research
 
 	Empire Modifier:
 		+25% Army Damage
@@ -147,7 +146,7 @@ Orillium Explosives Factory:
 
 	Empire Modifier:
 		-5% Building Time
-		+5% Minerals
+		+5% Tile Minerals
 
 Pitharan Distillation Facility:
 	Empire-Unique
@@ -162,7 +161,7 @@ Pitharan Distillation Facility:
 		8 Society Research
 
 	Empire Modifier:
-		+5% Energy Credits
+		+5% Tile Energy Credits
 		-5% Food Required for Population
 
 Satramene Infusion Plant:
@@ -195,10 +194,10 @@ Teldar Purification Plant:
 		8 Engineering Research
 
 	Empire Modifier:
-		-5% Building Cost
-		+5% Minerals
+		+10% Ship Armor
+		+5% Tile Minerals
 
-Zro Diffusion Station:
+Yurantic Deposition Plant:
 	Empire-Unique
 	Build:
 		360 Days
@@ -211,27 +210,21 @@ Zro Diffusion Station:
 		8 Physics Research
 
 	Empire Modifier:
-		+10% Planet Border Extrusion
-		+50% Planetary Sensor Range
+		+10% Ship Shields
+		+5% Tile Minerals
 
-################################################################################
-# Strategic Resources
-################################################################################
+Zro Diffusion Station:
+	Empire-Unique
+	Build:
+		360 Days
+		350 Minerals
 
-Ixrybun Crystals:
-	+10% Energy Weapon Damage
-	Found on Molten Worlds and Asteroids.
+	Requires:
+		3 Energy
 
-################################################################################
-# Technologies
-################################################################################
+	Produces:
+		8 Society Research
 
-Ixrybun Crystal Mining:
-	Industry
-
-	Prerequisites:
-		Tech - Mineral Processing
-		*Borders must include potential Ixrybun system
-
-	Effects:
-		Reveals Strategic Resource: Ixrybun Crystals
+	Empire Modifier:
+		+1 Planet Sensor Range
+		+5% All Research

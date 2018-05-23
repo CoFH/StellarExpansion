@@ -2,6 +2,20 @@ CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
 2018-05-22
+Added a building for the new "Aldar Crystals" SR.
+
+New Building:
+	Aldar Integration Factory:
+		Empire-Unique
+		+8 Engineering Produced
+		+10% Ship Hull
+		+5% Tile Minerals
+
+Rebalanced and altered abilities of existing buildings a bit to fit with the new tier system and SR distribution.
+
+--------------------------------------------------------------------------------
+
+2018-05-22
 Updated for 2.1.0 [Niven].
 
 No actual changes - just version incrementing.
