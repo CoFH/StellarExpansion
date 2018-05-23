@@ -12,7 +12,7 @@
 @bupkeep = 3
 
 ################################################################################
-# Clustered
+# Crystals
 ################################################################################
 
 building_cofh_se_aldar = {
@@ -37,210 +37,6 @@ building_cofh_se_aldar = {
 	country_modifier = {
 		ship_hull_mult = 0.10
 		tile_resource_minerals_mult = 0.05
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_engos = {
-	icon = "building_cofh_se_engos"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_engos = 1
-	}
-
-	produced_resources = {
-		society_research = @beffect
-		sr_engos = 1
-	}
-
-	country_modifier = {
-		pop_growth_speed = 0.20
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_garanthium = {
-	icon = "building_cofh_se_garanthium"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_garanthium = 1
-	}
-
-	produced_resources = {
-		engineering_research = @beffect
-		sr_garanthium = 1
-	}
-
-	country_modifier = {
-		starbase_shipyard_build_speed_mult = 0.10
-		starbase_shipyard_build_cost_mult = -0.05
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_lythuric = {
-	icon = "building_cofh_se_lythuric"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_lythuric = 1
-	}
-
-	produced_resources = {
-		physics_research = @beffect
-		sr_lythuric = 1
-	}
-
-	country_modifier = {
-		planet_orbital_bombardment_damage = -0.10
-		tile_resource_energy_mult = 0.05
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_orillium = {
-	icon = "building_cofh_se_orillium"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_orillium = 1
-	}
-
-	produced_resources = {
-		engineering_research = @beffect
-		sr_orillium = 1
-	}
-
-	country_modifier = {
-		building_time_mult = -0.05
-		tile_resource_minerals_mult = 0.05
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_pitharan = {
-	icon = "building_cofh_se_pitharan"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_pitharan = 1
-	}
-
-	produced_resources = {
-		society_research = @beffect
-		sr_pitharan = 1
-	}
-
-	country_modifier = {
-		tile_resource_energy_mult = 0.05
-		pop_food_req_mult = -0.05
 	}
 
 	allow = {
@@ -343,7 +139,306 @@ building_cofh_se_yurantic = {
 }
 
 ################################################################################
-# Non-Clustered
+# Dusts
+################################################################################
+
+building_cofh_se_pitharan = {
+	icon = "building_cofh_se_pitharan"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_pitharan = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_pitharan = 1
+	}
+
+	country_modifier = {
+		pop_food_req_mult = -0.05
+		tile_resource_energy_mult = 0.05
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_zro = {
+	icon = "building_cofh_se_zro"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_zro = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_zro = 1
+	}
+
+	country_modifier = {
+		all_technology_research_speed = 0.05
+		planet_sensor_range_add = 1
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+################################################################################
+# Gases
+################################################################################
+
+building_cofh_se_engos = {
+	icon = "building_cofh_se_engos"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_engos = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_engos = 1
+	}
+
+	country_modifier = {
+		pop_growth_speed = 0.20
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_lythuric = {
+	icon = "building_cofh_se_lythuric"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_lythuric = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_lythuric = 1
+	}
+
+	country_modifier = {
+		planet_building_cost_mult = -0.05
+		tile_resource_energy_mult = 0.05
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_satramene = {
+	icon = "building_cofh_se_satramene"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_satramene = 1
+	}
+
+	produced_resources = {
+		society_research = @beffect
+		sr_satramene = 1
+	}
+
+	country_modifier = {
+		country_trade_attractiveness = 0.10
+		country_trust_growth = 0.10
+		planet_unrest_add = -10
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+################################################################################
+# Ores
+################################################################################
+
+building_cofh_se_garanthium = {
+	icon = "building_cofh_se_garanthium"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_garanthium = 1
+	}
+
+	produced_resources = {
+		engineering_research = @beffect
+		sr_garanthium = 1
+	}
+
+	country_modifier = {
+		starbase_shipyard_build_speed_mult = 0.10
+		starbase_shipyard_build_cost_mult = -0.05
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+building_cofh_se_orillium = {
+	icon = "building_cofh_se_orillium"
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_orillium = 1
+	}
+
+	produced_resources = {
+		engineering_research = @beffect
+		sr_orillium = 1
+	}
+
+	country_modifier = {
+		planet_orbital_bombardment_damage = -0.10
+		tile_resource_energy_mult = 0.05
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+################################################################################
+# Other
 ################################################################################
 
 building_cofh_se_dark_matter = {
@@ -449,93 +544,6 @@ building_cofh_se_neutronium = {
 	country_modifier = {
 		army_damage_mult = 0.25
 		army_health = 0.25
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_zro = {
-	icon = "building_cofh_se_zro"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_zro = 1
-	}
-
-	produced_resources = {
-		society_research = @beffect
-		sr_zro = 1
-	}
-
-	country_modifier = {
-		all_technology_research_speed = 0.05
-		planet_sensor_range_add = 1
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-################################################################################
-# Policy
-################################################################################
-
-building_cofh_se_satramene = {
-	icon = "building_cofh_se_satramene"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_satramene = 1
-	}
-
-	produced_resources = {
-		society_research = @beffect
-		sr_satramene = 1
-	}
-
-	country_modifier = {
-		country_trade_attractiveness = 0.10
-		country_trust_growth = 0.10
-		planet_unrest_add = -10
 	}
 
 	allow = {

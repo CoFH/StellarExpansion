@@ -22,7 +22,7 @@ working.
 NOTE: All buildings require their respective Strategic Resource to construct and
 maintain, but also "produce" that resource, so it is not actually consumed.
 
-Aldar Integration Factory:
+Aldar Integration Plant:
 	Empire-Unique
 	Build:
 		360 Days
@@ -100,7 +100,7 @@ Living Metal Depot:
 	Empire Modifier:
 		-10% Ship Upkeep Cost
 
-Lythuric Stabilization Plant:
+Lythuric Stabilization Station:
 	Empire-Unique
 	Build:
 		360 Days
@@ -113,7 +113,7 @@ Lythuric Stabilization Plant:
 		8 Physics Research
 
 	Empire Modifier:
-		-10% Planetary Bombardment Damage
+		-5% Building Cost
 		+5% Tile Energy Credits
 
 Neutronium Armory:
@@ -132,7 +132,7 @@ Neutronium Armory:
 		+25% Army Damage
 		+25% Army Health
 
-Orillium Explosives Factory:
+Orillium Modulation Factory:
 	Empire-Unique
 	Build:
 		360 Days
@@ -145,8 +145,8 @@ Orillium Explosives Factory:
 		8 Engineering Research
 
 	Empire Modifier:
-		-5% Building Time
-		+5% Tile Minerals
+		-10% Planetary Bombardment Damage
+		+5% Tile Energy
 
 Pitharan Distillation Facility:
 	Empire-Unique
@@ -164,7 +164,7 @@ Pitharan Distillation Facility:
 		+5% Tile Energy Credits
 		-5% Food Required for Population
 
-Satramene Infusion Plant:
+Satramene Infusion Station:
 	Empire-Unique
 	Build:
 		360 Days
@@ -213,7 +213,7 @@ Yurantic Deposition Plant:
 		+10% Ship Shields
 		+5% Tile Minerals
 
-Zro Diffusion Station:
+Zro Diffusion Facility:
 	Empire-Unique
 	Build:
 		360 Days

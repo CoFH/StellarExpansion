@@ -2,7 +2,7 @@
 
 # Buildings
 
-building_cofh_se_aldar:0 "Aldar Integration Factory"
+building_cofh_se_aldar:0 "Aldar Integration Plant"
 building_cofh_se_aldar_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_aldar$§!, enhancing our mineral processing and spaceship hulls."
 
 building_cofh_se_dark_matter:0 "Dark Matter Concentrator"
@@ -17,19 +17,19 @@ building_cofh_se_garanthium_desc:0 "This industrial research complex produces sp
 building_cofh_se_living_metal:0 "Living Metal Depot"
 building_cofh_se_living_metal_desc:0 "This industrial research complex produces spaceship components using §Y$sr_living_metal$§!, providing our fleets with a logistical advantage."
 
-building_cofh_se_lythuric:0 "Lythuric Stabilization Plant"
-building_cofh_se_lythuric_desc:0 "This industrial research complex utilizes §Y$sr_lythuric$§! to construct components used in planetary defenses and power plants."
+building_cofh_se_lythuric:0 "Lythuric Stabilization Station"
+building_cofh_se_lythuric_desc:0 "This industrial research complex utilizes §Y$sr_lythuric$§! to produce components used in construction and power plants."
 
 building_cofh_se_neutronium:0 "Neutronium Armory"
 building_cofh_se_neutronium_desc:0 "This industrial research complex produces military equipment using §Y$sr_neutronium$§!, greatly strengthening our armies."
 
-building_cofh_se_orillium:0 "Orillium Explosives Factory"
-building_cofh_se_orillium_desc:0 "This industrial research complex produces explosives with §Y$sr_orillium$§!, which are used in mining and construction."
+building_cofh_se_orillium:0 "Orillium Modulation Factory"
+building_cofh_se_orillium_desc:0 "This industrial research complex produces components with §Y$sr_orillium$§!, which are used in planetary defenses and power plants."
 
 building_cofh_se_pitharan:0 "Pitharan Distillation Facility"
-building_cofh_se_pitharan_desc:0 "This industrial research complex distills §Y$sr_pitharan$§!, with the resulting products being used in agriculture and power plants."
+building_cofh_se_pitharan_desc:0 "This industrial research complex distills §Y$sr_pitharan$§!, with the resulting products used in agriculture and power plants."
 
-building_cofh_se_satramene:0 "Satramene Infusion Plant"
+building_cofh_se_satramene:0 "Satramene Infusion Station"
 building_cofh_se_satramene_desc:0 "This industrial research complex creates and distributes aerosolized §Y$sr_satramene$§!, which can be discretely utilized in negotiation efforts."
 
 building_cofh_se_teldar:0 "Teldar Purification Plant"
@@ -38,5 +38,5 @@ building_cofh_se_teldar_desc:0 "This industrial research complex produces advanc
 building_cofh_se_yurantic:0 "Yurantic Deposition Plant"
 building_cofh_se_yurantic_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_yurantic$§!, enhancing our mineral processing and spaceship shields."
 
-building_cofh_se_zro:0 "Zro Diffusion Station"
+building_cofh_se_zro:0 "Zro Diffusion Facility"
 building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, enhancing our perception of the universe and its underlying mechanisms."

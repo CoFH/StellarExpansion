@@ -2,7 +2,7 @@
 
 # Buildings
 
-building_cofh_se_aldar:0 "Aldar Integration Factory"
+building_cofh_se_aldar:0 "Aldar Integration Plant"
 building_cofh_se_aldar_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_aldar$§!, enhancing our mineral processing and spaceship hulls."
 
 building_cofh_se_dark_matter:0 "Концентратор тёмной материи"
@@ -18,13 +18,13 @@ building_cofh_se_living_metal:0 "Хранилище живого металла"
 building_cofh_se_living_metal_desc:0 "Этот промышленный комплекс использует §Y$sr_living_metal$§! для производства корабельных компонентов, обеспечивающих наши флотилии логистическим преимуществом."
 
 building_cofh_se_lythuric:0 "Стабилизатор литурического газа"
-building_cofh_se_lythuric_desc:0 "Этот промышленный комплекс перерабатывает §Y$sr_lythuric$§! в компоненты для производства средств планетарной защиты и электрогенерирующего оборудования."
+building_cofh_se_lythuric_desc:0 "This industrial research complex utilizes §Y$sr_lythuric$§! to produce components used in construction and power plants."
 
 building_cofh_se_neutronium:0 "Фабрика нейтрониевого оружия"
 building_cofh_se_neutronium_desc:0 "Этот промышленный комплекс использует §Y$sr_neutronium$§! для производства военного оборудования, призванного значительно повысить эффективность наших солдат."
 
 building_cofh_se_orillium:0 "Фабрика орилиевой взрывчатки"
-building_cofh_se_orillium_desc:0 "Этот промышленный комплекс производит взрывчатку с использованием §Y$sr_orillium$§!, которая применяется в строительстве и ландшафтных работах."
+building_cofh_se_orillium_desc:0 "This industrial research complex produces components with §Y$sr_orillium$§!, which are used in planetary defenses and power plants."
 
 building_cofh_se_pitharan:0 "Фабрика по очистке питарана"
 building_cofh_se_pitharan_desc:0 "Этот промышленный комплекс очищает §Y$sr_pitharan$§!. Полученные продукты активно используются в электроэнергетике и сельском хозяйстве."
