@@ -16,7 +16,6 @@
 ################################################################################
 
 building_cofh_se_aldar = {
-	icon = "building_cofh_se_aldar"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -57,7 +56,6 @@ building_cofh_se_aldar = {
 }
 
 building_cofh_se_teldar = {
-	icon = "building_cofh_se_teldar"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -98,7 +96,6 @@ building_cofh_se_teldar = {
 }
 
 building_cofh_se_yurantic = {
-	icon = "building_cofh_se_yurantic"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -143,7 +140,6 @@ building_cofh_se_yurantic = {
 ################################################################################
 
 building_cofh_se_pitharan = {
-	icon = "building_cofh_se_pitharan"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -184,7 +180,6 @@ building_cofh_se_pitharan = {
 }
 
 building_cofh_se_zro = {
-	icon = "building_cofh_se_zro"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -229,7 +224,6 @@ building_cofh_se_zro = {
 ################################################################################
 
 building_cofh_se_engos = {
-	icon = "building_cofh_se_engos"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -269,7 +263,6 @@ building_cofh_se_engos = {
 }
 
 building_cofh_se_lythuric = {
-	icon = "building_cofh_se_lythuric"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -310,7 +303,6 @@ building_cofh_se_lythuric = {
 }
 
 building_cofh_se_satramene = {
-	icon = "building_cofh_se_satramene"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -356,7 +348,6 @@ building_cofh_se_satramene = {
 ################################################################################
 
 building_cofh_se_garanthium = {
-	icon = "building_cofh_se_garanthium"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -396,8 +387,47 @@ building_cofh_se_garanthium = {
 	}
 }
 
+building_cofh_se_neutronium = {
+	base_buildtime = @btime
+	empire_unique = yes
+
+	cost = {
+		minerals = @bcost
+	}
+
+	required_resources = {
+		energy = @bupkeep
+		sr_neutronium = 1
+	}
+
+	produced_resources = {
+		physics_research = @beffect
+		sr_neutronium = 1
+	}
+
+	country_modifier = {
+		army_damage_mult = 0.25
+		army_health = 0.25
+	}
+
+	allow = {
+		cofh_se_req_capital_1_or_hab = yes
+	}
+
+	ai_allow = {
+		cofh_se_req_no_local = yes
+	}
+
+	ai_weight = {
+		weight = 5000
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
 building_cofh_se_orillium = {
-	icon = "building_cofh_se_orillium"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -442,7 +472,6 @@ building_cofh_se_orillium = {
 ################################################################################
 
 building_cofh_se_dark_matter = {
-	icon = "building_cofh_se_dark_matter"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -483,7 +512,6 @@ building_cofh_se_dark_matter = {
 }
 
 building_cofh_se_living_metal = {
-	icon = "building_cofh_se_living_metal"
 	base_buildtime = @btime
 	empire_unique = yes
 
@@ -503,47 +531,6 @@ building_cofh_se_living_metal = {
 
 	country_modifier = {
 		ship_upkeep_mult = -0.10
-	}
-
-	allow = {
-		cofh_se_req_capital_1_or_hab = yes
-	}
-
-	ai_allow = {
-		cofh_se_req_no_local = yes
-	}
-
-	ai_weight = {
-		weight = 5000
-		modifier = {
-			factor = 0
-			from = { sector_controlled = yes }
-		}
-	}
-}
-
-building_cofh_se_neutronium = {
-	icon = "building_cofh_se_neutronium"
-	base_buildtime = @btime
-	empire_unique = yes
-
-	cost = {
-		minerals = @bcost
-	}
-
-	required_resources = {
-		energy = @bupkeep
-		sr_neutronium = 1
-	}
-
-	produced_resources = {
-		physics_research = @beffect
-		sr_neutronium = 1
-	}
-
-	country_modifier = {
-		army_damage_mult = 0.25
-		army_health = 0.25
 	}
 
 	allow = {

@@ -1,3 +1,7 @@
+# CoFH - Stellar Expansion
+# Scripted Effects - CGM API
+# Author: ExNihil
+
 check_planet_bonus_buildings_se = {
 	if = {
 		limit = {

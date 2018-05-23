@@ -8,14 +8,14 @@ building_cofh_se_geo_complex_desc:0 "A research complex devoted to the study and
 building_cofh_se_geo_institute:0 "Geoengineering Institute"
 building_cofh_se_geo_institute_desc:0 "A massive research facility devoted to the study and manipulation of geoplanetary physics, greatly assisting our terraforming efforts.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
 
-building_cofh_se_geo_reactor_engineering:0 "Tectonic Stabilization Reactor"
-building_cofh_se_geo_reactor_engineering_desc:0 "An engineering research facility which investigates and manipulates tectonic conditions, improving planetary mineral yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
+building_cofh_se_geo_reactor_eng:0 "Tectonic Stabilization Reactor"
+building_cofh_se_geo_reactor_eng_desc:0 "An engineering research facility which investigates and manipulates tectonic conditions, improving planetary mineral yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
 
-building_cofh_se_geo_reactor_physics:0 "Energetic Modulation Reactor"
-building_cofh_se_geo_reactor_physics_desc:0 "A physics research facility which investigates and manipulates atmospheric energy conditions, improving planetary energy yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
+building_cofh_se_geo_reactor_phys:0 "Energetic Modulation Reactor"
+building_cofh_se_geo_reactor_phys_desc:0 "A physics research facility which investigates and manipulates atmospheric energy conditions, improving planetary energy yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
 
-building_cofh_se_geo_reactor_society:0 "Phytogenic Infusion Reactor"
-building_cofh_se_geo_reactor_society_desc:0 "A societal research facility which investigates and manipulates conditions necessary for plant life, improving planetary food yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
+building_cofh_se_geo_reactor_soc:0 "Phytogenic Infusion Reactor"
+building_cofh_se_geo_reactor_soc_desc:0 "A societal research facility which investigates and manipulates conditions necessary for plant life, improving planetary food yields.\n\n§GMitigates unhappiness from ongoing terraformation.§!"
 
 # Modifiers
 

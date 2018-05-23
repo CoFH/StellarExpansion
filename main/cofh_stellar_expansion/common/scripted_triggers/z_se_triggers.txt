@@ -1,3 +1,7 @@
+# CoFH - Stellar Expansion
+# Scripted Triggers - CGM API
+# Author: ExNihil
+
 has_se_planet_bonus_building = {
 	OR = {
 		has_building = building_cofh_se_xeno_food

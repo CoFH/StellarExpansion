@@ -50,7 +50,6 @@
 
 # Geoengineering Institute
 building_cofh_se_geo_institute = {
-	icon = "building_cofh_se_geo_institute"
 	base_buildtime = 540
 	empire_unique = yes
 
@@ -113,7 +112,6 @@ building_cofh_se_geo_institute = {
 
 # Geoengineering Complex
 building_cofh_se_geo_complex = {
-	icon = "building_cofh_se_geo_complex"
 	base_buildtime = 360
 	planet_unique = yes
 
@@ -163,9 +161,9 @@ building_cofh_se_geo_complex = {
 	}
 
 	upgrades = {
-		building_cofh_se_geo_reactor_engineering
-		building_cofh_se_geo_reactor_physics
-		building_cofh_se_geo_reactor_society
+		building_cofh_se_geo_reactor_eng
+		building_cofh_se_geo_reactor_phys
+		building_cofh_se_geo_reactor_soc
 	}
 
 	allow = {
@@ -187,8 +185,7 @@ building_cofh_se_geo_complex = {
 # Geoengineering Reactors
 ################################################################################
 
-building_cofh_se_geo_reactor_engineering = {
-	icon = "building_cofh_se_geo_reactor_engineering"
+building_cofh_se_geo_reactor_eng = {
 	base_buildtime = 180
 	planet_unique = yes
 	is_listed = no
@@ -250,8 +247,7 @@ building_cofh_se_geo_reactor_engineering = {
 	}
 }
 
-building_cofh_se_geo_reactor_physics = {
-	icon = "building_cofh_se_geo_reactor_physics"
+building_cofh_se_geo_reactor_phys = {
 	base_buildtime = 180
 	planet_unique = yes
 	is_listed = no
@@ -313,8 +309,7 @@ building_cofh_se_geo_reactor_physics = {
 	}
 }
 
-building_cofh_se_geo_reactor_society = {
-	icon = "building_cofh_se_geo_reactor_society"
+building_cofh_se_geo_reactor_soc = {
 	base_buildtime = 180
 	planet_unique = yes
 	is_listed = no
