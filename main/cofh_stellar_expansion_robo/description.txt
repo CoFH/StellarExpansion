@@ -1,17 +1,13 @@
 [h1][b]Stellar Expansion is NOT required.[/b][/h1]
 It is simply compatible with this mod and designed to work alongside it.
 
-This is a simple addon mod which adds a couple of technologies that play with Genetic Modification, adding some trait points, and reducing genetic modification cost.
+This is a simple addon mod which adds a couple of technologies that play with Robotic Modification, adding some trait points, and reducing robomodification cost.
 
 [h1][b]Features[/b][/h1]
 [list]
-	[*]Repeatable technology which adds Trait Points for the purposes of Genetic Modification. (Up to 5 total.)
-	[*]Repeatable technology which reduces the cost of Genetic Modification and increases Society Research Speed.
+	[*]Repeatable technology which adds Trait Points for the purposes of Robomodification. (Up to 5 total.)
+	[*]Repeatable technology which reduces the cost of Robomodification and increases Engineering Research Speed.
 [/list]
-
-While not REQUIRED, theses mods are highly recommended:
-[b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=792136722]CoFH UI - Species Mod Window[/url][/i][/b]
-[b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=922079942]CoFH Tweaks - Increased Maximum Traits (9)[/url][/i][/b]
 
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_gene/readme.txt]Feature List[/url][/b]
 [b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_gene/changelog.txt]Change Log[/url][/b]

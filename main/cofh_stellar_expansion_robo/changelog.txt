@@ -1,0 +1,25 @@
+CoFH - Stellar Expansion - Robotics
+Author: King Lemming
+
+2018-05-23:
+Mod now exists. :)
+
+Two Technologies and some Traits to improve your Robotic Gameplay!
+
+New Technologies:
+	Nanocellular Automata:
+		Engineering
+		+1 Robot Trait Point
+		Repeatable (5x)
+		**Non-Machine Empires Only
+
+	Adaptive Nanoengineering:
+		Engineering
+		+1 Machine Trait Point
+		Repeatable (5x)
+		**Machine Empires Only
+
+New Traits:
+	
+
+--------------------------------------------------------------------------------

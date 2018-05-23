@@ -100,7 +100,7 @@ tech_cofh_se_improved_disengage_chance = {
 	area = physics
 	cost = @tier3cost1
 	tier = 3
-	category = { voidcraft }
+	category = { computing }
 	prerequisites = { "tech_sensors_3" }
 	weight = @tier3weight1
 	is_rare = yes
@@ -117,7 +117,7 @@ tech_cofh_se_improved_disengage_chance = {
 			factor = 1.25
 			research_leader = {
 				area = physics
-				has_trait = "leader_trait_expertise_voidcraft"
+				has_trait = "leader_trait_expertise_computing"
 			}
 		}
 
@@ -134,7 +134,7 @@ tech_cofh_se_improved_disengage_chance = {
 			factor = 1.25
 			research_leader = {
 				area = physics
-				has_trait = "leader_trait_expertise_voidcraft"
+				has_trait = "leader_trait_expertise_computing"
 			}
 		}
 	}

@@ -1,0 +1,26 @@
+[h1][b]Stellar Expansion is NOT required.[/b][/h1]
+It is simply compatible with this mod and designed to work alongside it.
+
+This is a simple addon mod meant to provide small midgame boosts to FTL.
+
+It remains separate from [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b] because FTL is a cornerstone of the game and not everyone is necessarily interested in having it altered. Also, this ensures more gameplay compatibility with other FTL altering mods.
+
+Having said that, these techs should work properly along any other FTL affecting mods or rebalances that you may have.
+
+Some sort of improvement will be coming for Wormholes, once I can figure out a good balance for it.
+
+[h1][b]Features[/b][/h1]
+[list]
+	[*]Four technologies which affect various aspects of FTL travel - Windup, Winddown, and Emergency FTL.
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_ftl/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_ftl/changelog.txt]Change Log[/url][/b]
+
+Localizations: English.
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

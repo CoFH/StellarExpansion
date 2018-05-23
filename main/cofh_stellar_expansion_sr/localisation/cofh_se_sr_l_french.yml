@@ -5,38 +5,38 @@
 building_cofh_se_aldar:0 "Aldar Integration Factory"
 building_cofh_se_aldar_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_aldar$§!, enhancing our mineral processing and spaceship hulls."
 
-building_cofh_se_dark_matter:0 "Dark Matter Concentrator"
-building_cofh_se_dark_matter_desc:0 "This industrial research complex utilizes §Y$sr_dark_matter$§! to produce gravity-manipulation devices for spaceships."
+building_cofh_se_dark_matter:0 "Concentrateur de Matière noire"
+building_cofh_se_dark_matter_desc:0 "Ce complexe de recherche industrielle utilise de la §Y$sr_dark_matter$§! pour produire des dispositifs de manipulation gravitationnel pour des vaisseaux spatiaux."
 
-building_cofh_se_engos:0 "Engos Dispersal Station"
-building_cofh_se_engos_desc:0 "This industrial research complex creates and distributes aerosolized §Y$sr_engos$§!, promoting health throughout our empire."
+building_cofh_se_engos:0 "Station de dispersion d'Engos"
+building_cofh_se_engos_desc:0 "Ce complexe de recherche industrielle crée et distribue en aérosol de §Y$sr_engos$§!, favorise la santé dans tout notre empire."
 
-building_cofh_se_garanthium:0 "Garanthium Manufactory"
-building_cofh_se_garanthium_desc:0 "This industrial research complex produces spaceship components using §Y$sr_garanthium$§!, assisting our shipyard construction efforts."
+building_cofh_se_garanthium:0 "Fabrique de Garanthium"
+building_cofh_se_garanthium_desc:0 "Ce complexe de recherche industrielle produit des composantes de vaisseaux spatiaux en utilisant du §Y$sr_garanthium$§!, aidant nos efforts de construction dans les chantiers navals."
 
-building_cofh_se_living_metal:0 "Living Metal Depot"
-building_cofh_se_living_metal_desc:0 "This industrial research complex produces spaceship components using §Y$sr_living_metal$§!, providing our fleets with a logistical advantage."
+building_cofh_se_living_metal:0 "Dépôt de Métal vivant"
+building_cofh_se_living_metal_desc:0 "Ce complexe de recherche industrielle produit des composants de vaisseaux spatiaux en utilisant du §Y$sr_living_metal$§!, offrant à nos flottes un avantage logistique."
 
-building_cofh_se_lythuric:0 "Lythuric Stabilization Plant"
-building_cofh_se_lythuric_desc:0 "This industrial research complex utilizes §Y$sr_lythuric$§! to construct components used in planetary defenses and power plants."
+building_cofh_se_lythuric:0 "Usine de stabilisation Lythurique"
+building_cofh_se_lythuric_desc:0 "Ce complexe industriel de recherche utilise du §Y$sr_lythuric$§! pour construire des composants utilisés dans les défenses planétaires et dans les centrales électriques."
 
-building_cofh_se_neutronium:0 "Neutronium Armory"
-building_cofh_se_neutronium_desc:0 "This industrial research complex produces military equipment using §Y$sr_neutronium$§!, greatly strengthening our armies."
+building_cofh_se_neutronium:0 "Armurerie de Neutronium"
+building_cofh_se_neutronium_desc:0 "Ce complexe de recherche industrielle produit de l'équipement militaire en utilisant du §Y$sr_neutronium$§!, renforçant considérablement nos armées."
 
-building_cofh_se_orillium:0 "Orillium Explosives Factory"
-building_cofh_se_orillium_desc:0 "This industrial research complex produces explosives with §Y$sr_orillium$§!, which are used in mining and construction."
+building_cofh_se_orillium:0 "Usine d'explosifs d'Orillium"
+building_cofh_se_orillium_desc:0 "Ce complexe de recherche industrielle produit des explosifs à l'aide de §Y$sr_orillium$§!, qui sont utilisés dans l'industrie minière et la construction."
 
-building_cofh_se_pitharan:0 "Pitharan Distillation Facility"
-building_cofh_se_pitharan_desc:0 "This industrial research complex distills §Y$sr_pitharan$§!, with the resulting products being used in agriculture and power plants."
+building_cofh_se_pitharan:0 "Usine de distillation de Pitharan"
+building_cofh_se_pitharan_desc:0 "Ce complexe de recherche industrielle distille la §Y$sr_pitharan$§!, les produits obtenus étant utilisés dans l'agriculture et les centrales électriques."
 
-building_cofh_se_satramene:0 "Satramene Infusion Plant"
-building_cofh_se_satramene_desc:0 "This industrial research complex creates and distributes aerosolized §Y$sr_satramene$§!, which can be discretely utilized in negotiation efforts."
+building_cofh_se_satramene:0 "Usine d'infusion de Sacramento"
+building_cofh_se_satramene_desc:0 "Ce complexe de recherche industrielle crée et distribue des aérosols de §Y$sr_satramene$§!, qui peuvent être discrètement utilisés dans les efforts de négociation."
 
-building_cofh_se_teldar:0 "Teldar Purification Plant"
+building_cofh_se_teldar:0 "Usine de purification Teldar"
 building_cofh_se_teldar_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_teldar$§!, enhancing our mineral processing and spaceship armor."
 
-building_cofh_se_yurantic:0 "Yurantic Deposition Plant"
+building_cofh_se_yurantic:0 "Usine de dépôt d'Yurantic"
 building_cofh_se_yurantic_desc:0 "This industrial research complex produces advanced mining and spaceship components using §Y$sr_yurantic$§!, enhancing our mineral processing and spaceship shields."
 
-building_cofh_se_zro:0 "Zro Diffusion Station"
+building_cofh_se_zro:0 "Station de dispersion de Zro"
 building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, enhancing our perception of the universe and its underlying mechanisms."

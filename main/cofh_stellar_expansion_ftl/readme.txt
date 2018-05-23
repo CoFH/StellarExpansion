@@ -5,17 +5,6 @@ Howdy! So here's the deal with this particular addon. Given that FTL is a very
 foundational aspect of gameplay, I will be isolating any changes to it in this
 submodule.
 
-Two of the technologies added by this mod can be acquired once an empire
-possesses a form of FTL travel that incurs either a Windup (Hyperlane, Jump) or
-Winddown (Warp, Jump) time.
-
-This means that Warp and Hyperlane empires can acquire their technologies before
-researching Jump Drives, which makes their mid to late-game play a bit more
-competitive with Wormholes.
-
-The other two technologies depend on Sensor and Shield research, and provide
-boosts to Emergency FTL and general ship attributes.
-
 In the future, I may add more FTL-related technologies and modules. The new Aux
 Utility slot in particular has some potential.
 
@@ -26,25 +15,26 @@ Utility slot in particular has some potential.
 Physics
 --------------------------------------------------------------------------------
 Exigent Sensor Calibration:
-	Voidcraft, Rare
+	Computing, Rare
 
 	Prerequisites:
 		Technology - Subspace Sensors
 
 	Effects:
-		+25% Ship Sensor Range
-		-25% Emergency FTL Jump Cooldown
+		+20% Combat Disengagement Chance
+		+1 Ship Sensor Range
 
 Hypernavigation Calibration:
 	Particles, Rare
 
 	Prerequisites:
-		FTL Travel with Jump Charge Time
+		Technology - Hyperlane Breach Points
 
 	Effects:
-		-25% Jump Charge Time
+		+50% FTL Speed
+		-10% Jump Charge Time
 
-Spacetime Resonance Damping:
+Structural Integrity Fields:
 	Field Manipulation, Rare
 
 	Prerequisites:
@@ -52,7 +42,7 @@ Spacetime Resonance Damping:
 
 	Effects:
 		+10% Ship Hull Points
-		-25% Emergency FTL Damage
+		-25% Emergency FTL Damage Risk
 
 Spacetime Resonance Damping:
 	Field Manipulation, Rare

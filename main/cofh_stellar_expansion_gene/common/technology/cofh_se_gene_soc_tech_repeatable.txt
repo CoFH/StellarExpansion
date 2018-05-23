@@ -40,7 +40,19 @@ tech_cofh_se_repeatable_increased_biological_trait_points = {
 
 		modifier = {
 			factor = 0.5
-			NOT = {
+			NOR = {
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_maniacal"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_curator"
+				}
 				research_leader = {
 					area = society
 					has_trait = "leader_trait_expertise_biology"
@@ -94,7 +106,19 @@ tech_cofh_se_repeatable_reduced_modification_cost = {
 
 		modifier = {
 			factor = 0.5
-			NOT = {
+			NOR = {
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_maniacal"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_spark_of_genius"
+				}
+				research_leader = {
+					area = engineering
+					has_trait = "leader_trait_curator"
+				}
 				research_leader = {
 					area = society
 					has_trait = "leader_trait_expertise_biology"
