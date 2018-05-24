@@ -1,0 +1,159 @@
+# CoFH - Stellar Expansion - Strategic Resources
+# Scripted Triggers
+# Author: King Lemming
+
+cofh_se_req_sr_aldar = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_aldar"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_aldar
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_dark_matter = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_dark_matter"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_dark_matter
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_engos = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_engos"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_engos
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_garanthium = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_garanthium"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_garanthium
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_living_metal = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_living_metal"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_living_metal
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_lythuric = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_lythuric"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_lythuric
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_neutronium = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_neutronium"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_neutronium
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_orillium = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_orillium"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_orillium
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_pitharan = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_pitharan"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_pitharan
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_satramene = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_satramene"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_satramene
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_teldar = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_teldar"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_teldar
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_yurantic = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_yurantic"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_yurantic
+				amount > 0
+			}
+		}
+	}
+}
+
+cofh_se_req_sr_zro = {
+	custom_tooltip = {
+		fail_text = "cofh_se_req_sr_zro"
+		owner = {
+			has_country_strategic_resource = {
+				type = sr_zro
+				amount > 0
+			}
+		}
+	}
+}

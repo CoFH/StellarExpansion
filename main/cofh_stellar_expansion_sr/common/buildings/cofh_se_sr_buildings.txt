@@ -25,17 +25,23 @@ building_cofh_se_aldar = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_aldar = 1
 	}
 
 	produced_resources = {
 		engineering_research = @beffect
-		sr_aldar = 1
 	}
 
 	country_modifier = {
 		ship_hull_mult = 0.10
 		tile_resource_minerals_mult = 0.05
+	}
+
+	potential = {
+		cofh_se_req_sr_aldar = yes
+	}
+
+	active = {
+		cofh_se_req_sr_aldar = yes
 	}
 
 	allow = {
@@ -65,17 +71,23 @@ building_cofh_se_teldar = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_teldar = 1
 	}
 
 	produced_resources = {
 		engineering_research = @beffect
-		sr_teldar = 1
 	}
 
 	country_modifier = {
 		ship_armor_mult = 0.10
 		tile_resource_minerals_mult = 0.05
+	}
+
+	potential = {
+		cofh_se_req_sr_teldar = yes
+	}
+
+	active = {
+		cofh_se_req_sr_teldar = yes
 	}
 
 	allow = {
@@ -105,17 +117,23 @@ building_cofh_se_yurantic = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_yurantic = 1
 	}
 
 	produced_resources = {
 		physics_research = @beffect
-		sr_yurantic = 1
 	}
 
 	country_modifier = {
 		ship_shield_mult = 0.10
 		tile_resource_minerals_mult = 0.05
+	}
+
+	potential = {
+		cofh_se_req_sr_yurantic = yes
+	}
+
+	active = {
+		cofh_se_req_sr_yurantic = yes
 	}
 
 	allow = {
@@ -149,12 +167,10 @@ building_cofh_se_pitharan = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_pitharan = 1
 	}
 
 	produced_resources = {
 		society_research = @beffect
-		sr_pitharan = 1
 	}
 
 	country_modifier = {
@@ -162,6 +178,14 @@ building_cofh_se_pitharan = {
 		tile_resource_energy_mult = 0.05
 	}
 
+	potential = {
+		cofh_se_req_sr_pitharan = yes
+	}
+
+	active = {
+		cofh_se_req_sr_pitharan = yes
+	}
+	
 	allow = {
 		cofh_se_req_capital_1_or_hab = yes
 	}
@@ -189,17 +213,23 @@ building_cofh_se_zro = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_zro = 1
 	}
 
 	produced_resources = {
 		society_research = @beffect
-		sr_zro = 1
 	}
 
 	country_modifier = {
 		all_technology_research_speed = 0.05
 		planet_sensor_range_add = 1
+	}
+
+	potential = {
+		cofh_se_req_sr_zro = yes
+	}
+
+	active = {
+		cofh_se_req_sr_zro = yes
 	}
 
 	allow = {
@@ -233,16 +263,22 @@ building_cofh_se_engos = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_engos = 1
 	}
 
 	produced_resources = {
 		society_research = @beffect
-		sr_engos = 1
 	}
 
 	country_modifier = {
 		pop_growth_speed = 0.20
+	}
+
+	potential = {
+		cofh_se_req_sr_engos = yes
+	}
+
+	active = {
+		cofh_se_req_sr_engos = yes
 	}
 
 	allow = {
@@ -272,17 +308,23 @@ building_cofh_se_lythuric = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_lythuric = 1
 	}
 
 	produced_resources = {
 		physics_research = @beffect
-		sr_lythuric = 1
 	}
 
 	country_modifier = {
 		planet_building_cost_mult = -0.05
 		tile_resource_energy_mult = 0.05
+	}
+
+	potential = {
+		cofh_se_req_sr_lythuric = yes
+	}
+
+	active = {
+		cofh_se_req_sr_lythuric = yes
 	}
 
 	allow = {
@@ -312,18 +354,24 @@ building_cofh_se_satramene = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_satramene = 1
 	}
 
 	produced_resources = {
 		society_research = @beffect
-		sr_satramene = 1
 	}
 
 	country_modifier = {
 		country_trade_attractiveness = 0.10
 		country_trust_growth = 0.10
 		planet_unrest_add = -10
+	}
+
+	potential = {
+		cofh_se_req_sr_satramene = yes
+	}
+
+	active = {
+		cofh_se_req_sr_satramene = yes
 	}
 
 	allow = {
@@ -357,17 +405,23 @@ building_cofh_se_garanthium = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_garanthium = 1
 	}
 
 	produced_resources = {
 		engineering_research = @beffect
-		sr_garanthium = 1
 	}
 
 	country_modifier = {
 		starbase_shipyard_build_speed_mult = 0.10
 		starbase_shipyard_build_cost_mult = -0.05
+	}
+
+	potential = {
+		cofh_se_req_sr_garanthium = yes
+	}
+
+	active = {
+		cofh_se_req_sr_garanthium = yes
 	}
 
 	allow = {
@@ -397,17 +451,23 @@ building_cofh_se_neutronium = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_neutronium = 1
 	}
 
 	produced_resources = {
 		physics_research = @beffect
-		sr_neutronium = 1
 	}
 
 	country_modifier = {
 		army_damage_mult = 0.25
 		army_health = 0.25
+	}
+
+	potential = {
+		cofh_se_req_sr_neutronium = yes
+	}
+
+	active = {
+		cofh_se_req_sr_neutronium = yes
 	}
 
 	allow = {
@@ -437,17 +497,23 @@ building_cofh_se_orillium = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_orillium = 1
 	}
 
 	produced_resources = {
 		engineering_research = @beffect
-		sr_orillium = 1
 	}
 
 	country_modifier = {
 		planet_orbital_bombardment_damage = -0.10
 		tile_resource_energy_mult = 0.05
+	}
+
+	potential = {
+		cofh_se_req_sr_orillium = yes
+	}
+
+	active = {
+		cofh_se_req_sr_orillium = yes
 	}
 
 	allow = {
@@ -481,17 +547,23 @@ building_cofh_se_dark_matter = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_dark_matter = 1
 	}
 
 	produced_resources = {
 		physics_research = @beffect
-		sr_dark_matter = 1
 	}
 
 	country_modifier = {
 		ship_speed_mult = 0.10
 		ship_evasion_add = 5
+	}
+
+	potential = {
+		cofh_se_req_sr_dark_matter = yes
+	}
+
+	active = {
+		cofh_se_req_sr_dark_matter = yes
 	}
 
 	allow = {
@@ -521,16 +593,22 @@ building_cofh_se_living_metal = {
 
 	required_resources = {
 		energy = @bupkeep
-		sr_living_metal = 1
 	}
 
 	produced_resources = {
 		engineering_research = @beffect
-		sr_living_metal = 1
 	}
 
 	country_modifier = {
 		ship_upkeep_mult = -0.10
+	}
+
+	potential = {
+		cofh_se_req_sr_living_metal = yes
+	}
+
+	active = {
+		cofh_se_req_sr_living_metal = yes
 	}
 
 	allow = {

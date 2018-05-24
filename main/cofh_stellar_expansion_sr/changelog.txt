@@ -1,12 +1,24 @@
 CoFH - Stellar Expansion - Strategic Resources
 Author: King Lemming
 
-2018-05-23
+2018-05-24:
+Forcing a reupload of the mod to ensure Steam didn't get a corrupt version somehow.
+
+--------------------------------------------------------------------------------
+
+2018-05-23:
+Bit of a rewrite. :) Buildings no longer "use" a resource. I found a more proper way to handle it, thanks to new conditionals.
+
+Should you lose access to a resource, the building will remain, but will be inactive. It will NOT be destroyed.
+
+--------------------------------------------------------------------------------
+
+2018-05-23:
 More rebalancing and changes to fit with the new system in terms of flavor.
 
 --------------------------------------------------------------------------------
 
-2018-05-22
+2018-05-22:
 Added a building for the new "Aldar Crystals" SR.
 
 New Building:
@@ -20,14 +32,14 @@ Rebalanced and altered abilities of existing buildings a bit to fit with the new
 
 --------------------------------------------------------------------------------
 
-2018-05-22
+2018-05-22:
 Updated for 2.1.0 [Niven].
 
 No actual changes - just version incrementing.
 
 --------------------------------------------------------------------------------
 
-2018-02-24
+2018-02-24:
 Updated for 2.0.0 [Cherryh].
 
 This is basically a straight port, but with the 2.0 changes in place.
