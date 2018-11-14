@@ -66,7 +66,7 @@ tech_cofh_se_research_consortiums = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			has_authority = auth_machine_intelligence
+			has_ethic = ethic_gestalt_consciousness
 		}
 		modifier = {
 			factor = 1.25
@@ -92,7 +92,7 @@ tech_cofh_se_research_consortiums = {
 tech_cofh_se_protocol_droids = {
 	area = engineering
 	cost = @tier3cost1
-	tier = 2
+	tier = 3
 	category = { statecraft }
 	prerequisites = { "tech_droid_workers" "tech_sapient_ai" }
 	weight = @tier3weight1
@@ -107,7 +107,11 @@ tech_cofh_se_protocol_droids = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			has_authority = auth_machine_intelligence
+			OR = {
+				has_valid_civic = "civic_fanatic_purifiers"
+				has_valid_civic = "civic_hive_devouring_swarm"
+				has_valid_civic = "civic_machine_terminator"
+			}
 		}
 		modifier = {
 			factor = 0.5

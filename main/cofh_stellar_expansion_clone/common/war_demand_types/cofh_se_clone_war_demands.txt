@@ -30,11 +30,8 @@ cofh_se_abolish_mass_cloning = {
 		}
 		parameter:country = {
 			has_technology = tech_cofh_se_mass_cloning
-
-			NOT = {
+			NOR = {
 				has_policy_flag = cofh_se_mass_cloning_none
-			}
-			NOT = {
 				has_country_flag = synthetic_empire
 			}
 		}
@@ -116,7 +113,6 @@ cofh_se_abolish_mass_cloning = {
 
 	ai_weight = {
 		base = 10
-
 		modifier = {
 			factor = 0
 			NOR = {

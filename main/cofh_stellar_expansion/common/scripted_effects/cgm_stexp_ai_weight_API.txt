@@ -1,8 +1,4 @@
-# CoFH - Stellar Expansion
-# Scripted Effects - CGM API
-# Author: ExNihil
-
-check_planet_bonus_buildings_se = {
+check_planet_bonus_buildings_stexp = {
 	if = {
 		limit = {
 			NAND = {

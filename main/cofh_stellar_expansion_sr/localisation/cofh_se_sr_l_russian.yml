@@ -40,3 +40,19 @@ building_cofh_se_yurantic_desc:0 "This industrial research complex produces adva
 
 building_cofh_se_zro:0 "Станция распыления зро"
 building_cofh_se_zro_desc:0 "This industrial research complex creates and distributes microaerosolized §Y$sr_zro$§!, enhancing our perception of the universe and its underlying mechanisms."
+
+# Requirements
+
+cofh_se_req_sr_aldar:0 "§RRequires §Y$sr_aldar$§!.§!"
+cofh_se_req_sr_dark_matter:0 "§RRequires §Y$sr_dark_matter$§!.§!"
+cofh_se_req_sr_engos:0 "§RRequires §Y$sr_engos$§!.§!"
+cofh_se_req_sr_garanthium:0 "§RRequires §Y$sr_garanthium$§!.§!"
+cofh_se_req_sr_living_metal:0 "§RRequires §Y$sr_living_metal$§!.§!"
+cofh_se_req_sr_lythuric:0 "§RRequires §Y$sr_lythuric$§!.§!"
+cofh_se_req_sr_neutronium:0 "§RRequires §Y$sr_neutronium$§!.§!"
+cofh_se_req_sr_orillium:0 "§RRequires §Y$sr_orillium$§!.§!"
+cofh_se_req_sr_pitharan:0 "§RRequires §Y$sr_pitharan$§!.§!"
+cofh_se_req_sr_satramene:0 "§RRequires §Y$sr_satramene$§!.§!"
+cofh_se_req_sr_teldar:0 "§RRequires §Y$sr_teldar$§!.§!"
+cofh_se_req_sr_yurantic:0 "§RRequires §Y$sr_yurantic$§!.§!"
+cofh_se_req_sr_zro:0 "§RRequires §Y$sr_zro$§!.§!"

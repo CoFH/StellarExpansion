@@ -8,6 +8,8 @@ on_entering_battle = {
 		cofh_se.200
 		cofh_se.300
 		cofh_se.400
+		cofh_se.500
+		cofh_se.600
 	}
 }
 
@@ -23,5 +25,7 @@ on_ship_destroyed_perp = {
 		cofh_se.205
 		cofh_se.305
 		cofh_se.405
+		cofh_se.505
+		cofh_se.605
 	}
 }

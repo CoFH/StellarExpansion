@@ -90,7 +90,23 @@ cofh_se.401.a:0 "Acknowledged."
 cofh_se.410.name:0 "Fallen Empire Weaknesses Discovered"
 cofh_se.410.desc:0 "Observation of Fallen Empire fleets has resulted in the discovery of a number of potential weaknesses owing to their hubris and ship designs rooted in presumably ancient traditions. $COFH_SE_FURTHER_RESEARCH$"
 
+cofh_se.501.name:0 "Marauder Observation"
+cofh_se.501.desc:0 "The Marauder ships encountered by our fleets some time ago pose a potential threat to our empire. They represent a chaotic force in the galaxy and it would be prudent to understand them.\n\nAssigning a task force of scientists to study their ships and fleet organization may reveal tactical gaps."
+cofh_se.501.a:0 "Acknowledged."
+cofh_se.510.name:0 "Marauder Weaknesses Discovered"
+cofh_se.510.desc:0 "Observation of Marauder fleets has resulted in the discovery of a number of potential weaknesses owing to their ship designs and combat doctrines. $COFH_SE_FURTHER_RESEARCH$"
+
+cofh_se.601.name:0 "Gray Tempest Observation"
+cofh_se.601.desc:0 "The Gray Tempest vessels encountered by our fleets some time ago seem to be composed entirely of nanites. While impressive, this nanotechnology may have flaws which our forces can exploit.\n\nAssigning a task force of scientists to perform a comprehensive materials analysis of the vessels may provide some insight."
+cofh_se.601.a:0 "Acknowledged."
+cofh_se.610.name:0 "Gray Tempest Weaknesses Discovered"
+cofh_se.610.desc:0 "Observation of Gray Tempest vessels has resulted in the discovery of a number of potential weaknesses in their nanite-lattice structure. $COFH_SE_FURTHER_RESEARCH$"
+
 # Modifiers
+
+damage_vs_country_type_dormant_marauders_mult:0 "Damage to Marauders"
+damage_vs_country_type_awakened_marauders_mult:0 "Damage to the Marauder Horde"
+damage_vs_country_type_gray_goo_mult:0 "Damage to the Gray Tempest"
 
 mod_cofh_se_xeno_food_species:0 "Supplemental Nutrition"
 
@@ -118,6 +134,10 @@ COFH_SE_INVESTIGATE_SWARM:0 "Field Study: Prethoryn Creatures"
 COFH_SE_INVESTIGATE_SWARM_DESC:0 "Task a science department with study of Prethoryn creatures in an effort to gain a combat advantage for our forces."
 COFH_SE_INVESTIGATE_FE:0 "Fleet Observation: Fallen Empire"
 COFH_SE_INVESTIGATE_FE_DESC:0 "Task a science department with study of Fallen Empire ships in an effort to gain a combat advantage for our forces."
+COFH_SE_INVESTIGATE_MARAUDERS:0 "Fleet Observation: Marauders"
+COFH_SE_INVESTIGATE_MARAUDERS_DESC:0 "Task a science department with study of Marauder ships in an effort to gain a combat advantage for our forces."
+COFH_SE_INVESTIGATE_GRAY_GOO:0 "Engineering Analysis: Gray Tempest"
+COFH_SE_INVESTIGATE_GRAY_GOO_DESC:0 "Task a science department with study of Gray Tempest ships in an effort to gain a combat advantage for our forces."
 
 # Technology - Non-Repeatable
 
@@ -131,6 +151,12 @@ tech_cofh_se_anti_fallen_empire_desc:0 "Observation of Fallen Empire ship constr
 
 tech_cofh_se_anti_exd:0 "Extradimensional Invader Countermeasures"
 tech_cofh_se_anti_exd_desc:0 "Multispectral observation of Extradimensional forces reveals exploitable flaws in their energy fields."
+
+tech_cofh_se_anti_gray_goo:0 "Gray Tempest Countermeasures"
+tech_cofh_se_anti_gray_goo_desc:0 "Observation of Gray Tempest vessels provides insight into their structural composition, and their weaknesses."
+
+tech_cofh_se_anti_marauder:0 "Marauder Countermeasures"
+tech_cofh_se_anti_marauder_desc:0 "Observation of Marauder ship construction and fleet composition provides us with knowledge of their weaknesses."
 
 tech_cofh_se_anti_swarm:0 "Prethoryn Scourge Countermeasures"
 tech_cofh_se_anti_swarm_desc:0 "Field study of Prethoryn anatomy and physiology illuminates weaknesses that our forces can exploit."

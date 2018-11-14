@@ -65,6 +65,13 @@ tech_cofh_se_battlefield_leadership = {
 
 	weight_modifier = {
 		modifier = {
+			factor = 0
+			OR = {
+				has_authority = auth_machine_intelligence
+				has_country_flag = synthetic_age
+			}			
+		}
+		modifier = {
 			factor = 1.25
 			has_ethic = ethic_militarist
 		}
@@ -115,10 +122,6 @@ tech_cofh_se_military_logistics = {
 	}
 
 	weight_modifier = {
-		modifier = {
-			factor = 0
-			has_authority = auth_machine_intelligence
-		}
 		modifier = {
 			factor = 1.25
 			has_ethic = ethic_militarist
@@ -179,7 +182,18 @@ tech_cofh_se_psi_diplomatic_corps = {
 	weight_modifier = {
 		modifier = {
 			factor = 0
-			has_authority = auth_machine_intelligence
+			OR = {
+				has_valid_civic = "civic_fanatic_purifiers"
+				has_valid_civic = "civic_hive_devouring_swarm"
+				has_valid_civic = "civic_machine_terminator"
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				has_authority = auth_machine_intelligence
+				has_country_flag = synthetic_age
+			}			
 		}
 		modifier = {
 			factor = 0.50
@@ -265,6 +279,14 @@ tech_cofh_se_xeno_confidence = {
 
 	weight_modifier = {
 		modifier = {
+			factor = 0
+			OR = {
+				has_valid_civic = "civic_fanatic_purifiers"
+				has_valid_civic = "civic_hive_devouring_swarm"
+				has_valid_civic = "civic_machine_terminator"
+			}
+		}
+		modifier = {
 			factor = 0.50
 			OR = {
 				has_ethic = ethic_xenophobe
@@ -341,6 +363,14 @@ tech_cofh_se_xeno_negotiation = {
 	}
 
 	weight_modifier = {
+		modifier = {
+			factor = 0
+			OR = {
+				has_valid_civic = "civic_fanatic_purifiers"
+				has_valid_civic = "civic_hive_devouring_swarm"
+				has_valid_civic = "civic_machine_terminator"
+			}
+		}
 		modifier = {
 			factor = 0.50
 			OR = {

@@ -1,9 +1,9 @@
 # CoFH - Stellar Expansion
-# Special Projects
+# Countermeasure Projects
 # Author: King Lemming
 
 ################################################################################
-# Event Projects
+# Countermeasure Projects
 ################################################################################
 
 special_project = {
@@ -92,6 +92,52 @@ special_project = {
 	on_success = {
 		owner = {
 			country_event = { id = cofh_se.410 }
+		}
+	}
+
+	on_fail = {}
+}
+
+special_project = {
+	key = "COFH_SE_INVESTIGATE_MARAUDERS"
+	picture = GFX_evt_star_chart
+	icon = "gfx/interface/icons/situation_log/situation_log_radar.dds"
+	cost = 1500
+	tech_department = society_technology
+	days_to_research = 0
+	location = no
+	timelimit = -1
+
+	event_scope = planet_event
+
+	requirements = {}
+
+	on_success = {
+		owner = {
+			country_event = { id = cofh_se.510 }
+		}
+	}
+
+	on_fail = {}
+}
+
+special_project = {
+	key = "COFH_SE_INVESTIGATE_GRAY_GOO"
+	picture = GFX_evt_star_chart
+	icon = "gfx/interface/icons/situation_log/situation_log_radar.dds"
+	cost = 1500
+	tech_department = engineering_technology
+	days_to_research = 0
+	location = no
+	timelimit = -1
+
+	event_scope = planet_event
+
+	requirements = {}
+
+	on_success = {
+		owner = {
+			country_event = { id = cofh_se.610 }
 		}
 	}
 

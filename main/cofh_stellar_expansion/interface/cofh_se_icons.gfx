@@ -1,17 +1,17 @@
 spriteTypes = {
 
-	spriteType = {
-		name = "GFX_spaceport_module_cofh_se_atmospheric_manipulator"
-		texturefile = "gfx/interface/icons/modules/spaceport_module_cofh_se_atmospheric_manipulator.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_spaceport_module_cofh_se_atmospheric_manipulator"
+	#	texturefile = "gfx/interface/icons/modules/spaceport_module_cofh_se_atmospheric_manipulator.dds"
+	#}
 
-	spriteType = {
-		name = "GFX_spaceport_module_cofh_se_dockyard"
-		texturefile = "gfx/interface/icons/modules/spaceport_module_cofh_se_dockyard.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_spaceport_module_cofh_se_dockyard"
+	#	texturefile = "gfx/interface/icons/modules/spaceport_module_cofh_se_dockyard.dds"
+	#}
 
-	spriteType = {
-		name = "GFX_spaceport_module_cofh_se_mining_terminal"
-		texturefile = "gfx/interface/icons/modules/spaceport_module_cofh_se_mining_terminal.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_spaceport_module_cofh_se_mining_terminal"
+	#	texturefile = "gfx/interface/icons/modules/spaceport_module_cofh_se_mining_terminal.dds"
+	#}
 }

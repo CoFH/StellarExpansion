@@ -1,6 +1,23 @@
 CoFH - Stellar Expansion
 Author: King Lemming
 
+2018-05-25
+Minor adjustments to the Grand Retail Center and Holosseum - they'll be more useful for more Empires now.
+
+Also, new Countermeasure technologies.
+
+New Technologies:
+	Marauder Countermeasures:
+		Military Theory
+		+20% Damage to Marauders
+		+20% Damage to Awakened Marauders
+
+	Gray Tempest Countermeasures:
+		Materials
+		+20% Damage to Gray Tempest Vessels
+
+--------------------------------------------------------------------------------
+
 2018-05-22
 Updated for 2.1.0 [Niven].
 

@@ -1,0 +1,33 @@
+﻿l_english:
+
+# Ship Sections
+
+COFH_SE_CORVETTE_ADV_MID_G1S1:0 "Adv Missile Boat"
+COFH_SE_CORVETTE_ADV_MID_M1S1:0 "Adv Gunship"
+COFH_SE_CORVETTE_ADV_MID_S3:0 "Adv Interceptor"
+
+COFH_SE_DESTROYER_BOW_ADV_M1S2:0 "Adv Gunship Bow"
+COFH_SE_DESTROYER_ADV_BOW_S3:0 "Adv Interceptor Bow"
+
+COFH_SE_DESTROYER_ADV_STERN_M1:0 "Adv Gunship Stern"
+COFH_SE_DESTROYER_ADV_STERN_S2:0 "Adv Interceptor Stern"
+
+COFH_SE_CRUISER_ADV_BOW_G2:0 "Adv Siege Bow"
+COFH_SE_CRUISER_ADV_BOW_M2:0 "Adv Broadside Bow"
+
+COFH_SE_CRUISER_ADV_MID_G3:0 "Adv Siege Core"
+COFH_SE_CRUISER_ADV_MID_M3:0 "Adv Broadside Core"
+
+COFH_SE_CRUISER_ADV_STERN_AUX:0 "Adv Support Stern"
+COFH_SE_CRUISER_ADV_STERN_G1:0 "Adv Siege Stern"
+COFH_SE_CRUISER_ADV_STERN_M1:0 "Adv Broadside Stern"
+
+COFH_SE_BATTLESHIP_ADV_BOW_H4:0 "Fleet Carrier Bow"
+COFH_SE_BATTLESHIP_ADV_BOW_L2:0 "Adv Artillery Bow"
+COFH_SE_BATTLESHIP_ADV_BOW_X2:0 "Twin Spinal Mount Bow"
+
+COFH_SE_BATTLESHIP_ADV_MID_H4:0 "Fleet Carrier Core"
+COFH_SE_BATTLESHIP_ADV_MID_L3:0 "Adv Artillery Core"
+
+COFH_SE_BATTLESHIP_ADV_STERN_AUX:0 "Adv Support Stern"
+COFH_SE_BATTLESHIP_ADV_STERN_L1:0 "Adv Artillery Stern"

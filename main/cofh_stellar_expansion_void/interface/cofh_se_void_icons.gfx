@@ -1,0 +1,47 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_hull_inc"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_hull_inc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_minefield_0"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_minefield_0.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_minefield_1"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_minefield_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_minefield_2"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_minefield_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_sensor_inc"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_sensor_inc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_speed_dec"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_speed_dec.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_speed_inc"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_speed_inc.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_sensor_dec"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_sensor_dec.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_cofh_se_aura_weapon_rof_inc"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cofh_se_aura_weapon_rof_inc.dds"
+	}
+}

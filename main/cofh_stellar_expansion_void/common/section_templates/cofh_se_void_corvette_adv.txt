@@ -1,0 +1,137 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Section Templates - Corvette
+# Author: King Lemming
+
+################################################################################
+# MID
+################################################################################
+
+ship_section_template = {
+	key = "COFH_SE_CORVETTE_ADV_MID_G1S1"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_corvette_hull_2 }
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 20
+			is_preferred_weapons = weapon_type_explosive
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "TORPEDO_01"
+		slot_size = torpedo
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	small_utility_slots = 5
+	aux_utility_slots = 1
+
+	cost = 85
+}
+
+ship_section_template = {
+	key = "COFH_SE_CORVETTE_ADV_MID_M1S1"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_M1S1_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_corvette_hull_2 }
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 20
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+		modifier = {
+			factor = 0.5
+			is_preferred_weapons = weapon_type_explosive
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+
+	small_utility_slots = 5
+	aux_utility_slots = 1
+
+	cost = 85
+}
+
+ship_section_template = {
+	key = "COFH_SE_CORVETTE_ADV_MID_S3"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_corvette_hull_2 }
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 20
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+		modifier = {
+			factor = 0.5
+			is_preferred_weapons = weapon_type_explosive
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 5
+	aux_utility_slots = 1
+
+	cost = 85
+}

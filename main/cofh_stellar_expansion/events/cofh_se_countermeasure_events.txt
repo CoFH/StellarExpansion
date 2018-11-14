@@ -76,7 +76,7 @@ country_event = {
 	title = cofh_se.110.name
 	desc = cofh_se.110.desc
 	picture = GFX_evt_society_research
-	show_sound = event_alien_nature
+	show_sound = event_mystic_reveal
 
 	is_triggered_only = yes
 
@@ -174,7 +174,7 @@ country_event = {
 	title = cofh_se.210.name
 	desc = cofh_se.210.desc
 	picture = GFX_evt_physics_research
-	show_sound = event_ex_started
+	show_sound = event_mystic_reveal
 
 	is_triggered_only = yes
 
@@ -189,7 +189,7 @@ country_event = {
 }
 
 ################################################################################
-# AI UPRISING
+# CONTINGENCY
 ################################################################################
 
 country_event = {
@@ -259,8 +259,8 @@ country_event = {
 	id = cofh_se.310
 	title = cofh_se.310.name
 	desc = cofh_se.310.desc
-	picture = GFX_evt_sentient_AI
-	show_sound = event_ai_started
+	picture = GFX_evt_sapient_AI
+	show_sound = event_mystic_reveal
 
 	is_triggered_only = yes
 
@@ -356,7 +356,7 @@ country_event = {
 	title = cofh_se.410.name
 	desc = cofh_se.410.desc
 	picture = GFX_evt_fallen_empire_awakes
-	show_sound = event_laboratory_sound
+	show_sound = event_mystic_reveal
 
 	is_triggered_only = yes
 
@@ -365,6 +365,192 @@ country_event = {
 		add_research_option = tech_cofh_se_anti_fallen_empire
 		add_tech_progress = {
 			tech = tech_cofh_se_anti_fallen_empire
+			progress = 0.25
+		}
+	}
+}
+
+################################################################################
+# MARAUDERS
+################################################################################
+
+country_event = {
+	id = cofh_se.500
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = {
+			OR = {
+				is_country_type = dormant_marauders
+				is_country_type = awakened_marauders
+			}
+		}
+		is_country_type = default
+		NOT = { has_country_flag = marauders_engaged }
+	}
+
+	immediate = {
+		set_country_flag = marauders_engaged
+		country_event = { id = cofh_se.501 days = 30 }
+	}
+}
+
+country_event = {
+	id = cofh_se.501
+	title = cofh_se.501.name
+	desc = cofh_se.501.desc
+	picture = GFX_evt_pirate_armada
+	show_sound = event_laboratory_sound
+
+	is_triggered_only = yes
+
+	option = {
+		name = cofh_se.501.a
+		capital_scope = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_MARAUDERS"
+				location = this
+				owner = ROOT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.505
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		exists = FROM
+		is_country_type = default
+		FROM = {
+			OR = {
+				is_country_type = dormant_marauders
+				is_country_type = awakened_marauders
+			}
+		}
+		NOT = { has_technology = tech_cofh_se_anti_marauder }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_tech_option = tech_cofh_se_anti_marauder
+			}
+			add_tech_progress = {
+				tech = tech_cofh_se_anti_marauder
+				progress = 0.03
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.510
+	title = cofh_se.510.name
+	desc = cofh_se.510.desc
+	picture = GFX_evt_pirate_armada
+	show_sound = event_mystic_reveal
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		add_research_option = tech_cofh_se_anti_marauder
+		add_tech_progress = {
+			tech = tech_cofh_se_anti_marauder
+			progress = 0.25
+		}
+	}
+}
+
+################################################################################
+# GRAY GOO
+################################################################################
+
+country_event = {
+	id = cofh_se.600
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		FROM = {
+			is_country_type = gray_goo
+		}
+		is_country_type = default
+		NOT = { has_country_flag = gray_goo_engaged }
+	}
+
+	immediate = {
+		set_country_flag = gray_goo_engaged
+		country_event = { id = cofh_se.601 days = 30 }
+	}
+}
+
+country_event = {
+	id = cofh_se.601
+	title = cofh_se.601.name
+	desc = cofh_se.601.desc
+	picture = GFX_evt_gray_goo
+	show_sound = event_laboratory_sound
+
+	is_triggered_only = yes
+
+	option = {
+		name = cofh_se.601.a
+		capital_scope = {
+			enable_special_project = {
+				name = "COFH_SE_INVESTIGATE_GRAY_GOO"
+				location = this
+				owner = ROOT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.605
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		exists = FROM
+		is_country_type = default
+		FROM = {
+			is_country_type = gray_goo
+		}
+		NOT = { has_technology = tech_cofh_se_anti_gray_goo }
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				has_tech_option = tech_cofh_se_anti_gray_goo
+			}
+			add_tech_progress = {
+				tech = tech_cofh_se_anti_gray_goo
+				progress = 0.03
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cofh_se.610
+	title = cofh_se.610.name
+	desc = cofh_se.610.desc
+	picture = GFX_evt_gray_goo
+	show_sound = event_mystic_reveal
+
+	is_triggered_only = yes
+
+	option = {
+		name = EXCELLENT
+		add_research_option = tech_cofh_se_anti_gray_goo
+		add_tech_progress = {
+			tech = tech_cofh_se_anti_gray_goo
 			progress = 0.25
 		}
 	}

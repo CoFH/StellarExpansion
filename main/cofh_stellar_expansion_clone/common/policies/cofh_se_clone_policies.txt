@@ -6,7 +6,6 @@ cofh_se_mass_cloning = {
 
 	potential = {
 		has_technology = tech_cofh_se_mass_cloning
-
 		NOT = {
 			is_country_type = ai_empire
 		}
@@ -47,7 +46,6 @@ cofh_se_mass_cloning = {
 					has_ascension_perk = ap_engineered_evolution
 					has_ethic = "ethic_fanatic_spiritualist"
 				}
-
 				NOT = {
 					has_ethic = "ethic_fanatic_spiritualist"
 				}
@@ -78,19 +76,17 @@ cofh_se_mass_cloning = {
 			OR = {
 				AND = {
 					has_ascension_perk = ap_evolutionary_mastery
-
 					OR = {
 						has_ethic = "ethic_spiritualist"
 						has_ethic = "ethic_fanatic_spiritualist"
 					}
 				}
-
 				NOR = {
 					has_ethic = "ethic_spiritualist"
 					has_ethic = "ethic_fanatic_spiritualist"
 				}
 			}
-			NOT = {
+			NOR = {
 				has_authority = auth_machine_intelligence
 				has_country_flag = synthetic_age
 			}

@@ -1,0 +1,118 @@
+CoFH - Stellar Expansion - Voidcraft
+Author: King Lemming
+
+2017-06-15:
+Updated for 1.7.2 [Bradbury].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
+2017-05-09:
+Updated for 1.6 [Adams].
+
+No actual changes - just version incrementing and compatibility adjustment.
+
+--------------------------------------------------------------------------------
+
+2017-04-08:
+Updated for patch 1.5 [Banks].
+
+No actual gameplay changes - just version incrementing and some file rewrites.
+
+--------------------------------------------------------------------------------
+
+2016-12-27:
+Minor tweak for compatibility.
+
+-Rearranged ordering of class modules for proper crossmod support with Advanced Ship Behaviour Modules.
+
+--------------------------------------------------------------------------------
+
+2016-12-05:
+Updated for 1.4 [Kennedy].
+
+No actual changes - just version incrementing.
+
+--------------------------------------------------------------------------------
+
+2016-12-02:
+Support variants now take +25% extra time to build, down from +50%.
+
+Updated thumbnail.
+
+--------------------------------------------------------------------------------
+
+2016-11-27:
+Localization overhaul. Placeholder localization files for all languages.
+
+Tweaked how Corvette models were being assigned, which should increase cross-mod compatibility.
+
+--------------------------------------------------------------------------------
+
+2016-11-17:
+Added support for Advanced Ship Behavior Modules and Ship Power Stations.
+
+If you do not have one or both of these mods installed, you will see an error
+in your startup log. However, this error is 100% harmless.
+
+I heavily considered a compatibility patch for this, but decided against it as
+any errors associated with integrated support are harmless.
+
+--------------------------------------------------------------------------------
+
+2016-11-02:
+Added Russian localization.
+
+--------------------------------------------------------------------------------
+
+2016-11-01:
+Added advanced battleships.
+
+Reworked mod internally to allow for ease of compatibility modding.
+
+New Ships:
+	-Heavy Battleship
+	-Arbiter Battleship
+
+--------------------------------------------------------------------------------
+
+2016-10-29:
+Added new ship class: Tender Ship. Provides a ship upkeep discount and repair
+boost to fleets that it is attached to. No weapons.
+
+Added support for AI empires to use new ship classes, including Tenders.
+
+Reweighted auto-design components a bit for benefit of AI empires.
+
+--------------------------------------------------------------------------------
+
+2016-10-27:
+Preparing for Battleship variants.
+More internal refactoring and minor bugfixes.
+
+--------------------------------------------------------------------------------
+
+2016-10-26:
+Internal refactoring and minor bugfixes.
+
+Spaceships now have custom pip icons in Solar System view.
+
+--------------------------------------------------------------------------------
+
+2016-10-25:
+Mod now exists! :)
+
+Added new ship classes and related technologies.
+
+New Ships:
+	-Heavy Corvette
+	-Logistics Corvette
+
+	-Heavy Destroyer
+	-Tactical Destroyer
+
+	-Heavy Cruiser
+	-Command Cruiser
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+This is a rather large addition to [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b] - new ship classes!
+
+1.3 [Heinlein] saw a reimagining of Hull sections and a rebalancing of ship roles, as well as the removal of Ship-based Auras. 2.0 [Cherryh] changed things up even further, and changed how Auras work in general. Rather than add entirely new ship classes, this mod will add new Ship Sections. This allows for greater compatibility with other mods.
+
+[h1][b]Features[/b][/h1]
+[list]
+
+[/list]
+
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/readme.txt]Feature List[/url][/b]
+[b][url=https://raw.githubusercontent.com/CoFH/StellarExpansion/master/main/cofh_stellar_expansion_void/changelog.txt]Change Log[/url][/b]
+
+Localizations: English.
+
+[h1][b]NO VANILLA FILES ARE OVERWRITTEN.[/b][/h1]
+
+If you like the mod, please give it a thumbs up! If you don't, please let me know what you don't like about it.
+
+If you're interested in the bulk of my work, be sure to check out [b][i][url=https://steamcommunity.com/sharedfiles/filedetails/?id=718529178]Stellar Expansion[/url][/i][/b].

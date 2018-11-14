@@ -66,52 +66,8 @@ building_cofh_se_retail_center = {
 	}
 
 	produced_resources = {
-
-	}
-
-	produced_resource_trigger = {
-		modifier = {
-			AND = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
-				NOT = {
-					has_civic = civic_functional_architecture
-				}
-			}
-			resources = {
-				unity = 2
-			}
-		}
-
-		modifier = {
-			AND = {
-				OR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
-				has_civic = civic_functional_architecture
-			}
-			resources = {
-				engineering_research = 1
-				unity = 4
-			}
-		}
-
-		modifier = {
-			AND = {
-				NOR = {
-					has_ethic = ethic_egalitarian
-					has_ethic = ethic_fanatic_egalitarian
-				}
-				has_civic = civic_functional_architecture
-			}
-			resources = {
-				engineering_research = 1
-				unity = 2
-			}
-		}
+		engineering_research = 2
+		unity = 2
 	}
 
 	planet_modifier = {
@@ -178,52 +134,8 @@ building_cofh_se_holo_arena = {
 	}
 
 	produced_resources = {
-
-	}
-
-	produced_resource_trigger = {
-		modifier = {
-			AND = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
-				NOT = {
-					has_civic = civic_warrior_culture
-				}
-			}
-			resources = {
-				unity = 2
-			}
-		}
-
-		modifier = {
-			AND = {
-				OR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
-				has_civic = civic_warrior_culture
-			}
-			resources = {
-				society_research = 1
-				unity = 4
-			}
-		}
-
-		modifier = {
-			AND = {
-				NOR = {
-					has_ethic = ethic_militarist
-					has_ethic = ethic_fanatic_militarist
-				}
-				has_civic = civic_warrior_culture
-			}
-			resources = {
-				society_research = 1
-				unity = 2
-			}
-		}
+		society_research = 2
+		unity = 2
 	}
 
 	army_modifier = {
@@ -371,11 +283,11 @@ building_cofh_se_robot_maintenance = {
 
 # Xeno Nutriment Factory
 building_cofh_se_xeno_food = {
-	base_buildtime = 360
+	base_buildtime = 240
 	planet_unique = yes
 
 	cost = {
-		minerals = 200
+		minerals = 150
 	}
 
 	prerequisites = {
@@ -388,7 +300,7 @@ building_cofh_se_xeno_food = {
 
 	produced_resources = {
 		food = 4
-		society_research = 2
+		society_research = 4
 	}
 
 	planet_modifier = {

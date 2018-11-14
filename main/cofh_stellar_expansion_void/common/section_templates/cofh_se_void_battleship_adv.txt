@@ -1,0 +1,283 @@
+# CoFH - Stellar Expansion - Voidcraft
+# Section Templates - Battleship (Advanced)
+# Author: King Lemming
+
+################################################################################
+# BOW
+################################################################################
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_BOW_H4"
+	ship_size = battleship
+	fits_on_slot = bow
+	entity = "battleship_bow_M1S2SHB_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 20
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}
+	}
+
+    component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = -90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = -90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	large_utility_slots = 3
+
+	cost = 250
+}
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_BOW_L2"
+	ship_size = battleship
+	fits_on_slot = bow
+	entity = "battleship_bow_L2_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	ai_weight = {
+		factor = 5
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+
+	large_utility_slots = 5
+
+	cost = 250
+}
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_BOW_X2"
+	ship_size = battleship
+	fits_on_slot = bow
+	entity = "battleship_bow_XL1_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 20
+			NOT = { is_preferred_weapons = weapon_type_explosive }
+		}
+		modifier = {
+			factor = 0.5
+			is_preferred_weapons = weapon_type_explosive
+		}
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	component_slot = {
+		name = "EXTRA_LARGE_02"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "xl_gun_01"
+	}
+
+	large_utility_slots = 3
+
+	cost = 250
+}
+
+################################################################################
+# MID
+################################################################################
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_MID_H4"
+	ship_size = battleship
+	fits_on_slot = mid
+	entity = "battleship_mid_S4LHB_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 20
+			is_preferred_weapons = weapon_type_strike_craft
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { is_preferred_weapons = weapon_type_strike_craft }
+		}
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = -90
+		locatorname = "strike_craft_locator_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = -90
+		locatorname = "strike_craft_locator_02"
+	}
+
+	large_utility_slots = 4
+
+	cost = 250
+}
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_MID_L3"
+	ship_size = battleship
+	fits_on_slot = mid
+	entity = "battleship_mid_L3_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	ai_weight = {
+		factor = 5
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_03"
+	}
+
+	large_utility_slots = 5
+
+	cost = 250
+}
+
+################################################################################
+# STERN
+################################################################################
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_STERN_AUX"
+	ship_size = battleship
+	fits_on_slot = stern
+	entity = "battleship_stern_M2_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	large_utility_slots = 2
+	aux_utility_slots = 4
+
+	cost = 250
+}
+
+ship_section_template = {
+	key = "COFH_SE_BATTLESHIP_ADV_STERN_L1"
+	ship_size = battleship
+	fits_on_slot = stern
+	entity = "battleship_stern_L1_entity"
+	icon = "GFX_ship_part_core_stern"
+
+	prerequisites = { tech_battleship_hull_2 }
+
+	ai_weight = {
+		factor = 5
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+
+	large_utility_slots = 2
+	aux_utility_slots = 2
+
+	cost = 250
+}
